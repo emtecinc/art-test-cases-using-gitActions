@@ -1,0 +1,148 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "This item doesn't support favorites" [ref=e1781] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Global Actions"
+            - listitem [ref=e815]:
+              - button "Guidance Center" [ref=e817] [cursor=pointer]:
+                - generic [ref=e818]:
+                  - img [ref=e822]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e100]:
+              - button "Salesforce Help" [ref=e103] [cursor=pointer]:
+                - generic [ref=e104]:
+                  - img [ref=e108]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e111]:
+              - button "Setup" [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]:
+                  - img [ref=e122]
+                  - tooltip "Setup"
+            - listitem [ref=e125]:
+              - button "Notifications" [ref=e128] [cursor=pointer]:
+                - generic [ref=e129]:
+                  - img [ref=e134]
+                  - tooltip "Notifications"
+            - listitem [ref=e138]:
+              - button "View profile" [ref=e141] [cursor=pointer]:
+                - generic [ref=e142]:
+                  - tooltip "View profile"
+    - generic [ref=e146]:
+      - generic [ref=e149]:
+        - generic [ref=e151]:
+          - navigation "App" [ref=e152]:
+            - button "App Launcher" [ref=e154] [cursor=pointer]:
+              - generic [ref=e165]: App Launcher
+          - heading "PFS" [level=1] [ref=e166]:
+            - generic "PFS" [ref=e167]
+        - navigation "Global" [ref=e170]:
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Home" [ref=e173] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e174]: Home
+            - listitem [ref=e175]:
+              - link "Tasks" [ref=e176] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e177]: Tasks
+            - listitem [ref=e178]:
+              - link "Leads" [ref=e179] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e180]: Leads
+              - button "Leads List" [ref=e184] [cursor=pointer]:
+                - img [ref=e188]
+                - generic [ref=e191]: Leads List
+            - listitem [ref=e192]:
+              - link "Campaigns" [ref=e193] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e194]: Campaigns
+              - button "Campaigns List" [ref=e198] [cursor=pointer]:
+                - img [ref=e202]
+                - generic [ref=e205]: Campaigns List
+            - listitem [ref=e206]:
+              - link "Accounts" [ref=e207] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e208]: Accounts
+              - button "Accounts List" [ref=e212] [cursor=pointer]:
+                - img [ref=e216]
+                - generic [ref=e219]: Accounts List
+            - listitem [ref=e220]:
+              - link "Contacts" [ref=e221] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e222]: Contacts
+              - button "Contacts List" [ref=e226] [cursor=pointer]:
+                - img [ref=e230]
+                - generic [ref=e233]: Contacts List
+            - listitem [ref=e234]:
+              - link "Opportunities" [ref=e235] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e236]: Opportunities
+              - button "Opportunities List" [ref=e240] [cursor=pointer]:
+                - img [ref=e244]
+                - generic [ref=e247]: Opportunities List
+            - listitem [ref=e248]:
+              - link "Reports" [ref=e249] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e250]: Reports
+              - button "Reports List" [ref=e254] [cursor=pointer]:
+                - img [ref=e258]
+                - generic [ref=e261]: Reports List
+            - listitem [ref=e262]:
+              - link "Dashboards" [ref=e263] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e264]: Dashboards
+              - button "Dashboards List" [ref=e268] [cursor=pointer]:
+                - img [ref=e272]
+                - generic [ref=e275]: Dashboards List
+            - listitem [ref=e276]:
+              - link "Thresholds" [ref=e277] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e278]: Thresholds
+              - button "Thresholds List" [ref=e282] [cursor=pointer]:
+                - img [ref=e286]
+                - generic [ref=e289]: Thresholds List
+            - listitem [ref=e290]:
+              - button "Help" [ref=e294] [cursor=pointer]:
+                - img [ref=e296]
+                - generic [ref=e299]: Help
+      - main [ref=e301]:
+        - generic [ref=e305]:
+          - text: · · · · ·
+          - iframe [active] [ref=e1799]:
+            
+  - generic:
+    - status

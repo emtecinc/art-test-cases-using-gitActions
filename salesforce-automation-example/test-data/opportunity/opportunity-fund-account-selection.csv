@@ -1,0 +1,2 @@
+dataSet,namePrefix,accountName,planName,stage,closeDate,fundAccount,percentOfInvestment,fundAccountSelectionType,iraType,recordTypeLabel
+default,FundAcctSel,TestEmployer_1774956494379,TestPlan401k_1774956494379,New,04/30/2026,Test JHI IRA Fund Account,10,Participant Selection,Traditional,Rollover

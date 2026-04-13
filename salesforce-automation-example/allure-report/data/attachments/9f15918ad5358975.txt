@@ -1,0 +1,3 @@
+[SalesforceConnection] JWT token generated.
+[SalesforceConnection] Authenticated as sujitkumar.gaikwad.c3e5d21c12b6@agentforce.com (instance: https://orgfarm-c3f45fc810-dev-ed.develop.my.salesforce.com)
+✅ No records to clean up

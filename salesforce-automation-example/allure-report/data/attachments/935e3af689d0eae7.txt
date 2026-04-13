@@ -1,0 +1,13 @@
+[SalesforceConnection] JWT token generated.
+[SalesforceConnection] Authenticated as sujitkumar.gaikwad.c3e5d21c12b6@agentforce.com (instance: https://orgfarm-c3f45fc810-dev-ed.develop.my.salesforce.com)
+ObjectName:  Opportunity
+RecordId:  006gL00000KqVXGQA3
+📌 Registered for cleanup: Opportunity (006gL00000KqVXGQA3) - TestOpp_1775225012682
+
+🧹 Starting automatic cleanup of 1 records...
+   (Cleanup runs regardless of test pass/fail)
+
+✅ Deleted Opportunity: 006gL00000KqVXGQA3 - TestOpp_1775225012682
+
+✅ Cleanup completed: 1 deleted, 0 failed
+

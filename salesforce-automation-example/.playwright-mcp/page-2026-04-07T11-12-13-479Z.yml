@@ -1,0 +1,450 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e3933] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e3934] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e3935] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e3936] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e3937]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e3938]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e3939] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e3940] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e3941] [cursor=pointer]:
+                - generic [ref=e832]:
+                  - img [ref=e836]
+                  - tooltip "Global Actions"
+            - listitem [ref=e95]:
+              - button "Guidance Center" [ref=e3942] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e102]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e105]:
+              - button "Salesforce Help" [ref=e3943] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - img [ref=e113]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e116]:
+              - button "Setup" [ref=e3944] [cursor=pointer]:
+                - generic [ref=e123]:
+                  - img [ref=e127]
+                  - tooltip "Setup"
+            - listitem [ref=e130]:
+              - button "Notifications" [ref=e3945] [cursor=pointer]:
+                - generic [ref=e134]:
+                  - img [ref=e139]
+                  - tooltip "Notifications"
+            - listitem [ref=e143]:
+              - button "View profile" [ref=e3946] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - tooltip "View profile"
+    - generic [ref=e151]:
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - navigation "App" [ref=e3947]:
+            - button "App Launcher" [ref=e3948] [cursor=pointer]:
+              - generic [ref=e170]: App Launcher
+          - heading "PFS" [level=1] [ref=e3949]:
+            - generic "PFS" [ref=e3950]
+        - navigation "Global" [ref=e3951]:
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Home" [ref=e3952] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e179]: Home
+            - listitem [ref=e180]:
+              - link "Tasks" [ref=e3953] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e182]: Tasks
+            - listitem [ref=e183]:
+              - link "Leads" [ref=e3954] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e185]: Leads
+              - button "Leads List" [ref=e3955] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e196]: Leads List
+            - listitem [ref=e197]:
+              - link "Campaigns" [ref=e3956] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e199]: Campaigns
+              - button "Campaigns List" [ref=e3957] [cursor=pointer]:
+                - img [ref=e207]
+                - generic [ref=e210]: Campaigns List
+            - listitem [ref=e211] [cursor=pointer]:
+              - link "Accounts" [ref=e3958]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e213]: Accounts
+              - button "Accounts List" [ref=e3959]:
+                - img [ref=e221]
+                - generic [ref=e224]: Accounts List
+            - listitem [ref=e225]:
+              - link "Contacts" [ref=e3960] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e227]: Contacts
+              - button "Contacts List" [ref=e3961] [cursor=pointer]:
+                - img [ref=e235]
+                - generic [ref=e238]: Contacts List
+            - listitem [ref=e239]:
+              - link "Opportunities" [ref=e3962] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e241]: Opportunities
+              - button "Opportunities List" [ref=e3963] [cursor=pointer]:
+                - img [ref=e249]
+                - generic [ref=e252]: Opportunities List
+            - listitem [ref=e253]:
+              - link "Reports" [ref=e3964] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e255]: Reports
+              - button "Reports List" [ref=e3965] [cursor=pointer]:
+                - img [ref=e263]
+                - generic [ref=e266]: Reports List
+            - listitem [ref=e267]:
+              - link "Dashboards" [ref=e3966] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e269]: Dashboards
+              - button "Dashboards List" [ref=e3967] [cursor=pointer]:
+                - img [ref=e277]
+                - generic [ref=e280]: Dashboards List
+            - listitem [ref=e281]:
+              - link "Thresholds" [ref=e3968] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e283]: Thresholds
+              - button "Thresholds List" [ref=e3969] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e294]: Thresholds List
+            - listitem [ref=e295]:
+              - button "Help" [ref=e3970] [cursor=pointer]:
+                - img [ref=e301]
+                - generic [ref=e304]: Help
+      - main [ref=e306]:
+        - generic [ref=e310]:
+          - text: · · · · ·
+          - generic [ref=e2867]:
+            - generic [ref=e2877]:
+              - generic [ref=e2878]:
+                - heading "Account Test Fund New Account" [level=1] [ref=e3971]:
+                  - generic [ref=e2890]: Account
+                  - generic [ref=e2891]: Test Fund New Account
+                - button "View Account Hierarchy" [ref=e3972] [cursor=pointer]:
+                  - img [ref=e2904]
+                  - generic [ref=e2907]: View Account Hierarchy
+              - generic [ref=e2911]:
+                - generic "Delete" [ref=e3973]:
+                  - button "Delete" [ref=e3974] [cursor=pointer]
+                - generic "View Relationship Map" [ref=e3975]:
+                  - button "View Relationship Map" [ref=e3976] [cursor=pointer]
+                - generic "Edit Labels" [ref=e3977]:
+                  - button "Edit Labels" [ref=e3978] [cursor=pointer]
+                - button "Show more actions" [ref=e3979] [cursor=pointer]:
+                  - img [ref=e2933]
+                  - generic [ref=e2936]: Show more actions
+            - generic [ref=e2993]:
+              - heading "Tabs" [level=2] [ref=e3983]
+              - generic "Tabs" [ref=e3984]:
+                - generic [ref=e2996]:
+                  - heading "Tabs" [level=2] [ref=e3985]
+                  - tablist "Tabs" [ref=e3986]:
+                    - tab "Related" [ref=e3987] [cursor=pointer]
+                    - tab "Details" [selected] [ref=e3988] [cursor=pointer]
+                    - tab "Skience Safe" [ref=e3989] [cursor=pointer]
+                  - tabpanel "Details" [ref=e4146]:
+                    - generic [ref=e4152]:
+                      - generic [ref=e4764]: "* = Required Information"
+                      - generic [ref=e4196]:
+                        - generic [ref=e4201]:
+                          - generic [ref=e4203]:
+                            - heading "Account Information" [level=3] [ref=e4204]:
+                              - button "Account Information" [expanded] [ref=e4205] [cursor=pointer]:
+                                - img [ref=e4210]
+                                - generic [ref=e4213]: Account Information
+                            - list [ref=e4215]:
+                              - generic [ref=e4216]:
+                                - generic [ref=e4218]:
+                                  - listitem [ref=e4220]:
+                                    - generic [ref=e4770]:
+                                      - generic [ref=e4771]: "*Account Name"
+                                      - textbox "Account Name" [ref=e4773]: Test Fund New Account
+                                  - listitem [ref=e4230]:
+                                    - generic [ref=e4231]:
+                                      - generic [ref=e4232]: Account Record Type
+                                      - generic [ref=e4238]: Individual
+                                - generic [ref=e4247]:
+                                  - listitem [ref=e4249]:
+                                    - generic [ref=e4779]:
+                                      - generic [ref=e4780]: SSN
+                                      - button "SSN Help Info" [ref=e4783] [cursor=pointer]:
+                                        - img [ref=e4785]
+                                        - generic [ref=e4788]: SSN Help Info
+                                      - textbox "SSN" [ref=e4790]
+                                  - listitem [ref=e4265]:
+                                    - generic [ref=e4266]:
+                                      - generic [ref=e4267]: Business Unit
+                                      - generic [ref=e4271]:
+                                        - generic [ref=e4272]: Annuities
+                                        - generic [ref=e4791]: This field is calculated upon save
+                                - generic [ref=e4274]:
+                                  - listitem [ref=e4276]:
+                                    - generic [ref=e4797]:
+                                      - generic [ref=e4798]: Last 4 SSN Digits
+                                      - textbox "Last 4 SSN Digits" [ref=e4800]
+                                  - listitem [ref=e4284]:
+                                    - generic [ref=e4806]:
+                                      - generic [ref=e4807]: JHFC Advisor
+                                      - generic [ref=e4812]:
+                                        - combobox "JHFC Advisor" [ref=e4815]
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - img
+                                      - status
+                                - generic [ref=e4293]:
+                                  - listitem [ref=e4295]:
+                                    - generic [ref=e4819]:
+                                      - group [ref=e4820]:
+                                        - generic [ref=e4821]: Birthdate
+                                        - generic [ref=e4822]:
+                                          - textbox "Birthdate" [ref=e4823]
+                                          - generic:
+                                            - button "Select a date for Birthdate":
+                                              - generic:
+                                                - img
+                                              - generic: Select a date for Birthdate
+                                      - generic [ref=e4824]: "Format: 12/31/2024"
+                                  - listitem [ref=e4303]:
+                                    - generic [ref=e4829]:
+                                      - generic [ref=e4830]: Conversion Propensity Score
+                                      - spinbutton "Conversion Propensity Score" [active] [ref=e4832]: "400"
+                                - generic [ref=e4313]:
+                                  - listitem [ref=e4315]:
+                                    - generic [ref=e4316]:
+                                      - generic [ref=e4317]: Age
+                                      - generic [ref=e4836]: This field is calculated upon save
+                                  - listitem [ref=e4320]:
+                                    - generic [ref=e4842]:
+                                      - generic [ref=e4843]: Total Account Balance
+                                      - spinbutton "Total Account Balance" [ref=e4845]: $0.00
+                                - generic [ref=e4330]:
+                                  - listitem [ref=e4332]:
+                                    - generic [ref=e4851]:
+                                      - generic [ref=e4852]: NC IRA Account Number
+                                      - textbox "NC IRA Account Number" [ref=e4854]
+                                  - listitem [ref=e4340]:
+                                    - generic [ref=e4858]:
+                                      - group [ref=e4859]:
+                                        - generic [ref=e4860]: Balance Effective Date
+                                        - generic [ref=e4861]:
+                                          - textbox "Balance Effective Date" [ref=e4862]
+                                          - generic:
+                                            - button "Select a date for Balance Effective Date":
+                                              - generic:
+                                                - img
+                                              - generic: Select a date for Balance Effective Date
+                                      - generic [ref=e4863]: "Format: 12/31/2024"
+                                - generic [ref=e4348]:
+                                  - listitem [ref=e4350]:
+                                    - generic [ref=e4869]:
+                                      - generic [ref=e4870]: NC Roth IRA Account Number
+                                      - textbox "NC Roth IRA Account Number" [ref=e4872]
+                                  - listitem [ref=e4358]:
+                                    - generic [ref=e4878]:
+                                      - generic [ref=e4879]: NC Client ID
+                                      - button "NC Client ID Help Info" [ref=e4882] [cursor=pointer]:
+                                        - img [ref=e4884]
+                                        - generic [ref=e4887]: NC Client ID Help Info
+                                      - textbox "NC Client ID" [ref=e4889]
+                                - generic [ref=e4374]:
+                                  - listitem [ref=e4376]:
+                                    - generic [ref=e4895]:
+                                      - generic [ref=e4896]: JH NFS IRA Account Number
+                                      - textbox "JH NFS IRA Account Number" [ref=e4898]
+                                  - listitem [ref=e4384]:
+                                    - generic [ref=e4903]:
+                                      - generic [ref=e4904]: PRA
+                                      - checkbox "PRA" [ref=e4906]
+                                - listitem [ref=e4407]:
+                                  - generic [ref=e4912]:
+                                    - generic [ref=e4913]: JH NFS Roth IRA Account Number
+                                    - textbox "JH NFS Roth IRA Account Number" [ref=e4915]
+                          - heading "Address Information" [level=3] [ref=e4417]:
+                            - button "Address Information" [ref=e4418] [cursor=pointer]:
+                              - img [ref=e4423]
+                              - generic [ref=e4426]: Address Information
+                          - heading "Contact Information" [level=3] [ref=e4429]:
+                            - button "Contact Information" [ref=e4430] [cursor=pointer]:
+                              - img [ref=e4435]
+                              - generic [ref=e4438]: Contact Information
+                          - heading "LexisNexis Contact Information" [level=3] [ref=e4441]:
+                            - button "LexisNexis Contact Information" [ref=e4442] [cursor=pointer]:
+                              - img [ref=e4447]
+                              - generic [ref=e4450]: LexisNexis Contact Information
+                          - generic [ref=e4452]:
+                            - heading "Outbound Call Campaign" [level=3] [ref=e4453]:
+                              - button "Outbound Call Campaign" [expanded] [ref=e4454] [cursor=pointer]:
+                                - img [ref=e4459]
+                                - generic [ref=e4462]: Outbound Call Campaign
+                            - list [ref=e4464]:
+                              - generic [ref=e4465]:
+                                - generic [ref=e4467]:
+                                  - listitem [ref=e4469]:
+                                    - generic [ref=e4921]:
+                                      - generic [ref=e4922]: Outbound Call List Name
+                                      - textbox "Outbound Call List Name" [ref=e4924]
+                                  - listitem [ref=e4477]:
+                                    - group "Date of Last Outbound Call" [ref=e4931]:
+                                      - generic [ref=e4932]: Date of Last Outbound Call
+                                      - generic [ref=e4935]:
+                                        - generic [ref=e4936]:
+                                          - group [ref=e4937]:
+                                            - generic [ref=e4938]: Date
+                                            - generic [ref=e4939]:
+                                              - textbox "Date" [ref=e4940]
+                                              - generic:
+                                                - button "Select a date for Date":
+                                                  - generic:
+                                                    - img
+                                                  - generic: Select a date for Date
+                                          - generic [ref=e4941]: "Format: 12/31/2024"
+                                        - generic [ref=e4942]:
+                                          - generic [ref=e4943]: Time
+                                          - generic [ref=e4947]:
+                                            - combobox "Time" [ref=e4950]
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic:
+                                                    - img
+                                - generic [ref=e4485]:
+                                  - listitem [ref=e4487]:
+                                    - generic [ref=e4956]:
+                                      - generic [ref=e4957]: Outbound Call List Owner
+                                      - generic [ref=e4962]:
+                                        - combobox "Outbound Call List Owner" [ref=e4965]
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - img
+                                      - status
+                                  - listitem [ref=e4496]:
+                                    - generic [ref=e4970]:
+                                      - generic [ref=e4971]: Spoke to Participant
+                                      - checkbox "Spoke to Participant" [ref=e4973]
+                                - generic [ref=e4517]:
+                                  - listitem [ref=e4519]:
+                                    - generic [ref=e4978]:
+                                      - generic [ref=e4979]: Number of Outbound Calls
+                                      - spinbutton "Number of Outbound Calls" [ref=e4981]
+                                  - listitem [ref=e4527]:
+                                    - generic [ref=e4986]:
+                                      - generic [ref=e4987]: Number of Outbound Call Days
+                                      - spinbutton "Number of Outbound Call Days" [ref=e4989]
+                                - listitem [ref=e4537]:
+                                  - generic [ref=e4994]:
+                                    - generic [ref=e4995]: Outbound Call Campaign Phone
+                                    - textbox "Outbound Call Campaign Phone" [ref=e4997]
+                          - generic [ref=e4546]:
+                            - heading "Description Information" [level=3] [ref=e4547]:
+                              - button "Description Information" [expanded] [ref=e4548] [cursor=pointer]:
+                                - img [ref=e4553]
+                                - generic [ref=e4556]: Description Information
+                            - list [ref=e4558]:
+                              - listitem [ref=e4563]:
+                                - generic [ref=e5001]:
+                                  - generic [ref=e5002]: Description
+                                  - textbox "Description" [ref=e5004]
+                                  - status
+                          - generic [ref=e4571]:
+                            - heading "System Information" [level=3] [ref=e4572]:
+                              - button "System Information" [expanded] [ref=e4573] [cursor=pointer]:
+                                - img [ref=e4578]
+                                - generic [ref=e4581]: System Information
+                            - list [ref=e4583]:
+                              - generic [ref=e4584]:
+                                - generic [ref=e4586]:
+                                  - listitem [ref=e4588]:
+                                    - generic [ref=e4589]:
+                                      - generic [ref=e4590]: Created By
+                                      - generic [ref=e4594]:
+                                        - generic [ref=e5006]: Somya Sijaria
+                                        - text: ", 4/7/2026, 7:07 AM"
+                                  - listitem [ref=e4614]:
+                                    - generic [ref=e5012]:
+                                      - generic [ref=e5013]: CDL External Key
+                                      - textbox "CDL External Key" [ref=e5015]
+                                - generic [ref=e4622]:
+                                  - listitem [ref=e4624]:
+                                    - generic [ref=e4625]:
+                                      - generic [ref=e4626]: Last Modified By
+                                      - generic [ref=e4630]:
+                                        - generic [ref=e5017]: Somya Sijaria
+                                        - text: ", 4/7/2026, 7:09 AM"
+                                  - listitem [ref=e4650]:
+                                    - generic [ref=e5023]:
+                                      - generic [ref=e5024]: MDM UUID
+                                      - textbox "MDM UUID" [ref=e5026]
+                                - generic [ref=e4658]:
+                                  - listitem [ref=e4660]:
+                                    - generic [ref=e4661]:
+                                      - generic [ref=e4662]: Account Owner
+                                      - generic [ref=e5028]: Somya Sijaria
+                                  - listitem [ref=e4695]:
+                                    - generic [ref=e5034]:
+                                      - generic [ref=e5035]: Migration ID
+                                      - textbox "Migration ID" [ref=e5037]
+                                - listitem [ref=e4706]:
+                                  - generic [ref=e5043]:
+                                    - generic [ref=e5044]: Parent Account
+                                    - generic [ref=e5049]:
+                                      - combobox "Parent Account" [ref=e5052]
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - img
+                                    - status
+                                - listitem [ref=e4718]:
+                                  - generic [ref=e5057]:
+                                    - generic [ref=e5058]: Enrollment Duplicate
+                                    - checkbox "Enrollment Duplicate" [ref=e5060]
+                          - generic [ref=e4739]:
+                            - heading "Plan Detail Report" [level=3] [ref=e4740]:
+                              - button "Plan Detail Report" [expanded] [ref=e4741] [cursor=pointer]:
+                                - img [ref=e4746]
+                                - generic [ref=e4749]: Plan Detail Report
+                            - list [ref=e4751]:
+                              - listitem [ref=e4756]:
+                                - iframe [ref=e4763]:
+                                  - generic [active] [ref=f4e1]:
+                                    - img "Content Starts Here" [ref=f4e2]
+                                    - heading "No Plans to display" [level=2] [ref=f4e5]
+                        - generic [ref=e5065]:
+                          - generic "Cancel" [ref=e5066]:
+                            - button "Cancel" [ref=e5071] [cursor=pointer]
+                          - generic "Save" [ref=e5072]:
+                            - button "Save" [ref=e5077] [cursor=pointer]
+  - generic:
+    - status

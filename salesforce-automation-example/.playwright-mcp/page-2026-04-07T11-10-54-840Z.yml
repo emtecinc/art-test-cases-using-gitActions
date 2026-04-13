@@ -1,0 +1,493 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e3933] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e3934] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e3935] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e3936] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e3937]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e3938]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e3939] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e3940] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e3941] [cursor=pointer]:
+                - generic [ref=e832]:
+                  - img [ref=e836]
+                  - tooltip "Global Actions"
+            - listitem [ref=e95]:
+              - button "Guidance Center" [ref=e3942] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e102]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e105]:
+              - button "Salesforce Help" [ref=e3943] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - img [ref=e113]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e116]:
+              - button "Setup" [ref=e3944] [cursor=pointer]:
+                - generic [ref=e123]:
+                  - img [ref=e127]
+                  - tooltip "Setup"
+            - listitem [ref=e130]:
+              - button "Notifications" [ref=e3945] [cursor=pointer]:
+                - generic [ref=e134]:
+                  - img [ref=e139]
+                  - tooltip "Notifications"
+            - listitem [ref=e143]:
+              - button "View profile" [ref=e3946] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - tooltip "View profile"
+    - generic [ref=e151]:
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - navigation "App" [ref=e3947]:
+            - button "App Launcher" [ref=e3948] [cursor=pointer]:
+              - generic [ref=e170]: App Launcher
+          - heading "PFS" [level=1] [ref=e3949]:
+            - generic "PFS" [ref=e3950]
+        - navigation "Global" [ref=e3951]:
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Home" [ref=e3952] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e179]: Home
+            - listitem [ref=e180]:
+              - link "Tasks" [ref=e3953] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e182]: Tasks
+            - listitem [ref=e183]:
+              - link "Leads" [ref=e3954] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e185]: Leads
+              - button "Leads List" [ref=e3955] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e196]: Leads List
+            - listitem [ref=e197]:
+              - link "Campaigns" [ref=e3956] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e199]: Campaigns
+              - button "Campaigns List" [ref=e3957] [cursor=pointer]:
+                - img [ref=e207]
+                - generic [ref=e210]: Campaigns List
+            - listitem [ref=e211] [cursor=pointer]:
+              - link "Accounts" [ref=e3958]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e213]: Accounts
+              - button "Accounts List" [ref=e3959]:
+                - img [ref=e221]
+                - generic [ref=e224]: Accounts List
+            - listitem [ref=e225]:
+              - link "Contacts" [ref=e3960] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e227]: Contacts
+              - button "Contacts List" [ref=e3961] [cursor=pointer]:
+                - img [ref=e235]
+                - generic [ref=e238]: Contacts List
+            - listitem [ref=e239]:
+              - link "Opportunities" [ref=e3962] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e241]: Opportunities
+              - button "Opportunities List" [ref=e3963] [cursor=pointer]:
+                - img [ref=e249]
+                - generic [ref=e252]: Opportunities List
+            - listitem [ref=e253]:
+              - link "Reports" [ref=e3964] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e255]: Reports
+              - button "Reports List" [ref=e3965] [cursor=pointer]:
+                - img [ref=e263]
+                - generic [ref=e266]: Reports List
+            - listitem [ref=e267]:
+              - link "Dashboards" [ref=e3966] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e269]: Dashboards
+              - button "Dashboards List" [ref=e3967] [cursor=pointer]:
+                - img [ref=e277]
+                - generic [ref=e280]: Dashboards List
+            - listitem [ref=e281]:
+              - link "Thresholds" [ref=e3968] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e283]: Thresholds
+              - button "Thresholds List" [ref=e3969] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e294]: Thresholds List
+            - listitem [ref=e295]:
+              - button "Help" [ref=e3970] [cursor=pointer]:
+                - img [ref=e301]
+                - generic [ref=e304]: Help
+      - main [ref=e306]:
+        - generic [ref=e310]:
+          - text: · · · · ·
+          - generic [ref=e2867]:
+            - generic [ref=e2876]:
+              - generic [ref=e2877]:
+                - generic [ref=e2878]:
+                  - heading "Account Test Fund New Account" [level=1] [ref=e3971]:
+                    - generic [ref=e2890]: Account
+                    - generic [ref=e2891]: Test Fund New Account
+                  - button "View Account Hierarchy" [ref=e3972] [cursor=pointer]:
+                    - img [ref=e2904]
+                    - generic [ref=e2907]: View Account Hierarchy
+                - generic [ref=e2911]:
+                  - generic "Delete" [ref=e3973]:
+                    - button "Delete" [ref=e3974] [cursor=pointer]
+                  - generic "View Relationship Map" [ref=e3975]:
+                    - button "View Relationship Map" [ref=e3976] [cursor=pointer]
+                  - generic "Edit Labels" [ref=e3977]:
+                    - button "Edit Labels" [ref=e3978] [cursor=pointer]
+                  - button "Show more actions" [ref=e3979] [cursor=pointer]:
+                    - img [ref=e2933]
+                    - generic [ref=e2936]: Show more actions
+              - generic [ref=e2937]:
+                - generic [ref=e2939]:
+                  - paragraph [ref=e2940]: Type
+                  - paragraph
+                - generic [ref=e2942]:
+                  - paragraph [ref=e2943]: Phone
+                  - paragraph
+                - generic [ref=e2945]:
+                  - paragraph [ref=e2946]: Website
+                  - paragraph
+                - generic [ref=e2948]:
+                  - paragraph [ref=e2949]: Account Owner
+                  - paragraph [ref=e2950]:
+                    - generic [ref=e2953]:
+                      - generic [ref=e2960]:
+                        - link "Somya Sijaria" [ref=e3980] [cursor=pointer]:
+                          - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                          - generic [ref=e2965]: Somya Sijaria
+                        - button "Open Somya Sijaria Preview" [ref=e3981] [cursor=pointer]:
+                          - img [ref=e2969]
+                          - generic [ref=e2972]: Open Somya Sijaria Preview
+                      - button "Change Owner" [ref=e3982] [cursor=pointer]:
+                        - img [ref=e2976]
+                        - generic [ref=e2979]: Change Owner
+                - generic [ref=e2981]:
+                  - paragraph [ref=e2982]: Account Site
+                  - paragraph
+                - generic [ref=e2984]:
+                  - paragraph [ref=e2985]: Industry
+                  - paragraph
+            - generic [ref=e2993]:
+              - heading "Tabs" [level=2] [ref=e3983]
+              - generic "Tabs" [ref=e3984]:
+                - generic [ref=e2996]:
+                  - heading "Tabs" [level=2] [ref=e3985]
+                  - tablist "Tabs" [ref=e3986]:
+                    - tab "Related" [ref=e3987] [cursor=pointer]
+                    - tab "Details" [active] [selected] [ref=e3988] [cursor=pointer]
+                    - tab "Skience Safe" [ref=e3989] [cursor=pointer]
+                  - tabpanel "Details" [ref=e4146]:
+                    - generic [ref=e4201]:
+                      - generic [ref=e4203]:
+                        - heading "Account Information" [level=3] [ref=e4204]:
+                          - button "Account Information" [expanded] [ref=e4205] [cursor=pointer]:
+                            - img [ref=e4210]
+                            - generic [ref=e4213]: Account Information
+                        - list [ref=e4215]:
+                          - generic [ref=e4216]:
+                            - generic [ref=e4218]:
+                              - listitem [ref=e4220]:
+                                - generic [ref=e4221]:
+                                  - generic [ref=e4222]: Account Name
+                                  - generic [ref=e4223]:
+                                    - generic [ref=e4225]: Test Fund New Account
+                                    - button "Edit Account Name" [ref=e4226] [cursor=pointer]:
+                                      - generic [ref=e4228]: Edit Account Name
+                              - listitem [ref=e4230]:
+                                - generic [ref=e4231]:
+                                  - generic [ref=e4232]: Account Record Type
+                                  - generic [ref=e4237]:
+                                    - generic [ref=e4238]: Individual
+                                    - button "Change Record Type" [ref=e4240] [cursor=pointer]:
+                                      - img [ref=e4242]
+                                      - generic [ref=e4245]: Change Record Type
+                            - generic [ref=e4247]:
+                              - listitem [ref=e4249]:
+                                - generic [ref=e4250]:
+                                  - generic [ref=e4251]: SSN
+                                  - generic "Help SSN":
+                                    - button "Help SSN" [ref=e4254] [cursor=pointer]:
+                                      - img [ref=e4256]
+                                      - generic [ref=e4259]: Help SSN
+                                  - button "Edit SSN" [ref=e4261] [cursor=pointer]:
+                                    - generic [ref=e4263]: Edit SSN
+                              - listitem [ref=e4265]:
+                                - generic [ref=e4266]:
+                                  - generic [ref=e4267]: Business Unit
+                                  - generic [ref=e4272]: Annuities
+                            - generic [ref=e4274]:
+                              - listitem [ref=e4276]:
+                                - generic [ref=e4277]:
+                                  - generic [ref=e4278]: Last 4 SSN Digits
+                                  - button "Edit Last 4 SSN Digits" [ref=e4280] [cursor=pointer]:
+                                    - generic [ref=e4282]: Edit Last 4 SSN Digits
+                              - listitem [ref=e4284]:
+                                - generic [ref=e4285]:
+                                  - generic [ref=e4286]: JHFC Advisor
+                                  - button "Edit JHFC Advisor" [ref=e4289] [cursor=pointer]:
+                                    - generic [ref=e4291]: Edit JHFC Advisor
+                            - generic [ref=e4293]:
+                              - listitem [ref=e4295]:
+                                - generic [ref=e4296]:
+                                  - generic [ref=e4297]: Birthdate
+                                  - button "Edit Birthdate" [ref=e4299] [cursor=pointer]:
+                                    - generic [ref=e4301]: Edit Birthdate
+                              - listitem [ref=e4303]:
+                                - generic [ref=e4304]:
+                                  - generic [ref=e4305]: Conversion Propensity Score
+                                  - generic [ref=e4306]:
+                                    - generic [ref=e4308]: "400"
+                                    - button "Edit Conversion Propensity Score" [ref=e4309] [cursor=pointer]:
+                                      - generic [ref=e4311]: Edit Conversion Propensity Score
+                            - generic [ref=e4313]:
+                              - listitem [ref=e4315]:
+                                - generic [ref=e4317]: Age
+                              - listitem [ref=e4320]:
+                                - generic [ref=e4321]:
+                                  - generic [ref=e4322]: Total Account Balance
+                                  - generic [ref=e4323]:
+                                    - generic [ref=e4325]: $0.00
+                                    - button "Edit Total Account Balance" [ref=e4326] [cursor=pointer]:
+                                      - generic [ref=e4328]: Edit Total Account Balance
+                            - generic [ref=e4330]:
+                              - listitem [ref=e4332]:
+                                - generic [ref=e4333]:
+                                  - generic [ref=e4334]: NC IRA Account Number
+                                  - button "Edit NC IRA Account Number" [ref=e4336] [cursor=pointer]:
+                                    - generic [ref=e4338]: Edit NC IRA Account Number
+                              - listitem [ref=e4340]:
+                                - generic [ref=e4341]:
+                                  - generic [ref=e4342]: Balance Effective Date
+                                  - button "Edit Balance Effective Date" [ref=e4344] [cursor=pointer]:
+                                    - generic [ref=e4346]: Edit Balance Effective Date
+                            - generic [ref=e4348]:
+                              - listitem [ref=e4350]:
+                                - generic [ref=e4351]:
+                                  - generic [ref=e4352]: NC Roth IRA Account Number
+                                  - button "Edit NC Roth IRA Account Number" [ref=e4354] [cursor=pointer]:
+                                    - generic [ref=e4356]: Edit NC Roth IRA Account Number
+                              - listitem [ref=e4358]:
+                                - generic [ref=e4359]:
+                                  - generic [ref=e4360]: NC Client ID
+                                  - generic "Help NC Client ID":
+                                    - button "Help NC Client ID" [ref=e4363] [cursor=pointer]:
+                                      - img [ref=e4365]
+                                      - generic [ref=e4368]: Help NC Client ID
+                                  - button "Edit NC Client ID" [ref=e4370] [cursor=pointer]:
+                                    - generic [ref=e4372]: Edit NC Client ID
+                            - generic [ref=e4374]:
+                              - listitem [ref=e4376]:
+                                - generic [ref=e4377]:
+                                  - generic [ref=e4378]: JH NFS IRA Account Number
+                                  - button "Edit JH NFS IRA Account Number" [ref=e4380] [cursor=pointer]:
+                                    - generic [ref=e4382]: Edit JH NFS IRA Account Number
+                              - listitem [ref=e4384]:
+                                - generic [ref=e4385]:
+                                  - generic [ref=e4386]: PRA
+                                  - generic [ref=e4387]:
+                                    - generic [ref=e4392]:
+                                      - generic "False" [ref=e4393]:
+                                        - generic [ref=e4394]:
+                                          - img [ref=e4396]
+                                          - generic [ref=e4399]: "False"
+                                      - generic [ref=e4400]: PRA
+                                    - button "Edit PRA" [ref=e4401] [cursor=pointer]:
+                                      - generic [ref=e4403]: Edit PRA
+                            - listitem [ref=e4407]:
+                              - generic [ref=e4408]:
+                                - generic [ref=e4409]: JH NFS Roth IRA Account Number
+                                - button "Edit JH NFS Roth IRA Account Number" [ref=e4411] [cursor=pointer]:
+                                  - generic [ref=e4413]: Edit JH NFS Roth IRA Account Number
+                      - heading "Address Information" [level=3] [ref=e4417]:
+                        - button "Address Information" [ref=e4418] [cursor=pointer]:
+                          - img [ref=e4423]
+                          - generic [ref=e4426]: Address Information
+                      - heading "Contact Information" [level=3] [ref=e4429]:
+                        - button "Contact Information" [ref=e4430] [cursor=pointer]:
+                          - img [ref=e4435]
+                          - generic [ref=e4438]: Contact Information
+                      - heading "LexisNexis Contact Information" [level=3] [ref=e4441]:
+                        - button "LexisNexis Contact Information" [ref=e4442] [cursor=pointer]:
+                          - img [ref=e4447]
+                          - generic [ref=e4450]: LexisNexis Contact Information
+                      - generic [ref=e4452]:
+                        - heading "Outbound Call Campaign" [level=3] [ref=e4453]:
+                          - button "Outbound Call Campaign" [expanded] [ref=e4454] [cursor=pointer]:
+                            - img [ref=e4459]
+                            - generic [ref=e4462]: Outbound Call Campaign
+                        - list [ref=e4464]:
+                          - generic [ref=e4465]:
+                            - generic [ref=e4467]:
+                              - listitem [ref=e4469]:
+                                - generic [ref=e4470]:
+                                  - generic [ref=e4471]: Outbound Call List Name
+                                  - button "Edit Outbound Call List Name" [ref=e4473] [cursor=pointer]:
+                                    - generic [ref=e4475]: Edit Outbound Call List Name
+                              - listitem [ref=e4477]:
+                                - generic [ref=e4478]:
+                                  - generic [ref=e4479]: Date of Last Outbound Call
+                                  - button "Edit Date of Last Outbound Call" [ref=e4481] [cursor=pointer]:
+                                    - generic [ref=e4483]: Edit Date of Last Outbound Call
+                            - generic [ref=e4485]:
+                              - listitem [ref=e4487]:
+                                - generic [ref=e4488]:
+                                  - generic [ref=e4489]: Outbound Call List Owner
+                                  - button "Edit Outbound Call List Owner" [ref=e4492] [cursor=pointer]:
+                                    - generic [ref=e4494]: Edit Outbound Call List Owner
+                              - listitem [ref=e4496]:
+                                - generic [ref=e4497]:
+                                  - generic [ref=e4498]: Spoke to Participant
+                                  - generic [ref=e4499]:
+                                    - generic [ref=e4504]:
+                                      - generic "False" [ref=e4505]:
+                                        - generic [ref=e4506]:
+                                          - img [ref=e4508]
+                                          - generic [ref=e4511]: "False"
+                                      - generic [ref=e4512]: Spoke to Participant
+                                    - button "Edit Spoke to Participant" [ref=e4513] [cursor=pointer]:
+                                      - generic [ref=e4515]: Edit Spoke to Participant
+                            - generic [ref=e4517]:
+                              - listitem [ref=e4519]:
+                                - generic [ref=e4520]:
+                                  - generic [ref=e4521]: Number of Outbound Calls
+                                  - button "Edit Number of Outbound Calls" [ref=e4523] [cursor=pointer]:
+                                    - generic [ref=e4525]: Edit Number of Outbound Calls
+                              - listitem [ref=e4527]:
+                                - generic [ref=e4528]:
+                                  - generic [ref=e4529]: Number of Outbound Call Days
+                                  - button "Edit Number of Outbound Call Days" [ref=e4531] [cursor=pointer]:
+                                    - generic [ref=e4533]: Edit Number of Outbound Call Days
+                            - listitem [ref=e4537]:
+                              - generic [ref=e4538]:
+                                - generic [ref=e4539]: Outbound Call Campaign Phone
+                                - button "Edit Outbound Call Campaign Phone" [ref=e4541] [cursor=pointer]:
+                                  - generic [ref=e4543]: Edit Outbound Call Campaign Phone
+                      - generic [ref=e4546]:
+                        - heading "Description Information" [level=3] [ref=e4547]:
+                          - button "Description Information" [expanded] [ref=e4548] [cursor=pointer]:
+                            - img [ref=e4553]
+                            - generic [ref=e4556]: Description Information
+                        - list [ref=e4558]:
+                          - listitem [ref=e4563]:
+                            - generic [ref=e4564]:
+                              - generic [ref=e4565]: Description
+                              - button "Edit Description" [ref=e4567] [cursor=pointer]:
+                                - generic [ref=e4569]: Edit Description
+                      - generic [ref=e4571]:
+                        - heading "System Information" [level=3] [ref=e4572]:
+                          - button "System Information" [expanded] [ref=e4573] [cursor=pointer]:
+                            - img [ref=e4578]
+                            - generic [ref=e4581]: System Information
+                        - list [ref=e4583]:
+                          - generic [ref=e4584]:
+                            - generic [ref=e4586]:
+                              - listitem [ref=e4588]:
+                                - generic [ref=e4589]:
+                                  - generic [ref=e4590]: Created By
+                                  - generic [ref=e4594]:
+                                    - generic [ref=e4600]:
+                                      - link "Somya Sijaria" [ref=e4601] [cursor=pointer]:
+                                        - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                                        - generic [ref=e4605]: Somya Sijaria
+                                      - button "Open Somya Sijaria Preview" [ref=e4607] [cursor=pointer]:
+                                        - img [ref=e4609]
+                                        - generic [ref=e4612]: Open Somya Sijaria Preview
+                                    - text: ", 4/7/2026, 7:07 AM"
+                              - listitem [ref=e4614]:
+                                - generic [ref=e4615]:
+                                  - generic [ref=e4616]: CDL External Key
+                                  - button "Edit CDL External Key" [ref=e4618] [cursor=pointer]:
+                                    - generic [ref=e4620]: Edit CDL External Key
+                            - generic [ref=e4622]:
+                              - listitem [ref=e4624]:
+                                - generic [ref=e4625]:
+                                  - generic [ref=e4626]: Last Modified By
+                                  - generic [ref=e4630]:
+                                    - generic [ref=e4636]:
+                                      - link "Somya Sijaria" [ref=e4637] [cursor=pointer]:
+                                        - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                                        - generic [ref=e4641]: Somya Sijaria
+                                      - button "Open Somya Sijaria Preview" [ref=e4643] [cursor=pointer]:
+                                        - img [ref=e4645]
+                                        - generic [ref=e4648]: Open Somya Sijaria Preview
+                                    - text: ", 4/7/2026, 7:09 AM"
+                              - listitem [ref=e4650]:
+                                - generic [ref=e4651]:
+                                  - generic [ref=e4652]: MDM UUID
+                                  - button "Edit MDM UUID" [ref=e4654] [cursor=pointer]:
+                                    - generic [ref=e4656]: Edit MDM UUID
+                            - generic [ref=e4658]:
+                              - listitem [ref=e4660]:
+                                - generic [ref=e4661]:
+                                  - generic [ref=e4662]: Account Owner
+                                  - generic [ref=e4667]:
+                                    - generic [ref=e4674]:
+                                      - link "Somya Sijaria" [ref=e4675] [cursor=pointer]:
+                                        - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                                        - generic [ref=e4679]: Somya Sijaria
+                                      - button "Open Somya Sijaria Preview" [ref=e4681] [cursor=pointer]:
+                                        - img [ref=e4683]
+                                        - generic [ref=e4686]: Open Somya Sijaria Preview
+                                    - button "Change Owner" [ref=e4688] [cursor=pointer]:
+                                      - img [ref=e4690]
+                                      - generic [ref=e4693]: Change Owner
+                              - listitem [ref=e4695]:
+                                - generic [ref=e4696]:
+                                  - generic [ref=e4697]: Migration ID
+                                  - button "Edit Migration ID" [ref=e4699] [cursor=pointer]:
+                                    - generic [ref=e4701]: Edit Migration ID
+                            - listitem [ref=e4706]:
+                              - generic [ref=e4707]:
+                                - generic [ref=e4708]: Parent Account
+                                - button "Edit Parent Account" [ref=e4711] [cursor=pointer]:
+                                  - generic [ref=e4713]: Edit Parent Account
+                            - listitem [ref=e4718]:
+                              - generic [ref=e4719]:
+                                - generic [ref=e4720]: Enrollment Duplicate
+                                - generic [ref=e4721]:
+                                  - generic [ref=e4726]:
+                                    - generic "False" [ref=e4727]:
+                                      - generic [ref=e4728]:
+                                        - img [ref=e4730]
+                                        - generic [ref=e4733]: "False"
+                                    - generic [ref=e4734]: Enrollment Duplicate
+                                  - button "Edit Enrollment Duplicate" [ref=e4735] [cursor=pointer]:
+                                    - generic [ref=e4737]: Edit Enrollment Duplicate
+                      - generic [ref=e4739]:
+                        - heading "Plan Detail Report" [level=3] [ref=e4740]:
+                          - button "Plan Detail Report" [expanded] [ref=e4741] [cursor=pointer]:
+                            - img [ref=e4746]
+                            - generic [ref=e4749]: Plan Detail Report
+                        - list [ref=e4751]:
+                          - listitem [ref=e4756]:
+                            - iframe [ref=e4763]:
+                              - generic [active] [ref=f4e1]:
+                                - img "Content Starts Here" [ref=f4e2]
+                                - heading "No Plans to display" [level=2] [ref=f4e5]
+  - generic:
+    - status

@@ -1,0 +1,986 @@
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e2297] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e2298] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button [ref=e2299] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Menu
+            - generic [ref=e326]:
+              - img [ref=e330]
+              - generic [ref=e333]: Developer Edition
+          - button [ref=e2300] [cursor=pointer]:
+            - img [ref=e35]
+            - generic [ref=e38]: Show menu
+        - generic [ref=e39]:
+          - button [ref=e2301]:
+            - img [ref=e47]
+            - text: Search...
+          - navigation [ref=e2302]:
+            - list [ref=e52]:
+              - listitem [ref=e53]:
+                - group [ref=e54]:
+                  - button [ref=e2303] [cursor=pointer]:
+                    - img [ref=e61]
+                  - button [ref=e2304] [cursor=pointer]:
+                    - img [ref=e70]
+              - listitem [ref=e73]:
+                - button [ref=e2305] [cursor=pointer]:
+                  - img [ref=e343]
+              - listitem [ref=e346]:
+                - button [ref=e2306] [cursor=pointer]:
+                  - img [ref=e353]
+              - listitem [ref=e82]:
+                - button [ref=e2307] [cursor=pointer]:
+                  - img [ref=e90]
+              - listitem [ref=e93]:
+                - button [ref=e2308] [cursor=pointer]:
+                  - img [ref=e104]
+              - listitem [ref=e107]:
+                - button [ref=e2309] [cursor=pointer]:
+                  - img [ref=e116]
+              - listitem [ref=e120]:
+                - button [ref=e2310] [cursor=pointer]
+      - generic [ref=e126]:
+        - generic [ref=e129]:
+          - generic [ref=e131]:
+            - navigation [ref=e2311]:
+              - button [ref=e2312] [cursor=pointer]:
+                - generic [ref=e145]: App Launcher
+            - heading [level=1] [ref=e2313]:
+              - generic [ref=e2314]: Sales
+          - navigation [ref=e2315]:
+            - list [ref=e151]:
+              - listitem [ref=e152]:
+                - link [ref=e2316] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e154]: Home
+              - listitem [ref=e155] [cursor=pointer]:
+                - link [ref=e2317]:
+                  - /url: /lightning/o/Opportunity/home
+                  - generic [ref=e157]: Opportunities
+                - button [ref=e2318]:
+                  - img [ref=e165]
+                  - generic [ref=e168]: Opportunities List
+              - listitem [ref=e169]:
+                - link [ref=e2319] [cursor=pointer]:
+                  - /url: /lightning/o/Lead/home
+                  - generic [ref=e171]: Leads
+                - button [ref=e2320] [cursor=pointer]:
+                  - img [ref=e179]
+                  - generic [ref=e182]: Leads List
+              - listitem [ref=e183]:
+                - link [ref=e2321] [cursor=pointer]:
+                  - /url: /lightning/o/Task/home
+                  - generic [ref=e185]: Tasks
+                - button [ref=e2322] [cursor=pointer]:
+                  - img [ref=e193]
+                  - generic [ref=e196]: Tasks List
+              - listitem [ref=e197]:
+                - link [ref=e2323] [cursor=pointer]:
+                  - /url: /lightning/o/ContentDocument/home
+                  - generic [ref=e199]: Files
+                - button [ref=e2324] [cursor=pointer]:
+                  - img [ref=e207]
+                  - generic [ref=e210]: Files List
+              - listitem [ref=e211]:
+                - link [ref=e2325] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e213]: Accounts
+                - button [ref=e2326] [cursor=pointer]:
+                  - img [ref=e221]
+                  - generic [ref=e224]: Accounts List
+              - listitem [ref=e225]:
+                - link [ref=e2327] [cursor=pointer]:
+                  - /url: /lightning/o/Contact/home
+                  - generic [ref=e227]: Contacts
+                - button [ref=e2328] [cursor=pointer]:
+                  - img [ref=e235]
+                  - generic [ref=e238]: Contacts List
+              - listitem [ref=e239]:
+                - link [ref=e2329] [cursor=pointer]:
+                  - /url: /lightning/o/Campaign/home
+                  - generic [ref=e241]: Campaigns
+                - button [ref=e2330] [cursor=pointer]:
+                  - img [ref=e249]
+                  - generic [ref=e252]: Campaigns List
+              - listitem [ref=e253]:
+                - link [ref=e2331] [cursor=pointer]:
+                  - /url: /lightning/o/Dashboard/home
+                  - generic [ref=e255]: Dashboards
+                - button [ref=e2332] [cursor=pointer]:
+                  - img [ref=e263]
+                  - generic [ref=e266]: Dashboards List
+              - listitem [ref=e267]:
+                - link [ref=e2333] [cursor=pointer]:
+                  - /url: /lightning/o/Report/home
+                  - generic [ref=e269]: Reports
+                - button [ref=e2334] [cursor=pointer]:
+                  - img [ref=e277]
+                  - generic [ref=e280]: Reports List
+              - listitem [ref=e281]:
+                - button [ref=e2335] [cursor=pointer]:
+                  - generic [ref=e284]: More
+                  - img [ref=e288]
+                  - generic [ref=e291]: Show more navigation items
+              - listitem [ref=e292]:
+                - button [ref=e2336] [cursor=pointer]:
+                  - img [ref=e296]
+                  - generic [ref=e299]: Edit nav items
+        - main [ref=e841]:
+          - generic [ref=e851]:
+            - generic [ref=e853]:
+              - generic [ref=e854]:
+                - generic [ref=e856]:
+                  - img [ref=e860]
+                  - generic [ref=e861]:
+                    - heading [level=1] [ref=e2337]: Opportunities
+                    - generic [ref=e866]:
+                      - generic [ref=e868] [cursor=pointer]:
+                        - heading [level=1] [ref=e2338]:
+                          - generic [ref=e870]: Opportunities
+                          - generic [ref=e871]: Recently Viewed
+                        - button [ref=e2339]:
+                          - img [ref=e876]
+                          - generic [ref=e879]: "Select a List View: Opportunities"
+                      - button [disabled] [ref=e2340] [cursor=pointer]:
+                        - img [ref=e885]
+                        - generic [ref=e888]: This list is pinned.
+                - list [ref=e891]:
+                  - listitem [ref=e892]:
+                    - button [ref=e2341] [cursor=pointer]:
+                      - generic [ref=e2342]: New
+                  - listitem [ref=e895]:
+                    - button [ref=e2343] [cursor=pointer]:
+                      - generic [ref=e2344]: Assign Label
+              - generic [ref=e898]:
+                - paragraph [ref=e900]:
+                  - generic [ref=e902]:
+                    - status [ref=e2345]: 49 items •
+                    - text: Updated a minute ago
+                - generic [ref=e909]:
+                  - generic [ref=e910]: Search this list...
+                  - generic [ref=e911]:
+                    - searchbox [ref=e2346]
+                    - img [ref=e913]
+                - generic [ref=e916]:
+                  - button [ref=e2347] [cursor=pointer]:
+                    - img [ref=e922]
+                    - img [ref=e926]
+                    - generic [ref=e929]: List View Controls
+                  - button [ref=e2348] [cursor=pointer]:
+                    - img [ref=e934]
+                    - img [ref=e938]
+                    - generic [ref=e941]: Select list display
+                  - generic [ref=e943]:
+                    - button [ref=e2349] [cursor=pointer]:
+                      - img [ref=e948]
+                      - generic [ref=e951]: Refresh
+                    - button [ref=e2350] [cursor=pointer]:
+                      - img [ref=e956]
+                      - generic [ref=e959]: Column sort
+                    - button [ref=e2351] [cursor=pointer]:
+                      - img [ref=e964]
+                      - generic [ref=e967]: Edit List
+                    - group [ref=e968]:
+                      - generic [ref=e970]:
+                        - generic:
+                          - generic:
+                            - button [disabled]:
+                              - generic:
+                                - img
+                              - generic: Charts
+                        - generic:
+                          - generic:
+                            - button [disabled]:
+                              - generic:
+                                - img
+                              - generic: Filters
+            - generic [ref=e977]:
+              - generic [ref=e978]: Navigation Mode
+              - grid [ref=e982]:
+                - generic [ref=e986]:
+                  - generic [ref=e987]: Choose a Row
+                  - generic [ref=e989]:
+                    - checkbox [ref=e2352]
+                    - generic [ref=e993]: Select 49 items
+                - generic [ref=e995]:
+                  - button [ref=e2353] [cursor=pointer]:
+                    - generic [ref=e997]: "Sort by:"
+                    - generic [ref=e2354]: Opportunity Name
+                  - generic [ref=e999]: "Sorted: None"
+                  - button [ref=e2355] [cursor=pointer]:
+                    - img [ref=e1003]
+                    - generic [ref=e1006]: Show Opportunity Name column actions
+                  - slider [ref=e2356]: "715"
+                - generic [ref=e1011]:
+                  - button [ref=e2357] [cursor=pointer]:
+                    - generic [ref=e1013]: "Sort by:"
+                    - generic [ref=e2358]: Account Name
+                  - generic [ref=e1015]: "Sorted: None"
+                  - button [ref=e2359] [cursor=pointer]:
+                    - img [ref=e1019]
+                    - generic [ref=e1022]: Show Account Name column actions
+                  - slider [ref=e2360]: "62"
+                - generic [ref=e1027]:
+                  - button [ref=e2361] [cursor=pointer]:
+                    - generic [ref=e1029]: "Sort by:"
+                    - generic [ref=e2362]: Account Site
+                  - generic [ref=e1031]: "Sorted: None"
+                  - button [ref=e2363] [cursor=pointer]:
+                    - img [ref=e1035]
+                    - generic [ref=e1038]: Show Account Site column actions
+                  - slider [ref=e2364]: "60"
+                - generic [ref=e1043]:
+                  - button [ref=e2365] [cursor=pointer]:
+                    - generic [ref=e1045]: "Sort by:"
+                    - generic [ref=e2366]: Stage
+                  - generic [ref=e1047]: "Sorted: None"
+                  - button [ref=e2367] [cursor=pointer]:
+                    - img [ref=e1051]
+                    - generic [ref=e1054]: Show Stage column actions
+                  - slider [ref=e2368]: "129"
+                - generic [ref=e1059]:
+                  - button [ref=e2369] [cursor=pointer]:
+                    - generic [ref=e1061]: "Sort by:"
+                    - generic [ref=e2370]: Close Date
+                  - generic [ref=e1063]: "Sorted: None"
+                  - button [ref=e2371] [cursor=pointer]:
+                    - img [ref=e1067]
+                    - generic [ref=e1070]: Show Close Date column actions
+                  - slider [ref=e2372]: "81"
+                - generic [ref=e1075]:
+                  - button [ref=e2373] [cursor=pointer]:
+                    - generic [ref=e1077]: "Sort by:"
+                    - generic [ref=e2374]: Opportunity Owner Alias
+                  - generic [ref=e1079]: "Sorted: None"
+                  - button [ref=e2375] [cursor=pointer]:
+                    - img [ref=e1083]
+                    - generic [ref=e1086]: Show Opportunity Owner Alias column actions
+                  - slider [ref=e2376]: "64"
+                - rowgroup [ref=e1093]:
+                  - row [ref=e2377]:
+                    - gridcell [ref=e1095]
+                    - gridcell [ref=e2378]:
+                      - generic [ref=e1100]:
+                        - checkbox [ref=e2379]
+                        - generic [ref=e1104]: Select Item 1
+                    - rowheader [ref=e2380]:
+                      - generic [ref=e1106]:
+                        - link [ref=e2381] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000KqKdzQAF/view
+                          - generic [ref=e1113]: new-opportunity-name
+                        - button [ref=e2382] [cursor=pointer]:
+                          - img [ref=e1826]
+                    - gridcell [ref=e2383]:
+                      - button [ref=e2384] [cursor=pointer]:
+                        - img [ref=e1831]
+                    - gridcell [ref=e2385]:
+                      - img [ref=e2386]:
+                        - img [ref=e1837]
+                    - gridcell [ref=e2387]:
+                      - generic [ref=e1118]:
+                        - generic [ref=e1121]: Prospecting
+                        - button [ref=e2388] [cursor=pointer]:
+                          - img [ref=e1842]
+                    - gridcell [ref=e2389]:
+                      - generic [ref=e1123]:
+                        - generic [ref=e1125]: 12/4/2026
+                        - button [ref=e2390] [cursor=pointer]:
+                          - img [ref=e1847]
+                    - gridcell [ref=e2391]:
+                      - generic [ref=e1127]:
+                        - link [ref=e2392] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1133]: suj
+                        - img [ref=e2393]:
+                          - img [ref=e1852]
+                    - gridcell [ref=e2394]:
+                      - button [ref=e2395] [cursor=pointer]:
+                        - img [ref=e1142]
+                        - generic [ref=e1145]: Show Actions
+                  - row [ref=e2396]:
+                    - gridcell [ref=e1147]
+                    - gridcell [ref=e2397]:
+                      - generic [ref=e1152]:
+                        - checkbox [ref=e2398]
+                        - generic [ref=e1156]: Select Item 2
+                    - rowheader [ref=e2399]:
+                      - generic [ref=e1158]:
+                        - link [ref=e2400] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000KqJ6IQAV/view
+                          - generic [ref=e1165]: new-opportunity-name
+                        - button [ref=e2401] [cursor=pointer]:
+                          - img [ref=e1860]
+                    - gridcell [ref=e2402]:
+                      - button [ref=e2403] [cursor=pointer]:
+                        - img [ref=e1865]
+                    - gridcell [ref=e2404]:
+                      - img [ref=e2405]:
+                        - img [ref=e1871]
+                    - gridcell [ref=e2406]:
+                      - generic [ref=e1170]:
+                        - generic [ref=e1173]: Prospecting
+                        - button [ref=e2407] [cursor=pointer]:
+                          - img [ref=e1876]
+                    - gridcell [ref=e2408]:
+                      - generic [ref=e1175]:
+                        - generic [ref=e1177]: 12/4/2026
+                        - button [ref=e2409] [cursor=pointer]:
+                          - img [ref=e1881]
+                    - gridcell [ref=e2410]:
+                      - generic [ref=e1179]:
+                        - link [ref=e2411] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1185]: suj
+                        - img [ref=e2412]:
+                          - img [ref=e1886]
+                    - gridcell [ref=e2413]:
+                      - button [ref=e2414] [cursor=pointer]:
+                        - img [ref=e1194]
+                        - generic [ref=e1197]: Show Actions
+                  - row [ref=e2415]:
+                    - gridcell [ref=e1199]
+                    - gridcell [ref=e2416]:
+                      - generic [ref=e1204]:
+                        - checkbox [ref=e2417]
+                        - generic [ref=e1208]: Select Item 3
+                    - rowheader [ref=e2418]:
+                      - generic [ref=e1210]:
+                        - link [ref=e2419] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000KpeHfQAJ/view
+                          - generic [ref=e1217]: new-opportunity-name
+                        - button [ref=e2420] [cursor=pointer]:
+                          - img [ref=e1894]
+                    - gridcell [ref=e2421]:
+                      - button [ref=e2422] [cursor=pointer]:
+                        - img [ref=e1899]
+                    - gridcell [ref=e2423]:
+                      - img [ref=e2424]:
+                        - img [ref=e1905]
+                    - gridcell [ref=e2425]:
+                      - generic [ref=e1222]:
+                        - generic [ref=e1225]: Prospecting
+                        - button [ref=e2426] [cursor=pointer]:
+                          - img [ref=e1910]
+                    - gridcell [ref=e2427]:
+                      - generic [ref=e1227]:
+                        - generic [ref=e1229]: 12/4/2026
+                        - button [ref=e2428] [cursor=pointer]:
+                          - img [ref=e1915]
+                    - gridcell [ref=e2429]:
+                      - generic [ref=e1231]:
+                        - link [ref=e2430] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1237]: suj
+                        - img [ref=e2431]:
+                          - img [ref=e1920]
+                    - gridcell [ref=e2432]:
+                      - button [ref=e2433] [cursor=pointer]:
+                        - img [ref=e1246]
+                        - generic [ref=e1249]: Show Actions
+                  - row [ref=e2434]:
+                    - gridcell [ref=e1251]
+                    - gridcell [ref=e2435]:
+                      - generic [ref=e1256]:
+                        - checkbox [ref=e2436]
+                        - generic [ref=e1260]: Select Item 4
+                    - rowheader [ref=e2437]:
+                      - generic [ref=e1262]:
+                        - link [ref=e2438] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000Kla6AQAR/view
+                          - generic [ref=e1269]: Q3 Enterprise Deal_BrowserTest
+                        - button [ref=e2439] [cursor=pointer]:
+                          - img [ref=e1928]
+                    - gridcell [ref=e2440]:
+                      - button [ref=e2441] [cursor=pointer]:
+                        - img [ref=e1933]
+                    - gridcell [ref=e2442]:
+                      - img [ref=e2443]:
+                        - img [ref=e1939]
+                    - gridcell [ref=e2444]:
+                      - generic [ref=e1274]:
+                        - generic [ref=e1277]: Prospecting
+                        - button [ref=e2445] [cursor=pointer]:
+                          - img [ref=e1944]
+                    - gridcell [ref=e2446]:
+                      - generic [ref=e1279]:
+                        - generic [ref=e1281]: 12/31/2026
+                        - button [ref=e2447] [cursor=pointer]:
+                          - img [ref=e1949]
+                    - gridcell [ref=e2448]:
+                      - generic [ref=e1283]:
+                        - link [ref=e2449] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1289]: suj
+                        - img [ref=e2450]:
+                          - img [ref=e1954]
+                    - gridcell [ref=e2451]:
+                      - button [ref=e2452] [cursor=pointer]:
+                        - img [ref=e1298]
+                        - generic [ref=e1301]: Show Actions
+                  - row [ref=e2453]:
+                    - gridcell [ref=e1303]
+                    - gridcell [ref=e2454]:
+                      - generic [ref=e1308]:
+                        - checkbox [ref=e2455]
+                        - generic [ref=e1312]: Select Item 5
+                    - rowheader [ref=e2456]:
+                      - generic [ref=e1314]:
+                        - link [ref=e2457] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000KlerLQAR/view
+                          - generic [ref=e1321]: Q3 Enterprise Deal_Test
+                        - button [ref=e2458] [cursor=pointer]:
+                          - img [ref=e1962]
+                    - gridcell [ref=e2459]:
+                      - button [ref=e2460] [cursor=pointer]:
+                        - img [ref=e1967]
+                    - gridcell [ref=e2461]:
+                      - img [ref=e2462]:
+                        - img [ref=e1973]
+                    - gridcell [ref=e2463]:
+                      - generic [ref=e1326]:
+                        - generic [ref=e1329]: Prospecting
+                        - button [ref=e2464] [cursor=pointer]:
+                          - img [ref=e1978]
+                    - gridcell [ref=e2465]:
+                      - generic [ref=e1331]:
+                        - generic [ref=e1333]: 12/31/2026
+                        - button [ref=e2466] [cursor=pointer]:
+                          - img [ref=e1983]
+                    - gridcell [ref=e2467]:
+                      - generic [ref=e1335]:
+                        - link [ref=e2468] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1341]: suj
+                        - img [ref=e2469]:
+                          - img [ref=e1988]
+                    - gridcell [ref=e2470]:
+                      - button [ref=e2471] [cursor=pointer]:
+                        - img [ref=e1350]
+                        - generic [ref=e1353]: Show Actions
+                  - row [ref=e2472]:
+                    - gridcell [ref=e1355]
+                    - gridcell [ref=e2473]:
+                      - generic [ref=e1360]:
+                        - checkbox [ref=e2474]
+                        - generic [ref=e1364]: Select Item 6
+                    - rowheader [ref=e2475]:
+                      - generic [ref=e1366]:
+                        - link [ref=e2476] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HvWEHQA3/view
+                          - generic [ref=e1373]: Enterprise Deal - ACME Corp
+                        - button [ref=e2477] [cursor=pointer]:
+                          - img [ref=e1996]
+                    - gridcell [ref=e2478]:
+                      - button [ref=e2479] [cursor=pointer]:
+                        - img [ref=e2001]
+                    - gridcell [ref=e2480]:
+                      - img [ref=e2481]:
+                        - img [ref=e2007]
+                    - gridcell [ref=e2482]:
+                      - generic [ref=e1378]:
+                        - generic [ref=e1381]: Negotiation/Review
+                        - button [ref=e2483] [cursor=pointer]:
+                          - img [ref=e2012]
+                    - gridcell [ref=e2484]:
+                      - generic [ref=e1383]:
+                        - generic [ref=e1385]: 4/18/2026
+                        - button [ref=e2485] [cursor=pointer]:
+                          - img [ref=e2017]
+                    - gridcell [ref=e2486]:
+                      - generic [ref=e1387]:
+                        - link [ref=e2487] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1393]: suj
+                        - img [ref=e2488]:
+                          - img [ref=e2022]
+                    - gridcell [ref=e2489]:
+                      - button [ref=e2490] [cursor=pointer]:
+                        - img [ref=e1402]
+                        - generic [ref=e1405]: Show Actions
+                  - row [ref=e2491]:
+                    - gridcell [ref=e1407]
+                    - gridcell [ref=e2492]:
+                      - generic [ref=e1412]:
+                        - checkbox [ref=e2493]
+                        - generic [ref=e1416]: Select Item 7
+                    - rowheader [ref=e2494]:
+                      - generic [ref=e1418]:
+                        - link [ref=e2495] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HvWJ7QAN/view
+                          - generic [ref=e1425]: "Opportunity #1 @2026! & Co."
+                        - button [ref=e2496] [cursor=pointer]:
+                          - img [ref=e2030]
+                    - gridcell [ref=e2497]:
+                      - button [ref=e2498] [cursor=pointer]:
+                        - img [ref=e2035]
+                    - gridcell [ref=e2499]:
+                      - img [ref=e2500]:
+                        - img [ref=e2041]
+                    - gridcell [ref=e2501]:
+                      - generic [ref=e1430]:
+                        - generic [ref=e1433]: Prospecting
+                        - button [ref=e2502] [cursor=pointer]:
+                          - img [ref=e2046]
+                    - gridcell [ref=e2503]:
+                      - generic [ref=e1435]:
+                        - generic [ref=e1437]: 3/20/2026
+                        - button [ref=e2504] [cursor=pointer]:
+                          - img [ref=e2051]
+                    - gridcell [ref=e2505]:
+                      - generic [ref=e1439]:
+                        - link [ref=e2506] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1445]: suj
+                        - img [ref=e2507]:
+                          - img [ref=e2056]
+                    - gridcell [ref=e2508]:
+                      - button [ref=e2509] [cursor=pointer]:
+                        - img [ref=e1454]
+                        - generic [ref=e1457]: Show Actions
+                  - row [ref=e2510]:
+                    - gridcell [ref=e1459]
+                    - gridcell [ref=e2511]:
+                      - generic [ref=e1464]:
+                        - checkbox [ref=e2512]
+                        - generic [ref=e1468]: Select Item 8
+                    - rowheader [ref=e2513]:
+                      - generic [ref=e1470]:
+                        - link [ref=e2514] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HvWCfQAN/view
+                          - generic [ref=e1477]: <script>alert("test")</script>
+                        - button [ref=e2515] [cursor=pointer]:
+                          - img [ref=e2064]
+                    - gridcell [ref=e2516]:
+                      - button [ref=e2517] [cursor=pointer]:
+                        - img [ref=e2069]
+                    - gridcell [ref=e2518]:
+                      - img [ref=e2519]:
+                        - img [ref=e2075]
+                    - gridcell [ref=e2520]:
+                      - generic [ref=e1482]:
+                        - generic [ref=e1485]: Prospecting
+                        - button [ref=e2521] [cursor=pointer]:
+                          - img [ref=e2080]
+                    - gridcell [ref=e2522]:
+                      - generic [ref=e1487]:
+                        - generic [ref=e1489]: 2/25/2026
+                        - button [ref=e2523] [cursor=pointer]:
+                          - img [ref=e2085]
+                    - gridcell [ref=e2524]:
+                      - generic [ref=e1491]:
+                        - link [ref=e2525] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1497]: suj
+                        - img [ref=e2526]:
+                          - img [ref=e2090]
+                    - gridcell [ref=e2527]:
+                      - button [ref=e2528] [cursor=pointer]:
+                        - img [ref=e1506]
+                        - generic [ref=e1509]: Show Actions
+                  - row [ref=e2529]:
+                    - gridcell [ref=e1511]
+                    - gridcell [ref=e2530]:
+                      - generic [ref=e1516]:
+                        - checkbox [ref=e2531]
+                        - generic [ref=e1520]: Select Item 9
+                    - rowheader [ref=e2532]:
+                      - generic [ref=e1522]:
+                        - link [ref=e2533] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HvWB3QAN/view
+                          - generic [ref=e1529]: This is a very long opportunity name that contains more than two hundred and fifty five characters to test the maximum l
+                        - button [ref=e2534] [cursor=pointer]:
+                          - img [ref=e2098]
+                    - gridcell [ref=e2535]:
+                      - button [ref=e2536] [cursor=pointer]:
+                        - img [ref=e2103]
+                    - gridcell [ref=e2537]:
+                      - img [ref=e2538]:
+                        - img [ref=e2109]
+                    - gridcell [ref=e2539]:
+                      - generic [ref=e1534]:
+                        - generic [ref=e1537]: Prospecting
+                        - button [ref=e2540] [cursor=pointer]:
+                          - img [ref=e2114]
+                    - gridcell [ref=e2541]:
+                      - generic [ref=e1539]:
+                        - generic [ref=e1541]: 3/15/2026
+                        - button [ref=e2542] [cursor=pointer]:
+                          - img [ref=e2119]
+                    - gridcell [ref=e2543]:
+                      - generic [ref=e1543]:
+                        - link [ref=e2544] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1549]: suj
+                        - img [ref=e2545]:
+                          - img [ref=e2124]
+                    - gridcell [ref=e2546]:
+                      - button [ref=e2547] [cursor=pointer]:
+                        - img [ref=e1558]
+                        - generic [ref=e1561]: Show Actions
+                  - row [ref=e2548]:
+                    - gridcell [ref=e1563]
+                    - gridcell [ref=e2549]:
+                      - generic [ref=e1568]:
+                        - checkbox [ref=e2550]
+                        - generic [ref=e1572]: Select Item 10
+                    - rowheader [ref=e2551]:
+                      - generic [ref=e1574]:
+                        - link [ref=e2552] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HvW9RQAV/view
+                          - generic [ref=e1581]: Large Amount Test
+                        - button [ref=e2553] [cursor=pointer]:
+                          - img [ref=e2132]
+                    - gridcell [ref=e2554]:
+                      - button [ref=e2555] [cursor=pointer]:
+                        - img [ref=e2137]
+                    - gridcell [ref=e2556]:
+                      - img [ref=e2557]:
+                        - img [ref=e2143]
+                    - gridcell [ref=e2558]:
+                      - generic [ref=e1586]:
+                        - generic [ref=e1589]: Prospecting
+                        - button [ref=e2559] [cursor=pointer]:
+                          - img [ref=e2148]
+                    - gridcell [ref=e2560]:
+                      - generic [ref=e1591]:
+                        - generic [ref=e1593]: 3/20/2026
+                        - button [ref=e2561] [cursor=pointer]:
+                          - img [ref=e2153]
+                    - gridcell [ref=e2562]:
+                      - generic [ref=e1595]:
+                        - link [ref=e2563] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1601]: suj
+                        - img [ref=e2564]:
+                          - img [ref=e2158]
+                    - gridcell [ref=e2565]:
+                      - button [ref=e2566] [cursor=pointer]:
+                        - img [ref=e1610]
+                        - generic [ref=e1613]: Show Actions
+                  - row [ref=e2567]:
+                    - gridcell [ref=e1615]
+                    - gridcell [ref=e2568]:
+                      - generic [ref=e1620]:
+                        - checkbox [ref=e2569]
+                        - generic [ref=e1624]: Select Item 11
+                    - rowheader [ref=e2570]:
+                      - generic [ref=e1626]:
+                        - link [ref=e2571] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HvW7pQAF/view
+                          - generic [ref=e1633]: Q2 Sales Opportunity
+                        - button [ref=e2572] [cursor=pointer]:
+                          - img [ref=e2166]
+                    - gridcell [ref=e2573]:
+                      - button [ref=e2574] [cursor=pointer]:
+                        - img [ref=e2171]
+                    - gridcell [ref=e2575]:
+                      - img [ref=e2576]:
+                        - img [ref=e2177]
+                    - gridcell [ref=e2577]:
+                      - generic [ref=e1638]:
+                        - generic [ref=e1641]: Prospecting
+                        - button [ref=e2578] [cursor=pointer]:
+                          - img [ref=e2182]
+                    - gridcell [ref=e2579]:
+                      - generic [ref=e1643]:
+                        - generic [ref=e1645]: 3/19/2026
+                        - button [ref=e2580] [cursor=pointer]:
+                          - img [ref=e2187]
+                    - gridcell [ref=e2581]:
+                      - generic [ref=e1647]:
+                        - link [ref=e2582] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1653]: suj
+                        - img [ref=e2583]:
+                          - img [ref=e2192]
+                    - gridcell [ref=e2584]:
+                      - button [ref=e2585] [cursor=pointer]:
+                        - img [ref=e1662]
+                        - generic [ref=e1665]: Show Actions
+                  - row [ref=e2586]:
+                    - gridcell [ref=e1667]
+                    - gridcell [ref=e2587]:
+                      - generic [ref=e1672]:
+                        - checkbox [ref=e2588]
+                        - generic [ref=e1676]: Select Item 12
+                    - rowheader [ref=e2589]:
+                      - generic [ref=e1678]:
+                        - link [ref=e2590] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HvW6DQAV/view
+                          - generic [ref=e1685]: Probability Test
+                        - button [ref=e2591] [cursor=pointer]:
+                          - img [ref=e2200]
+                    - gridcell [ref=e2592]:
+                      - button [ref=e2593] [cursor=pointer]:
+                        - img [ref=e2205]
+                    - gridcell [ref=e2594]:
+                      - img [ref=e2595]:
+                        - img [ref=e2211]
+                    - gridcell [ref=e2596]:
+                      - generic [ref=e1690]:
+                        - generic [ref=e1693]: Qualification
+                        - button [ref=e2597] [cursor=pointer]:
+                          - img [ref=e2216]
+                    - gridcell [ref=e2598]:
+                      - generic [ref=e1695]:
+                        - generic [ref=e1697]: 2/28/2026
+                        - button [ref=e2599] [cursor=pointer]:
+                          - img [ref=e2221]
+                    - gridcell [ref=e2600]:
+                      - generic [ref=e1699]:
+                        - link [ref=e2601] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1705]: suj
+                        - img [ref=e2602]:
+                          - img [ref=e2226]
+                    - gridcell [ref=e2603]:
+                      - button [ref=e2604] [cursor=pointer]:
+                        - img [ref=e1714]
+                        - generic [ref=e1717]: Show Actions
+                  - row [ref=e2605]:
+                    - gridcell [ref=e1719]
+                    - gridcell [ref=e2606]:
+                      - generic [ref=e1724]:
+                        - checkbox [ref=e2607]
+                        - generic [ref=e1728]: Select Item 13
+                    - rowheader [ref=e2608]:
+                      - generic [ref=e1730]:
+                        - link [ref=e2609] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HtVEHQA3/view
+                          - generic [ref=e1737]: Large Amount Test
+                        - button [ref=e2610] [cursor=pointer]:
+                          - img [ref=e2234]
+                    - gridcell [ref=e2611]:
+                      - button [ref=e2612] [cursor=pointer]:
+                        - img [ref=e2239]
+                    - gridcell [ref=e2613]:
+                      - img [ref=e2614]:
+                        - img [ref=e2245]
+                    - gridcell [ref=e2615]:
+                      - generic [ref=e1742]:
+                        - generic [ref=e1745]: Prospecting
+                        - button [ref=e2616] [cursor=pointer]:
+                          - img [ref=e2250]
+                    - gridcell [ref=e2617]:
+                      - generic [ref=e1747]:
+                        - generic [ref=e1749]: 3/20/2026
+                        - button [ref=e2618] [cursor=pointer]:
+                          - img [ref=e2255]
+                    - gridcell [ref=e2619]:
+                      - generic [ref=e1751]:
+                        - link [ref=e2620] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1757]: suj
+                        - img [ref=e2621]:
+                          - img [ref=e2260]
+                    - gridcell [ref=e2622]:
+                      - button [ref=e2623] [cursor=pointer]:
+                        - img [ref=e1766]
+                        - generic [ref=e1769]: Show Actions
+                  - row [ref=e2624]:
+                    - gridcell [ref=e1771]
+                    - gridcell [ref=e2625]:
+                      - generic [ref=e1776]:
+                        - checkbox [ref=e2626]
+                        - generic [ref=e1780]: Select Item 14
+                    - rowheader [ref=e2627]:
+                      - generic [ref=e1782]:
+                        - link [ref=e2628] [cursor=pointer]:
+                          - /url: /lightning/r/006gL00000HtOY5QAN/view
+                          - generic [ref=e1789]: Large Amount Test
+                        - button [ref=e2629] [cursor=pointer]:
+                          - img [ref=e2268]
+                    - gridcell [ref=e2630]:
+                      - button [ref=e2631] [cursor=pointer]:
+                        - img [ref=e2273]
+                    - gridcell [ref=e2632]:
+                      - img [ref=e2633]:
+                        - img [ref=e2279]
+                    - gridcell [ref=e2634]:
+                      - generic [ref=e1794]:
+                        - generic [ref=e1797]: Prospecting
+                        - button [ref=e2635] [cursor=pointer]:
+                          - img [ref=e2284]
+                    - gridcell [ref=e2636]:
+                      - generic [ref=e1799]:
+                        - generic [ref=e1801]: 3/20/2026
+                        - button [ref=e2637] [cursor=pointer]:
+                          - img [ref=e2289]
+                    - gridcell [ref=e2638]:
+                      - generic [ref=e1803]:
+                        - link [ref=e2639] [cursor=pointer]:
+                          - /url: /lightning/r/005gL00000FABtiQAH/view
+                          - generic [ref=e1809]: suj
+                        - img [ref=e2640]:
+                          - img [ref=e2294]
+                    - gridcell [ref=e2641]:
+                      - button [ref=e2642] [cursor=pointer]:
+                        - img [ref=e1818]
+                        - generic [ref=e1821]: Show Actions
+      - list [ref=e309]:
+        - listitem [ref=e310]:
+          - button [ref=e2643] [cursor=pointer]:
+            - img [ref=e317]
+            - generic [ref=e320]: To Do List
+    - dialog "New Opportunity" [ref=e2645]:
+      - generic [ref=e2646]:
+        - button "Cancel and close" [ref=e2647] [cursor=pointer]:
+          - img [ref=e2649]
+          - generic [ref=e2652]: Cancel and close
+        - generic [ref=e2653]:
+          - generic [ref=e2660]:
+            - heading "New Opportunity" [level=2] [ref=e2662]
+            - generic [ref=e2664]:
+              - generic [ref=e2665]: "* = Required Information"
+              - generic [ref=e2667]:
+                - generic [ref=e2672]:
+                  - generic [ref=e2674]:
+                    - heading "Opportunity Information" [level=3] [ref=e2675]:
+                      - generic [ref=e2676]: Opportunity Information
+                    - list [ref=e2678]:
+                      - generic [ref=e2679]:
+                        - generic [ref=e2681]:
+                          - listitem [ref=e2683]:
+                            - generic [ref=e2684]:
+                              - generic [ref=e2685]: Opportunity Owner
+                              - generic [ref=e2697]: Sujitkumar Gaikwad
+                          - listitem [ref=e2699]:
+                            - generic [ref=e2705]:
+                              - generic [ref=e2706]: Amount
+                              - spinbutton "Amount" [ref=e2708]
+                        - generic [ref=e2710]:
+                          - listitem [ref=e2712]:
+                            - generic [ref=e2717]:
+                              - generic [ref=e2719]: Private
+                              - checkbox "Private" [ref=e2721]
+                          - listitem [ref=e2723]:
+                            - button "Undo Close Date" [ref=e3026] [cursor=pointer]:
+                              - img [ref=e3028]
+                            - generic [ref=e2727]:
+                              - group [ref=e2728]:
+                                - generic [ref=e2729]: "*Close Date"
+                                - generic [ref=e2730]:
+                                  - textbox "Close Date" [ref=e2731]: 12/4/2026
+                                  - button "Select a date for Close Date" [ref=e2733] [cursor=pointer]:
+                                    - img [ref=e2735]
+                                    - generic [ref=e2738]: Select a date for Close Date
+                              - generic [ref=e2739]: "Format: 12/31/2024"
+                        - generic [ref=e2741]:
+                          - listitem [ref=e2743]:
+                            - button "Undo Opportunity Name" [ref=e3020] [cursor=pointer]:
+                              - img [ref=e3022]
+                            - generic [ref=e2749]:
+                              - generic [ref=e2750]: "*Opportunity Name"
+                              - textbox "Opportunity Name" [ref=e2752]: new-opportunity-name
+                          - listitem [ref=e2754]:
+                            - generic [ref=e2760]:
+                              - generic [ref=e2761]: Next Step
+                              - textbox "Next Step" [ref=e2763]
+                        - generic [ref=e2765]:
+                          - listitem [ref=e2767]:
+                            - generic [ref=e2773]:
+                              - generic [ref=e2774]: Account Name
+                              - generic [ref=e2779]:
+                                - combobox "Account Name" [ref=e2782]
+                                - img [ref=e2786]
+                              - status
+                          - listitem [ref=e2790]:
+                            - button "Undo Stage" [ref=e3062] [cursor=pointer]:
+                              - img [ref=e3064]
+                            - generic [ref=e2798]:
+                              - generic [ref=e2800]: "*Stage"
+                              - generic [ref=e2804]:
+                                - combobox "Stage" [active] [ref=e2805] [cursor=pointer]:
+                                  - generic [ref=e2806]: Prospecting
+                                - img [ref=e2810]
+                              - status
+                        - generic [ref=e2814]:
+                          - listitem [ref=e2816]:
+                            - generic [ref=e2823]:
+                              - generic [ref=e2825]: Type
+                              - generic [ref=e2829]:
+                                - combobox "Type" [ref=e2830] [cursor=pointer]:
+                                  - generic [ref=e2831]: "--None--"
+                                - img [ref=e2835]
+                              - status
+                          - listitem [ref=e2839]:
+                            - button "Undo Probability (%)" [ref=e3068] [cursor=pointer]:
+                              - img [ref=e3070]
+                            - generic [ref=e2844]:
+                              - generic [ref=e2845]: Probability (%)
+                              - spinbutton "Probability (%)" [ref=e2847]: 10%
+                        - generic [ref=e2849]:
+                          - listitem [ref=e2851]:
+                            - generic [ref=e2858]:
+                              - generic [ref=e2860]: Lead Source
+                              - generic [ref=e2864]:
+                                - combobox "Lead Source" [ref=e2865] [cursor=pointer]:
+                                  - generic [ref=e2866]: "--None--"
+                                - img [ref=e2870]
+                              - status
+                          - listitem [ref=e2874]:
+                            - generic [ref=e2880]:
+                              - generic [ref=e2881]: Primary Campaign Source
+                              - generic [ref=e2886]:
+                                - combobox "Primary Campaign Source" [ref=e2889]
+                                - img [ref=e2893]
+                              - status
+                  - generic [ref=e2897]:
+                    - heading "Additional Information" [level=3] [ref=e2898]:
+                      - generic [ref=e2899]: Additional Information
+                    - list [ref=e2901]:
+                      - generic [ref=e2902]:
+                        - generic [ref=e2904]:
+                          - listitem [ref=e2906]:
+                            - generic [ref=e2912]:
+                              - generic [ref=e2913]: Order Number
+                              - textbox "Order Number" [ref=e2915]
+                          - listitem [ref=e2917]:
+                            - generic [ref=e2923]:
+                              - generic [ref=e2924]: Main Competitor(s)
+                              - textbox "Main Competitor(s)" [ref=e2926]
+                        - generic [ref=e2928]:
+                          - listitem [ref=e2930]:
+                            - generic [ref=e2936]:
+                              - generic [ref=e2937]: Current Generator(s)
+                              - textbox "Current Generator(s)" [ref=e2939]
+                          - listitem [ref=e2941]:
+                            - generic [ref=e2948]:
+                              - generic [ref=e2950]: Delivery/Installation Status
+                              - generic [ref=e2954]:
+                                - combobox "Delivery/Installation Status" [ref=e2955] [cursor=pointer]:
+                                  - generic [ref=e2956]: "--None--"
+                                - img [ref=e2960]
+                              - status
+                        - listitem [ref=e2966]:
+                          - generic [ref=e2972]:
+                            - generic [ref=e2973]: Tracking Number
+                            - textbox "Tracking Number" [ref=e2975]
+                  - generic [ref=e2978]:
+                    - heading "Description Information" [level=3] [ref=e2979]:
+                      - generic [ref=e2980]: Description Information
+                    - list [ref=e2982]:
+                      - listitem [ref=e2987]:
+                        - generic [ref=e2991]:
+                          - generic [ref=e2992]: Description
+                          - textbox "Description" [ref=e2994]
+                          - status
+                - generic [ref=e2999]:
+                  - generic "Cancel" [ref=e3000]:
+                    - button "Cancel" [ref=e3005] [cursor=pointer]
+                  - generic "Save & New" [ref=e3006]:
+                    - button "Save & New" [ref=e3011] [cursor=pointer]
+                  - generic "Save" [ref=e3012]:
+                    - button "Save" [ref=e3017] [cursor=pointer]
+          - status [ref=e3018]
+  - generic:
+    - status

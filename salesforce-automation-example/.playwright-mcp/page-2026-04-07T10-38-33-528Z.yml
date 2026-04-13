@@ -1,0 +1,226 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "This item doesn't support favorites" [ref=e1781] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Global Actions"
+            - listitem [ref=e815]:
+              - button "Guidance Center" [ref=e817] [cursor=pointer]:
+                - generic [ref=e818]:
+                  - img [ref=e822]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e100]:
+              - button "Salesforce Help" [ref=e103] [cursor=pointer]:
+                - generic [ref=e104]:
+                  - img [ref=e108]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e111]:
+              - button "Setup" [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]:
+                  - img [ref=e122]
+                  - tooltip "Setup"
+            - listitem [ref=e125]:
+              - button "Notifications" [ref=e128] [cursor=pointer]:
+                - generic [ref=e129]:
+                  - img [ref=e134]
+                  - tooltip "Notifications"
+            - listitem [ref=e138]:
+              - button "View profile" [ref=e141] [cursor=pointer]:
+                - generic [ref=e142]:
+                  - tooltip "View profile"
+    - generic [ref=e146]:
+      - generic [ref=e149]:
+        - generic [ref=e151]:
+          - navigation "App" [ref=e152]:
+            - button "App Launcher" [ref=e154] [cursor=pointer]:
+              - generic [ref=e165]: App Launcher
+          - heading "PFS" [level=1] [ref=e166]:
+            - generic "PFS" [ref=e167]
+        - navigation "Global" [ref=e170]:
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Home" [ref=e173] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e174]: Home
+            - listitem [ref=e175]:
+              - link "Tasks" [ref=e176] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e177]: Tasks
+            - listitem [ref=e178]:
+              - link "Leads" [ref=e179] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e180]: Leads
+              - button "Leads List" [ref=e184] [cursor=pointer]:
+                - img [ref=e188]
+                - generic [ref=e191]: Leads List
+            - listitem [ref=e192]:
+              - link "Campaigns" [ref=e193] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e194]: Campaigns
+              - button "Campaigns List" [ref=e198] [cursor=pointer]:
+                - img [ref=e202]
+                - generic [ref=e205]: Campaigns List
+            - listitem [ref=e206]:
+              - link "Accounts" [ref=e207] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e208]: Accounts
+              - button "Accounts List" [ref=e212] [cursor=pointer]:
+                - img [ref=e216]
+                - generic [ref=e219]: Accounts List
+            - listitem [ref=e220]:
+              - link "Contacts" [ref=e221] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e222]: Contacts
+              - button "Contacts List" [ref=e226] [cursor=pointer]:
+                - img [ref=e230]
+                - generic [ref=e233]: Contacts List
+            - listitem [ref=e234]:
+              - link "Opportunities" [ref=e235] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e236]: Opportunities
+              - button "Opportunities List" [ref=e240] [cursor=pointer]:
+                - img [ref=e244]
+                - generic [ref=e247]: Opportunities List
+            - listitem [ref=e248]:
+              - link "Reports" [ref=e249] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e250]: Reports
+              - button "Reports List" [ref=e254] [cursor=pointer]:
+                - img [ref=e258]
+                - generic [ref=e261]: Reports List
+            - listitem [ref=e262]:
+              - link "Dashboards" [ref=e263] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e264]: Dashboards
+              - button "Dashboards List" [ref=e268] [cursor=pointer]:
+                - img [ref=e272]
+                - generic [ref=e275]: Dashboards List
+            - listitem [ref=e276]:
+              - link "Thresholds" [ref=e277] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e278]: Thresholds
+              - button "Thresholds List" [ref=e282] [cursor=pointer]:
+                - img [ref=e286]
+                - generic [ref=e289]: Thresholds List
+            - listitem [ref=e290]:
+              - button "Help" [ref=e294] [cursor=pointer]:
+                - img [ref=e296]
+                - generic [ref=e299]: Help
+      - main [ref=e301]:
+        - generic [active] [ref=e305]:
+          - text: · · · · ·
+          - generic [ref=e1795]:
+            - generic:
+              - generic:
+                - status:
+                  - generic [ref=e1796]: Loading
+            - iframe [ref=e1799]:
+              - generic [active] [ref=f2e1]:
+                - img "Content Starts Here" [ref=f2e2]
+                - generic [ref=f2e4]:
+                  - generic [ref=f2e5]:
+                    - img "Account" [ref=f2e6]
+                    - heading "New Account" [level=1] [ref=f2e7]
+                    - heading "Select Account Record Type" [level=2] [ref=f2e8]
+                  - link "Help for this Page" [ref=f2e10] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=permissions_record_type_access.htm&section=Customizing&language=en_US&release=260.11.10&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic [ref=f2e11]: Select a record type for the new account. To skip this page in the future, change your record type settings on your personal setup page.
+                - generic [ref=f2e13]:
+                  - table [ref=f2e15]:
+                    - rowgroup [ref=f2e16]:
+                      - row "Select Account Record Type" [ref=f2e17]:
+                        - cell "Select Account Record Type" [ref=f2e18]:
+                          - heading "Select Account Record Type" [level=2] [ref=f2e19]
+                  - table [ref=f2e22]:
+                    - rowgroup [ref=f2e23]:
+                      - row "* Record Type of new record Individual" [ref=f2e24]:
+                        - cell "* Record Type of new record" [ref=f2e25]:
+                          - generic [ref=f2e26]:
+                            - generic [ref=f2e27]: "*"
+                            - text: Record Type of new record
+                        - cell "Individual" [ref=f2e28]:
+                          - combobox "* Record Type of new record" [ref=f2e31]:
+                            - option "Advisor"
+                            - option "Carrier"
+                            - option "Employer"
+                            - option "Entity"
+                            - option "Household"
+                            - option "Individual" [selected]
+                            - option "Par Group Account RT"
+                            - option "Service Provider"
+                      - row:
+                        - cell
+                  - table [ref=f2e33]:
+                    - rowgroup [ref=f2e34]:
+                      - row "Continue Cancel" [ref=f2e35]:
+                        - cell [ref=f2e36]
+                        - cell "Continue Cancel" [ref=f2e37]:
+                          - button "Continue" [ref=f2e38] [cursor=pointer]
+                          - button "Cancel" [ref=f2e39] [cursor=pointer]
+                - heading "Available Account Record Types" [level=3] [ref=f2e40]
+                - table [ref=f2e41]:
+                  - rowgroup [ref=f2e42]:
+                    - row "Record Type Name Description" [ref=f2e43]:
+                      - columnheader "Record Type Name" [ref=f2e44]
+                      - columnheader "Description" [ref=f2e45]
+                    - row "Advisor An Advisor to a Broker Dealer, Advisor company, or independent Advisor" [ref=f2e46]:
+                      - rowheader "Advisor" [ref=f2e47]
+                      - cell "An Advisor to a Broker Dealer, Advisor company, or independent Advisor" [ref=f2e48]
+                    - row "Carrier PFS/RPS - Account that carries the plan" [ref=f2e49]:
+                      - rowheader "Carrier" [ref=f2e50]
+                      - cell "PFS/RPS - Account that carries the plan" [ref=f2e51]
+                    - row "Employer Employer offering 401k" [ref=f2e52]:
+                      - rowheader "Employer" [ref=f2e53]
+                      - cell "Employer offering 401k" [ref=f2e54]
+                    - row "Entity" [ref=f2e55]:
+                      - rowheader "Entity" [ref=f2e56]
+                      - cell [ref=f2e57]
+                    - row "Household" [ref=f2e58]:
+                      - rowheader "Household" [ref=f2e59]
+                      - cell [ref=f2e60]
+                    - row "Individual PFS/RPS/Annuities - Individual account for contact who is subscribed to a JH product or service" [ref=f2e61]:
+                      - rowheader "Individual" [ref=f2e62]
+                      - cell "PFS/RPS/Annuities - Individual account for contact who is subscribed to a JH product or service" [ref=f2e63]
+                    - row "Par Group Account RT A General Annuity Contract customer with the Par Group" [ref=f2e64]:
+                      - rowheader "Par Group Account RT" [ref=f2e65]
+                      - cell "A General Annuity Contract customer with the Par Group" [ref=f2e66]
+                    - row "Service Provider PFS/RPS - Third Party Administrator (TPA), Broker Dealer (BD), Unaffiliated (Registered Investment Advisors (RIA), Insurance Agency (IA), Advisor not related to BD))" [ref=f2e67]:
+                      - rowheader "Service Provider" [ref=f2e68]
+                      - cell "PFS/RPS - Third Party Administrator (TPA), Broker Dealer (BD), Unaffiliated (Registered Investment Advisors (RIA), Insurance Agency (IA), Advisor not related to BD))" [ref=f2e69]
+                - iframe [ref=f2e70]:
+                  
+  - generic:
+    - status

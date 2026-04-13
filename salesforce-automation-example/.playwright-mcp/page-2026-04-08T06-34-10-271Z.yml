@@ -1,0 +1,313 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e300] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e88]:
+                - img [ref=e92]
+            - listitem [ref=e95]:
+              - button "Salesforce Help" [ref=e98] [cursor=pointer]:
+                - generic [ref=e99]:
+                  - img [ref=e103]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e106]:
+              - button "Setup" [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]:
+                  - img [ref=e117]
+                  - tooltip "Setup"
+            - listitem [ref=e120]:
+              - button "Notifications" [ref=e123] [cursor=pointer]:
+                - generic [ref=e124]:
+                  - img [ref=e129]
+                  - tooltip "Notifications"
+            - listitem [ref=e133]:
+              - button "View profile" [ref=e301] [cursor=pointer]:
+                - generic [ref=e302]:
+                  - tooltip "View profile"
+    - generic [ref=e136]:
+      - generic [ref=e139]:
+        - generic [ref=e141]:
+          - navigation "App" [ref=e142]:
+            - button "App Launcher" [ref=e144] [cursor=pointer]:
+              - generic [ref=e155]: App Launcher
+          - heading "PFS" [level=1] [ref=e156]:
+            - generic "PFS" [ref=e157]
+        - navigation "Global" [ref=e160]:
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - link "Home" [ref=e163] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e164]: Home
+            - listitem [ref=e165]:
+              - link "Tasks" [ref=e166] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e167]: Tasks
+            - listitem [ref=e168]:
+              - link "Leads" [ref=e169] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e170]: Leads
+              - button "Leads List" [ref=e174] [cursor=pointer]:
+                - img [ref=e178]
+                - generic [ref=e181]: Leads List
+            - listitem [ref=e182]:
+              - link "Campaigns" [ref=e183] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e184]: Campaigns
+              - button "Campaigns List" [ref=e188] [cursor=pointer]:
+                - img [ref=e192]
+                - generic [ref=e195]: Campaigns List
+            - listitem [ref=e196]:
+              - link "Accounts" [ref=e197] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e198]: Accounts
+              - button "Accounts List" [ref=e202] [cursor=pointer]:
+                - img [ref=e206]
+                - generic [ref=e209]: Accounts List
+            - listitem [ref=e210]:
+              - link "Contacts" [ref=e211] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e212]: Contacts
+              - button "Contacts List" [ref=e216] [cursor=pointer]:
+                - img [ref=e220]
+                - generic [ref=e223]: Contacts List
+            - listitem [ref=e224] [cursor=pointer]:
+              - link "Opportunities" [active] [ref=e225]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e226]: Opportunities
+              - button "Opportunities List" [ref=e230]:
+                - img [ref=e234]
+                - generic [ref=e237]: Opportunities List
+            - listitem [ref=e238]:
+              - link "Reports" [ref=e239] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e240]: Reports
+              - button "Reports List" [ref=e244] [cursor=pointer]:
+                - img [ref=e248]
+                - generic [ref=e251]: Reports List
+            - listitem [ref=e252]:
+              - link "Dashboards" [ref=e253] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e254]: Dashboards
+              - button "Dashboards List" [ref=e258] [cursor=pointer]:
+                - img [ref=e262]
+                - generic [ref=e265]: Dashboards List
+            - listitem [ref=e266]:
+              - link "Thresholds" [ref=e267] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e268]: Thresholds
+              - button "Thresholds List" [ref=e272] [cursor=pointer]:
+                - img [ref=e276]
+                - generic [ref=e279]: Thresholds List
+            - listitem [ref=e280]:
+              - button "Help" [ref=e284] [cursor=pointer]:
+                - img [ref=e286]
+                - generic [ref=e289]: Help
+      - generic [ref=e290]:
+        - main [ref=e306]:
+          - generic [ref=e316]:
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e321]:
+                  - img [ref=e325]
+                  - generic [ref=e326]:
+                    - heading "Opportunities" [level=1] [ref=e330]
+                    - generic [ref=e331]:
+                      - generic [ref=e333] [cursor=pointer]:
+                        - heading "Opportunities Recently Viewed" [level=1] [ref=e334]:
+                          - generic [ref=e335]: Opportunities
+                          - generic [ref=e336]: Recently Viewed
+                        - 'button "Select a List View: Opportunities" [ref=e339]':
+                          - img [ref=e341]
+                          - generic [ref=e344]: "Select a List View: Opportunities"
+                      - button "This list is pinned." [disabled] [ref=e348] [cursor=pointer]:
+                        - img [ref=e350]
+                        - generic [ref=e353]: This list is pinned.
+                - list [ref=e356]:
+                  - listitem [ref=e357]:
+                    - button "New" [ref=e358] [cursor=pointer]:
+                      - generic "New" [ref=e359]
+                  - listitem [ref=e360]:
+                    - button "Assign Label" [ref=e361] [cursor=pointer]:
+                      - generic "Assign Label" [ref=e362]
+              - generic [ref=e363]:
+                - paragraph [ref=e365]:
+                  - generic [ref=e367]:
+                    - status "Recently Viewed" [ref=e368]: 35 items •
+                    - text: Updated a few seconds ago
+                - generic [ref=e374]:
+                  - generic [ref=e375]: Search this list...
+                  - generic [ref=e376]:
+                    - searchbox "Search this list..." [ref=e377]
+                    - generic:
+                      - img
+                - generic [ref=e378]:
+                  - button "List View Controls" [ref=e382] [cursor=pointer]:
+                    - img [ref=e384]
+                    - img [ref=e388]
+                    - generic [ref=e391]: List View Controls
+                  - button "Select list display" [ref=e394] [cursor=pointer]:
+                    - img [ref=e396]
+                    - img [ref=e400]
+                    - generic [ref=e403]: Select list display
+                  - generic [ref=e405]:
+                    - button "Refresh" [ref=e408] [cursor=pointer]:
+                      - img [ref=e410]
+                      - generic [ref=e413]: Refresh
+                    - button "Column sort" [ref=e416] [cursor=pointer]:
+                      - img [ref=e418]
+                      - generic [ref=e421]: Column sort
+                    - button "Inline Edit is disabled. To edit, filter by one record type." [ref=e424] [cursor=pointer]:
+                      - img [ref=e426]
+                      - generic [ref=e429]: Inline Edit is disabled. To edit, filter by one record type.
+                    - group [ref=e430]:
+                      - generic [ref=e432]:
+                        - generic:
+                          - generic:
+                            - button "Charts" [disabled]:
+                              - generic:
+                                - img
+                              - generic: Charts
+                        - generic:
+                          - generic:
+                            - button "Filters" [disabled]:
+                              - generic:
+                                - img
+                              - generic: Filters
+            - generic [ref=e439]:
+              - generic [ref=e440]: Navigation Mode
+              - grid [ref=e444]:
+                - rowgroup:
+                  - row "Row Number Choose a Row Select 35 items Opportunity Name Account Name Account Site Stage Close Date Opportunity Owner Alias Action":
+                    - columnheader "Row Number":
+                      - generic [ref=e447]:
+                        - generic "Row Number"
+                    - gridcell "Choose a Row Select 35 items":
+                      - generic [ref=e448]:
+                        - generic [ref=e449]: Choose a Row
+                        - generic [ref=e451]:
+                          - checkbox "Select 35 items" [ref=e452]
+                          - generic [ref=e455]: Select 35 items
+                    - columnheader "Opportunity Name":
+                      - generic [ref=e457]:
+                        - 'button "Sort by: Opportunity Name" [ref=e458] [cursor=pointer]':
+                          - generic [ref=e459]: "Sort by:"
+                          - generic "Opportunity Name" [ref=e460]
+                        - generic [ref=e461]: "Sorted: None"
+                        - button "Show Opportunity Name column actions" [ref=e463] [cursor=pointer]:
+                          - img [ref=e465]
+                          - generic [ref=e468]: Show Opportunity Name column actions
+                        - slider "Opportunity Name column width" [ref=e469]: "355"
+                    - columnheader "Account Name":
+                      - generic [ref=e473]:
+                        - 'button "Sort by: Account Name" [ref=e474] [cursor=pointer]':
+                          - generic [ref=e475]: "Sort by:"
+                          - generic "Account Name" [ref=e476]
+                        - generic [ref=e477]: "Sorted: None"
+                        - button "Show Account Name column actions" [ref=e479] [cursor=pointer]:
+                          - img [ref=e481]
+                          - generic [ref=e484]: Show Account Name column actions
+                        - slider "Account Name column width" [ref=e485]: "250"
+                    - columnheader "Account Site":
+                      - generic [ref=e489]:
+                        - 'button "Sort by: Account Site" [ref=e490] [cursor=pointer]':
+                          - generic [ref=e491]: "Sort by:"
+                          - generic "Account Site" [ref=e492]
+                        - generic [ref=e493]: "Sorted: None"
+                        - button "Show Account Site column actions" [ref=e495] [cursor=pointer]:
+                          - img [ref=e497]
+                          - generic [ref=e500]: Show Account Site column actions
+                        - slider "Account Site column width" [ref=e501]: "60"
+                    - columnheader "Stage":
+                      - generic [ref=e505]:
+                        - 'button "Sort by: Stage" [ref=e506] [cursor=pointer]':
+                          - generic [ref=e507]: "Sort by:"
+                          - generic "Stage" [ref=e508]
+                        - generic [ref=e509]: "Sorted: None"
+                        - button "Show Stage column actions" [ref=e511] [cursor=pointer]:
+                          - img [ref=e513]
+                          - generic [ref=e516]: Show Stage column actions
+                        - slider "Stage column width" [ref=e517]: "118"
+                    - columnheader "Close Date":
+                      - generic [ref=e521]:
+                        - 'button "Sort by: Close Date" [ref=e522] [cursor=pointer]':
+                          - generic [ref=e523]: "Sort by:"
+                          - generic "Close Date" [ref=e524]
+                        - generic [ref=e525]: "Sorted: None"
+                        - button "Show Close Date column actions" [ref=e527] [cursor=pointer]:
+                          - img [ref=e529]
+                          - generic [ref=e532]: Show Close Date column actions
+                        - slider "Close Date column width" [ref=e533]: "215"
+                    - columnheader "Opportunity Owner Alias":
+                      - generic [ref=e537]:
+                        - 'button "Sort by: Opportunity Owner Alias" [ref=e538] [cursor=pointer]':
+                          - generic [ref=e539]: "Sort by:"
+                          - generic "Opportunity Owner Alias" [ref=e540]
+                        - generic [ref=e541]: "Sorted: None"
+                        - button "Show Opportunity Owner Alias column actions" [ref=e543] [cursor=pointer]:
+                          - img [ref=e545]
+                          - generic [ref=e548]: Show Opportunity Owner Alias column actions
+                        - slider "Opportunity Owner Alias column width" [ref=e549]: "119"
+                    - columnheader "Action":
+                      - generic [ref=e554]:
+                        - generic "Action"
+                - rowgroup [ref=e555]:
+                  - row "Select Item 1 Rol - - test account test account New 4/21/2026 ssija Show Actions" [ref=e556]:
+                    - gridcell [ref=e557]
+                    - gridcell "Select Item 1" [ref=e561]:
+                      - generic [ref=e562]:
+                        - checkbox "Select Item 1" [ref=e563]
+                        - generic [ref=e566]: Select Item 1
+                    - rowheader "Rol - - test account" [ref=e567]:
+                      - link "Rol - - test account" [ref=e574] [cursor=pointer]:
+                        - /url: /lightning/r/006dz00000E6Q1OAAV/view
+                        - generic [ref=e575]: Rol - - test account
+                    - gridcell "test account" [ref=e576]:
+                      - link "test account" [ref=e582] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000Foz4WAAR/view
+                        - generic [ref=e583]: test account
+                    - gridcell [ref=e584]
+                    - gridcell "New" [ref=e585]:
+                      - generic [ref=e589]: New
+                    - gridcell "4/21/2026" [ref=e590]:
+                      - generic [ref=e595]: 4/21/2026
+                    - gridcell "ssija" [ref=e596]:
+                      - link "ssija" [ref=e602] [cursor=pointer]:
+                        - /url: /lightning/r/005dz00000BSn13AAD/view
+                        - generic [ref=e603]: ssija
+                    - gridcell "Show Actions" [ref=e604]:
+                      - button "Show Actions" [ref=e610] [cursor=pointer]:
+                        - img [ref=e612]
+                        - generic [ref=e615]: Show Actions
+        - text: · · · · ·
+  - generic:
+    - status

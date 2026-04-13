@@ -1,0 +1,1079 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e7]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e10]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F006dz00000EAfUr
+                  - link "Help & Training" [ref=e27] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: PFS
+      - navigation [ref=e33]:
+        - heading "Tab Navigation" [level=1] [ref=e34]
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: /home/home.jsp
+            - listitem [ref=e39]:
+              - link "Tasks" [ref=e40] [cursor=pointer]:
+                - /url: /servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNMVF4TXpvME1UbzFNUzR6TVRKYSxhNUUxbWNDMHdaanNpSFg4RzhoY2k0OFBiUURVWjN1Ry1PT1YybmpyU19vPSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e41]:
+              - link "Leads" [ref=e42] [cursor=pointer]:
+                - /url: /00Q/o
+            - listitem [ref=e43]:
+              - link "Campaigns" [ref=e44] [cursor=pointer]:
+                - /url: /701/o
+            - listitem [ref=e45]:
+              - link "Accounts" [ref=e46] [cursor=pointer]:
+                - /url: /001/o
+            - listitem [ref=e47]:
+              - link "Contacts" [ref=e48] [cursor=pointer]:
+                - /url: /003/o
+            - listitem [ref=e49]:
+              - link "Opportunities" [ref=e50] [cursor=pointer]:
+                - /url: /006/o
+              - generic [ref=e51]: (Currently Selected)
+            - listitem [ref=e52]:
+              - link "Reports" [ref=e53] [cursor=pointer]:
+                - /url: /00O/o
+            - listitem [ref=e54]:
+              - link "Dashboards" [ref=e55] [cursor=pointer]:
+                - /url: /01Z/o
+            - listitem [ref=e56]:
+              - link "Thresholds" [ref=e57] [cursor=pointer]:
+                - /url: /a1f/o
+            - listitem [ref=e58]:
+              - link "All Tabs" [ref=e59] [cursor=pointer]:
+                - /url: /home/showAllTabs.jsp
+                - img "All Tabs" [ref=e60]
+    - table [ref=e62]:
+      - rowgroup [ref=e63]:
+        - row [ref=e1160]:
+          - cell "Click to Open Sidebar" [ref=e65]:
+            - link "Click to Open Sidebar" [ref=e66]:
+              - /url: javascript:void(0);
+              - generic [ref=e67]: Click to Open Sidebar
+          - cell [ref=e1161]:
+            - img "Content Starts Here" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - img "Opportunity" [ref=e76]
+                - heading "Opportunity" [level=1] [ref=e77]
+                - heading "Rol - - TestEmployer_1774952750468" [level=2] [ref=e78]
+              - generic [ref=e79]:
+                - link "Customize Page" [ref=e80] [cursor=pointer]:
+                  - /url: /setup/ui/uiconfigrelatedlistsedit.jsp?retURL=%2F006dz00000EAfUr&id=Opportunity
+                - text: "|"
+                - link "Edit Layout" [ref=e81] [cursor=pointer]:
+                  - /url: /layouteditor/layoutEditor.apexp?type=Opportunity&lid=00h4R00000mxxnK&retURL=%2F006dz00000EAfUr
+                - text: "|"
+                - link "Printable View" [ref=e82] [cursor=pointer]:
+                  - /url: javascript:printWin(%27/006dz00000EAfUr/p?retURL=%2F006dz00000EAfUr%27)
+                - text: "|"
+                - link "Help for this Page" [ref=e83] [cursor=pointer]:
+                  - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=opportunities.htm&section=Opportunities&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+            - generic [ref=e1097]:
+              - link "Digital Retention Interactions[0]" [ref=e1098] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_00N4R00000IzlUS_target"
+                - generic [ref=e1099]: Digital Retention Interactions[0]
+              - text: "|"
+              - link "Recommendations[0]" [ref=e1100] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_00N4R00000JODA2_target"
+                - generic [ref=e1101]: Recommendations[0]
+              - text: "|"
+              - link "Investment[0]" [ref=e1102] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_00N4R00000JOD7z_target"
+                - generic [ref=e1103]: Investment[0]
+              - text: "|"
+              - link "Fund Account Selections[0]" [ref=e1104] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_00NG000000Dwu2H_target"
+                - generic [ref=e1105]: Fund Account Selections[0]
+              - text: "|"
+              - link "Recommended Fund Account Selections[0]" [ref=e1106] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_00N4R00000JODsv_target"
+                - generic [ref=e1107]: Recommended Fund Account Selections[0]
+              - text: "|"
+              - link "Open Activities[0]" [ref=e1108] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedActivityList_target"
+                - generic [ref=e1109]: Open Activities[0]
+              - text: "|"
+              - link "Activity History[0]" [ref=e1110] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedHistoryList_target"
+                - generic [ref=e1111]: Activity History[0]
+              - text: "|"
+              - link "DocuSign Status[0]" [ref=e1112] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_00NG000000DwqLX_target"
+                - generic [ref=e1113]: DocuSign Status[0]
+              - text: "|"
+              - link "Opportunity Team[0]" [ref=e1114] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedOpportunitySalesTeam_target"
+                - generic [ref=e1115]: Opportunity Team[0]
+              - text: "|"
+              - link "Campaign Influence[0]" [ref=e1116] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedCampaignInfluenceList_target"
+                - generic [ref=e1117]: Campaign Influence[0]
+              - text: "|"
+              - link "Transaction Parties[0]" [ref=e1118] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_00NG000000DwuAc_target"
+                - generic [ref=e1119]: Transaction Parties[0]
+              - text: "|"
+              - link "Contact Roles[0]" [ref=e1120] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedContactRoleList_target"
+                - generic [ref=e1121]: Contact Roles[0]
+              - text: "|"
+              - link "Cases[0]" [ref=e1122] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_00NG000000FDURj_target"
+                - generic [ref=e1123]: Cases[0]
+              - text: "|"
+              - link "Stage History[1]" [ref=e1124] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedOpportunityHistoryList_target"
+                - generic [ref=e1125]: Stage History[1]
+              - text: "|"
+              - link "Opportunity Field History[2]" [ref=e1126] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedEntityHistoryList_target"
+                - generic [ref=e1127]: Opportunity Field History[2]
+              - text: "|"
+              - link "Notes & Attachments[0]" [ref=e1128] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedNoteList_target"
+                - generic [ref=e1129]: Notes & Attachments[0]
+              - text: "|"
+              - link "Approval History[0]" [ref=e1130] [cursor=pointer]:
+                - /url: "#006dz00000EAfUr_RelatedProcessHistoryList_target"
+                - generic [ref=e1131]: Approval History[0]
+            - generic [ref=e84]:
+              - table [ref=e86]:
+                - rowgroup [ref=e87]:
+                  - row "Opportunity Detail Edit Delete Clone Rollover DDP Send with DocuSign Request Delete Send an Email Update Participant Online Distribution Status Update Digital Retention Interaction New Account Recommendation New Investment Recommendation Generate Documents" [ref=e88]:
+                    - cell "Opportunity Detail" [ref=e89]:
+                      - heading "Opportunity Detail" [level=2] [ref=e90]
+                    - cell "Edit Delete Clone Rollover DDP Send with DocuSign Request Delete Send an Email Update Participant Online Distribution Status Update Digital Retention Interaction New Account Recommendation New Investment Recommendation Generate Documents" [ref=e91]:
+                      - button "Edit" [ref=e92] [cursor=pointer]
+                      - button "Delete" [ref=e93] [cursor=pointer]
+                      - button "Clone" [ref=e94] [cursor=pointer]
+                      - button "Rollover DDP" [ref=e95] [cursor=pointer]
+                      - button "Send with DocuSign" [ref=e96] [cursor=pointer]
+                      - button "Request Delete" [ref=e97] [cursor=pointer]
+                      - button "Send an Email" [ref=e98] [cursor=pointer]
+                      - button "Update Participant Online Distribution Status" [ref=e99] [cursor=pointer]
+                      - button "Update Digital Retention Interaction" [ref=e100] [cursor=pointer]
+                      - button "New Account Recommendation" [ref=e101] [cursor=pointer]
+                      - button "New Investment Recommendation" [ref=e102] [cursor=pointer]
+                      - button "Generate Documents" [ref=e103] [cursor=pointer]
+              - generic [ref=e104]:
+                - table [ref=e106]:
+                  - rowgroup [ref=e107]:
+                    - row "Opportunity Name Rol - - TestEmployer_1774952750468 Opportunity Owner Somya Sijaria [Change]" [ref=e108]:
+                      - cell "Opportunity Name" [ref=e109]
+                      - cell "Rol - - TestEmployer_1774952750468" [active] [ref=e110]:
+                        - generic [ref=e111]: Rol - - TestEmployer_1774952750468
+                      - cell "Opportunity Owner" [ref=e112]
+                      - cell "Somya Sijaria [Change]" [ref=e113]:
+                        - generic [ref=e114]:
+                          - link "Somya Sijaria" [ref=e115] [cursor=pointer]:
+                            - /url: /005dz00000BSn13
+                          - link "[Change]" [ref=e116] [cursor=pointer]:
+                            - /url: /006dz00000EAfUr/a?retURL=%2F006dz00000EAfUr
+                    - row "Account Name TestEmployer_1774952750468 Opportunity Owner Text Somya Sijaria" [ref=e117]:
+                      - cell "Account Name" [ref=e118]
+                      - cell "TestEmployer_1774952750468" [ref=e119]:
+                        - link "TestEmployer_1774952750468" [ref=e121] [cursor=pointer]:
+                          - /url: /001dz00000FlHXt
+                      - cell "Opportunity Owner Text" [ref=e122]
+                      - cell "Somya Sijaria" [ref=e123]:
+                        - generic [ref=e124]: Somya Sijaria
+                    - row "Plan TestPlan_1775123097206 Opportunity Record Type Rollover [Change]" [ref=e125]:
+                      - cell "Plan" [ref=e126]
+                      - cell "TestPlan_1775123097206" [ref=e127]:
+                        - link "TestPlan_1775123097206" [ref=e129] [cursor=pointer]:
+                          - /url: /a0edz000001H55x
+                      - cell "Opportunity Record Type" [ref=e130]
+                      - cell "Rollover [Change]" [ref=e131]:
+                        - generic [ref=e132]:
+                          - text: Rollover
+                          - link "[Change]" [ref=e133] [cursor=pointer]:
+                            - /url: /setup/ui/recordtypeselect.jsp?id=006dz00000EAfUr&retURL=%2F006dz00000EAfUr
+                    - row "Spanish Speaker Not Checked Stage New" [ref=e134]:
+                      - cell "Spanish Speaker" [ref=e135]
+                      - cell "Not Checked" [ref=e136]:
+                        - img "Not Checked" [ref=e138]
+                      - cell "Stage" [ref=e139]
+                      - cell "New" [ref=e140]:
+                        - generic [ref=e141]: New
+                    - row "Plan Term Not Checked Type Rollover" [ref=e142]:
+                      - cell "Plan Term" [ref=e143]
+                      - cell "Not Checked" [ref=e144]:
+                        - img "Not Checked" [ref=e146]
+                      - cell "Type" [ref=e147]
+                      - cell "Rollover" [ref=e148]:
+                        - generic [ref=e149]: Rollover
+                    - row "Forms Due Date Plan Product Signature" [ref=e150]:
+                      - cell "Forms Due Date" [ref=e151]
+                      - cell [ref=e152]
+                      - cell "Plan Product" [ref=e154]
+                      - cell "Signature" [ref=e155]:
+                        - generic [ref=e156]: Signature
+                    - row "JH Due Date Type Status" [ref=e157]:
+                      - cell "JH Due Date" [ref=e158]
+                      - cell [ref=e159]
+                      - cell "Type Status" [ref=e161]
+                      - cell [ref=e162]
+                    - row "Plan Deconversion Not Checked DEF Future Approved Not Checked" [ref=e164]:
+                      - cell "Plan Deconversion" [ref=e165]
+                      - cell "Not Checked" [ref=e166]:
+                        - img "Not Checked" [ref=e168]
+                      - cell "DEF Future Approved" [ref=e169]
+                      - cell "Not Checked" [ref=e170]:
+                        - img "Not Checked" [ref=e172]
+                    - row "Priority DEF Approved Date" [ref=e173]:
+                      - cell "Priority" [ref=e174]
+                      - cell [ref=e175]
+                      - cell "DEF Approved Date" [ref=e177]
+                      - cell [ref=e178]
+                    - row "Survey Opt Out Not Checked Probability (%) 10%" [ref=e180]:
+                      - cell "Survey Opt Out" [ref=e181]
+                      - cell "Not Checked" [ref=e182]:
+                        - img "Not Checked" [ref=e184]
+                      - cell "Probability (%)" [ref=e185]
+                      - cell "10%" [ref=e186]:
+                        - generic [ref=e187]: 10%
+                    - row "Registration Type MJHBS Participant Online Distribution Allowed Not Checked" [ref=e188]:
+                      - cell "Registration Type" [ref=e189]
+                      - cell "MJHBS" [ref=e190]:
+                        - generic [ref=e191]: MJHBS
+                      - cell "Participant Online Distribution Allowed" [ref=e192]:
+                        - generic [ref=e193]: Participant Online Distribution Allowed
+                      - cell "Not Checked" [ref=e194]:
+                        - img "Not Checked" [ref=e196]
+                    - row "Approval Status Digital Retention Source? Not Checked" [ref=e197]:
+                      - cell "Approval Status" [ref=e198]
+                      - cell [ref=e199]
+                      - cell "Digital Retention Source?" [ref=e201]
+                      - cell "Not Checked" [ref=e202]:
+                        - img "Not Checked" [ref=e204]
+                    - row "Account Recommendation Not Checked JHSS NIGO Reason" [ref=e205]:
+                      - cell "Account Recommendation" [ref=e206]
+                      - cell "Not Checked" [ref=e207]:
+                        - img "Not Checked" [ref=e209]
+                      - cell "JHSS NIGO Reason" [ref=e210]
+                      - cell [ref=e211]
+                    - row "Investment Recommendation Not Checked Send Signed PPWK Issue" [ref=e213]:
+                      - cell "Investment Recommendation" [ref=e214]
+                      - cell "Not Checked" [ref=e215]:
+                        - img "Not Checked" [ref=e217]
+                      - cell "Send Signed PPWK Issue" [ref=e218]
+                      - cell [ref=e219]
+                - generic [ref=e221]:
+                  - button "Hide Section - Other Information" [ref=e222] [cursor=pointer]
+                  - heading "Other Information" [level=3] [ref=e223]
+                - table [ref=e225]:
+                  - rowgroup [ref=e226]:
+                    - row "Amount Actual Amount" [ref=e227]:
+                      - cell "Amount" [ref=e228]
+                      - cell [ref=e229]
+                      - cell "Actual Amount" [ref=e231]
+                      - cell [ref=e232]
+                    - row "Total Account Balance $0.00 Actual Destination" [ref=e234]:
+                      - cell "Total Account Balance" [ref=e235]
+                      - cell "$0.00" [ref=e236]:
+                        - generic [ref=e237]: $0.00
+                      - cell "Actual Destination" [ref=e238]
+                      - cell [ref=e239]
+                    - row "Rollover Amount $0.00 Actual Close Date" [ref=e241]:
+                      - cell "Rollover Amount" [ref=e242]
+                      - cell "$0.00" [ref=e243]:
+                        - generic [ref=e244]: $0.00
+                      - cell "Actual Close Date" [ref=e245]
+                      - cell [ref=e246]
+                    - row "Rollover % Total Outbound Contact Task Count 0" [ref=e248]:
+                      - cell "Rollover %" [ref=e249]:
+                        - generic [ref=e250]: Rollover %
+                      - cell [ref=e251]
+                      - cell "Total Outbound Contact Task Count" [ref=e253]:
+                        - generic [ref=e254]: Total Outbound Contact Task Count
+                      - cell "0" [ref=e255]:
+                        - generic [ref=e256]: "0"
+                    - row "Close Date 4/24/2026" [ref=e257]:
+                      - cell "Close Date" [ref=e258]
+                      - cell "4/24/2026" [ref=e259]:
+                        - generic [ref=e260]: 4/24/2026
+                      - cell [ref=e261]
+                      - cell [ref=e262]
+                - generic [ref=e263]:
+                  - button "Hide Section - Withdrawal Details" [ref=e264] [cursor=pointer]
+                  - heading "Withdrawal Details" [level=3] [ref=e265]
+                - table [ref=e267]:
+                  - rowgroup [ref=e268]:
+                    - row "Do not send PPWK Not Checked CAR has completed WDF Not Checked" [ref=e269]:
+                      - cell "Do not send PPWK" [ref=e270]:
+                        - generic [ref=e271]: Do not send PPWK
+                      - cell "Not Checked" [ref=e272]:
+                        - img "Not Checked" [ref=e274]
+                      - cell "CAR has completed WDF" [ref=e275]:
+                        - generic [ref=e276]: CAR has completed WDF
+                      - cell "Not Checked" [ref=e277]:
+                        - img "Not Checked" [ref=e279]
+                    - row "Reason For Withdrawal Directed PPT to TPA/PS for WDF Not Checked" [ref=e280]:
+                      - cell "Reason For Withdrawal" [ref=e281]
+                      - cell [ref=e282]
+                      - cell "Directed PPT to TPA/PS for WDF" [ref=e284]:
+                        - generic [ref=e285]: Directed PPT to TPA/PS for WDF
+                      - cell "Not Checked" [ref=e286]:
+                        - img "Not Checked" [ref=e288]
+                    - row "Termination Date PPT already sent WDF to PS Not Checked" [ref=e289]:
+                      - cell "Termination Date" [ref=e290]
+                      - cell [ref=e291]
+                      - cell "PPT already sent WDF to PS" [ref=e293]:
+                        - generic [ref=e294]: PPT already sent WDF to PS
+                      - cell "Not Checked" [ref=e295]:
+                        - img "Not Checked" [ref=e297]
+                    - row "Retirement Date PPT already sent WDF to TPA Not Checked" [ref=e298]:
+                      - cell "Retirement Date" [ref=e299]
+                      - cell [ref=e300]
+                      - cell "PPT already sent WDF to TPA" [ref=e302]:
+                        - generic [ref=e303]: PPT already sent WDF to TPA
+                      - cell "Not Checked" [ref=e304]:
+                        - img "Not Checked" [ref=e306]
+                    - row "Direct Rollover Not Checked Assisted PPT with WDDEATH – Non Spouse Not Checked" [ref=e307]:
+                      - cell "Direct Rollover" [ref=e308]
+                      - cell "Not Checked" [ref=e309]:
+                        - img "Not Checked" [ref=e311]
+                      - cell "Assisted PPT with WDDEATH – Non Spouse" [ref=e312]:
+                        - generic [ref=e313]: Assisted PPT with WDDEATH – Non Spouse
+                      - cell "Not Checked" [ref=e314]:
+                        - img "Not Checked" [ref=e316]
+                    - row "Pay Directly Lump Sum & Rollover Balance Not Checked Assisted PPT with WDDEATH form – Spouse Not Checked" [ref=e317]:
+                      - cell "Pay Directly Lump Sum & Rollover Balance" [ref=e318]:
+                        - generic [ref=e319]: Pay Directly Lump Sum & Rollover Balance
+                      - cell "Not Checked" [ref=e320]:
+                        - img "Not Checked" [ref=e322]
+                      - cell "Assisted PPT with WDDEATH form – Spouse" [ref=e323]:
+                        - generic [ref=e324]: Assisted PPT with WDDEATH form – Spouse
+                      - cell "Not Checked" [ref=e325]:
+                        - img "Not Checked" [ref=e327]
+                    - row "Lump Sum Amount $ Assisted PPT with QDRO WDF Not Checked" [ref=e328]:
+                      - cell "Lump Sum Amount $" [ref=e329]
+                      - cell [ref=e330]
+                      - cell "Assisted PPT with QDRO WDF" [ref=e332]:
+                        - generic [ref=e333]: Assisted PPT with QDRO WDF
+                      - cell "Not Checked" [ref=e334]:
+                        - img "Not Checked" [ref=e336]
+                    - row "Lump Sum Percent % Assisted with I-Withdrawal Not Checked" [ref=e337]:
+                      - cell "Lump Sum Percent %" [ref=e338]
+                      - cell [ref=e339]
+                      - cell "Assisted with I-Withdrawal" [ref=e341]:
+                        - generic [ref=e342]: Assisted with I-Withdrawal
+                      - cell "Not Checked" [ref=e343]:
+                        - img "Not Checked" [ref=e345]
+                - generic [ref=e346]:
+                  - button "Hide Section - Additional Paperwork" [ref=e347] [cursor=pointer]
+                  - heading "Additional Paperwork" [level=3] [ref=e348]
+                - table [ref=e350]:
+                  - rowgroup [ref=e351]:
+                    - row "Emailed Special Tax Notice Not Checked Emailed ABI form Not Checked" [ref=e352]:
+                      - cell "Emailed Special Tax Notice" [ref=e353]
+                      - cell "Not Checked" [ref=e354]:
+                        - img "Not Checked" [ref=e356]
+                      - cell "Emailed ABI form" [ref=e357]
+                      - cell "Not Checked" [ref=e358]:
+                        - img "Not Checked" [ref=e360]
+                    - row "Emailed Spousal Consent Not Checked Sent RMD form Not Checked" [ref=e361]:
+                      - cell "Emailed Spousal Consent" [ref=e362]
+                      - cell "Not Checked" [ref=e363]:
+                        - img "Not Checked" [ref=e365]
+                      - cell "Sent RMD form" [ref=e366]
+                      - cell "Not Checked" [ref=e367]:
+                        - img "Not Checked" [ref=e369]
+                    - row "Emailed TPA Specific PPWK Not Checked" [ref=e370]:
+                      - cell "Emailed TPA Specific PPWK" [ref=e371]
+                      - cell "Not Checked" [ref=e372]:
+                        - img "Not Checked" [ref=e374]
+                      - cell [ref=e375]
+                      - cell [ref=e376]
+                - generic [ref=e377]:
+                  - button "Hide Section - IRA Details" [ref=e378] [cursor=pointer]
+                  - heading "IRA Details" [level=3] [ref=e379]
+                - table [ref=e381]:
+                  - rowgroup [ref=e382]:
+                    - row "eDelivery Not Checked % of Investment in Traditional 0%" [ref=e383]:
+                      - cell "eDelivery" [ref=e384]
+                      - cell "Not Checked" [ref=e385]:
+                        - img "Not Checked" [ref=e387]
+                      - cell "% of Investment in Traditional" [ref=e388]
+                      - cell "0%" [ref=e389]:
+                        - generic [ref=e390]: 0%
+                    - row "Sales Charge Reduction % of Investment in Roth 0%" [ref=e391]:
+                      - cell "Sales Charge Reduction" [ref=e392]
+                      - cell [ref=e393]
+                      - cell "% of Investment in Roth" [ref=e395]
+                      - cell "0%" [ref=e396]:
+                        - generic [ref=e397]: 0%
+                    - row "% of Investment in Inherited Roth 0%" [ref=e398]:
+                      - cell [ref=e399]
+                      - cell [ref=e400]
+                      - cell "% of Investment in Inherited Roth" [ref=e401]
+                      - cell "0%" [ref=e402]:
+                        - generic [ref=e403]: 0%
+                    - row "% of Investment in Inherited Trad 0%" [ref=e404]:
+                      - cell [ref=e405]
+                      - cell [ref=e406]
+                      - cell "% of Investment in Inherited Trad" [ref=e407]
+                      - cell "0%" [ref=e408]:
+                        - generic [ref=e409]: 0%
+                - generic [ref=e410]:
+                  - button "Hide Section - Employment Details" [ref=e411] [cursor=pointer]
+                  - heading "Employment Details" [level=3] [ref=e412]
+                - table [ref=e414]:
+                  - rowgroup [ref=e415]:
+                    - row "Employment Status Employer Name" [ref=e416]:
+                      - cell "Employment Status" [ref=e417]
+                      - cell [ref=e418]
+                      - cell "Employer Name" [ref=e420]
+                      - cell [ref=e421]
+                    - row "Occupation Employer Address" [ref=e423]:
+                      - cell "Occupation" [ref=e424]
+                      - cell [ref=e425]
+                      - cell "Employer Address" [ref=e427]
+                      - cell [ref=e428]
+                - generic [ref=e430]:
+                  - button "Hide Section - Affiliation" [ref=e431] [cursor=pointer]
+                  - heading "Affiliation" [level=3] [ref=e432]
+                - table [ref=e434]:
+                  - rowgroup [ref=e435]:
+                    - row "No to all affiliation questions Not Checked Member of the board?" [ref=e436]:
+                      - cell "No to all affiliation questions" [ref=e437]
+                      - cell "Not Checked" [ref=e438]:
+                        - img "Not Checked" [ref=e440]
+                      - cell "Member of the board?" [ref=e441]:
+                        - generic [ref=e442]: Member of the board?
+                      - cell [ref=e443]
+                    - row "Are you affiliated with a Broker Dealer? Company Name" [ref=e445]:
+                      - cell "Are you affiliated with a Broker Dealer?" [ref=e446]
+                      - cell [ref=e447]
+                      - cell "Company Name" [ref=e449]
+                      - cell [ref=e450]
+                    - row "Broker Dealer Name Ticker Symbol" [ref=e452]:
+                      - cell "Broker Dealer Name" [ref=e453]
+                      - cell [ref=e454]
+                      - cell "Ticker Symbol" [ref=e456]
+                      - cell [ref=e457]
+                    - row "Broker Dealer Address Political figure?" [ref=e459]:
+                      - cell "Broker Dealer Address" [ref=e460]
+                      - cell [ref=e461]
+                      - cell "Political figure?" [ref=e463]:
+                        - generic [ref=e464]: Political figure?
+                      - cell [ref=e465]
+                - generic [ref=e467]:
+                  - button "Hide Section - Trusted Contact" [ref=e468] [cursor=pointer]
+                  - heading "Trusted Contact" [level=3] [ref=e469]
+                - table [ref=e471]:
+                  - rowgroup [ref=e472]:
+                    - row "Declined to provide? Not Checked Email" [ref=e473]:
+                      - cell "Declined to provide?" [ref=e474]
+                      - cell "Not Checked" [ref=e475]:
+                        - img "Not Checked" [ref=e477]
+                      - cell "Email" [ref=e478]
+                      - cell [ref=e479]
+                    - row "First Name Address" [ref=e481]:
+                      - cell "First Name" [ref=e482]
+                      - cell [ref=e483]
+                      - cell "Address" [ref=e485]
+                      - cell [ref=e486]
+                    - row "Last Name Phone Number" [ref=e488]:
+                      - cell "Last Name" [ref=e489]
+                      - cell [ref=e490]
+                      - cell "Phone Number" [ref=e492]
+                      - cell [ref=e493]
+                    - row "Relationship" [ref=e495]:
+                      - cell "Relationship" [ref=e496]
+                      - cell [ref=e497]
+                      - cell [ref=e499]
+                      - cell [ref=e500]
+                - generic [ref=e501]:
+                  - button "Hide Section - Beneficiary Information" [ref=e502] [cursor=pointer]
+                  - heading "Beneficiary Information" [level=3] [ref=e503]
+                - table [ref=e505]:
+                  - rowgroup [ref=e506]:
+                    - row "Primary Beneficiary Name 1 Secondary Beneficiary Name 1" [ref=e507]:
+                      - cell "Primary Beneficiary Name 1" [ref=e508]
+                      - cell [ref=e509]
+                      - cell "Secondary Beneficiary Name 1" [ref=e511]
+                      - cell [ref=e512]
+                    - row "Primary % Share 1 Secondary % Share 1" [ref=e514]:
+                      - cell "Primary % Share 1" [ref=e515]
+                      - cell [ref=e516]
+                      - cell "Secondary % Share 1" [ref=e518]
+                      - cell [ref=e519]
+                    - row "Primary DOB 1 Secondary DOB 1" [ref=e521]:
+                      - cell "Primary DOB 1" [ref=e522]
+                      - cell [ref=e523]
+                      - cell "Secondary DOB 1" [ref=e525]
+                      - cell [ref=e526]
+                    - row "Primary Relationship to Owner 1 Secondary Relationship to Owner 1" [ref=e528]:
+                      - cell "Primary Relationship to Owner 1" [ref=e529]
+                      - cell [ref=e530]
+                      - cell "Secondary Relationship to Owner 1" [ref=e532]
+                      - cell [ref=e533]
+                    - row [ref=e535]:
+                      - cell [ref=e536]
+                      - cell [ref=e537]
+                      - cell [ref=e538]
+                      - cell [ref=e539]
+                    - row "Primary Beneficiary Name 2 Secondary Beneficiary Name 2" [ref=e540]:
+                      - cell "Primary Beneficiary Name 2" [ref=e541]
+                      - cell [ref=e542]
+                      - cell "Secondary Beneficiary Name 2" [ref=e544]
+                      - cell [ref=e545]
+                    - row "Primary % Share 2 Secondary % Share 2" [ref=e547]:
+                      - cell "Primary % Share 2" [ref=e548]
+                      - cell [ref=e549]
+                      - cell "Secondary % Share 2" [ref=e551]
+                      - cell [ref=e552]
+                    - row "Primary DOB 2 Secondary DOB 2" [ref=e554]:
+                      - cell "Primary DOB 2" [ref=e555]
+                      - cell [ref=e556]
+                      - cell "Secondary DOB 2" [ref=e558]
+                      - cell [ref=e559]
+                    - row "Primary Relationship to Owner 2 Secondary Relationship to Owner 2" [ref=e561]:
+                      - cell "Primary Relationship to Owner 2" [ref=e562]
+                      - cell [ref=e563]
+                      - cell "Secondary Relationship to Owner 2" [ref=e565]
+                      - cell [ref=e566]
+                    - row [ref=e568]:
+                      - cell [ref=e569]
+                      - cell [ref=e570]
+                      - cell [ref=e571]
+                      - cell [ref=e572]
+                    - row "Primary Beneficiary Name 3 Secondary Beneficiary Name 3" [ref=e573]:
+                      - cell "Primary Beneficiary Name 3" [ref=e574]
+                      - cell [ref=e575]
+                      - cell "Secondary Beneficiary Name 3" [ref=e577]
+                      - cell [ref=e578]
+                    - row "Primary % Share 3 Secondary % Share 3" [ref=e580]:
+                      - cell "Primary % Share 3" [ref=e581]
+                      - cell [ref=e582]
+                      - cell "Secondary % Share 3" [ref=e584]
+                      - cell [ref=e585]
+                    - row "Primary DOB 3 Secondary DOB 3" [ref=e587]:
+                      - cell "Primary DOB 3" [ref=e588]
+                      - cell [ref=e589]
+                      - cell "Secondary DOB 3" [ref=e591]
+                      - cell [ref=e592]
+                    - row "Primary Relationship to Owner 3 Secondary Relationship to Owner 3" [ref=e594]:
+                      - cell "Primary Relationship to Owner 3" [ref=e595]
+                      - cell [ref=e596]
+                      - cell "Secondary Relationship to Owner 3" [ref=e598]
+                      - cell [ref=e599]
+                - generic [ref=e601]:
+                  - button "Hide Section - TOA Information" [ref=e602] [cursor=pointer]
+                  - heading "TOA Information" [level=3] [ref=e603]
+                - table [ref=e605]:
+                  - rowgroup [ref=e606]:
+                    - row "Create Secondary Opportunity for TOA Not Checked Statement Received Not Checked" [ref=e607]:
+                      - cell "Create Secondary Opportunity for TOA" [ref=e608]
+                      - cell "Not Checked" [ref=e609]:
+                        - img "Not Checked" [ref=e611]
+                      - cell "Statement Received" [ref=e612]:
+                        - generic [ref=e613]: Statement Received
+                      - cell "Not Checked" [ref=e614]:
+                        - img "Not Checked" [ref=e616]
+                    - row "TOA Amount Rollover Service Specialist" [ref=e617]:
+                      - cell "TOA Amount" [ref=e618]:
+                        - generic [ref=e619]: TOA Amount
+                      - cell [ref=e620]
+                      - cell "Rollover Service Specialist" [ref=e622]:
+                        - generic [ref=e623]: Rollover Service Specialist
+                      - cell [ref=e624]
+                    - row "Carrier" [ref=e626]:
+                      - cell "Carrier" [ref=e627]
+                      - cell [ref=e628]
+                      - cell [ref=e630]
+                      - cell [ref=e631]
+                - generic [ref=e632]:
+                  - button "Hide Section - Additional Information" [ref=e633] [cursor=pointer]
+                  - heading "Additional Information" [level=3] [ref=e634]
+                - table [ref=e636]:
+                  - rowgroup [ref=e637]:
+                    - row "Primary Campaign Source Lead Source" [ref=e638]:
+                      - cell "Primary Campaign Source" [ref=e639]
+                      - cell [ref=e640]
+                      - cell "Lead Source" [ref=e642]
+                      - cell [ref=e643]
+                    - row "Primary Campaign Type Main Competitor(s)" [ref=e645]:
+                      - cell "Primary Campaign Type" [ref=e646]
+                      - cell [ref=e647]
+                      - cell "Main Competitor(s)" [ref=e648]
+                      - cell [ref=e649]
+                - generic [ref=e651]:
+                  - button "Hide Section - System Information" [ref=e652] [cursor=pointer]
+                  - heading "System Information" [level=3] [ref=e653]
+                - table [ref=e655]:
+                  - rowgroup [ref=e656]:
+                    - row "Created By Somya Sijaria, 4/10/2026, 9:41 AM CDL External Key" [ref=e657]:
+                      - cell "Created By" [ref=e658]
+                      - cell "Somya Sijaria, 4/10/2026, 9:41 AM" [ref=e659]:
+                        - generic [ref=e660]:
+                          - link "Somya Sijaria" [ref=e661] [cursor=pointer]:
+                            - /url: /005dz00000BSn13
+                          - text: ", 4/10/2026, 9:41 AM"
+                      - cell "CDL External Key" [ref=e662]
+                      - cell [ref=e663]
+                    - row "Last Modified By Somya Sijaria, 4/10/2026, 9:41 AM Referring RES" [ref=e665]:
+                      - cell "Last Modified By" [ref=e666]
+                      - cell "Somya Sijaria, 4/10/2026, 9:41 AM" [ref=e667]:
+                        - generic [ref=e668]:
+                          - link "Somya Sijaria" [ref=e669] [cursor=pointer]:
+                            - /url: /005dz00000BSn13
+                          - text: ", 4/10/2026, 9:41 AM"
+                      - cell "Referring RES" [ref=e670]
+                      - cell [ref=e671]
+                - generic [ref=e673]:
+                  - button "Hide Section - Plan Details Report" [ref=e674] [cursor=pointer]
+                  - heading "Plan Details Report" [level=3] [ref=e675]
+                - table [ref=e677]:
+                  - rowgroup [ref=e678]:
+                    - row "InlinePlanDetailReportOpportunity" [ref=e679]:
+                      - cell "InlinePlanDetailReportOpportunity" [ref=e680]:
+                        - iframe [ref=e681]:
+                          - generic [active] [ref=f13e1]:
+                            - heading "No Plans to display" [level=2] [ref=f13e4]
+                            - iframe [ref=f13e6]:
+                              
+              - table [ref=e683]:
+                - rowgroup [ref=e684]:
+                  - row "Edit Delete Clone Rollover DDP Send with DocuSign Request Delete Send an Email Update Participant Online Distribution Status Update Digital Retention Interaction New Account Recommendation New Investment Recommendation Generate Documents" [ref=e685]:
+                    - cell [ref=e686]
+                    - cell "Edit Delete Clone Rollover DDP Send with DocuSign Request Delete Send an Email Update Participant Online Distribution Status Update Digital Retention Interaction New Account Recommendation New Investment Recommendation Generate Documents" [ref=e687]:
+                      - button "Edit" [ref=e688] [cursor=pointer]
+                      - button "Delete" [ref=e689] [cursor=pointer]
+                      - button "Clone" [ref=e690] [cursor=pointer]
+                      - button "Rollover DDP" [ref=e691] [cursor=pointer]
+                      - button "Send with DocuSign" [ref=e692] [cursor=pointer]
+                      - button "Request Delete" [ref=e693] [cursor=pointer]
+                      - button "Send an Email" [ref=e694] [cursor=pointer]
+                      - button "Update Participant Online Distribution Status" [ref=e695] [cursor=pointer]
+                      - button "Update Digital Retention Interaction" [ref=e696] [cursor=pointer]
+                      - button "New Account Recommendation" [ref=e697] [cursor=pointer]
+                      - button "New Investment Recommendation" [ref=e698] [cursor=pointer]
+                      - button "Generate Documents" [ref=e699] [cursor=pointer]
+            - generic [ref=e702]:
+              - table [ref=e704]:
+                - rowgroup [ref=e705]:
+                  - row "Digital Retention Interactions New Digital Retention Interaction Digital Retention Interactions Help Digital Retention Interactions Help (New Window)" [ref=e706]:
+                    - cell "Digital Retention Interactions" [ref=e707]:
+                      - heading "Digital Retention Interactions" [level=3] [ref=e708]
+                    - cell "New Digital Retention Interaction" [ref=e709]:
+                      - button "New Digital Retention Interaction" [ref=e710] [cursor=pointer]
+                    - cell "Digital Retention Interactions Help Digital Retention Interactions Help (New Window)" [ref=e711]:
+                      - generic "Digital Retention Interactions Help (New Window)" [ref=e712]:
+                        - link "Digital Retention Interactions Help Digital Retention Interactions Help (New Window)" [ref=e713] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=co_relatedlist.htm&section=CustomObjects&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Digital Retention Interactions Help
+                          - img "Digital Retention Interactions Help (New Window)" [ref=e714]
+              - table [ref=e716]:
+                - rowgroup [ref=e717]:
+                  - row "No records to display" [ref=e718]:
+                    - columnheader "No records to display" [ref=e719]
+            - generic [ref=e722]:
+              - table [ref=e724]:
+                - rowgroup [ref=e725]:
+                  - row "Recommendations Recommendations Help Recommendations Help (New Window)" [ref=e726]:
+                    - cell "Recommendations" [ref=e727]:
+                      - heading "Recommendations" [level=3] [ref=e728]
+                    - cell [ref=e729]
+                    - cell "Recommendations Help Recommendations Help (New Window)" [ref=e730]:
+                      - generic "Recommendations Help (New Window)" [ref=e731]:
+                        - link "Recommendations Help Recommendations Help (New Window)" [ref=e732] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=co_relatedlist.htm&section=CustomObjects&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Recommendations Help
+                          - img "Recommendations Help (New Window)" [ref=e733]
+              - table [ref=e735]:
+                - rowgroup [ref=e736]:
+                  - row "No records to display" [ref=e737]:
+                    - columnheader "No records to display" [ref=e738]
+            - generic [ref=e741]:
+              - table [ref=e743]:
+                - rowgroup [ref=e744]:
+                  - row "Investment Investment Help Investment Help (New Window)" [ref=e745]:
+                    - cell "Investment" [ref=e746]:
+                      - heading "Investment" [level=3] [ref=e747]
+                    - cell [ref=e748]
+                    - cell "Investment Help Investment Help (New Window)" [ref=e749]:
+                      - generic "Investment Help (New Window)" [ref=e750]:
+                        - link "Investment Help Investment Help (New Window)" [ref=e751] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=co_relatedlist.htm&section=CustomObjects&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Investment Help
+                          - img "Investment Help (New Window)" [ref=e752]
+              - table [ref=e754]:
+                - rowgroup [ref=e755]:
+                  - row "No records to display" [ref=e756]:
+                    - columnheader "No records to display" [ref=e757]
+            - generic [ref=e761]:
+              - table [ref=e763]:
+                - rowgroup [ref=e764]:
+                  - row "Fund Account Selection Fund Account Selections New Fund Account Selection Fund Account Selections Help Fund Account Selections Help (New Window)" [ref=e765]:
+                    - cell "Fund Account Selection Fund Account Selections" [ref=e766]:
+                      - img "Fund Account Selection" [ref=e767]
+                      - heading "Fund Account Selections" [level=3] [ref=e768]
+                    - cell "New Fund Account Selection" [ref=e769]:
+                      - button "New Fund Account Selection" [ref=e770] [cursor=pointer]
+                    - cell "Fund Account Selections Help Fund Account Selections Help (New Window)" [ref=e771]:
+                      - generic "Fund Account Selections Help (New Window)" [ref=e772]:
+                        - link "Fund Account Selections Help Fund Account Selections Help (New Window)" [ref=e773] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=co_relatedlist.htm&section=CustomObjects&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Fund Account Selections Help
+                          - img "Fund Account Selections Help (New Window)" [ref=e774]
+              - table [ref=e776]:
+                - rowgroup [ref=e777]:
+                  - row "No records to display" [ref=e778]:
+                    - columnheader "No records to display" [ref=e779]
+            - generic [ref=e782]:
+              - table [ref=e784]:
+                - rowgroup [ref=e785]:
+                  - row "Recommended Fund Account Selections Recommended Fund Account Selections Help Recommended Fund Account Selections Help (New Window)" [ref=e786]:
+                    - cell "Recommended Fund Account Selections" [ref=e787]:
+                      - heading "Recommended Fund Account Selections" [level=3] [ref=e788]
+                    - cell [ref=e789]
+                    - cell "Recommended Fund Account Selections Help Recommended Fund Account Selections Help (New Window)" [ref=e790]:
+                      - generic "Recommended Fund Account Selections Help (New Window)" [ref=e791]:
+                        - link "Recommended Fund Account Selections Help Recommended Fund Account Selections Help (New Window)" [ref=e792] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=co_relatedlist.htm&section=CustomObjects&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Recommended Fund Account Selections Help
+                          - img "Recommended Fund Account Selections Help (New Window)" [ref=e793]
+              - table [ref=e795]:
+                - rowgroup [ref=e796]:
+                  - row "No records to display" [ref=e797]:
+                    - columnheader "No records to display" [ref=e798]
+            - generic [ref=e802]:
+              - table [ref=e804]:
+                - rowgroup [ref=e805]:
+                  - row "Open Activities New Task Send an Email Open Activities Help Open Activities Help (New Window)" [ref=e806]:
+                    - cell "Open Activities" [ref=e807]:
+                      - heading "Open Activities" [level=3] [ref=e808]
+                    - cell "New Task Send an Email" [ref=e809]:
+                      - button "New Task" [ref=e810] [cursor=pointer]
+                      - button "Send an Email" [ref=e811] [cursor=pointer]
+                    - cell "Open Activities Help Open Activities Help (New Window)" [ref=e812]:
+                      - generic "Open Activities Help (New Window)" [ref=e813]:
+                        - link "Open Activities Help Open Activities Help (New Window)" [ref=e814] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=activities_view.htm&section=Activities&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Open Activities Help
+                          - img "Open Activities Help (New Window)" [ref=e815]
+              - table [ref=e817]:
+                - rowgroup [ref=e818]:
+                  - row "No records to display" [ref=e819]:
+                    - columnheader "No records to display" [ref=e820]
+            - generic [ref=e824]:
+              - table [ref=e826]:
+                - rowgroup [ref=e827]:
+                  - row "Activity History Log a Call Activity History Help Activity History Help (New Window)" [ref=e828]:
+                    - cell "Activity History" [ref=e829]:
+                      - heading "Activity History" [level=3] [ref=e830]
+                    - cell "Log a Call" [ref=e831]:
+                      - button "Log a Call" [ref=e832] [cursor=pointer]
+                    - cell "Activity History Help Activity History Help (New Window)" [ref=e833]:
+                      - generic "Activity History Help (New Window)" [ref=e834]:
+                        - link "Activity History Help Activity History Help (New Window)" [ref=e835] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=activities_view.htm&section=Activities&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Activity History Help
+                          - img "Activity History Help (New Window)" [ref=e836]
+              - table [ref=e838]:
+                - rowgroup [ref=e839]:
+                  - row "No records to display" [ref=e840]:
+                    - columnheader "No records to display" [ref=e841]
+            - generic [ref=e844]:
+              - table [ref=e846]:
+                - rowgroup [ref=e847]:
+                  - row "DocuSign Status DocuSign Status New DocuSign Status DocuSign Status Help DocuSign Status Help (New Window)" [ref=e848]:
+                    - cell "DocuSign Status DocuSign Status" [ref=e849]:
+                      - img "DocuSign Status" [ref=e850]
+                      - heading "DocuSign Status" [level=3] [ref=e851]
+                    - cell "New DocuSign Status" [ref=e852]:
+                      - button "New DocuSign Status" [ref=e853] [cursor=pointer]
+                    - cell "DocuSign Status Help DocuSign Status Help (New Window)" [ref=e854]:
+                      - generic "DocuSign Status Help (New Window)" [ref=e855]:
+                        - link "DocuSign Status Help DocuSign Status Help (New Window)" [ref=e856] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=co_relatedlist.htm&section=CustomObjects&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: DocuSign Status Help
+                          - img "DocuSign Status Help (New Window)" [ref=e857]
+              - table [ref=e859]:
+                - rowgroup [ref=e860]:
+                  - row "No records to display" [ref=e861]:
+                    - columnheader "No records to display" [ref=e862]
+            - generic [ref=e865]:
+              - table [ref=e867]:
+                - rowgroup [ref=e868]:
+                  - row "Opportunity Team Add Add Default Team Delete All Opportunity Team Help Opportunity Team Help (New Window)" [ref=e869]:
+                    - cell "Opportunity Team" [ref=e870]:
+                      - heading "Opportunity Team" [level=3] [ref=e871]
+                    - cell "Add Add Default Team Delete All" [ref=e872]:
+                      - button "Add" [ref=e873] [cursor=pointer]
+                      - button "Add Default Team" [ref=e874] [cursor=pointer]
+                      - button "Delete All" [ref=e875] [cursor=pointer]
+                    - cell "Opportunity Team Help Opportunity Team Help (New Window)" [ref=e876]:
+                      - generic "Opportunity Team Help (New Window)" [ref=e877]:
+                        - link "Opportunity Team Help Opportunity Team Help (New Window)" [ref=e878] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=salesteam_def.htm&section=Team_Selling&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Opportunity Team Help
+                          - img "Opportunity Team Help (New Window)" [ref=e879]
+              - table [ref=e881]:
+                - rowgroup [ref=e882]:
+                  - row "No records to display" [ref=e883]:
+                    - columnheader "No records to display" [ref=e884]
+            - generic [ref=e887]:
+              - table [ref=e889]:
+                - rowgroup [ref=e890]:
+                  - row "Campaign Influence Add to Campaign Campaign Influence Help Campaign Influence Help (New Window)" [ref=e891]:
+                    - cell "Campaign Influence" [ref=e892]:
+                      - heading "Campaign Influence" [level=3] [ref=e893]
+                    - cell "Add to Campaign" [ref=e894]:
+                      - button "Add to Campaign" [ref=e895] [cursor=pointer]
+                    - cell "Campaign Influence Help Campaign Influence Help (New Window)" [ref=e896]:
+                      - generic "Campaign Influence Help (New Window)" [ref=e897]:
+                        - link "Campaign Influence Help Campaign Influence Help (New Window)" [ref=e898] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=campaigns_influence_using.htm&section=Cases&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Campaign Influence Help
+                          - img "Campaign Influence Help (New Window)" [ref=e899]
+              - table [ref=e901]:
+                - rowgroup [ref=e902]:
+                  - row "No records to display" [ref=e903]:
+                    - columnheader "No records to display" [ref=e904]
+            - generic [ref=e907]:
+              - table [ref=e909]:
+                - rowgroup [ref=e910]:
+                  - row "Transaction Parties Transaction Parties Transaction Parties Help Transaction Parties Help (New Window)" [ref=e911]:
+                    - cell "Transaction Parties Transaction Parties" [ref=e912]:
+                      - img "Transaction Parties" [ref=e913]
+                      - heading "Transaction Parties" [level=3] [ref=e914]
+                    - cell [ref=e915]
+                    - cell "Transaction Parties Help Transaction Parties Help (New Window)" [ref=e916]:
+                      - generic "Transaction Parties Help (New Window)" [ref=e917]:
+                        - link "Transaction Parties Help Transaction Parties Help (New Window)" [ref=e918] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=co_relatedlist.htm&section=CustomObjects&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Transaction Parties Help
+                          - img "Transaction Parties Help (New Window)" [ref=e919]
+              - table [ref=e921]:
+                - rowgroup [ref=e922]:
+                  - row "No records to display" [ref=e923]:
+                    - columnheader "No records to display" [ref=e924]
+            - generic [ref=e927]:
+              - table [ref=e929]:
+                - rowgroup [ref=e930]:
+                  - row "Contact Roles New Contact Roles Help Contact Roles Help (New Window)" [ref=e931]:
+                    - cell "Contact Roles" [ref=e932]:
+                      - heading "Contact Roles" [level=3] [ref=e933]
+                    - cell "New" [ref=e934]:
+                      - button "New" [ref=e935] [cursor=pointer]
+                    - cell "Contact Roles Help Contact Roles Help (New Window)" [ref=e936]:
+                      - generic "Contact Roles Help (New Window)" [ref=e937]:
+                        - link "Contact Roles Help Contact Roles Help (New Window)" [ref=e938] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=contactroles_add.htm&section=Contact_Roles&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Contact Roles Help
+                          - img "Contact Roles Help (New Window)" [ref=e939]
+              - table [ref=e941]:
+                - rowgroup [ref=e942]:
+                  - row "No records to display" [ref=e943]:
+                    - columnheader "No records to display" [ref=e944]
+            - generic [ref=e947]:
+              - table [ref=e949]:
+                - rowgroup [ref=e950]:
+                  - row "Cases New Case Cases Help Cases Help (New Window)" [ref=e951]:
+                    - cell "Cases" [ref=e952]:
+                      - heading "Cases" [level=3] [ref=e953]
+                    - cell "New Case" [ref=e954]:
+                      - button "New Case" [ref=e955] [cursor=pointer]
+                    - cell "Cases Help Cases Help (New Window)" [ref=e956]:
+                      - generic "Cases Help (New Window)" [ref=e957]:
+                        - link "Cases Help Cases Help (New Window)" [ref=e958] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=co_relatedlist.htm&section=CustomObjects&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Cases Help
+                          - img "Cases Help (New Window)" [ref=e959]
+              - table [ref=e961]:
+                - rowgroup [ref=e962]:
+                  - row "No records to display" [ref=e963]:
+                    - columnheader "No records to display" [ref=e964]
+            - generic [ref=e967]:
+              - table [ref=e969]:
+                - rowgroup [ref=e970]:
+                  - row "Stage History Stage History Help Stage History Help (New Window)" [ref=e971]:
+                    - cell "Stage History" [ref=e972]:
+                      - heading "Stage History" [level=3] [ref=e973]
+                    - cell [ref=e974]
+                    - cell "Stage History Help Stage History Help (New Window)" [ref=e975]:
+                      - generic "Stage History Help (New Window)" [ref=e976]:
+                        - link "Stage History Help Stage History Help (New Window)" [ref=e977] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=opp_history.htm&section=Opportunities&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Stage History Help
+                          - img "Stage History Help (New Window)" [ref=e978]
+              - table [ref=e980]:
+                - rowgroup [ref=e981]:
+                  - row "Stage Amount Probability (%) Expected Revenue Close Date Last Modified" [ref=e982]:
+                    - columnheader "Stage" [ref=e983]
+                    - columnheader "Amount" [ref=e984]
+                    - columnheader "Probability (%)" [ref=e985]
+                    - columnheader "Expected Revenue" [ref=e986]
+                    - columnheader "Close Date" [ref=e987]
+                    - columnheader "Last Modified" [ref=e988]
+                  - row "New $0.00 10% $0.00 4/24/2026 Somya Sijaria, 4/10/2026, 9:41 AM" [ref=e989]:
+                    - rowheader "New" [ref=e990]
+                    - cell "$0.00" [ref=e991]
+                    - cell "10%" [ref=e992]
+                    - cell "$0.00" [ref=e993]
+                    - cell "4/24/2026" [ref=e994]
+                    - cell "Somya Sijaria, 4/10/2026, 9:41 AM" [ref=e995]:
+                      - link "Somya Sijaria" [ref=e996] [cursor=pointer]:
+                        - /url: /005dz00000BSn13
+                      - text: ", 4/10/2026, 9:41 AM"
+            - generic [ref=e999]:
+              - table [ref=e1001]:
+                - rowgroup [ref=e1002]:
+                  - row "Opportunity Field History Opportunity Field History Help Opportunity Field History Help (New Window)" [ref=e1003]:
+                    - cell "Opportunity Field History" [ref=e1004]:
+                      - heading "Opportunity Field History" [level=3] [ref=e1005]
+                    - cell [ref=e1006]
+                    - cell "Opportunity Field History Help Opportunity Field History Help (New Window)" [ref=e1007]:
+                      - generic "Opportunity Field History Help (New Window)" [ref=e1008]:
+                        - link "Opportunity Field History Help Opportunity Field History Help (New Window)" [ref=e1009] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=opp_history.htm&section=Opportunities&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Opportunity Field History Help
+                          - img "Opportunity Field History Help (New Window)" [ref=e1010]
+              - table [ref=e1012]:
+                - rowgroup [ref=e1013]:
+                  - row "Date User Action" [ref=e1014]:
+                    - columnheader "Date" [ref=e1015]
+                    - columnheader "User" [ref=e1016]
+                    - columnheader "Action" [ref=e1017]
+                  - row "4/10/2026, 9:41 AM Somya Sijaria Changed Registration Type to MJHBS." [ref=e1018]:
+                    - rowheader "4/10/2026, 9:41 AM" [ref=e1019]
+                    - cell "Somya Sijaria" [ref=e1020]:
+                      - link "Somya Sijaria" [ref=e1021] [cursor=pointer]:
+                        - /url: /005dz00000BSn13
+                    - cell "Changed Registration Type to MJHBS." [ref=e1022]:
+                      - text: Changed
+                      - strong [ref=e1023]: Registration Type
+                      - text: to
+                      - strong [ref=e1024]: MJHBS
+                      - text: .
+                  - row "Created." [ref=e1025]:
+                    - rowheader [ref=e1026]
+                    - cell [ref=e1027]
+                    - cell "Created." [ref=e1028]
+            - generic [ref=e1031]:
+              - table [ref=e1033]:
+                - rowgroup [ref=e1034]:
+                  - row "Notes & Attachments New Note Attach File Notes & Attachments Help Notes & Attachments Help (New Window)" [ref=e1035]:
+                    - cell "Notes & Attachments" [ref=e1036]:
+                      - heading "Notes & Attachments" [level=3] [ref=e1037]
+                    - cell "New Note Attach File" [ref=e1038]:
+                      - button "New Note" [ref=e1039] [cursor=pointer]
+                      - button "Attach File" [ref=e1040] [cursor=pointer]
+                    - cell "Notes & Attachments Help Notes & Attachments Help (New Window)" [ref=e1041]:
+                      - generic "Notes & Attachments Help (New Window)" [ref=e1042]:
+                        - link "Notes & Attachments Help Notes & Attachments Help (New Window)" [ref=e1043] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=notes_admin_overview.htm&section=Notes_Attachments&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Notes & Attachments Help
+                          - img "Notes & Attachments Help (New Window)" [ref=e1044]
+              - table [ref=e1046]:
+                - rowgroup [ref=e1047]:
+                  - row "No records to display" [ref=e1048]:
+                    - columnheader "No records to display" [ref=e1049]
+            - generic [ref=e1052]:
+              - table [ref=e1054]:
+                - rowgroup [ref=e1055]:
+                  - row "Approval History Submit for Approval Approval History Help Approval History Help (New Window)" [ref=e1056]:
+                    - cell "Approval History" [ref=e1057]:
+                      - heading "Approval History" [level=3] [ref=e1058]
+                    - cell "Submit for Approval" [ref=e1059]:
+                      - button "Submit for Approval" [ref=e1060] [cursor=pointer]
+                    - cell "Approval History Help Approval History Help (New Window)" [ref=e1061]:
+                      - generic "Approval History Help (New Window)" [ref=e1062]:
+                        - link "Approval History Help Approval History Help (New Window)" [ref=e1063] [cursor=pointer]:
+                          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=approvals_approval_history.htm&section=Dev_Tools&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                          - text: Approval History Help
+                          - img "Approval History Help (New Window)" [ref=e1064]
+              - table [ref=e1066]:
+                - rowgroup [ref=e1067]:
+                  - row "No records to display" [ref=e1068]:
+                    - columnheader "No records to display" [ref=e1069]
+            - generic [ref=e1070]:
+              - link "Back to TopBack To Top" [ref=e1072] [cursor=pointer]:
+                - /url: "#skiplink"
+                - img "Back to Top" [ref=e1073]
+                - text: Back To Top
+              - text: Always show me
+              - link "Show Moremore" [ref=e1074] [cursor=pointer]:
+                - /url: /006dz00000EAfUr?rowsperlist=10
+                - img "Show More" [ref=e1075]
+                - text: more
+              - text: records per related list
+    - generic [ref=e1077]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e1078] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e1079] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e1080] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e1081] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e1082] [cursor=pointer]:
+        - /url: /ltng/oneAppRedirect
+  - iframe [ref=e1083]:
+    
+  - generic:
+    - button "Expand Quick Access Menu" [ref=e1133]
+    - generic [ref=e1134]:
+      - generic [ref=e1135]:
+        - link "Go to Setup" [ref=e1136] [cursor=pointer]:
+          - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F006dz00000EAfUr
+          - img "Go to Setup" [ref=e1137]
+        - link "Help" [ref=e1138] [cursor=pointer]:
+          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?section=Dev_Tools&target=dev_quick_access_menu.htm&loc=help&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+          - img "Help" [ref=e1139]
+      - generic [ref=e1140]:
+        - list [ref=e1141]:
+          - listitem [ref=e1142]:
+            - link "View Fields" [ref=e1143] [cursor=pointer]:
+              - /url: /p/setup/layout/LayoutFieldList?type=Opportunity&setupid=OpportunityFields
+          - listitem [ref=e1144]:
+            - link "View Object" [ref=e1145] [cursor=pointer]:
+              - /url: /ui/setup/Setup?setupid=Opportunity
+          - listitem [ref=e1146]:
+            - link "View Validation Rules" [ref=e1147] [cursor=pointer]:
+              - /url: /_ui/common/config/entity/ValidationFormulaListUI/d?retURL=%2F006dz00000EAfUr&tableEnumOrId=Opportunity&setupid=OpportunityValidations
+          - listitem [ref=e1148]:
+            - link "View Approvals" [ref=e1149] [cursor=pointer]:
+              - /url: /p/process/ProcessDefinitionSetup?TableEnumOrId=Opportunity&setupid=ApprovalProcesses
+        - separator [ref=e1150]
+        - list [ref=e1151]:
+          - listitem [ref=e1152]:
+            - link "Edit App" [ref=e1153] [cursor=pointer]:
+              - /url: /02uG0000000GeGC/e?retURL=%2F006dz00000EAfUr&setupid=TabSet
+          - listitem [ref=e1154]:
+            - link "Edit Layout" [ref=e1155] [cursor=pointer]:
+              - /url: /layouteditor/layoutEditor.apexp?type=Opportunity&lid=00h4R00000mxxnK&retURL=%2F006dz00000EAfUr&setupid=OpportunityLayouts
+          - listitem [ref=e1156]:
+            - link "View Record Type" [ref=e1157] [cursor=pointer]:
+              - /url: /setup/ui/recordtypefields.jsp?id=012G0000001BFrD&type=Opportunity&setupid=OpportunityRecords
+      - link "Turn off menu" [ref=e1159] [cursor=pointer]:
+        - /url: "#"

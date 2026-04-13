@@ -1,0 +1,1398 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4377] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e4378] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e4379] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e4380] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e4381]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e4382]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e4383] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e4384] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e4385] [cursor=pointer]:
+                - generic [ref=e833]:
+                  - img [ref=e837]
+                  - tooltip "Global Actions"
+            - listitem [ref=e95]:
+              - button "Guidance Center" [ref=e4386] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e102]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e105]:
+              - button "Salesforce Help" [ref=e4387] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - img [ref=e113]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e116]:
+              - button "Setup" [ref=e4388] [cursor=pointer]:
+                - generic [ref=e123]:
+                  - img [ref=e127]
+                  - tooltip "Setup"
+            - listitem [ref=e130]:
+              - button "Notifications" [ref=e4389] [cursor=pointer]:
+                - generic [ref=e134]:
+                  - img [ref=e139]
+                  - tooltip "Notifications"
+            - listitem [ref=e143]:
+              - button "View profile" [ref=e4390] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - tooltip "View profile"
+    - generic [ref=e151]:
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - navigation "App" [ref=e4391]:
+            - button "App Launcher" [ref=e4392] [cursor=pointer]:
+              - generic [ref=e170]: App Launcher
+          - heading "PFS" [level=1] [ref=e4393]:
+            - generic "PFS" [ref=e4394]
+        - navigation "Global" [ref=e4395]:
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Home" [ref=e4396] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e179]: Home
+            - listitem [ref=e180]:
+              - link "Tasks" [ref=e4397] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e182]: Tasks
+            - listitem [ref=e183]:
+              - link "Leads" [ref=e4398] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e185]: Leads
+              - button "Leads List" [ref=e4399] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e196]: Leads List
+            - listitem [ref=e197]:
+              - link "Campaigns" [ref=e4400] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e199]: Campaigns
+              - button "Campaigns List" [ref=e4401] [cursor=pointer]:
+                - img [ref=e207]
+                - generic [ref=e210]: Campaigns List
+            - listitem [ref=e211]:
+              - link "Accounts" [ref=e4402] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e213]: Accounts
+              - button "Accounts List" [ref=e4403] [cursor=pointer]:
+                - img [ref=e221]
+                - generic [ref=e224]: Accounts List
+            - listitem [ref=e225]:
+              - link "Contacts" [ref=e4404] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e227]: Contacts
+              - button "Contacts List" [ref=e4405] [cursor=pointer]:
+                - img [ref=e235]
+                - generic [ref=e238]: Contacts List
+            - listitem [ref=e239] [cursor=pointer]:
+              - link "Opportunities" [ref=e4406]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e241]: Opportunities
+              - button "Opportunities List" [ref=e4407]:
+                - img [ref=e249]
+                - generic [ref=e252]: Opportunities List
+            - listitem [ref=e253]:
+              - link "Reports" [ref=e4408] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e255]: Reports
+              - button "Reports List" [ref=e4409] [cursor=pointer]:
+                - img [ref=e263]
+                - generic [ref=e266]: Reports List
+            - listitem [ref=e267]:
+              - link "Dashboards" [ref=e4410] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e269]: Dashboards
+              - button "Dashboards List" [ref=e4411] [cursor=pointer]:
+                - img [ref=e277]
+                - generic [ref=e280]: Dashboards List
+            - listitem [ref=e281]:
+              - link "Thresholds" [ref=e4412] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e283]: Thresholds
+              - button "Thresholds List" [ref=e4413] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e294]: Thresholds List
+            - listitem [ref=e295]:
+              - button "Help" [ref=e4414] [cursor=pointer]:
+                - img [ref=e301]
+                - generic [ref=e304]: Help
+      - main [ref=e306]:
+        - generic [ref=e310]:
+          - text: · · · · ·
+          - generic [ref=e4426]:
+            - generic [ref=e4435]:
+              - generic [ref=e4436]:
+                - heading "Opportunity Rol - - test new account" [level=1] [ref=e4443]:
+                  - generic [ref=e4445]: Opportunity
+                  - generic [ref=e4446]: Rol - - test new account
+                - generic [ref=e4450]:
+                  - generic "New Note" [ref=e4451]:
+                    - button "New Note" [ref=e4456] [cursor=pointer]
+                  - generic "View Relationship Map" [ref=e4457]:
+                    - button "View Relationship Map" [ref=e4462] [cursor=pointer]
+                  - generic "Clone" [ref=e4463]:
+                    - button "Clone" [ref=e4468] [cursor=pointer]
+                  - button "Show more actions" [ref=e4470] [cursor=pointer]:
+                    - img [ref=e4472]
+                    - generic [ref=e4475]: Show more actions
+              - generic [ref=e4476]:
+                - generic [ref=e4478]:
+                  - paragraph [ref=e4479]: Account Name
+                  - paragraph [ref=e4480]:
+                    - generic [ref=e4485]:
+                      - link "test new account" [ref=e4486] [cursor=pointer]:
+                        - /url: /lightning/r/Account/001dz00000FvD85AAF/view
+                        - generic [ref=e4490]: test new account
+                      - button "Open test new account Preview" [ref=e4492] [cursor=pointer]:
+                        - img [ref=e4494]
+                        - generic [ref=e4497]: Open test new account Preview
+                - generic [ref=e4499]:
+                  - paragraph [ref=e4500]: Close Date
+                  - paragraph [ref=e4501]:
+                    - generic [ref=e4502]: 4/22/2026
+                - generic [ref=e4504]:
+                  - paragraph [ref=e4505]: Amount
+                  - paragraph
+                - generic [ref=e4507]:
+                  - paragraph [ref=e4508]: Opportunity Owner
+                  - paragraph [ref=e4509]:
+                    - generic [ref=e4512]:
+                      - generic [ref=e4519]:
+                        - link "Somya Sijaria" [ref=e4520] [cursor=pointer]:
+                          - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                          - generic [ref=e4524]: Somya Sijaria
+                        - button "Open Somya Sijaria Preview" [ref=e4526] [cursor=pointer]:
+                          - img [ref=e4528]
+                          - generic [ref=e4531]: Open Somya Sijaria Preview
+                      - button "Change Owner" [ref=e4533] [cursor=pointer]:
+                        - img [ref=e4535]
+                        - generic [ref=e4538]: Change Owner
+            - article [ref=e4547]:
+              - generic [ref=e4548]:
+                - heading "Path" [level=2] [ref=e4549]
+                - generic [ref=e4552]:
+                  - listbox "Path Options" [ref=e4557]:
+                    - option "New" [selected] [ref=e4558] [cursor=pointer]:
+                      - generic [ref=e4559]: New
+                    - option "In Progress" [ref=e4560] [cursor=pointer]:
+                      - generic [ref=e4561]: In Progress
+                    - option "Closed" [ref=e4562] [cursor=pointer]:
+                      - generic [ref=e4563]: Closed
+                  - button "Mark Stage as Complete" [ref=e4565] [cursor=pointer]:
+                    - img [ref=e4569]
+                    - generic [ref=e4572]: Mark Stage as Complete
+            - generic [ref=e4573]:
+              - generic [ref=e4579]:
+                - heading "Tabs" [level=2] [ref=e4580]
+                - generic "Tabs" [ref=e4581]:
+                  - generic [ref=e4582]:
+                    - heading "Tabs" [level=2] [ref=e4583]
+                    - tablist "Tabs" [ref=e4585]:
+                      - tab "Details" [selected] [ref=e4586] [cursor=pointer]
+                      - tab "Skience Safe" [ref=e4587] [cursor=pointer]
+                    - tabpanel "Details" [ref=e4590]:
+                      - generic [ref=e4603]:
+                        - list [ref=e4607]:
+                          - generic [ref=e4608]:
+                            - generic [ref=e4610]:
+                              - listitem [ref=e4612]:
+                                - generic [ref=e4613]:
+                                  - generic [ref=e4614]: Opportunity Name
+                                  - generic [ref=e4615]:
+                                    - generic [ref=e4617]: Rol - - test new account
+                                    - button "Edit Opportunity Name" [ref=e4618] [cursor=pointer]:
+                                      - generic [ref=e4620]: Edit Opportunity Name
+                              - listitem [ref=e4622]:
+                                - generic [ref=e4623]:
+                                  - generic [ref=e4624]: Opportunity Owner
+                                  - generic [ref=e4629]:
+                                    - generic [ref=e4636]:
+                                      - link "Somya Sijaria" [ref=e4637] [cursor=pointer]:
+                                        - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                                        - generic [ref=e4641]: Somya Sijaria
+                                      - button "Open Somya Sijaria Preview" [ref=e4643] [cursor=pointer]:
+                                        - img [ref=e4645]
+                                        - generic [ref=e4648]: Open Somya Sijaria Preview
+                                    - button "Change Owner" [ref=e4650] [cursor=pointer]:
+                                      - img [ref=e4652]
+                                      - generic [ref=e4655]: Change Owner
+                            - generic [ref=e4657]:
+                              - listitem [ref=e4659]:
+                                - generic [ref=e4660]:
+                                  - generic [ref=e4661]: Account Name
+                                  - generic [ref=e4662]:
+                                    - generic [ref=e4668]:
+                                      - link "test new account" [ref=e4669] [cursor=pointer]:
+                                        - /url: /lightning/r/Account/001dz00000FvD85AAF/view
+                                        - generic [ref=e4673]: test new account
+                                      - button "Open test new account Preview" [ref=e4675] [cursor=pointer]:
+                                        - img [ref=e4677]
+                                        - generic [ref=e4680]: Open test new account Preview
+                                    - button "Edit Account Name" [ref=e4681] [cursor=pointer]:
+                                      - generic [ref=e4683]: Edit Account Name
+                              - listitem [ref=e4685]:
+                                - generic [ref=e4686]:
+                                  - generic [ref=e4687]: Opportunity Owner Text
+                                  - generic [ref=e4688]:
+                                    - generic [ref=e4690]: Somya Sijaria
+                                    - button "Edit Opportunity Owner Text" [ref=e4691] [cursor=pointer]:
+                                      - generic [ref=e4693]: Edit Opportunity Owner Text
+                            - generic [ref=e4695]:
+                              - listitem [ref=e4697]:
+                                - generic [ref=e4698]:
+                                  - generic [ref=e4699]: Plan
+                                  - generic [ref=e4700]:
+                                    - generic [ref=e4706]:
+                                      - link "TestPlan401k_1774956494379" [ref=e4707] [cursor=pointer]:
+                                        - /url: /lightning/r/Plan__c/a0edz000001GqDNAA0/view
+                                        - generic [ref=e4711]: TestPlan401k_1774956494379
+                                      - button "Open TestPlan401k_1774956494379 Preview" [ref=e4713] [cursor=pointer]:
+                                        - img [ref=e4715]
+                                        - generic [ref=e4718]: Open TestPlan401k_1774956494379 Preview
+                                    - button "Edit Plan" [ref=e4719] [cursor=pointer]:
+                                      - generic [ref=e4721]: Edit Plan
+                              - listitem [ref=e4723]:
+                                - generic [ref=e4724]:
+                                  - generic [ref=e4725]: Opportunity Record Type
+                                  - generic [ref=e4730]:
+                                    - generic [ref=e4731]: Rollover
+                                    - button "Change Record Type" [ref=e4733] [cursor=pointer]:
+                                      - img [ref=e4735]
+                                      - generic [ref=e4738]: Change Record Type
+                            - generic [ref=e4740]:
+                              - listitem [ref=e4742]:
+                                - generic [ref=e4743]:
+                                  - generic [ref=e4744]: Spanish Speaker
+                                  - generic [ref=e4745]:
+                                    - generic [ref=e4750]:
+                                      - generic "False" [ref=e4751]:
+                                        - generic [ref=e4752]:
+                                          - img [ref=e4754]
+                                          - generic [ref=e4757]: "False"
+                                      - generic [ref=e4758]: Spanish Speaker
+                                    - button "Edit Spanish Speaker" [ref=e4759] [cursor=pointer]:
+                                      - generic [ref=e4761]: Edit Spanish Speaker
+                              - listitem [ref=e4763]:
+                                - generic [ref=e4764]:
+                                  - generic [ref=e4765]: Stage
+                                  - generic [ref=e4766]:
+                                    - generic [ref=e4768]: New
+                                    - button "Edit Stage" [ref=e4769] [cursor=pointer]:
+                                      - generic [ref=e4771]: Edit Stage
+                            - generic [ref=e4773]:
+                              - listitem [ref=e4775]:
+                                - generic [ref=e4776]:
+                                  - generic [ref=e4777]: Plan Term
+                                  - generic [ref=e4785]:
+                                    - generic "False" [ref=e4786]:
+                                      - generic [ref=e4787]:
+                                        - img [ref=e4789]
+                                        - generic [ref=e4792]: "False"
+                                    - generic [ref=e4793]: Plan Term
+                              - listitem [ref=e4795]:
+                                - generic [ref=e4796]:
+                                  - generic [ref=e4797]: Type
+                                  - generic [ref=e4798]:
+                                    - generic [ref=e4800]: Rollover
+                                    - button "Edit Type" [ref=e4801] [cursor=pointer]:
+                                      - generic [ref=e4803]: Edit Type
+                            - generic [ref=e4805]:
+                              - listitem [ref=e4807]:
+                                - generic [ref=e4809]: Forms Due Date
+                              - listitem [ref=e4812]:
+                                - generic [ref=e4813]:
+                                  - generic [ref=e4814]: Plan Product
+                                  - generic [ref=e4819]: Signature
+                            - generic [ref=e4821]:
+                              - listitem [ref=e4823]:
+                                - generic [ref=e4825]: JH Due Date
+                              - listitem [ref=e4828]:
+                                - generic [ref=e4829]:
+                                  - generic [ref=e4830]: Type Status
+                                  - button "Edit Type Status" [ref=e4832] [cursor=pointer]:
+                                    - generic [ref=e4834]: Edit Type Status
+                            - generic [ref=e4836]:
+                              - listitem [ref=e4838]:
+                                - generic [ref=e4839]:
+                                  - generic [ref=e4840]: Plan Deconversion
+                                  - generic [ref=e4848]:
+                                    - generic "False" [ref=e4849]:
+                                      - generic [ref=e4850]:
+                                        - img [ref=e4852]
+                                        - generic [ref=e4855]: "False"
+                                    - generic [ref=e4856]: Plan Deconversion
+                              - listitem [ref=e4858]:
+                                - generic [ref=e4859]:
+                                  - generic [ref=e4860]: DEF Future Approved
+                                  - generic [ref=e4861]:
+                                    - generic [ref=e4866]:
+                                      - generic "False" [ref=e4867]:
+                                        - generic [ref=e4868]:
+                                          - img [ref=e4870]
+                                          - generic [ref=e4873]: "False"
+                                      - generic [ref=e4874]: DEF Future Approved
+                                    - button "Edit DEF Future Approved" [ref=e4875] [cursor=pointer]:
+                                      - generic [ref=e4877]: Edit DEF Future Approved
+                            - generic [ref=e4879]:
+                              - listitem [ref=e4881]:
+                                - generic [ref=e4882]:
+                                  - generic [ref=e4883]: Priority
+                                  - button "Edit Priority" [ref=e4885] [cursor=pointer]:
+                                    - generic [ref=e4887]: Edit Priority
+                              - listitem [ref=e4889]:
+                                - generic [ref=e4890]:
+                                  - generic [ref=e4891]: DEF Approved Date
+                                  - button "Edit DEF Approved Date" [ref=e4893] [cursor=pointer]:
+                                    - generic [ref=e4895]: Edit DEF Approved Date
+                            - generic [ref=e4897]:
+                              - listitem [ref=e4899]:
+                                - generic [ref=e4900]:
+                                  - generic [ref=e4901]: Survey Opt Out
+                                  - generic [ref=e4902]:
+                                    - generic [ref=e4907]:
+                                      - generic "False" [ref=e4908]:
+                                        - generic [ref=e4909]:
+                                          - img [ref=e4911]
+                                          - generic [ref=e4914]: "False"
+                                      - generic [ref=e4915]: Survey Opt Out
+                                    - button "Edit Survey Opt Out" [ref=e4916] [cursor=pointer]:
+                                      - generic [ref=e4918]: Edit Survey Opt Out
+                              - listitem [ref=e4920]:
+                                - generic [ref=e4921]:
+                                  - generic [ref=e4922]: Probability (%)
+                                  - generic [ref=e4923]:
+                                    - generic [ref=e4925]: 10%
+                                    - button "Edit Probability (%)" [ref=e4926] [cursor=pointer]:
+                                      - generic [ref=e4928]: Edit Probability (%)
+                            - generic [ref=e4930]:
+                              - listitem [ref=e4932]:
+                                - generic [ref=e4933]:
+                                  - generic [ref=e4934]: Registration Type
+                                  - generic [ref=e4935]:
+                                    - generic [ref=e4937]: MJHBS
+                                    - button "Edit Registration Type" [ref=e4938] [cursor=pointer]:
+                                      - generic [ref=e4940]: Edit Registration Type
+                              - listitem [ref=e4942]:
+                                - generic [ref=e4943]:
+                                  - generic [ref=e4944]: Participant Online Distribution Allowed
+                                  - generic "Help Participant Online Distribution Allowed":
+                                    - button "Help Participant Online Distribution Allowed" [ref=e4947] [cursor=pointer]:
+                                      - img [ref=e4949]
+                                      - generic [ref=e4952]: Help Participant Online Distribution Allowed
+                                  - generic [ref=e4953]:
+                                    - generic [ref=e4958]:
+                                      - generic "False" [ref=e4959]:
+                                        - generic [ref=e4960]:
+                                          - img [ref=e4962]
+                                          - generic [ref=e4965]: "False"
+                                      - generic [ref=e4966]: Participant Online Distribution Allowed
+                                    - button "Edit Participant Online Distribution Allowed" [ref=e4967] [cursor=pointer]:
+                                      - generic [ref=e4969]: Edit Participant Online Distribution Allowed
+                            - generic [ref=e4971]:
+                              - listitem [ref=e4973]:
+                                - generic [ref=e4974]:
+                                  - generic [ref=e4975]: Approval Status
+                                  - button "Edit Approval Status" [ref=e4977] [cursor=pointer]:
+                                    - generic [ref=e4979]: Edit Approval Status
+                              - listitem [ref=e4981]:
+                                - generic [ref=e4982]:
+                                  - generic [ref=e4983]: Digital Retention Source?
+                                  - generic [ref=e4984]:
+                                    - generic [ref=e4989]:
+                                      - generic "False" [ref=e4990]:
+                                        - generic [ref=e4991]:
+                                          - img [ref=e4993]
+                                          - generic [ref=e4996]: "False"
+                                      - generic [ref=e4997]: Digital Retention Source?
+                                    - button "Edit Digital Retention Source?" [ref=e4998] [cursor=pointer]:
+                                      - generic [ref=e5000]: Edit Digital Retention Source?
+                            - generic [ref=e5002]:
+                              - listitem [ref=e5004]:
+                                - generic [ref=e5005]:
+                                  - generic [ref=e5006]: Account Recommendation
+                                  - generic [ref=e5007]:
+                                    - generic [ref=e5012]:
+                                      - generic "False" [ref=e5013]:
+                                        - generic [ref=e5014]:
+                                          - img [ref=e5016]
+                                          - generic [ref=e5019]: "False"
+                                      - generic [ref=e5020]: Account Recommendation
+                                    - button "Edit Account Recommendation" [ref=e5021] [cursor=pointer]:
+                                      - generic [ref=e5023]: Edit Account Recommendation
+                              - listitem [ref=e5025]:
+                                - generic [ref=e5026]:
+                                  - generic [ref=e5027]: JHSS NIGO Reason
+                                  - button "Edit JHSS NIGO Reason" [ref=e5029] [cursor=pointer]:
+                                    - generic [ref=e5031]: Edit JHSS NIGO Reason
+                            - generic [ref=e5033]:
+                              - listitem [ref=e5035]:
+                                - generic [ref=e5036]:
+                                  - generic [ref=e5037]: Investment Recommendation
+                                  - generic [ref=e5038]:
+                                    - generic [ref=e5043]:
+                                      - generic "False" [ref=e5044]:
+                                        - generic [ref=e5045]:
+                                          - img [ref=e5047]
+                                          - generic [ref=e5050]: "False"
+                                      - generic [ref=e5051]: Investment Recommendation
+                                    - button "Edit Investment Recommendation" [ref=e5052] [cursor=pointer]:
+                                      - generic [ref=e5054]: Edit Investment Recommendation
+                              - listitem [ref=e5056]:
+                                - generic [ref=e5057]:
+                                  - generic [ref=e5058]: Send Signed PPWK Issue
+                                  - button "Edit Send Signed PPWK Issue" [ref=e5060] [cursor=pointer]:
+                                    - generic [ref=e5062]: Edit Send Signed PPWK Issue
+                        - generic [ref=e5064]:
+                          - heading "Other Information" [level=3] [ref=e5065]:
+                            - button "Other Information" [expanded] [ref=e5066] [cursor=pointer]:
+                              - img [ref=e5071]
+                              - generic [ref=e5074]: Other Information
+                          - list [ref=e5076]:
+                            - generic [ref=e5077]:
+                              - generic [ref=e5079]:
+                                - listitem [ref=e5081]:
+                                  - generic [ref=e5082]:
+                                    - generic [ref=e5083]: Amount
+                                    - button "Edit Amount" [ref=e5085] [cursor=pointer]:
+                                      - generic [ref=e5087]: Edit Amount
+                                - listitem [ref=e5089]:
+                                  - generic [ref=e5090]:
+                                    - generic [ref=e5091]: Actual Amount
+                                    - button "Edit Actual Amount" [ref=e5093] [cursor=pointer]:
+                                      - generic [ref=e5095]: Edit Actual Amount
+                              - generic [ref=e5097]:
+                                - listitem [ref=e5099]:
+                                  - generic [ref=e5100]:
+                                    - generic [ref=e5101]: Total Account Balance
+                                    - generic [ref=e5106]: $0.00
+                                - listitem [ref=e5108]:
+                                  - generic [ref=e5109]:
+                                    - generic [ref=e5110]: Actual Destination
+                                    - button "Edit Actual Destination" [ref=e5112] [cursor=pointer]:
+                                      - generic [ref=e5114]: Edit Actual Destination
+                              - generic [ref=e5116]:
+                                - listitem [ref=e5118]:
+                                  - generic [ref=e5119]:
+                                    - generic [ref=e5120]: Rollover Amount
+                                    - generic [ref=e5125]: $0.00
+                                - listitem [ref=e5127]:
+                                  - generic [ref=e5128]:
+                                    - generic [ref=e5129]: Actual Close Date
+                                    - button "Edit Actual Close Date" [ref=e5131] [cursor=pointer]:
+                                      - generic [ref=e5133]: Edit Actual Close Date
+                              - generic [ref=e5135]:
+                                - listitem [ref=e5137]:
+                                  - generic [ref=e5138]:
+                                    - generic [ref=e5139]: Rollover %
+                                    - generic "Help Rollover %":
+                                      - button "Help Rollover %" [ref=e5142] [cursor=pointer]:
+                                        - img [ref=e5144]
+                                        - generic [ref=e5147]: Help Rollover %
+                                - listitem [ref=e5150]:
+                                  - generic [ref=e5151]:
+                                    - generic [ref=e5152]: Total Outbound Contact Task Count
+                                    - generic "Help Total Outbound Contact Task Count":
+                                      - button "Help Total Outbound Contact Task Count" [ref=e5155] [cursor=pointer]:
+                                        - img [ref=e5157]
+                                        - generic [ref=e5160]: Help Total Outbound Contact Task Count
+                                    - generic [ref=e5161]:
+                                      - generic [ref=e5163]: "0"
+                                      - button "Edit Total Outbound Contact Task Count" [ref=e5164] [cursor=pointer]:
+                                        - generic [ref=e5166]: Edit Total Outbound Contact Task Count
+                              - listitem [ref=e5170]:
+                                - generic [ref=e5171]:
+                                  - generic [ref=e5172]: Close Date
+                                  - generic [ref=e5173]:
+                                    - generic [ref=e5175]: 4/22/2026
+                                    - button "Edit Close Date" [ref=e5176] [cursor=pointer]:
+                                      - generic [ref=e5178]: Edit Close Date
+                        - generic [ref=e5181]:
+                          - heading "Withdrawal Details" [level=3] [ref=e5182]:
+                            - button "Withdrawal Details" [expanded] [ref=e5183] [cursor=pointer]:
+                              - img [ref=e5188]
+                              - generic [ref=e5191]: Withdrawal Details
+                          - list [ref=e5193]:
+                            - generic [ref=e5194]:
+                              - generic [ref=e5196]:
+                                - listitem [ref=e5198]:
+                                  - generic [ref=e5199]:
+                                    - generic [ref=e5200]: Do not send PPWK
+                                    - generic "Help Do not send PPWK":
+                                      - button "Help Do not send PPWK" [ref=e5203] [cursor=pointer]:
+                                        - img [ref=e5205]
+                                        - generic [ref=e5208]: Help Do not send PPWK
+                                    - generic [ref=e5209]:
+                                      - generic [ref=e5214]:
+                                        - generic "False" [ref=e5215]:
+                                          - generic [ref=e5216]:
+                                            - img [ref=e5218]
+                                            - generic [ref=e5221]: "False"
+                                        - generic [ref=e5222]: Do not send PPWK
+                                      - button "Edit Do not send PPWK" [ref=e5223] [cursor=pointer]:
+                                        - generic [ref=e5225]: Edit Do not send PPWK
+                                - listitem [ref=e5227]:
+                                  - generic [ref=e5228]:
+                                    - generic [ref=e5229]: CAR has completed WDF
+                                    - generic "Help CAR has completed WDF":
+                                      - button "Help CAR has completed WDF" [ref=e5232] [cursor=pointer]:
+                                        - img [ref=e5234]
+                                        - generic [ref=e5237]: Help CAR has completed WDF
+                                    - generic [ref=e5238]:
+                                      - generic [ref=e5243]:
+                                        - generic "False" [ref=e5244]:
+                                          - generic [ref=e5245]:
+                                            - img [ref=e5247]
+                                            - generic [ref=e5250]: "False"
+                                        - generic [ref=e5251]: CAR has completed WDF
+                                      - button "Edit CAR has completed WDF" [ref=e5252] [cursor=pointer]:
+                                        - generic [ref=e5254]: Edit CAR has completed WDF
+                              - generic [ref=e5256]:
+                                - listitem [ref=e5258]:
+                                  - generic [ref=e5259]:
+                                    - generic [ref=e5260]: Reason For Withdrawal
+                                    - button "Edit Reason For Withdrawal" [ref=e5262] [cursor=pointer]:
+                                      - generic [ref=e5264]: Edit Reason For Withdrawal
+                                - listitem [ref=e5266]:
+                                  - generic [ref=e5267]:
+                                    - generic [ref=e5268]: Directed PPT to TPA/PS for WDF
+                                    - generic "Help Directed PPT to TPA/PS for WDF":
+                                      - button "Help Directed PPT to TPA/PS for WDF" [ref=e5271] [cursor=pointer]:
+                                        - img [ref=e5273]
+                                        - generic [ref=e5276]: Help Directed PPT to TPA/PS for WDF
+                                    - generic [ref=e5277]:
+                                      - generic [ref=e5282]:
+                                        - generic "False" [ref=e5283]:
+                                          - generic [ref=e5284]:
+                                            - img [ref=e5286]
+                                            - generic [ref=e5289]: "False"
+                                        - generic [ref=e5290]: Directed PPT to TPA/PS for WDF
+                                      - button "Edit Directed PPT to TPA/PS for WDF" [ref=e5291] [cursor=pointer]:
+                                        - generic [ref=e5293]: Edit Directed PPT to TPA/PS for WDF
+                              - generic [ref=e5295]:
+                                - listitem [ref=e5297]:
+                                  - generic [ref=e5298]:
+                                    - generic [ref=e5299]: Termination Date
+                                    - button "Edit Termination Date" [ref=e5301] [cursor=pointer]:
+                                      - generic [ref=e5303]: Edit Termination Date
+                                - listitem [ref=e5305]:
+                                  - generic [ref=e5306]:
+                                    - generic [ref=e5307]: PPT already sent WDF to PS
+                                    - generic "Help PPT already sent WDF to PS":
+                                      - button "Help PPT already sent WDF to PS" [ref=e5310] [cursor=pointer]:
+                                        - img [ref=e5312]
+                                        - generic [ref=e5315]: Help PPT already sent WDF to PS
+                                    - generic [ref=e5316]:
+                                      - generic [ref=e5321]:
+                                        - generic "False" [ref=e5322]:
+                                          - generic [ref=e5323]:
+                                            - img [ref=e5325]
+                                            - generic [ref=e5328]: "False"
+                                        - generic [ref=e5329]: PPT already sent WDF to PS
+                                      - button "Edit PPT already sent WDF to PS" [ref=e5330] [cursor=pointer]:
+                                        - generic [ref=e5332]: Edit PPT already sent WDF to PS
+                              - generic [ref=e5334]:
+                                - listitem [ref=e5336]:
+                                  - generic [ref=e5337]:
+                                    - generic [ref=e5338]: Retirement Date
+                                    - button "Edit Retirement Date" [ref=e5340] [cursor=pointer]:
+                                      - generic [ref=e5342]: Edit Retirement Date
+                                - listitem [ref=e5344]:
+                                  - generic [ref=e5345]:
+                                    - generic [ref=e5346]: PPT already sent WDF to TPA
+                                    - generic "Help PPT already sent WDF to TPA":
+                                      - button "Help PPT already sent WDF to TPA" [ref=e5349] [cursor=pointer]:
+                                        - img [ref=e5351]
+                                        - generic [ref=e5354]: Help PPT already sent WDF to TPA
+                                    - generic [ref=e5355]:
+                                      - generic [ref=e5360]:
+                                        - generic "False" [ref=e5361]:
+                                          - generic [ref=e5362]:
+                                            - img [ref=e5364]
+                                            - generic [ref=e5367]: "False"
+                                        - generic [ref=e5368]: PPT already sent WDF to TPA
+                                      - button "Edit PPT already sent WDF to TPA" [ref=e5369] [cursor=pointer]:
+                                        - generic [ref=e5371]: Edit PPT already sent WDF to TPA
+                              - generic [ref=e5373]:
+                                - listitem [ref=e5375]:
+                                  - generic [ref=e5376]:
+                                    - generic [ref=e5377]: Direct Rollover
+                                    - generic [ref=e5378]:
+                                      - generic [ref=e5383]:
+                                        - generic "False" [ref=e5384]:
+                                          - generic [ref=e5385]:
+                                            - img [ref=e5387]
+                                            - generic [ref=e5390]: "False"
+                                        - generic [ref=e5391]: Direct Rollover
+                                      - button "Edit Direct Rollover" [ref=e5392] [cursor=pointer]:
+                                        - generic [ref=e5394]: Edit Direct Rollover
+                                - listitem [ref=e5396]:
+                                  - generic [ref=e5397]:
+                                    - generic [ref=e5398]: Assisted PPT with WDDEATH – Non Spouse
+                                    - generic "Help Assisted PPT with WDDEATH – Non Spouse":
+                                      - button "Help Assisted PPT with WDDEATH – Non Spouse" [ref=e5401] [cursor=pointer]:
+                                        - img [ref=e5403]
+                                        - generic [ref=e5406]: Help Assisted PPT with WDDEATH – Non Spouse
+                                    - generic [ref=e5407]:
+                                      - generic [ref=e5412]:
+                                        - generic "False" [ref=e5413]:
+                                          - generic [ref=e5414]:
+                                            - img [ref=e5416]
+                                            - generic [ref=e5419]: "False"
+                                        - generic [ref=e5420]: Assisted PPT with WDDEATH – Non Spouse
+                                      - button "Edit Assisted PPT with WDDEATH – Non Spouse" [ref=e5421] [cursor=pointer]:
+                                        - generic [ref=e5423]: Edit Assisted PPT with WDDEATH – Non Spouse
+                              - generic [ref=e5425]:
+                                - listitem [ref=e5427]:
+                                  - generic [ref=e5428]:
+                                    - generic [ref=e5429]: Pay Directly Lump Sum & Rollover Balance
+                                    - generic "Help Pay Directly Lump Sum & Rollover Balance":
+                                      - button "Help Pay Directly Lump Sum & Rollover Balance" [ref=e5432] [cursor=pointer]:
+                                        - img [ref=e5434]
+                                        - generic [ref=e5437]: Help Pay Directly Lump Sum & Rollover Balance
+                                    - generic [ref=e5438]:
+                                      - generic [ref=e5443]:
+                                        - generic "False" [ref=e5444]:
+                                          - generic [ref=e5445]:
+                                            - img [ref=e5447]
+                                            - generic [ref=e5450]: "False"
+                                        - generic [ref=e5451]: Pay Directly Lump Sum & Rollover Balance
+                                      - button "Edit Pay Directly Lump Sum & Rollover Balance" [ref=e5452] [cursor=pointer]:
+                                        - generic [ref=e5454]: Edit Pay Directly Lump Sum & Rollover Balance
+                                - listitem [ref=e5456]:
+                                  - generic [ref=e5457]:
+                                    - generic [ref=e5458]: Assisted PPT with WDDEATH form – Spouse
+                                    - generic "Help Assisted PPT with WDDEATH form – Spouse":
+                                      - button "Help Assisted PPT with WDDEATH form – Spouse" [ref=e5461] [cursor=pointer]:
+                                        - img [ref=e5463]
+                                        - generic [ref=e5466]: Help Assisted PPT with WDDEATH form – Spouse
+                                    - generic [ref=e5467]:
+                                      - generic [ref=e5472]:
+                                        - generic "False" [ref=e5473]:
+                                          - generic [ref=e5474]:
+                                            - img [ref=e5476]
+                                            - generic [ref=e5479]: "False"
+                                        - generic [ref=e5480]: Assisted PPT with WDDEATH form – Spouse
+                                      - button "Edit Assisted PPT with WDDEATH form – Spouse" [ref=e5481] [cursor=pointer]:
+                                        - generic [ref=e5483]: Edit Assisted PPT with WDDEATH form – Spouse
+                              - generic [ref=e5485]:
+                                - listitem [ref=e5487]:
+                                  - generic [ref=e5488]:
+                                    - generic [ref=e5489]: Lump Sum Amount $
+                                    - button "Edit Lump Sum Amount $" [ref=e5491] [cursor=pointer]:
+                                      - generic [ref=e5493]: Edit Lump Sum Amount $
+                                - listitem [ref=e5495]:
+                                  - generic [ref=e5496]:
+                                    - generic [ref=e5497]: Assisted PPT with QDRO WDF
+                                    - generic "Help Assisted PPT with QDRO WDF":
+                                      - button "Help Assisted PPT with QDRO WDF" [ref=e5500] [cursor=pointer]:
+                                        - img [ref=e5502]
+                                        - generic [ref=e5505]: Help Assisted PPT with QDRO WDF
+                                    - generic [ref=e5506]:
+                                      - generic [ref=e5511]:
+                                        - generic "False" [ref=e5512]:
+                                          - generic [ref=e5513]:
+                                            - img [ref=e5515]
+                                            - generic [ref=e5518]: "False"
+                                        - generic [ref=e5519]: Assisted PPT with QDRO WDF
+                                      - button "Edit Assisted PPT with QDRO WDF" [ref=e5520] [cursor=pointer]:
+                                        - generic [ref=e5522]: Edit Assisted PPT with QDRO WDF
+                              - generic [ref=e5524]:
+                                - listitem [ref=e5526]:
+                                  - generic [ref=e5527]:
+                                    - generic [ref=e5528]: Lump Sum Percent %
+                                    - button "Edit Lump Sum Percent %" [ref=e5530] [cursor=pointer]:
+                                      - generic [ref=e5532]: Edit Lump Sum Percent %
+                                - listitem [ref=e5534]:
+                                  - generic [ref=e5535]:
+                                    - generic [ref=e5536]: Assisted with I-Withdrawal
+                                    - generic "Help Assisted with I-Withdrawal":
+                                      - button "Help Assisted with I-Withdrawal" [ref=e5539] [cursor=pointer]:
+                                        - img [ref=e5541]
+                                        - generic [ref=e5544]: Help Assisted with I-Withdrawal
+                                    - generic [ref=e5545]:
+                                      - generic [ref=e5550]:
+                                        - generic "False" [ref=e5551]:
+                                          - generic [ref=e5552]:
+                                            - img [ref=e5554]
+                                            - generic [ref=e5557]: "False"
+                                        - generic [ref=e5558]: Assisted with I-Withdrawal
+                                      - button "Edit Assisted with I-Withdrawal" [ref=e5559] [cursor=pointer]:
+                                        - generic [ref=e5561]: Edit Assisted with I-Withdrawal
+                        - generic [ref=e5563]:
+                          - heading "Additional Paperwork" [level=3] [ref=e5564]:
+                            - button "Additional Paperwork" [expanded] [ref=e5565] [cursor=pointer]:
+                              - img [ref=e5570]
+                              - generic [ref=e5573]: Additional Paperwork
+                          - list [ref=e5575]:
+                            - generic [ref=e5576]:
+                              - generic [ref=e5578]:
+                                - listitem [ref=e5580]:
+                                  - generic [ref=e5581]:
+                                    - generic [ref=e5582]: Emailed Special Tax Notice
+                                    - generic [ref=e5583]:
+                                      - generic [ref=e5588]:
+                                        - generic "False" [ref=e5589]:
+                                          - generic [ref=e5590]:
+                                            - img [ref=e5592]
+                                            - generic [ref=e5595]: "False"
+                                        - generic [ref=e5596]: Emailed Special Tax Notice
+                                      - button "Edit Emailed Special Tax Notice" [ref=e5597] [cursor=pointer]:
+                                        - generic [ref=e5599]: Edit Emailed Special Tax Notice
+                                - listitem [ref=e5601]:
+                                  - generic [ref=e5602]:
+                                    - generic [ref=e5603]: Emailed ABI form
+                                    - generic [ref=e5604]:
+                                      - generic [ref=e5609]:
+                                        - generic "False" [ref=e5610]:
+                                          - generic [ref=e5611]:
+                                            - img [ref=e5613]
+                                            - generic [ref=e5616]: "False"
+                                        - generic [ref=e5617]: Emailed ABI form
+                                      - button "Edit Emailed ABI form" [ref=e5618] [cursor=pointer]:
+                                        - generic [ref=e5620]: Edit Emailed ABI form
+                              - generic [ref=e5622]:
+                                - listitem [ref=e5624]:
+                                  - generic [ref=e5625]:
+                                    - generic [ref=e5626]: Emailed Spousal Consent
+                                    - generic [ref=e5627]:
+                                      - generic [ref=e5632]:
+                                        - generic "False" [ref=e5633]:
+                                          - generic [ref=e5634]:
+                                            - img [ref=e5636]
+                                            - generic [ref=e5639]: "False"
+                                        - generic [ref=e5640]: Emailed Spousal Consent
+                                      - button "Edit Emailed Spousal Consent" [ref=e5641] [cursor=pointer]:
+                                        - generic [ref=e5643]: Edit Emailed Spousal Consent
+                                - listitem [ref=e5645]:
+                                  - generic [ref=e5646]:
+                                    - generic [ref=e5647]: Sent RMD form
+                                    - generic [ref=e5648]:
+                                      - generic [ref=e5653]:
+                                        - generic "False" [ref=e5654]:
+                                          - generic [ref=e5655]:
+                                            - img [ref=e5657]
+                                            - generic [ref=e5660]: "False"
+                                        - generic [ref=e5661]: Sent RMD form
+                                      - button "Edit Sent RMD form" [ref=e5662] [cursor=pointer]:
+                                        - generic [ref=e5664]: Edit Sent RMD form
+                              - listitem [ref=e5668]:
+                                - generic [ref=e5669]:
+                                  - generic [ref=e5670]: Emailed TPA Specific PPWK
+                                  - generic [ref=e5671]:
+                                    - generic [ref=e5676]:
+                                      - generic "False" [ref=e5677]:
+                                        - generic [ref=e5678]:
+                                          - img [ref=e5680]
+                                          - generic [ref=e5683]: "False"
+                                      - generic [ref=e5684]: Emailed TPA Specific PPWK
+                                    - button "Edit Emailed TPA Specific PPWK" [ref=e5685] [cursor=pointer]:
+                                      - generic [ref=e5687]: Edit Emailed TPA Specific PPWK
+                        - generic [ref=e5690]:
+                          - heading "IRA Details" [level=3] [ref=e5691]:
+                            - button "IRA Details" [expanded] [ref=e5692] [cursor=pointer]:
+                              - img [ref=e5697]
+                              - generic [ref=e5700]: IRA Details
+                          - list [ref=e5702]:
+                            - generic [ref=e5703]:
+                              - generic [ref=e5705]:
+                                - listitem [ref=e5707]:
+                                  - generic [ref=e5708]:
+                                    - generic [ref=e5709]: eDelivery
+                                    - generic [ref=e5710]:
+                                      - generic [ref=e5715]:
+                                        - generic "False" [ref=e5716]:
+                                          - generic [ref=e5717]:
+                                            - img [ref=e5719]
+                                            - generic [ref=e5722]: "False"
+                                        - generic [ref=e5723]: eDelivery
+                                      - button "Edit eDelivery" [ref=e5724] [cursor=pointer]:
+                                        - generic [ref=e5726]: Edit eDelivery
+                                - listitem [ref=e5728]:
+                                  - generic [ref=e5729]:
+                                    - generic [ref=e5730]: "% of Investment in Traditional"
+                                    - generic [ref=e5735]: 0%
+                              - generic [ref=e5737]:
+                                - listitem [ref=e5739]:
+                                  - generic [ref=e5740]:
+                                    - generic [ref=e5741]: Sales Charge Reduction
+                                    - button "Edit Sales Charge Reduction" [ref=e5743] [cursor=pointer]:
+                                      - generic [ref=e5745]: Edit Sales Charge Reduction
+                                - listitem [ref=e5747]:
+                                  - generic [ref=e5748]:
+                                    - generic [ref=e5749]: "% of Investment in Roth"
+                                    - generic [ref=e5754]: 0%
+                              - listitem [ref=e5759]:
+                                - generic [ref=e5760]:
+                                  - generic [ref=e5761]: "% of Investment in Inherited Roth"
+                                  - generic [ref=e5766]: 0%
+                              - listitem [ref=e5771]:
+                                - generic [ref=e5772]:
+                                  - generic [ref=e5773]: "% of Investment in Inherited Trad"
+                                  - generic [ref=e5778]: 0%
+                        - generic [ref=e5780]:
+                          - heading "Employment Details" [level=3] [ref=e5781]:
+                            - button "Employment Details" [expanded] [ref=e5782] [cursor=pointer]:
+                              - img [ref=e5787]
+                              - generic [ref=e5790]: Employment Details
+                          - list [ref=e5792]:
+                            - generic [ref=e5793]:
+                              - generic [ref=e5795]:
+                                - listitem [ref=e5797]:
+                                  - generic [ref=e5798]:
+                                    - generic [ref=e5799]: Employment Status
+                                    - button "Edit Employment Status" [ref=e5801] [cursor=pointer]:
+                                      - generic [ref=e5803]: Edit Employment Status
+                                - listitem [ref=e5805]:
+                                  - generic [ref=e5806]:
+                                    - generic [ref=e5807]: Employer Name
+                                    - button "Edit Employer Name" [ref=e5809] [cursor=pointer]:
+                                      - generic [ref=e5811]: Edit Employer Name
+                              - generic [ref=e5813]:
+                                - listitem [ref=e5815]:
+                                  - generic [ref=e5816]:
+                                    - generic [ref=e5817]: Occupation
+                                    - button "Edit Occupation" [ref=e5819] [cursor=pointer]:
+                                      - generic [ref=e5821]: Edit Occupation
+                                - listitem [ref=e5823]:
+                                  - generic [ref=e5824]:
+                                    - generic [ref=e5825]: Employer Address
+                                    - button "Edit Employer Address" [ref=e5827] [cursor=pointer]:
+                                      - generic [ref=e5829]: Edit Employer Address
+                        - generic [ref=e5831]:
+                          - heading "Affiliation" [level=3] [ref=e5832]:
+                            - button "Affiliation" [expanded] [ref=e5833] [cursor=pointer]:
+                              - img [ref=e5838]
+                              - generic [ref=e5841]: Affiliation
+                          - list [ref=e5843]:
+                            - generic [ref=e5844]:
+                              - generic [ref=e5846]:
+                                - listitem [ref=e5848]:
+                                  - generic [ref=e5849]:
+                                    - generic [ref=e5850]: No to all affiliation questions
+                                    - generic [ref=e5851]:
+                                      - generic [ref=e5856]:
+                                        - generic "False" [ref=e5857]:
+                                          - generic [ref=e5858]:
+                                            - img [ref=e5860]
+                                            - generic [ref=e5863]: "False"
+                                        - generic [ref=e5864]: No to all affiliation questions
+                                      - button "Edit No to all affiliation questions" [ref=e5865] [cursor=pointer]:
+                                        - generic [ref=e5867]: Edit No to all affiliation questions
+                                - listitem [ref=e5869]:
+                                  - generic [ref=e5870]:
+                                    - generic [ref=e5871]: Member of the board?
+                                    - generic "Help Member of the board?":
+                                      - button "Help Member of the board?" [ref=e5874] [cursor=pointer]:
+                                        - img [ref=e5876]
+                                        - generic [ref=e5879]: Help Member of the board?
+                                    - button "Edit Member of the board?" [ref=e5881] [cursor=pointer]:
+                                      - generic [ref=e5883]: Edit Member of the board?
+                              - generic [ref=e5885]:
+                                - listitem [ref=e5887]:
+                                  - generic [ref=e5888]:
+                                    - generic [ref=e5889]: Are you affiliated with a Broker Dealer?
+                                    - button "Edit Are you affiliated with a Broker Dealer?" [ref=e5891] [cursor=pointer]:
+                                      - generic [ref=e5893]: Edit Are you affiliated with a Broker Dealer?
+                                - listitem [ref=e5895]:
+                                  - generic [ref=e5896]:
+                                    - generic [ref=e5897]: Company Name
+                                    - button "Edit Company Name" [ref=e5899] [cursor=pointer]:
+                                      - generic [ref=e5901]: Edit Company Name
+                              - generic [ref=e5903]:
+                                - listitem [ref=e5905]:
+                                  - generic [ref=e5906]:
+                                    - generic [ref=e5907]: Broker Dealer Name
+                                    - button "Edit Broker Dealer Name" [ref=e5909] [cursor=pointer]:
+                                      - generic [ref=e5911]: Edit Broker Dealer Name
+                                - listitem [ref=e5913]:
+                                  - generic [ref=e5914]:
+                                    - generic [ref=e5915]: Ticker Symbol
+                                    - button "Edit Ticker Symbol" [ref=e5917] [cursor=pointer]:
+                                      - generic [ref=e5919]: Edit Ticker Symbol
+                              - generic [ref=e5921]:
+                                - listitem [ref=e5923]:
+                                  - generic [ref=e5924]:
+                                    - generic [ref=e5925]: Broker Dealer Address
+                                    - button "Edit Broker Dealer Address" [ref=e5927] [cursor=pointer]:
+                                      - generic [ref=e5929]: Edit Broker Dealer Address
+                                - listitem [ref=e5931]:
+                                  - generic [ref=e5932]:
+                                    - generic [ref=e5933]: Political figure?
+                                    - generic "Help Political figure?":
+                                      - button "Help Political figure?" [ref=e5936] [cursor=pointer]:
+                                        - img [ref=e5938]
+                                        - generic [ref=e5941]: Help Political figure?
+                                    - button "Edit Political figure?" [ref=e5943] [cursor=pointer]:
+                                      - generic [ref=e5945]: Edit Political figure?
+                        - generic [ref=e5947]:
+                          - heading "Trusted Contact" [level=3] [ref=e5948]:
+                            - button "Trusted Contact" [expanded] [ref=e5949] [cursor=pointer]:
+                              - img [ref=e5954]
+                              - generic [ref=e5957]: Trusted Contact
+                          - list [ref=e5959]:
+                            - generic [ref=e5960]:
+                              - generic [ref=e5962]:
+                                - listitem [ref=e5964]:
+                                  - generic [ref=e5965]:
+                                    - generic [ref=e5966]: Declined to provide?
+                                    - generic [ref=e5967]:
+                                      - generic [ref=e5972]:
+                                        - generic "False" [ref=e5973]:
+                                          - generic [ref=e5974]:
+                                            - img [ref=e5976]
+                                            - generic [ref=e5979]: "False"
+                                        - generic [ref=e5980]: Declined to provide?
+                                      - button "Edit Declined to provide?" [ref=e5981] [cursor=pointer]:
+                                        - generic [ref=e5983]: Edit Declined to provide?
+                                - listitem [ref=e5985]:
+                                  - generic [ref=e5986]:
+                                    - generic [ref=e5987]: Email
+                                    - button "Edit Email" [ref=e5989] [cursor=pointer]:
+                                      - generic [ref=e5991]: Edit Email
+                              - generic [ref=e5993]:
+                                - listitem [ref=e5995]:
+                                  - generic [ref=e5996]:
+                                    - generic [ref=e5997]: First Name
+                                    - button "Edit First Name" [ref=e5999] [cursor=pointer]:
+                                      - generic [ref=e6001]: Edit First Name
+                                - listitem [ref=e6003]:
+                                  - generic [ref=e6004]:
+                                    - generic [ref=e6005]: Address
+                                    - button "Edit Address" [ref=e6007] [cursor=pointer]:
+                                      - generic [ref=e6009]: Edit Address
+                              - generic [ref=e6011]:
+                                - listitem [ref=e6013]:
+                                  - generic [ref=e6014]:
+                                    - generic [ref=e6015]: Last Name
+                                    - button "Edit Last Name" [ref=e6017] [cursor=pointer]:
+                                      - generic [ref=e6019]: Edit Last Name
+                                - listitem [ref=e6021]:
+                                  - generic [ref=e6022]:
+                                    - generic [ref=e6023]: Phone Number
+                                    - button "Edit Phone Number" [ref=e6025] [cursor=pointer]:
+                                      - generic [ref=e6027]: Edit Phone Number
+                              - listitem [ref=e6031]:
+                                - generic [ref=e6032]:
+                                  - generic [ref=e6033]: Relationship
+                                  - button "Edit Relationship" [ref=e6035] [cursor=pointer]:
+                                    - generic [ref=e6037]: Edit Relationship
+                        - generic [ref=e6040]:
+                          - heading "Beneficiary Information" [level=3] [ref=e6041]:
+                            - button "Beneficiary Information" [expanded] [ref=e6042] [cursor=pointer]:
+                              - img [ref=e6047]
+                              - generic [ref=e6050]: Beneficiary Information
+                          - list [ref=e6052]:
+                            - generic [ref=e6053]:
+                              - generic [ref=e6055]:
+                                - listitem [ref=e6057]:
+                                  - generic [ref=e6058]:
+                                    - generic [ref=e6059]: Primary Beneficiary Name 1
+                                    - button "Edit Primary Beneficiary Name 1" [ref=e6061] [cursor=pointer]:
+                                      - generic [ref=e6063]: Edit Primary Beneficiary Name 1
+                                - listitem [ref=e6065]:
+                                  - generic [ref=e6066]:
+                                    - generic [ref=e6067]: Secondary Beneficiary Name 1
+                                    - button "Edit Secondary Beneficiary Name 1" [ref=e6069] [cursor=pointer]:
+                                      - generic [ref=e6071]: Edit Secondary Beneficiary Name 1
+                              - generic [ref=e6073]:
+                                - listitem [ref=e6075]:
+                                  - generic [ref=e6076]:
+                                    - generic [ref=e6077]: Primary % Share 1
+                                    - button "Edit Primary % Share 1" [ref=e6079] [cursor=pointer]:
+                                      - generic [ref=e6081]: Edit Primary % Share 1
+                                - listitem [ref=e6083]:
+                                  - generic [ref=e6084]:
+                                    - generic [ref=e6085]: Secondary % Share 1
+                                    - button "Edit Secondary % Share 1" [ref=e6087] [cursor=pointer]:
+                                      - generic [ref=e6089]: Edit Secondary % Share 1
+                              - generic [ref=e6091]:
+                                - listitem [ref=e6093]:
+                                  - generic [ref=e6094]:
+                                    - generic [ref=e6095]: Primary DOB 1
+                                    - button "Edit Primary DOB 1" [ref=e6097] [cursor=pointer]:
+                                      - generic [ref=e6099]: Edit Primary DOB 1
+                                - listitem [ref=e6101]:
+                                  - generic [ref=e6102]:
+                                    - generic [ref=e6103]: Secondary DOB 1
+                                    - button "Edit Secondary DOB 1" [ref=e6105] [cursor=pointer]:
+                                      - generic [ref=e6107]: Edit Secondary DOB 1
+                              - generic [ref=e6109]:
+                                - listitem [ref=e6111]:
+                                  - generic [ref=e6112]:
+                                    - generic [ref=e6113]: Primary Relationship to Owner 1
+                                    - button "Edit Primary Relationship to Owner 1" [ref=e6115] [cursor=pointer]:
+                                      - generic [ref=e6117]: Edit Primary Relationship to Owner 1
+                                - listitem [ref=e6119]:
+                                  - generic [ref=e6120]:
+                                    - generic [ref=e6121]: Secondary Relationship to Owner 1
+                                    - button "Edit Secondary Relationship to Owner 1" [ref=e6123] [cursor=pointer]:
+                                      - generic [ref=e6125]: Edit Secondary Relationship to Owner 1
+                              - generic [ref=e6131]:
+                                - listitem [ref=e6133]:
+                                  - generic [ref=e6134]:
+                                    - generic [ref=e6135]: Primary Beneficiary Name 2
+                                    - button "Edit Primary Beneficiary Name 2" [ref=e6137] [cursor=pointer]:
+                                      - generic [ref=e6139]: Edit Primary Beneficiary Name 2
+                                - listitem [ref=e6141]:
+                                  - generic [ref=e6142]:
+                                    - generic [ref=e6143]: Secondary Beneficiary Name 2
+                                    - button "Edit Secondary Beneficiary Name 2" [ref=e6145] [cursor=pointer]:
+                                      - generic [ref=e6147]: Edit Secondary Beneficiary Name 2
+                              - generic [ref=e6149]:
+                                - listitem [ref=e6151]:
+                                  - generic [ref=e6152]:
+                                    - generic [ref=e6153]: Primary % Share 2
+                                    - button "Edit Primary % Share 2" [ref=e6155] [cursor=pointer]:
+                                      - generic [ref=e6157]: Edit Primary % Share 2
+                                - listitem [ref=e6159]:
+                                  - generic [ref=e6160]:
+                                    - generic [ref=e6161]: Secondary % Share 2
+                                    - button "Edit Secondary % Share 2" [ref=e6163] [cursor=pointer]:
+                                      - generic [ref=e6165]: Edit Secondary % Share 2
+                              - generic [ref=e6167]:
+                                - listitem [ref=e6169]:
+                                  - generic [ref=e6170]:
+                                    - generic [ref=e6171]: Primary DOB 2
+                                    - button "Edit Primary DOB 2" [ref=e6173] [cursor=pointer]:
+                                      - generic [ref=e6175]: Edit Primary DOB 2
+                                - listitem [ref=e6177]:
+                                  - generic [ref=e6178]:
+                                    - generic [ref=e6179]: Secondary DOB 2
+                                    - button "Edit Secondary DOB 2" [ref=e6181] [cursor=pointer]:
+                                      - generic [ref=e6183]: Edit Secondary DOB 2
+                              - generic [ref=e6185]:
+                                - listitem [ref=e6187]:
+                                  - generic [ref=e6188]:
+                                    - generic [ref=e6189]: Primary Relationship to Owner 2
+                                    - button "Edit Primary Relationship to Owner 2" [ref=e6191] [cursor=pointer]:
+                                      - generic [ref=e6193]: Edit Primary Relationship to Owner 2
+                                - listitem [ref=e6195]:
+                                  - generic [ref=e6196]:
+                                    - generic [ref=e6197]: Secondary Relationship to Owner 2
+                                    - button "Edit Secondary Relationship to Owner 2" [ref=e6199] [cursor=pointer]:
+                                      - generic [ref=e6201]: Edit Secondary Relationship to Owner 2
+                              - generic [ref=e6207]:
+                                - listitem [ref=e6209]:
+                                  - generic [ref=e6210]:
+                                    - generic [ref=e6211]: Primary Beneficiary Name 3
+                                    - button "Edit Primary Beneficiary Name 3" [ref=e6213] [cursor=pointer]:
+                                      - generic [ref=e6215]: Edit Primary Beneficiary Name 3
+                                - listitem [ref=e6217]:
+                                  - generic [ref=e6218]:
+                                    - generic [ref=e6219]: Secondary Beneficiary Name 3
+                                    - button "Edit Secondary Beneficiary Name 3" [ref=e6221] [cursor=pointer]:
+                                      - generic [ref=e6223]: Edit Secondary Beneficiary Name 3
+                              - generic [ref=e6225]:
+                                - listitem [ref=e6227]:
+                                  - generic [ref=e6228]:
+                                    - generic [ref=e6229]: Primary % Share 3
+                                    - button "Edit Primary % Share 3" [ref=e6231] [cursor=pointer]:
+                                      - generic [ref=e6233]: Edit Primary % Share 3
+                                - listitem [ref=e6235]:
+                                  - generic [ref=e6236]:
+                                    - generic [ref=e6237]: Secondary % Share 3
+                                    - button "Edit Secondary % Share 3" [ref=e6239] [cursor=pointer]:
+                                      - generic [ref=e6241]: Edit Secondary % Share 3
+                              - generic [ref=e6243]:
+                                - listitem [ref=e6245]:
+                                  - generic [ref=e6246]:
+                                    - generic [ref=e6247]: Primary DOB 3
+                                    - button "Edit Primary DOB 3" [ref=e6249] [cursor=pointer]:
+                                      - generic [ref=e6251]: Edit Primary DOB 3
+                                - listitem [ref=e6253]:
+                                  - generic [ref=e6254]:
+                                    - generic [ref=e6255]: Secondary DOB 3
+                                    - button "Edit Secondary DOB 3" [ref=e6257] [cursor=pointer]:
+                                      - generic [ref=e6259]: Edit Secondary DOB 3
+                              - generic [ref=e6261]:
+                                - listitem [ref=e6263]:
+                                  - generic [ref=e6264]:
+                                    - generic [ref=e6265]: Primary Relationship to Owner 3
+                                    - button "Edit Primary Relationship to Owner 3" [ref=e6267] [cursor=pointer]:
+                                      - generic [ref=e6269]: Edit Primary Relationship to Owner 3
+                                - listitem [ref=e6271]:
+                                  - generic [ref=e6272]:
+                                    - generic [ref=e6273]: Secondary Relationship to Owner 3
+                                    - button "Edit Secondary Relationship to Owner 3" [ref=e6275] [cursor=pointer]:
+                                      - generic [ref=e6277]: Edit Secondary Relationship to Owner 3
+                        - generic [ref=e6279]:
+                          - heading "TOA Information" [level=3] [ref=e6280]:
+                            - button "TOA Information" [expanded] [ref=e6281] [cursor=pointer]:
+                              - img [ref=e6286]
+                              - generic [ref=e6289]: TOA Information
+                          - list [ref=e6291]:
+                            - generic [ref=e6292]:
+                              - generic [ref=e6294]:
+                                - listitem [ref=e6296]:
+                                  - generic [ref=e6297]:
+                                    - generic [ref=e6298]: Create Secondary Opportunity for TOA
+                                    - generic [ref=e6299]:
+                                      - generic [ref=e6304]:
+                                        - generic "False" [ref=e6305]:
+                                          - generic [ref=e6306]:
+                                            - img [ref=e6308]
+                                            - generic [ref=e6311]: "False"
+                                        - generic [ref=e6312]: Create Secondary Opportunity for TOA
+                                      - button "Edit Create Secondary Opportunity for TOA" [ref=e6313] [cursor=pointer]:
+                                        - generic [ref=e6315]: Edit Create Secondary Opportunity for TOA
+                                - listitem [ref=e6317]:
+                                  - generic [ref=e6318]:
+                                    - generic [ref=e6319]: Statement Received
+                                    - generic "Help Statement Received":
+                                      - button "Help Statement Received" [ref=e6322] [cursor=pointer]:
+                                        - img [ref=e6324]
+                                        - generic [ref=e6327]: Help Statement Received
+                                    - generic [ref=e6328]:
+                                      - generic [ref=e6333]:
+                                        - generic "False" [ref=e6334]:
+                                          - generic [ref=e6335]:
+                                            - img [ref=e6337]
+                                            - generic [ref=e6340]: "False"
+                                        - generic [ref=e6341]: Statement Received
+                                      - button "Edit Statement Received" [ref=e6342] [cursor=pointer]:
+                                        - generic [ref=e6344]: Edit Statement Received
+                              - generic [ref=e6346]:
+                                - listitem [ref=e6348]:
+                                  - generic [ref=e6349]:
+                                    - generic [ref=e6350]: TOA Amount
+                                    - generic "Help TOA Amount":
+                                      - button "Help TOA Amount" [ref=e6353] [cursor=pointer]:
+                                        - img [ref=e6355]
+                                        - generic [ref=e6358]: Help TOA Amount
+                                    - button "Edit TOA Amount" [ref=e6360] [cursor=pointer]:
+                                      - generic [ref=e6362]: Edit TOA Amount
+                                - listitem [ref=e6364]:
+                                  - generic [ref=e6365]:
+                                    - generic [ref=e6366]: Rollover Service Specialist
+                                    - generic "Help Rollover Service Specialist":
+                                      - button "Help Rollover Service Specialist" [ref=e6369] [cursor=pointer]:
+                                        - img [ref=e6371]
+                                        - generic [ref=e6374]: Help Rollover Service Specialist
+                                    - button "Edit Rollover Service Specialist" [ref=e6377] [cursor=pointer]:
+                                      - generic [ref=e6379]: Edit Rollover Service Specialist
+                              - listitem [ref=e6383]:
+                                - generic [ref=e6384]:
+                                  - generic [ref=e6385]: Carrier
+                                  - button "Edit Carrier" [ref=e6388] [cursor=pointer]:
+                                    - generic [ref=e6390]: Edit Carrier
+                        - generic [ref=e6393]:
+                          - heading "Additional Information" [level=3] [ref=e6394]:
+                            - button "Additional Information" [expanded] [ref=e6395] [cursor=pointer]:
+                              - img [ref=e6400]
+                              - generic [ref=e6403]: Additional Information
+                          - list [ref=e6405]:
+                            - generic [ref=e6406]:
+                              - generic [ref=e6408]:
+                                - listitem [ref=e6410]:
+                                  - generic [ref=e6411]:
+                                    - generic [ref=e6412]: Primary Campaign Source
+                                    - button "Edit Primary Campaign Source" [ref=e6415] [cursor=pointer]:
+                                      - generic [ref=e6417]: Edit Primary Campaign Source
+                                - listitem [ref=e6419]:
+                                  - generic [ref=e6420]:
+                                    - generic [ref=e6421]: Lead Source
+                                    - button "Edit Lead Source" [ref=e6423] [cursor=pointer]:
+                                      - generic [ref=e6425]: Edit Lead Source
+                              - generic [ref=e6427]:
+                                - listitem [ref=e6429]:
+                                  - generic [ref=e6431]: Primary Campaign Type
+                                - listitem [ref=e6434]:
+                                  - generic [ref=e6435]:
+                                    - generic [ref=e6436]: Main Competitor(s)
+                                    - button "Edit Main Competitor(s)" [ref=e6438] [cursor=pointer]:
+                                      - generic [ref=e6440]: Edit Main Competitor(s)
+                        - generic [ref=e6442]:
+                          - heading "System Information" [level=3] [ref=e6443]:
+                            - button "System Information" [expanded] [ref=e6444] [cursor=pointer]:
+                              - img [ref=e6449]
+                              - generic [ref=e6452]: System Information
+                          - list [ref=e6454]:
+                            - generic [ref=e6455]:
+                              - generic [ref=e6457]:
+                                - listitem [ref=e6459]:
+                                  - generic [ref=e6460]:
+                                    - generic [ref=e6461]: Created By
+                                    - generic [ref=e6465]:
+                                      - generic [ref=e6471]:
+                                        - link "Somya Sijaria" [ref=e6472] [cursor=pointer]:
+                                          - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                                          - generic [ref=e6476]: Somya Sijaria
+                                        - button "Open Somya Sijaria Preview" [ref=e6478] [cursor=pointer]:
+                                          - img [ref=e6480]
+                                          - generic [ref=e6483]: Open Somya Sijaria Preview
+                                      - text: ", 4/8/2026, 7:32 AM"
+                                - listitem [ref=e6485]:
+                                  - generic [ref=e6486]:
+                                    - generic [ref=e6487]: CDL External Key
+                                    - button "Edit CDL External Key" [ref=e6489] [cursor=pointer]:
+                                      - generic [ref=e6491]: Edit CDL External Key
+                              - generic [ref=e6493]:
+                                - listitem [ref=e6495]:
+                                  - generic [ref=e6496]:
+                                    - generic [ref=e6497]: Last Modified By
+                                    - generic [ref=e6501]:
+                                      - generic [ref=e6507]:
+                                        - link "Somya Sijaria" [ref=e6508] [cursor=pointer]:
+                                          - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                                          - generic [ref=e6512]: Somya Sijaria
+                                        - button "Open Somya Sijaria Preview" [ref=e6514] [cursor=pointer]:
+                                          - img [ref=e6516]
+                                          - generic [ref=e6519]: Open Somya Sijaria Preview
+                                      - text: ", 4/8/2026, 7:33 AM"
+                                - listitem [ref=e6521]:
+                                  - generic [ref=e6522]:
+                                    - generic [ref=e6523]: Referring RES
+                                    - button "Edit Referring RES" [ref=e6526] [cursor=pointer]:
+                                      - generic [ref=e6528]: Edit Referring RES
+                        - generic [ref=e6530]:
+                          - heading "Plan Details Report" [level=3] [ref=e6531]:
+                            - button "Plan Details Report" [expanded] [ref=e6532] [cursor=pointer]:
+                              - img [ref=e6537]
+                              - generic [ref=e6540]: Plan Details Report
+                          - list [ref=e6542]:
+                            - listitem [ref=e6547]:
+                              - iframe [ref=e6554]:
+                                - generic [active] [ref=f1e1]:
+                                  - img "Content Starts Here" [ref=f1e2]
+                                  - heading "No Plans to display" [level=2] [ref=f1e5]
+              - generic [ref=e6560]:
+                - heading "Tabs" [level=2] [ref=e6561]
+                - generic "Tabs" [ref=e6562]:
+                  - generic [ref=e6563]:
+                    - heading "Tabs" [level=2] [ref=e6564]
+                    - tablist "Tabs" [ref=e6566]:
+                      - tab "Related" [selected] [ref=e6567] [cursor=pointer]
+                    - tabpanel "Related" [ref=e6570]:
+                      - generic [ref=e6575]:
+                        - article "Digital Retention Interactions" [ref=e6581]:
+                          - generic [ref=e6586]:
+                            - generic [ref=e6588]:
+                              - img [ref=e6592]
+                              - heading "Digital Retention Interactions (0)" [level=2] [ref=e6594]:
+                                - link "Digital Retention Interactions (0)" [ref=e6595] [cursor=pointer]:
+                                  - /url: /lightning/r/Opportunity/006dz00000E7ewmAAB/related/Digital_Retention_Interactions__r/view
+                                  - generic "Digital Retention Interactions" [ref=e6596]
+                                  - generic "(0)" [ref=e6597]
+                            - button "Show actions for Digital Retention Interactions" [ref=e6602] [cursor=pointer]:
+                              - img [ref=e6604]
+                              - generic [ref=e6607]: Show actions for Digital Retention Interactions
+                        - article "Recommendations" [ref=e6613]:
+                          - generic [ref=e6620]:
+                            - img [ref=e6624]
+                            - heading "Recommendations (0)" [level=2] [ref=e6626]:
+                              - link "Recommendations (0)" [ref=e6627] [cursor=pointer]:
+                                - /url: /lightning/r/Opportunity/006dz00000E7ewmAAB/related/Recommendations__r/view
+                                - generic "Recommendations" [ref=e6628]
+                                - generic "(0)" [ref=e6629]
+                        - article "Investment" [ref=e6635]:
+                          - generic [ref=e6642]:
+                            - img [ref=e6646]
+                            - heading "Investment (0)" [level=2] [ref=e6648]:
+                              - link "Investment (0)" [ref=e6649] [cursor=pointer]:
+                                - /url: /lightning/r/Opportunity/006dz00000E7ewmAAB/related/Investment__r/view
+                                - generic "Investment" [ref=e6650]
+                                - generic "(0)" [ref=e6651]
+                        - article "Fund Account Selections" [ref=e6657]:
+                          - generic [ref=e6662]:
+                            - generic [ref=e6664]:
+                              - img [ref=e6668]
+                              - heading "Fund Account Selections (0)" [level=2] [ref=e6670]:
+                                - link "Fund Account Selections (0)" [ref=e6671] [cursor=pointer]:
+                                  - /url: /lightning/r/Opportunity/006dz00000E7ewmAAB/related/Fund_Account_Selections__r/view
+                                  - generic "Fund Account Selections" [ref=e6672]
+                                  - generic "(0)" [ref=e6673]
+                            - button "Show actions for Fund Account Selections" [active] [ref=e6678] [cursor=pointer]:
+                              - generic [ref=e6679]:
+                                - img
+                              - generic [ref=e6683]: Show actions for Fund Account Selections
+                        - article "Recommended Fund Account Selections" [ref=e6689]:
+                          - generic [ref=e6696]:
+                            - img [ref=e6700]
+                            - heading "Recommended Fund Account Selections (0)" [level=2] [ref=e6702]:
+                              - link "Recommended Fund Account Selections (0)" [ref=e6703] [cursor=pointer]:
+                                - /url: /lightning/r/Opportunity/006dz00000E7ewmAAB/related/Recommended_Fund_Account_Selection__r/view
+                                - generic "Recommended Fund Account Selections" [ref=e6704]
+                                - generic "(0)" [ref=e6705]
+                        - article "Open Activities" [ref=e6713]:
+                          - generic [ref=e6714]:
+                            - heading "Open Activities (0)" [level=2] [ref=e6720]:
+                              - link "Open Activities (0)" [ref=e6721] [cursor=pointer]:
+                                - /url: /lightning/r/Opportunity/006dz00000E7ewmAAB/related/OpenActivities/view
+                                - generic "Open Activities" [ref=e6722]
+                                - generic "(0)" [ref=e6723]
+                            - button "Show actions for Open Activities" [ref=e6727] [cursor=pointer]:
+                              - generic [ref=e6729]:
+                                - img [ref=e6731]
+                                - generic [ref=e6734]: Show actions for Open Activities
+                        - article "Activity History" [ref=e6742]:
+                          - generic [ref=e6743]:
+                            - heading "Activity History (0)" [level=2] [ref=e6749]:
+                              - link "Activity History (0)" [ref=e6750] [cursor=pointer]:
+                                - /url: /lightning/r/Opportunity/006dz00000E7ewmAAB/related/ActivityHistories/view
+                                - generic "Activity History" [ref=e6751]
+                                - generic "(0)" [ref=e6752]
+                            - button "Show actions for Activity History" [ref=e6756] [cursor=pointer]:
+                              - generic [ref=e6758]:
+                                - img [ref=e6760]
+                                - generic [ref=e6763]: Show actions for Activity History
+                        - article [ref=e6769]:
+                          - generic [ref=e6770]:
+                            - img [ref=e6772]
+                            - heading "DocuSign Status" [level=2] [ref=e6773]
+                        - article [ref=e6780]:
+                          - generic [ref=e6781]:
+                            - img [ref=e6783]
+                            - heading "Opportunity Team" [level=2] [ref=e6784]
+                        - article [ref=e6791]:
+                          - generic [ref=e6792]:
+                            - img [ref=e6794]
+                            - heading "Transaction Parties" [level=2] [ref=e6795]
+                        - article [ref=e6802]:
+                          - generic [ref=e6803]:
+                            - img [ref=e6805]
+                            - heading "Contact Roles" [level=2] [ref=e6806]
+                        - article [ref=e6813]:
+                          - generic [ref=e6814]:
+                            - img [ref=e6816]
+                            - heading "Cases" [level=2] [ref=e6817]
+                        - article [ref=e6824]:
+                          - generic [ref=e6825]:
+                            - img [ref=e6827]
+                            - heading "Stage History" [level=2] [ref=e6828]
+                        - article [ref=e6835]:
+                          - generic [ref=e6836]:
+                            - img [ref=e6838]
+                            - heading "Opportunity Field History" [level=2] [ref=e6839]
+                        - article [ref=e6846]:
+                          - generic [ref=e6847]:
+                            - img [ref=e6849]
+                            - heading "Notes & Attachments" [level=2] [ref=e6850]
+                        - article [ref=e6857]:
+                          - generic [ref=e6858]:
+                            - img [ref=e6860]
+                            - heading "Approval History" [level=2] [ref=e6861]
+  - generic:
+    - status

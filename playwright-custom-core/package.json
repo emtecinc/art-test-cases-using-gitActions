@@ -1,0 +1,50 @@
+{
+  "name": "playwright-custom-core",
+  "version": "1.0.0",
+  "description": "Playwright Node.js Test Automation Framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rimraf dist",
+    "install:browsers": "npx playwright install chromium"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "self-healing",
+    "e2e",
+    "framework"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "axios": "^1.13.5",
+    "jsonwebtoken": "^9.0.3",
+    "mailosaur": "^11.1.0",
+    "proper-lockfile": "^4.1.2"
+  },
+  "peerDependencies": {
+    "@playwright/test": "^1.58.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "rimraf": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/proper-lockfile": "^4.1.2"
+  }
+}

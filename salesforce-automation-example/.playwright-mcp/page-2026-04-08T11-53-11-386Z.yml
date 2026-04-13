@@ -1,0 +1,229 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4377] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e4378] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e4379] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e4380] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e4381]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e4382]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "This item doesn't support favorites" [ref=e6874] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [ref=e4384] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e4385] [cursor=pointer]:
+                - generic [ref=e833]:
+                  - img [ref=e837]
+                  - tooltip "Global Actions"
+            - listitem [ref=e95]:
+              - button "Guidance Center" [ref=e4386] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e102]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e105]:
+              - button "Salesforce Help" [ref=e4387] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - img [ref=e113]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e116]:
+              - button "Setup" [ref=e4388] [cursor=pointer]:
+                - generic [ref=e123]:
+                  - img [ref=e127]
+                  - tooltip "Setup"
+            - listitem [ref=e130]:
+              - button "Notifications" [ref=e4389] [cursor=pointer]:
+                - generic [ref=e134]:
+                  - img [ref=e139]
+                  - tooltip "Notifications"
+            - listitem [ref=e143]:
+              - button "View profile" [ref=e4390] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - tooltip "View profile"
+    - generic [ref=e151]:
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - navigation "App" [ref=e4391]:
+            - button "App Launcher" [ref=e4392] [cursor=pointer]:
+              - generic [ref=e170]: App Launcher
+          - heading "PFS" [level=1] [ref=e4393]:
+            - generic "PFS" [ref=e4394]
+        - navigation "Global" [ref=e4395]:
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Home" [ref=e4396] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e179]: Home
+            - listitem [ref=e180]:
+              - link "Tasks" [ref=e4397] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e182]: Tasks
+            - listitem [ref=e183]:
+              - link "Leads" [ref=e4398] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e185]: Leads
+              - button "Leads List" [ref=e4399] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e196]: Leads List
+            - listitem [ref=e197]:
+              - link "Campaigns" [ref=e4400] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e199]: Campaigns
+              - button "Campaigns List" [ref=e4401] [cursor=pointer]:
+                - img [ref=e207]
+                - generic [ref=e210]: Campaigns List
+            - listitem [ref=e211]:
+              - link "Accounts" [ref=e4402] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e213]: Accounts
+              - button "Accounts List" [ref=e4403] [cursor=pointer]:
+                - img [ref=e221]
+                - generic [ref=e224]: Accounts List
+            - listitem [ref=e225]:
+              - link "Contacts" [ref=e4404] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e227]: Contacts
+              - button "Contacts List" [ref=e4405] [cursor=pointer]:
+                - img [ref=e235]
+                - generic [ref=e238]: Contacts List
+            - listitem [ref=e239]:
+              - link "Opportunities" [ref=e4406] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e241]: Opportunities
+              - button "Opportunities List" [ref=e4407] [cursor=pointer]:
+                - img [ref=e249]
+                - generic [ref=e252]: Opportunities List
+            - listitem [ref=e253]:
+              - link "Reports" [ref=e4408] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e255]: Reports
+              - button "Reports List" [ref=e4409] [cursor=pointer]:
+                - img [ref=e263]
+                - generic [ref=e266]: Reports List
+            - listitem [ref=e267]:
+              - link "Dashboards" [ref=e4410] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e269]: Dashboards
+              - button "Dashboards List" [ref=e4411] [cursor=pointer]:
+                - img [ref=e277]
+                - generic [ref=e280]: Dashboards List
+            - listitem [ref=e281]:
+              - link "Thresholds" [ref=e4412] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e283]: Thresholds
+              - button "Thresholds List" [ref=e4413] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e294]: Thresholds List
+            - listitem [ref=e295]:
+              - button "Help" [ref=e4414] [cursor=pointer]:
+                - img [ref=e301]
+                - generic [ref=e304]: Help
+      - main [ref=e306]:
+        - generic [ref=e310]:
+          - text: · · · · ·
+          - iframe [active] [ref=e6882]:
+            - generic [active] [ref=f2e1]:
+              - img "Content Starts Here" [ref=f2e3] [cursor=pointer]
+              - generic [ref=f2e10]:
+                - banner [ref=f2e11]:
+                  - heading "Fund Account Selection" [level=2] [ref=f2e12]
+                - generic [ref=f2e13]:
+                  - article [ref=f2e15]:
+                    - generic [ref=f2e17]:
+                      - img [ref=f2e22]
+                      - heading "Information" [level=2] [ref=f2e26]:
+                        - generic [ref=f2e27]: Information
+                    - generic [ref=f2e30]:
+                      - generic [ref=f2e32]:
+                        - generic [ref=f2e39]:
+                          - generic [ref=f2e40]: "*Fund Account"
+                          - generic [ref=f2e45]:
+                            - img [ref=f2e180]
+                            - combobox "Fund Account" [ref=f2e48]: TestFundAcct_1775200129991
+                            - button "Clear Fund Account Selection" [ref=f2e183] [cursor=pointer]:
+                              - img [ref=f2e185]
+                              - generic [ref=f2e188]: Clear Fund Account Selection
+                          - status
+                        - generic [ref=f2e51]:
+                          - generic [ref=f2e52]: Opportunity
+                          - link "Rol - - test new account" [ref=f2e54] [cursor=pointer]:
+                            - /url: /006dz00000E7ewm
+                      - generic [ref=f2e56]:
+                        - generic [ref=f2e62]:
+                          - generic [ref=f2e63]: "*% of Investment"
+                          - spinbutton "% of Investment" [ref=f2e65]
+                        - generic [ref=f2e71]:
+                          - generic [ref=f2e72]: "*IRAType"
+                          - generic [ref=f2e76]:
+                            - combobox "IRAType" [ref=f2e77] [cursor=pointer]:
+                              - generic [ref=f2e78]: "--None--"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                          - status
+                      - generic [ref=f2e80]:
+                        - generic [ref=f2e84]:
+                          - generic [ref=f2e85]: "*Fund Account Selection Type"
+                          - generic [ref=f2e89]:
+                            - combobox "Fund Account Selection Type" [ref=f2e90] [cursor=pointer]:
+                              - generic [ref=f2e91]: Participant Selection
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                          - status
+                        - generic [ref=f2e96]:
+                          - generic [ref=f2e98]: Fund Account Number Exists
+                          - checkbox "Fund Account Number Exists" [ref=f2e100]
+                      - generic [ref=f2e102]:
+                        - generic [ref=f2e107]:
+                          - generic [ref=f2e108]: Traditional Participant Selection Total
+                          - textbox "Traditional Participant Selection Total" [disabled] [ref=f2e110]
+                        - generic [ref=f2e116]:
+                          - generic [ref=f2e117]: Fund Account Number
+                          - textbox "Fund Account Number" [disabled] [ref=f2e119]
+                      - generic [ref=f2e126]:
+                        - generic [ref=f2e127]: Roth Participant Selection Total
+                        - textbox "Roth Participant Selection Total" [disabled] [ref=f2e129]
+                      - generic [ref=f2e130]:
+                        - button "Save & Close" [ref=f2e132] [cursor=pointer]
+                        - button "Save & New" [ref=f2e134] [cursor=pointer]
+                        - button "Close" [ref=f2e136] [cursor=pointer]
+                  - article [ref=f2e139]:
+                    - heading "Related Fund Account Selections" [level=2] [ref=f2e143]:
+                      - generic [ref=f2e144]: Related Fund Account Selections
+                    - table [ref=f2e148]:
+                      - rowgroup [ref=f2e149]:
+                        - row "Fund Account Opportunity Name % of Investment IRA Type Fund Account Selection Type" [ref=f2e150]:
+                          - columnheader "Fund Account" [ref=f2e151]
+                          - columnheader "Opportunity Name" [ref=f2e152]
+                          - columnheader "% of Investment" [ref=f2e153]
+                          - columnheader "IRA Type" [ref=f2e154]
+                          - columnheader "Fund Account Selection Type" [ref=f2e155]
+                      - rowgroup
+  - generic:
+    - status

@@ -1,0 +1,328 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e3933] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e3934] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e3935] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e3936] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e3937]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e3938]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e3939] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e3940] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e3941] [cursor=pointer]:
+                - generic [ref=e832]:
+                  - img [ref=e836]
+                  - tooltip "Global Actions"
+            - listitem [ref=e95]:
+              - button "Guidance Center" [ref=e3942] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e102]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e105]:
+              - button "Salesforce Help" [ref=e3943] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - img [ref=e113]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e116]:
+              - button "Setup" [ref=e3944] [cursor=pointer]:
+                - generic [ref=e123]:
+                  - img [ref=e127]
+                  - tooltip "Setup"
+            - listitem [ref=e130]:
+              - button "Notifications" [ref=e3945] [cursor=pointer]:
+                - generic [ref=e134]:
+                  - img [ref=e139]
+                  - tooltip "Notifications"
+            - listitem [ref=e143]:
+              - button "View profile" [ref=e3946] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - tooltip "View profile"
+    - generic [ref=e151]:
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - navigation "App" [ref=e3947]:
+            - button "App Launcher" [ref=e3948] [cursor=pointer]:
+              - generic [ref=e170]: App Launcher
+          - heading "PFS" [level=1] [ref=e3949]:
+            - generic "PFS" [ref=e3950]
+        - navigation "Global" [ref=e3951]:
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Home" [ref=e3952] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e179]: Home
+            - listitem [ref=e180]:
+              - link "Tasks" [ref=e3953] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e182]: Tasks
+            - listitem [ref=e183]:
+              - link "Leads" [ref=e3954] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e185]: Leads
+              - button "Leads List" [ref=e3955] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e196]: Leads List
+            - listitem [ref=e197]:
+              - link "Campaigns" [ref=e3956] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e199]: Campaigns
+              - button "Campaigns List" [ref=e3957] [cursor=pointer]:
+                - img [ref=e207]
+                - generic [ref=e210]: Campaigns List
+            - listitem [ref=e211] [cursor=pointer]:
+              - link "Accounts" [ref=e3958]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e213]: Accounts
+              - button "Accounts List" [ref=e3959]:
+                - img [ref=e221]
+                - generic [ref=e224]: Accounts List
+            - listitem [ref=e225]:
+              - link "Contacts" [ref=e3960] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e227]: Contacts
+              - button "Contacts List" [ref=e3961] [cursor=pointer]:
+                - img [ref=e235]
+                - generic [ref=e238]: Contacts List
+            - listitem [ref=e239]:
+              - link "Opportunities" [ref=e3962] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e241]: Opportunities
+              - button "Opportunities List" [ref=e3963] [cursor=pointer]:
+                - img [ref=e249]
+                - generic [ref=e252]: Opportunities List
+            - listitem [ref=e253]:
+              - link "Reports" [ref=e3964] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e255]: Reports
+              - button "Reports List" [ref=e3965] [cursor=pointer]:
+                - img [ref=e263]
+                - generic [ref=e266]: Reports List
+            - listitem [ref=e267]:
+              - link "Dashboards" [ref=e3966] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e269]: Dashboards
+              - button "Dashboards List" [ref=e3967] [cursor=pointer]:
+                - img [ref=e277]
+                - generic [ref=e280]: Dashboards List
+            - listitem [ref=e281]:
+              - link "Thresholds" [ref=e3968] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e283]: Thresholds
+              - button "Thresholds List" [ref=e3969] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e294]: Thresholds List
+            - listitem [ref=e295]:
+              - button "Help" [ref=e3970] [cursor=pointer]:
+                - img [ref=e301]
+                - generic [ref=e304]: Help
+      - main [ref=e306]:
+        - generic [ref=e310]:
+          - text: · · · · ·
+          - generic [ref=e2867]:
+            - generic [ref=e2876]:
+              - generic [ref=e2877]:
+                - generic [ref=e2878]:
+                  - heading "Account Test Fund New Account" [level=1] [ref=e3971]:
+                    - generic [ref=e2890]: Account
+                    - generic [ref=e2891]: Test Fund New Account
+                  - button "View Account Hierarchy" [ref=e3972] [cursor=pointer]:
+                    - img [ref=e2904]
+                    - generic [ref=e2907]: View Account Hierarchy
+                - generic [ref=e2911]:
+                  - generic "Delete" [ref=e3973]:
+                    - button "Delete" [ref=e3974] [cursor=pointer]
+                  - generic "View Relationship Map" [ref=e3975]:
+                    - button "View Relationship Map" [ref=e3976] [cursor=pointer]
+                  - generic "Edit Labels" [ref=e3977]:
+                    - button "Edit Labels" [ref=e3978] [cursor=pointer]
+                  - button "Show more actions" [ref=e3979] [cursor=pointer]:
+                    - img [ref=e2933]
+                    - generic [ref=e2936]: Show more actions
+              - generic [ref=e2937]:
+                - generic [ref=e2939]:
+                  - paragraph [ref=e2940]: Type
+                  - paragraph
+                - generic [ref=e2942]:
+                  - paragraph [ref=e2943]: Phone
+                  - paragraph
+                - generic [ref=e2945]:
+                  - paragraph [ref=e2946]: Website
+                  - paragraph
+                - generic [ref=e2948]:
+                  - paragraph [ref=e2949]: Account Owner
+                  - paragraph [ref=e2950]:
+                    - generic [ref=e2953]:
+                      - generic [ref=e2960]:
+                        - link "Somya Sijaria" [ref=e3980] [cursor=pointer]:
+                          - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                          - generic [ref=e2965]: Somya Sijaria
+                        - button "Open Somya Sijaria Preview" [ref=e3981] [cursor=pointer]:
+                          - img [ref=e2969]
+                          - generic [ref=e2972]: Open Somya Sijaria Preview
+                      - button "Change Owner" [ref=e3982] [cursor=pointer]:
+                        - img [ref=e2976]
+                        - generic [ref=e2979]: Change Owner
+                - generic [ref=e2981]:
+                  - paragraph [ref=e2982]: Account Site
+                  - paragraph
+                - generic [ref=e2984]:
+                  - paragraph [ref=e2985]: Industry
+                  - paragraph
+            - generic [ref=e2993]:
+              - heading "Tabs" [level=2] [ref=e3983]
+              - generic "Tabs" [ref=e3984]:
+                - generic [ref=e2996]:
+                  - heading "Tabs" [level=2] [ref=e3985]
+                  - tablist "Tabs" [ref=e3986]:
+                    - tab "Related" [selected] [ref=e3987] [cursor=pointer]
+                    - tab "Details" [ref=e3988] [cursor=pointer]
+                    - tab "Skience Safe" [ref=e3989] [cursor=pointer]
+                  - tabpanel "Related" [ref=e3990]:
+                    - generic [ref=e3006]:
+                      - article [ref=e3011]:
+                        - generic [ref=e3013]:
+                          - img [ref=e3018]
+                          - heading "We found no potential duplicates of this Account." [level=2] [ref=e3991]:
+                            - generic "We found no potential duplicates of this Account." [ref=e3992]
+                        - generic [ref=e3025]: No duplicate rules are activated. Activate duplicate rules to identify potential duplicate records.
+                      - generic [ref=e3029]:
+                        - article "Contacts" [ref=e3993]:
+                          - generic [ref=e3040]:
+                            - generic [ref=e3042]:
+                              - img [ref=e3046]
+                              - heading "Contacts (0)" [level=2] [ref=e3994]:
+                                - link "Contacts (0)" [ref=e3995] [cursor=pointer]:
+                                  - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/Contacts/view
+                                  - generic "Contacts" [ref=e3996]
+                                  - generic "(0)" [ref=e3997]
+                            - generic "New" [ref=e3998]:
+                              - button "New" [ref=e3999] [cursor=pointer]
+                        - article "Cases" [ref=e4000]:
+                          - generic [ref=e3071]:
+                            - generic [ref=e3073]:
+                              - img [ref=e3077]
+                              - heading "Cases (0)" [level=2] [ref=e4001]:
+                                - link "Cases (0)" [ref=e4002] [cursor=pointer]:
+                                  - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/Cases/view
+                                  - generic "Cases" [ref=e4003]
+                                  - generic "(0)" [ref=e4004]
+                            - generic "New" [ref=e4005]:
+                              - button "New" [ref=e4006] [cursor=pointer]
+                        - article "Open Activities" [ref=e4007]:
+                          - generic [ref=e3100]:
+                            - heading "Open Activities (0)" [level=2] [ref=e4008]:
+                              - link "Open Activities (0)" [ref=e4009] [cursor=pointer]:
+                                - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/OpenActivities/view
+                                - generic "Open Activities" [ref=e4010]
+                                - generic "(0)" [ref=e4011]
+                            - list [ref=e4012]:
+                              - listitem [ref=e4013]:
+                                - button "New Task" [ref=e4014] [cursor=pointer]:
+                                  - generic "New Task" [ref=e4015]
+                        - article "Activity History" [ref=e4016]:
+                          - generic [ref=e3124]:
+                            - heading "Activity History (0)" [level=2] [ref=e4017]:
+                              - link "Activity History (0)" [ref=e4018] [cursor=pointer]:
+                                - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/ActivityHistories/view
+                                - generic "Activity History" [ref=e4019]
+                                - generic "(0)" [ref=e4020]
+                            - list [ref=e4021]:
+                              - listitem [ref=e4022]:
+                                - button "View All" [ref=e4023] [cursor=pointer]:
+                                  - generic "View All" [ref=e4024]
+                              - listitem [ref=e4025]:
+                                - button "Log a Call" [ref=e4026] [cursor=pointer]:
+                                  - generic "Log a Call" [ref=e4027]
+                        - article "Plan Customers" [ref=e4028]:
+                          - generic [ref=e3149]:
+                            - generic [ref=e3150]:
+                              - generic [ref=e3153]:
+                                - generic [ref=e3155]:
+                                  - img [ref=e3159]
+                                  - heading "Plan Customers (1)" [level=2] [ref=e4029]:
+                                    - link "Plan Customers (1)" [ref=e4030] [cursor=pointer]:
+                                      - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/Plan_Customers__r/view
+                                      - generic "Plan Customers" [ref=e4031]
+                                      - generic "(1)" [ref=e4032]
+                                - generic "New" [ref=e4033]:
+                                  - button "New" [active] [ref=e4034] [cursor=pointer]
+                              - generic [ref=e4041]:
+                                - generic [ref=e4042]: Navigation Mode
+                                - grid [ref=e4046]:
+                                  - rowgroup:
+                                    - 'row "Name Source Plan Name Contract # Action"':
+                                      - columnheader "Name":
+                                        - generic "Name" [ref=e4050]
+                                      - columnheader "Source":
+                                        - generic "Source" [ref=e4054]
+                                      - columnheader "Plan Name":
+                                        - generic "Plan Name" [ref=e4058]
+                                      - 'columnheader "Contract #"':
+                                        - 'generic "Contract #" [ref=e4062]'
+                                      - columnheader "Action":
+                                        - generic [ref=e4065]:
+                                          - generic "Action"
+                                  - rowgroup [ref=e4066]:
+                                    - row "Test Customer PLan Open Test Customer PLan Preview RPS Show Actions" [ref=e4067]:
+                                      - rowheader "Test Customer PLan Open Test Customer PLan Preview" [ref=e4068]:
+                                        - generic [ref=e4077]:
+                                          - link "Test Customer PLan" [ref=e4078] [cursor=pointer]:
+                                            - /url: /lightning/r/a0adz000009bMhAAAU/view
+                                            - generic [ref=e4082]: Test Customer PLan
+                                          - button "Open Test Customer PLan Preview" [ref=e4084] [cursor=pointer]:
+                                            - img [ref=e4086]
+                                            - generic [ref=e4089]: Open Test Customer PLan Preview
+                                      - gridcell "RPS" [ref=e4090]:
+                                        - generic [ref=e4096]: RPS
+                                      - gridcell [ref=e4097]
+                                      - gridcell [ref=e4100]
+                                      - gridcell "Show Actions" [ref=e4101]:
+                                        - button "Show Actions" [ref=e4108] [cursor=pointer]:
+                                          - img [ref=e4110]
+                                          - generic [ref=e4113]: Show Actions
+                            - link "View All Plan Customers" [ref=e4114] [cursor=pointer]:
+                              - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/Plan_Customers__r/view
+                              - generic [ref=e4115]:
+                                - text: View All
+                                - generic [ref=e4116]: Plan Customers
+                        - article [ref=e3179]:
+                          - generic [ref=e3180]:
+                            - img [ref=e3182]
+                            - heading "NextCapital Events" [level=2] [ref=e4117]
+                        - article [ref=e3190]:
+                          - generic [ref=e3191]:
+                            - img [ref=e3193]
+                            - heading "Opportunities" [level=2] [ref=e4118]
+                        - article [ref=e3201]:
+                          - generic [ref=e3202]:
+                            - img [ref=e3204]
+                            - heading "Related Accounts" [level=2] [ref=e4119]
+                        - article [ref=e3212]:
+                          - generic [ref=e3213]:
+                            - img [ref=e3215]
+                            - heading "Account History" [level=2] [ref=e4120]
+  - status [ref=e3219]: Success notification..Plan Customer "Test Customer PLan" was created. Press Control + F6 to navigate to the next toast notification or focusable region.

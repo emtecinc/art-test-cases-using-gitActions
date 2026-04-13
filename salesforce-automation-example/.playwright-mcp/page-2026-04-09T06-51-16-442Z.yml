@@ -1,0 +1,162 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e7]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e10]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2Fsetup%2Fui%2Frecordtypeselect.jsp%3Fent%3DOpportunity%26retURL%3D%252F006%252Fo%26save_new_url%3D%252F006%252Fe%253FretURL%253D%25252F006%25252Fo
+                  - link "Help & Training" [ref=e27] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: PFS
+      - navigation [ref=e33]:
+        - heading "Tab Navigation" [level=1] [ref=e34]
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: /home/home.jsp
+            - listitem [ref=e39]:
+              - link "Tasks" [ref=e40] [cursor=pointer]:
+                - /url: /servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNbFF3TmpvMU1Ub3hNeTQxTXpSYSxkN0RNTlNBZ0QzdFNXdldtUXFDZ21CRW9MRzZzR0wtajBPTU1hamtBMjhNPSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e41]:
+              - link "Leads" [ref=e42] [cursor=pointer]:
+                - /url: /00Q/o
+            - listitem [ref=e43]:
+              - link "Campaigns" [ref=e44] [cursor=pointer]:
+                - /url: /701/o
+            - listitem [ref=e45]:
+              - link "Accounts" [ref=e46] [cursor=pointer]:
+                - /url: /001/o
+            - listitem [ref=e47]:
+              - link "Contacts" [ref=e48] [cursor=pointer]:
+                - /url: /003/o
+            - listitem [ref=e49]:
+              - link "Opportunities" [ref=e50] [cursor=pointer]:
+                - /url: /006/o
+              - generic [ref=e51]: (Currently Selected)
+            - listitem [ref=e52]:
+              - link "Reports" [ref=e53] [cursor=pointer]:
+                - /url: /00O/o
+            - listitem [ref=e54]:
+              - link "Dashboards" [ref=e55] [cursor=pointer]:
+                - /url: /01Z/o
+            - listitem [ref=e56]:
+              - link "Thresholds" [ref=e57] [cursor=pointer]:
+                - /url: /a1f/o
+            - listitem [ref=e58]:
+              - link "All Tabs" [ref=e59] [cursor=pointer]:
+                - /url: /home/showAllTabs.jsp
+                - img "All Tabs" [ref=e60]
+    - table [ref=e62]:
+      - rowgroup [ref=e63]:
+        - row "Click to Open Sidebar Content Starts Here Opportunity New Opportunity Select Opportunity Record Type Help for this Page Select a record type for the new opportunity. To skip this page in the future, change your record type settings on your personal setup page. Select Opportunity Record Type * Record Type of new record Enrollment Continue Cancel Available Opportunity Record Types Record Type Name Description Consolidation PFS Consolidation Deferral RPS Deferral Enrollment PFS Enrollment Financial Center PFS Financial Center In Plan Advice Record Type for In Plan Advice Opportunity NextCapital Rollover NextCapital Rollover Rollover PFS Rollover TRS Consolidation TRS Consolidation" [ref=e64]:
+          - cell "Click to Open Sidebar" [ref=e65]:
+            - link "Click to Open Sidebar" [ref=e66]:
+              - /url: javascript:void(0);
+              - generic [ref=e67]: Click to Open Sidebar
+          - cell "Content Starts Here Opportunity New Opportunity Select Opportunity Record Type Help for this Page Select a record type for the new opportunity. To skip this page in the future, change your record type settings on your personal setup page. Select Opportunity Record Type * Record Type of new record Enrollment Continue Cancel Available Opportunity Record Types Record Type Name Description Consolidation PFS Consolidation Deferral RPS Deferral Enrollment PFS Enrollment Financial Center PFS Financial Center In Plan Advice Record Type for In Plan Advice Opportunity NextCapital Rollover NextCapital Rollover Rollover PFS Rollover TRS Consolidation TRS Consolidation" [ref=e71]:
+            - img "Content Starts Here" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - img "Opportunity" [ref=e76]
+                - heading "New Opportunity" [level=1] [ref=e77]
+                - heading "Select Opportunity Record Type" [level=2] [ref=e78]
+              - link "Help for this Page" [ref=e80] [cursor=pointer]:
+                - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=permissions_record_type_access.htm&section=Customizing&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+            - generic [ref=e81]: Select a record type for the new opportunity. To skip this page in the future, change your record type settings on your personal setup page.
+            - generic [ref=e83]:
+              - table [ref=e85]:
+                - rowgroup [ref=e86]:
+                  - row "Select Opportunity Record Type" [ref=e87]:
+                    - cell "Select Opportunity Record Type" [ref=e88]:
+                      - heading "Select Opportunity Record Type" [level=2] [ref=e89]
+              - table [ref=e92]:
+                - rowgroup [ref=e93]:
+                  - row "* Record Type of new record Enrollment" [ref=e94]:
+                    - cell "* Record Type of new record" [ref=e95]:
+                      - generic [ref=e96]:
+                        - generic [ref=e97]: "*"
+                        - text: Record Type of new record
+                    - cell "Enrollment" [ref=e98]:
+                      - combobox "* Record Type of new record" [ref=e101]:
+                        - option "Consolidation"
+                        - option "Deferral"
+                        - option "Enrollment" [selected]
+                        - option "Financial Center"
+                        - option "In Plan Advice"
+                        - option "NextCapital Rollover"
+                        - option "Rollover"
+                        - option "TRS Consolidation"
+                  - row:
+                    - cell
+              - table [ref=e103]:
+                - rowgroup [ref=e104]:
+                  - row "Continue Cancel" [ref=e105]:
+                    - cell [ref=e106]
+                    - cell "Continue Cancel" [ref=e107]:
+                      - button "Continue" [ref=e108] [cursor=pointer]
+                      - button "Cancel" [ref=e109] [cursor=pointer]
+            - heading "Available Opportunity Record Types" [level=3] [ref=e110]
+            - table [ref=e111]:
+              - rowgroup [ref=e112]:
+                - row "Record Type Name Description" [ref=e113]:
+                  - columnheader "Record Type Name" [ref=e114]
+                  - columnheader "Description" [ref=e115]
+                - row "Consolidation PFS Consolidation" [ref=e116]:
+                  - rowheader "Consolidation" [ref=e117]
+                  - cell "PFS Consolidation" [ref=e118]
+                - row "Deferral RPS Deferral" [ref=e119]:
+                  - rowheader "Deferral" [ref=e120]
+                  - cell "RPS Deferral" [ref=e121]
+                - row "Enrollment PFS Enrollment" [ref=e122]:
+                  - rowheader "Enrollment" [ref=e123]
+                  - cell "PFS Enrollment" [ref=e124]
+                - row "Financial Center PFS Financial Center" [ref=e125]:
+                  - rowheader "Financial Center" [ref=e126]
+                  - cell "PFS Financial Center" [ref=e127]
+                - row "In Plan Advice Record Type for In Plan Advice Opportunity" [ref=e128]:
+                  - rowheader "In Plan Advice" [ref=e129]
+                  - cell "Record Type for In Plan Advice Opportunity" [ref=e130]
+                - row "NextCapital Rollover NextCapital Rollover" [ref=e131]:
+                  - rowheader "NextCapital Rollover" [ref=e132]
+                  - cell "NextCapital Rollover" [ref=e133]
+                - row "Rollover PFS Rollover" [ref=e134]:
+                  - rowheader "Rollover" [ref=e135]
+                  - cell "PFS Rollover" [ref=e136]
+                - row "TRS Consolidation TRS Consolidation" [ref=e137]:
+                  - rowheader "TRS Consolidation" [ref=e138]
+                  - cell "TRS Consolidation" [ref=e139]
+    - generic [ref=e141]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e142] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e143] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e144] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e145] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e146] [cursor=pointer]:
+        - /url: /ltng/oneAppRedirect
+  - iframe [ref=e147]:
+    

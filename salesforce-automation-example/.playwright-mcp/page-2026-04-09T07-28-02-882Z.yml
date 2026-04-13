@@ -1,0 +1,365 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e7]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e10]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F006%2Fo
+                  - link "Help & Training" [ref=e27] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: PFS
+      - navigation [ref=e33]:
+        - heading "Tab Navigation" [level=1] [ref=e34]
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: /home/home.jsp
+            - listitem [ref=e39]:
+              - link "Tasks" [ref=e40] [cursor=pointer]:
+                - /url: /servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNbFF3TnpveU56bzFPUzQzTmpsYSxsTFhxR2ZFMWUzblRKY01Pb1c5OVZVMjZZMnBVRkxOVXZqT0pIZ0JLMFBZPSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e41]:
+              - link "Leads" [ref=e42] [cursor=pointer]:
+                - /url: /00Q/o
+            - listitem [ref=e43]:
+              - link "Campaigns" [ref=e44] [cursor=pointer]:
+                - /url: /701/o
+            - listitem [ref=e45]:
+              - link "Accounts" [ref=e46] [cursor=pointer]:
+                - /url: /001/o
+            - listitem [ref=e47]:
+              - link "Contacts" [ref=e48] [cursor=pointer]:
+                - /url: /003/o
+            - listitem [ref=e49]:
+              - link "Opportunities" [ref=e50] [cursor=pointer]:
+                - /url: /006/o
+              - generic [ref=e51]: (Currently Selected)
+            - listitem [ref=e52]:
+              - link "Reports" [ref=e53] [cursor=pointer]:
+                - /url: /00O/o
+            - listitem [ref=e54]:
+              - link "Dashboards" [ref=e55] [cursor=pointer]:
+                - /url: /01Z/o
+            - listitem [ref=e56]:
+              - link "Thresholds" [ref=e57] [cursor=pointer]:
+                - /url: /a1f/o
+            - listitem [ref=e58]:
+              - link "All Tabs" [ref=e59] [cursor=pointer]:
+                - /url: /home/showAllTabs.jsp
+                - img "All Tabs" [ref=e60]
+    - table [ref=e62]:
+      - rowgroup [ref=e63]:
+        - row [ref=e64]:
+          - cell "Click to Open Sidebar" [ref=e65]:
+            - link "Click to Open Sidebar" [ref=e66]:
+              - /url: javascript:void(0);
+              - generic [ref=e67]: Click to Open Sidebar
+          - cell [ref=e71]:
+            - img "Content Starts Here" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - img "Opportunity" [ref=e76]
+                - heading "Opportunities" [level=1] [ref=e77]
+                - heading "Home" [level=2] [ref=e78]
+              - generic [ref=e79]:
+                - link "Tell me more!" [ref=e80] [cursor=pointer]:
+                  - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=opportunities.htm&section=Opportunities&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - text: "|"
+                - link "Help for this Page" [ref=e81] [cursor=pointer]:
+                  - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=opportunities.htm&section=Opportunities&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - generic [ref=e87]: "*"
+                - text: "View:"
+              - generic [ref=e88]:
+                - combobox "* View:" [ref=e89]:
+                  - option "Anthony C's Opportunities"
+                  - option "Closing Next Month"
+                  - option "Closing This Month"
+                  - option "Consolidation Opportunities Won"
+                  - option "Dynetics Clean up"
+                  - option "Enrollment Opportunities"
+                  - option "Enrollment Opportunities Won"
+                  - option "Kelsey Leads"
+                  - option "Last Modified Greater than 30 Days"
+                  - option "Manual Campaign Task Creation"
+                  - option "Manually Closed Enroll Opportunities"
+                  - option "My Open Consolidation Opportunities"
+                  - option "My Open Opportunities"
+                  - option "My Opportunities"
+                  - option "My Teams Consolidation Opportunities"
+                  - option "NBS Pilot"
+                  - option "New This Week"
+                  - option "NextCapital Rollovers"
+                  - option "Opportunities I Own"
+                  - option "Opportunities owned by Wrong Int User"
+                  - option "Opportunities Pending Approval"
+                  - option "Opportunity Pipeline"
+                  - option "Oppty RPS"
+                  - option "Outbound Opportunities zero balance"
+                  - option "Outstanding Enrollment Opportunities"
+                  - option "Pending PPT with PAF and Cert"
+                  - option "Recently Viewed Opportunities"
+                  - option "Rollover Opportunities" [selected]
+                  - option "Rollovers Opps - Principal Review"
+                  - option "Rollover TOA Opportunities"
+                  - option "RVP Lead Update Needed"
+                  - option "Segment Pending Receipt Needed"
+                  - option "TEST campaign update list"
+                  - option "TEST campaign update list-TR12SL"
+                  - 'option "Test No Phone # search"'
+                  - 'option "Test Phone # search"'
+                  - 'option "Test Phone # search-HA3002"'
+                  - 'option "Test Phone # search-PE2102"'
+                  - option "test udate"
+                  - option "Won"
+                - button "Go!" [ref=e90] [cursor=pointer]
+              - generic [ref=e91]:
+                - link "Edit" [ref=e92] [cursor=pointer]:
+                  - /url: /ui/list/FilterEditPage?id=00BG0000008rQUC&retURL=%2F006&cancelURL=%2F006%2Fo
+                - text: "|"
+                - link "Create New View" [ref=e93] [cursor=pointer]:
+                  - /url: /ui/list/FilterEditPage?ftype=o&retURL=%2F006&cancelURL=%2F006%2Fo
+            - generic [ref=e96]:
+              - table [ref=e99]:
+                - rowgroup [ref=e100]:
+                  - row "Recent Opportunities New Recently Viewed" [ref=e101]:
+                    - cell "Recent Opportunities" [ref=e102]:
+                      - heading "Recent Opportunities" [level=3] [ref=e103]
+                    - cell "New" [ref=e104]:
+                      - button "New" [ref=e105] [cursor=pointer]
+                    - cell "Recently Viewed" [ref=e106]:
+                      - combobox "Display Selection" [ref=e107]:
+                        - option "Recently Created"
+                        - option "Recently Modified"
+                        - option "Recently Viewed" [selected]
+              - generic [ref=e108]:
+                - table [ref=e109]:
+                  - rowgroup [ref=e110]:
+                    - row "Opportunity Name Account Name Close Date" [ref=e111]:
+                      - columnheader "Opportunity Name" [ref=e112]
+                      - columnheader "Account Name" [ref=e113]
+                      - columnheader "Close Date" [ref=e114]
+                    - row "Rol - - TestEmployer_1774951248072 TestEmployer_1774951248072 4/23/2026" [ref=e115]:
+                      - rowheader "Rol - - TestEmployer_1774951248072" [ref=e116]:
+                        - link "Rol - - TestEmployer_1774951248072" [ref=e117] [cursor=pointer]:
+                          - /url: /006dz00000E90FF
+                      - cell "TestEmployer_1774951248072" [ref=e118]:
+                        - link "TestEmployer_1774951248072" [ref=e119] [cursor=pointer]:
+                          - /url: /001dz00000FlEn1
+                      - cell "4/23/2026" [ref=e120]
+                    - row "Rol - - TestEmployer_1774951248072 TestEmployer_1774951248072 4/23/2026" [ref=e121]:
+                      - rowheader "Rol - - TestEmployer_1774951248072" [ref=e122]:
+                        - link "Rol - - TestEmployer_1774951248072" [ref=e123] [cursor=pointer]:
+                          - /url: /006dz00000E8qr1
+                      - cell "TestEmployer_1774951248072" [ref=e124]:
+                        - link "TestEmployer_1774951248072" [ref=e125] [cursor=pointer]:
+                          - /url: /001dz00000FlEn1
+                      - cell "4/23/2026" [ref=e126]
+                    - row "Rol - - TestEmployer_1775123097206 TestEmployer_1775123097206 4/22/2026" [ref=e127]:
+                      - rowheader "Rol - - TestEmployer_1775123097206" [ref=e128]:
+                        - link "Rol - - TestEmployer_1775123097206" [ref=e129] [cursor=pointer]:
+                          - /url: /006dz00000E7nBF
+                      - cell "TestEmployer_1775123097206" [ref=e130]:
+                        - link "TestEmployer_1775123097206" [ref=e131] [cursor=pointer]:
+                          - /url: /001dz00000FpOKd
+                      - cell "4/22/2026" [ref=e132]
+                    - row "Rol - - test new account test new account 4/22/2026" [ref=e133]:
+                      - rowheader "Rol - - test new account" [ref=e134]:
+                        - link "Rol - - test new account" [ref=e135] [cursor=pointer]:
+                          - /url: /006dz00000E7ewm
+                      - cell "test new account" [ref=e136]:
+                        - link "test new account" [ref=e137] [cursor=pointer]:
+                          - /url: /001dz00000FvD85
+                      - cell "4/22/2026" [ref=e138]
+                    - row "Rol - - TestEmployer_1774956494379 TestEmployer_1774956494379 4/22/2026" [ref=e139]:
+                      - rowheader "Rol - - TestEmployer_1774956494379" [ref=e140]:
+                        - link "Rol - - TestEmployer_1774956494379" [ref=e141] [cursor=pointer]:
+                          - /url: /006dz00000E7mz8
+                      - cell "TestEmployer_1774956494379" [ref=e142]:
+                        - link "TestEmployer_1774956494379" [ref=e143] [cursor=pointer]:
+                          - /url: /001dz00000FlXcf
+                      - cell "4/22/2026" [ref=e144]
+                    - row "Rol - - test account test account 4/21/2026" [ref=e145]:
+                      - rowheader "Rol - - test account" [ref=e146]:
+                        - link "Rol - - test account" [ref=e147] [cursor=pointer]:
+                          - /url: /006dz00000E6Q1O
+                      - cell "test account" [ref=e148]:
+                        - link "test account" [ref=e149] [cursor=pointer]:
+                          - /url: /001dz00000Foz4W
+                      - cell "4/21/2026" [ref=e150]
+                    - row "Rol - - employer_bridgenext employer_bridgenext 4/14/2026" [ref=e151]:
+                      - rowheader "Rol - - employer_bridgenext" [ref=e152]:
+                        - link "Rol - - employer_bridgenext" [ref=e153] [cursor=pointer]:
+                          - /url: /006dz00000DxMTF
+                      - cell "employer_bridgenext" [ref=e154]:
+                        - link "employer_bridgenext" [ref=e155] [cursor=pointer]:
+                          - /url: /001dz00000Fe1Ub
+                      - cell "4/14/2026" [ref=e156]
+                    - row "Rol - - test account test account 4/20/2026" [ref=e157]:
+                      - rowheader "Rol - - test account" [ref=e158]:
+                        - link "Rol - - test account" [ref=e159] [cursor=pointer]:
+                          - /url: /006dz00000E44mY
+                      - cell "test account" [ref=e160]:
+                        - link "test account" [ref=e161] [cursor=pointer]:
+                          - /url: /001dz00000Foz4W
+                      - cell "4/20/2026" [ref=e162]
+                    - row "Rol - - employer_bridgenext employer_bridgenext 4/16/2026" [ref=e163]:
+                      - rowheader "Rol - - employer_bridgenext" [ref=e164]:
+                        - link "Rol - - employer_bridgenext" [ref=e165] [cursor=pointer]:
+                          - /url: /006dz00000E0HnB
+                      - cell "employer_bridgenext" [ref=e166]:
+                        - link "employer_bridgenext" [ref=e167] [cursor=pointer]:
+                          - /url: /001dz00000Fe1Ub
+                      - cell "4/16/2026" [ref=e168]
+                    - row "Rol - - TestEmployer_1775124181119 TestEmployer_1775124181119 4/16/2026" [ref=e169]:
+                      - rowheader "Rol - - TestEmployer_1775124181119" [ref=e170]:
+                        - link "Rol - - TestEmployer_1775124181119" [ref=e171] [cursor=pointer]:
+                          - /url: /006dz00000E0AqX
+                      - cell "TestEmployer_1775124181119" [ref=e172]:
+                        - link "TestEmployer_1775124181119" [ref=e173] [cursor=pointer]:
+                          - /url: /001dz00000FpT0v
+                      - cell "4/16/2026" [ref=e174]
+                - link "Show 25 items" [ref=e176] [cursor=pointer]:
+                  - /url: /setup/set_preference.jsp?retURL=%2F006%2Fo&preference.value=25&_CONFIRMATIONTOKEN=VmpFPSxNakF5Tmkwd05DMHhNbFF3TnpveU56bzFPUzQzTmpaYSxkeUtXci1aN3ZkbmxSMUpEaERaQ2NXNTUya3BmZVNMMWU4WDR0cjJNSEZZPSxZVEprT1Rreg%3D%3D
+            - table [ref=e177]:
+              - rowgroup [ref=e178]:
+                - 'row "Reports Opportunity Pipeline Stuck Opportunities Closed Opportunities Opportunity Field History Report Go to Reports » Tools Mass Reassign Opportunity Teams Sales Methodologies Quarterly Summary * Interval: Current FQ * Include: All Opportunities Run Report" [ref=e179]':
+                  - cell "Reports Opportunity Pipeline Stuck Opportunities Closed Opportunities Opportunity Field History Report Go to Reports » Tools Mass Reassign Opportunity Teams Sales Methodologies" [ref=e180]:
+                    - generic [ref=e181]:
+                      - generic [ref=e182]:
+                        - heading "Reports" [level=3] [ref=e183]
+                        - list [ref=e185]:
+                          - listitem [ref=e186]:
+                            - link "Opportunity Pipeline" [ref=e187] [cursor=pointer]:
+                              - /url: /00O?rt=22&retURL=%2F006%2Fo&open=open&break0=STAGE_NAME&t=title5&c=RD&c=FN&c=AN&c=ON&c=SN&c=FQ&c=PB&c=AG&c=CD&c=CR&c=NS&c=LS&c=TY&s=AM&s=EA&a=AG&details=yes&format=t
+                          - listitem [ref=e188]:
+                            - link "Stuck Opportunities" [ref=e189] [cursor=pointer]:
+                              - /url: /00O?rt=22&retURL=%2F006%2Fo&open=open&break0=STAGE_NAME&sort=STAGE_DURATION&sortdir=down&t=title7&c=FN&c=AN&c=ON&c=SN&c=FQ&c=PB&c=CD&c=TY&s=AM&a=AG&a=SD&details=yes&format=t
+                          - listitem [ref=e190]:
+                            - link "Closed Opportunities" [ref=e191] [cursor=pointer]:
+                              - /url: /00O?rt=22&retURL=%2F006%2Fo&open=closedwon&t=title9&c=FN&c=AN&c=ON&c=SN&c=FQ&c=CD&c=TY&s=AM&a=AG&details=yes
+                          - listitem [ref=e192]:
+                            - link "Opportunity Field History Report" [ref=e193] [cursor=pointer]:
+                              - /url: /00O?rt=114&retURL=%2F006%2Fo&sortdir=down&sort=CD&sdate=4%2F9%2F2026&edate=4%2F9%2F2026&include=all&break0=ON&c=ON&c=OW&c=CR&c=FD&c=OV&c=NV&c=CD&details=yes&format=t
+                        - generic [ref=e195]:
+                          - link "Go to Reports" [ref=e196] [cursor=pointer]:
+                            - /url: /00O/o?entityType=00O
+                          - text: »
+                      - generic [ref=e197]:
+                        - heading "Tools" [level=3] [ref=e198]
+                        - list [ref=e200]:
+                          - listitem [ref=e201]:
+                            - link "Mass Reassign Opportunity Teams" [ref=e203] [cursor=pointer]:
+                              - /url: /acc/salesteamreassignwizard.jsp?retURL=%2F006%2Fo&reassignid=Opportunity
+                          - listitem [ref=e204]:
+                            - link "Sales Methodologies" [ref=e206] [cursor=pointer]:
+                              - /url: javascript:openPopupFocus%28%27http%3A%2F%2Fwww.salesforce.com%2Fappexchange%27%2C%20%27_blank%27%2C%20800%2C%20600%2C%20%27width%3D800%2Cheight%3D600%2Cresizable%3Dyes%2Ctoolbar%3Dyes%2Cstatus%3Dyes%2Cscrollbars%3Dyes%2Cmenubar%3Dyes%2Cdirectories%3Dyes%2Clocation%3Dno%2Cdependant%3Dno%27%2C%20false%2C%20true%29%3B
+                  - 'cell "Quarterly Summary * Interval: Current FQ * Include: All Opportunities Run Report" [ref=e207]':
+                    - generic [ref=e209]:
+                      - heading "Quarterly Summary" [level=3] [ref=e210]
+                      - table [ref=e213]:
+                        - rowgroup [ref=e214]:
+                          - 'row "* Interval: Current FQ" [ref=e215]':
+                            - rowheader "* Interval:" [ref=e216]:
+                              - generic [ref=e217]:
+                                - generic [ref=e218]: "*"
+                                - text: "Interval:"
+                            - cell "Current FQ" [ref=e219]:
+                              - combobox "* Interval:" [ref=e220]:
+                                - option "Current FQ" [selected]
+                                - option "Current and Next FQ"
+                                - option "Next FQ"
+                                - option "Previous FQ"
+                                - option "Current and Next 3 FQ"
+                                - option "Current FY"
+                                - option "Current and Next FY"
+                                - option "Current and Previous FY"
+                                - option "Previous FY"
+                                - option "Next FY"
+                          - 'row "* Include: All Opportunities" [ref=e221]':
+                            - rowheader "* Include:" [ref=e222]:
+                              - generic [ref=e223]:
+                                - generic [ref=e224]: "*"
+                                - text: "Include:"
+                            - cell "All Opportunities" [ref=e225]:
+                              - combobox "* Include:" [ref=e226]:
+                                - option "All Opportunities" [selected]
+                                - option "Open Opportunities"
+                                - option "Closed Opportunities"
+                                - option "Closed/Won Opportunities"
+                          - row "Run Report" [ref=e227]:
+                            - rowheader [ref=e228]
+                            - cell "Run Report" [ref=e229]:
+                              - button "Run Report" [ref=e230] [cursor=pointer]
+    - generic [ref=e232]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e233] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e234] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e235] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e236] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e237] [cursor=pointer]:
+        - /url: /ltng/oneAppRedirect
+  - iframe [ref=e238]:
+    
+  - generic:
+    - button "Expand Quick Access Menu" [ref=e240]
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - link "Go to Setup" [ref=e243] [cursor=pointer]:
+          - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F006%2Fo
+          - img "Go to Setup" [ref=e244]
+        - link "Help" [ref=e245] [cursor=pointer]:
+          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?section=Dev_Tools&target=dev_quick_access_menu.htm&loc=help&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+          - img "Help" [ref=e246]
+      - generic [ref=e247]:
+        - list [ref=e248]:
+          - listitem [ref=e249]:
+            - link "View Fields" [ref=e250] [cursor=pointer]:
+              - /url: /p/setup/layout/LayoutFieldList?type=Opportunity&setupid=OpportunityFields
+          - listitem [ref=e251]:
+            - link "View Object" [ref=e252] [cursor=pointer]:
+              - /url: /ui/setup/Setup?setupid=Opportunity
+          - listitem [ref=e253]:
+            - link "View Record Types" [ref=e254] [cursor=pointer]:
+              - /url: /ui/setup/rectype/RecordTypes?type=Opportunity&setupid=OpportunityRecords
+          - listitem [ref=e255]:
+            - link "View Validation Rules" [ref=e256] [cursor=pointer]:
+              - /url: /_ui/common/config/entity/ValidationFormulaListUI/d?retURL=%2F006%2Fo&tableEnumOrId=Opportunity&setupid=OpportunityValidations
+          - listitem [ref=e257]:
+            - link "View Approvals" [ref=e258] [cursor=pointer]:
+              - /url: /p/process/ProcessDefinitionSetup?TableEnumOrId=Opportunity&setupid=ApprovalProcesses
+        - separator [ref=e259]
+        - list [ref=e260]:
+          - listitem [ref=e261]:
+            - link "Edit App" [ref=e262] [cursor=pointer]:
+              - /url: /02uG0000000GeGC/e?retURL=%2F006%2Fo&setupid=TabSet
+          - listitem [ref=e263]:
+            - link "Edit Columns" [ref=e264] [cursor=pointer]:
+              - /url: /p/setup/layout/ListLayoutEdit?LayoutEntity=Opportunity&retURL=%2F006%2Fo&LayoutType=KeyList&setupid=OpportunitySearchLayouts
+      - link "Turn off menu" [ref=e266] [cursor=pointer]:
+        - /url: "#"

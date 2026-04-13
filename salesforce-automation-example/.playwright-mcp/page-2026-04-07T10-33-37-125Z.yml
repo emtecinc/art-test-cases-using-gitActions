@@ -1,0 +1,436 @@
+- generic [active]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "This item doesn't support favorites" [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]:
+                  - img [ref=e97]
+                  - tooltip "Global Actions"
+            - listitem [ref=e100]:
+              - button "Salesforce Help" [ref=e103] [cursor=pointer]:
+                - generic [ref=e104]:
+                  - img [ref=e108]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e111]:
+              - button "Setup" [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]:
+                  - img [ref=e122]
+                  - tooltip "Setup"
+            - listitem [ref=e125]:
+              - button "Notifications" [ref=e128] [cursor=pointer]:
+                - generic [ref=e129]:
+                  - img [ref=e134]
+                  - tooltip "Notifications"
+            - listitem [ref=e138]:
+              - button "View profile" [ref=e141] [cursor=pointer]:
+                - generic [ref=e142]:
+                  - tooltip "View profile"
+    - generic [ref=e146]:
+      - generic [ref=e149]:
+        - generic [ref=e151]:
+          - navigation "App" [ref=e152]:
+            - button "App Launcher" [ref=e154] [cursor=pointer]:
+              - generic [ref=e165]: App Launcher
+          - heading "PFS" [level=1] [ref=e166]:
+            - generic "PFS" [ref=e167]
+        - navigation "Global" [ref=e170]:
+          - list [ref=e171]:
+            - listitem [ref=e172] [cursor=pointer]:
+              - link "Home" [ref=e173]:
+                - /url: /lightning/page/home
+                - generic [ref=e174]: Home
+            - listitem [ref=e175]:
+              - link "Tasks" [ref=e176] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e177]: Tasks
+            - listitem [ref=e178]:
+              - link "Leads" [ref=e179] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e180]: Leads
+              - button "Leads List" [ref=e184] [cursor=pointer]:
+                - img [ref=e188]
+                - generic [ref=e191]: Leads List
+            - listitem [ref=e192]:
+              - link "Campaigns" [ref=e193] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e194]: Campaigns
+              - button "Campaigns List" [ref=e198] [cursor=pointer]:
+                - img [ref=e202]
+                - generic [ref=e205]: Campaigns List
+            - listitem [ref=e206]:
+              - link "Accounts" [ref=e207] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e208]: Accounts
+              - button "Accounts List" [ref=e212] [cursor=pointer]:
+                - img [ref=e216]
+                - generic [ref=e219]: Accounts List
+            - listitem [ref=e220]:
+              - link "Contacts" [ref=e221] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e222]: Contacts
+              - button "Contacts List" [ref=e226] [cursor=pointer]:
+                - img [ref=e230]
+                - generic [ref=e233]: Contacts List
+            - listitem [ref=e234]:
+              - link "Opportunities" [ref=e235] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e236]: Opportunities
+              - button "Opportunities List" [ref=e240] [cursor=pointer]:
+                - img [ref=e244]
+                - generic [ref=e247]: Opportunities List
+            - listitem [ref=e248]:
+              - link "Reports" [ref=e249] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e250]: Reports
+              - button "Reports List" [ref=e254] [cursor=pointer]:
+                - img [ref=e258]
+                - generic [ref=e261]: Reports List
+            - listitem [ref=e262]:
+              - link "Dashboards" [ref=e263] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e264]: Dashboards
+              - button "Dashboards List" [ref=e268] [cursor=pointer]:
+                - img [ref=e272]
+                - generic [ref=e275]: Dashboards List
+            - listitem [ref=e276]:
+              - link "Thresholds" [ref=e277] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e278]: Thresholds
+              - button "Thresholds List" [ref=e282] [cursor=pointer]:
+                - img [ref=e286]
+                - generic [ref=e289]: Thresholds List
+            - listitem [ref=e290]:
+              - button "Help" [ref=e294] [cursor=pointer]:
+                - img [ref=e296]
+                - generic [ref=e299]: Help
+      - main [ref=e301]:
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - heading "Home" [level=1] [ref=e311]
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - generic [ref=e316]:
+                  - heading "Quarterly Performance" [level=2] [ref=e317]:
+                    - generic "Quarterly Performance" [ref=e318]
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: As of Today 6:33 AM
+                    - button "Refresh Chart" [ref=e321] [cursor=pointer]:
+                      - img [ref=e323]
+                      - generic [ref=e326]: Refresh Chart
+                - list [ref=e327]:
+                  - listitem [ref=e328]: Closed$0
+                  - listitem [ref=e329]: Open (>70%)$0
+                  - listitem [ref=e330]:
+                    - text: Goal--
+                    - button "Edit Goal" [ref=e331] [cursor=pointer]:
+                      - img [ref=e333]
+                      - generic [ref=e336]: Edit Goal
+              - generic [ref=e337]:
+                - generic [ref=e341]: Add the opportunities you're working on, then come back here to view your performance.
+                - generic [ref=e342]:
+                  - generic "Closed" [ref=e344]
+                  - generic "Goal" [ref=e346]
+                  - generic "Closed + Open (>70%)" [ref=e348]
+              - link "Click here to view quarterly performance data":
+                - /url: javascript:void(0);
+                - generic [ref=e349] [cursor=pointer]: Click here to view quarterly performance data
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - article [ref=e355]:
+                  - heading "Today's Events" [level=2] [ref=e359]:
+                    - generic "Today's Events" [ref=e360]
+                  - generic [ref=e364]:
+                    - img [ref=e365]
+                    - generic [ref=e366]: Looks like you're free and clear the rest of the day.
+                  - button "View Calendar" [ref=e368] [cursor=pointer]
+                - article [ref=e371]:
+                  - heading "Recent Records" [level=2] [ref=e375]:
+                    - generic "Recent Records" [ref=e376]
+                  - list [ref=e378]:
+                    - listitem [ref=e379]:
+                      - generic [ref=e380]:
+                        - img [ref=e384]
+                        - link "test customer plan" [ref=e387] [cursor=pointer]:
+                          - /url: /lightning/r/a0adz000009ZidLAAS/view
+                    - listitem [ref=e388]:
+                      - generic [ref=e389]:
+                        - img [ref=e393]
+                        - link "test new account" [ref=e396] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000FvD85AAF/view
+                    - listitem [ref=e397]:
+                      - generic [ref=e398]:
+                        - img [ref=e402]
+                        - link "Test Customer PLan" [ref=e405] [cursor=pointer]:
+                          - /url: /lightning/r/a0adz000009bJMhAAM/view
+                    - listitem [ref=e406]:
+                      - generic [ref=e407]:
+                        - img [ref=e411]
+                        - link "Test Fund Account" [ref=e414] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000FxdJSAAZ/view
+                    - listitem [ref=e415]:
+                      - generic [ref=e416]:
+                        - img [ref=e420]
+                        - link "test Plan" [ref=e423] [cursor=pointer]:
+                          - /url: /lightning/r/a0edz000001H453AAC/view
+                  - button "View All Recent Records" [ref=e425] [cursor=pointer]: View All
+              - generic [ref=e426]:
+                - article [ref=e429]:
+                  - generic [ref=e430]:
+                    - heading "Today’s Tasks" [level=2] [ref=e433]:
+                      - generic "Today’s Tasks" [ref=e434]
+                    - button "Select a view of your tasks" [ref=e437] [cursor=pointer]:
+                      - img [ref=e439]
+                      - generic [ref=e442]: Select a view of your tasks
+                  - generic [ref=e446]:
+                    - img [ref=e447]
+                    - generic [ref=e448]: Nothing due today. Be a go-getter, and check back soon.
+                  - button "View All Tasks" [ref=e450] [cursor=pointer]: View All
+                - article [ref=e453]:
+                  - generic [ref=e454]:
+                    - heading "Key Deals - Recent Opportunities" [level=2] [ref=e457]:
+                      - generic "Key Deals - Recent Opportunities" [ref=e458]
+                    - button "Key Deals Trigger" [ref=e460] [cursor=pointer]:
+                      - button "Key Deals Trigger" [ref=e466]:
+                        - generic [ref=e468]:
+                          - img [ref=e470]
+                          - generic [ref=e473]: Key Deals Trigger
+                        - img [ref=e477]
+                  - list [ref=e482]:
+                    - listitem [ref=e483]:
+                      - generic [ref=e485]:
+                        - link "Rol - - test account" [ref=e488] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E44mYAAR/view
+                        - list [ref=e489]:
+                          - listitem [ref=e490]:
+                            - link "test account" [ref=e492] [cursor=pointer]:
+                              - /url: /lightning/r/001dz00000Foz4WAAR/view
+                          - listitem [ref=e493]: · 4/20/2026
+                          - listitem
+                    - listitem [ref=e494]:
+                      - generic [ref=e496]:
+                        - link "Rol - - employer_bridgenext" [ref=e499] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E0HnBAAV/view
+                        - list [ref=e500]:
+                          - listitem [ref=e501]:
+                            - link "employer_bridgenext" [ref=e503] [cursor=pointer]:
+                              - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - listitem [ref=e504]: · 4/16/2026
+                          - listitem
+                    - listitem [ref=e505]:
+                      - generic [ref=e507]:
+                        - link "Rol - - TestEmployer_1775124181119" [ref=e510] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E0AqXAAV/view
+                        - list [ref=e511]:
+                          - listitem [ref=e512]:
+                            - link "TestEmployer_1775124181119" [ref=e514] [cursor=pointer]:
+                              - /url: /lightning/r/001dz00000FpT0vAAF/view
+                          - listitem [ref=e515]: · 4/16/2026
+                          - listitem
+                    - listitem [ref=e516]:
+                      - generic [ref=e518]:
+                        - link "Rol - - TestEmployer_1775123097206" [ref=e521] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E09PpAAJ/view
+                        - list [ref=e522]:
+                          - listitem [ref=e523]:
+                            - link "TestEmployer_1775123097206" [ref=e525] [cursor=pointer]:
+                              - /url: /lightning/r/001dz00000FpOKdAAN/view
+                          - listitem [ref=e526]: · 4/16/2026
+                          - listitem
+                    - listitem [ref=e527]:
+                      - generic [ref=e529]:
+                        - link "Rol - - test account" [ref=e532] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E02rNAAR/view
+                        - list [ref=e533]:
+                          - listitem [ref=e534]:
+                            - link "test account" [ref=e536] [cursor=pointer]:
+                              - /url: /lightning/r/001dz00000Foz4WAAR/view
+                          - listitem [ref=e537]: · 4/16/2026
+                          - listitem
+                  - button "View All Key Deals" [ref=e539] [cursor=pointer]
+          - generic [ref=e542]:
+            - heading "Assistant" [level=2] [ref=e546]:
+              - generic [ref=e547]: Assistant
+            - list [ref=e551]:
+              - listitem [ref=e552]:
+                - generic [ref=e554]:
+                  - generic [ref=e555]:
+                    - button "Expand Card" [ref=e556] [cursor=pointer]:
+                      - generic [ref=e558]:
+                        - img [ref=e560]
+                        - generic [ref=e563]: Expand Card
+                    - img "Opportunity" [ref=e566]
+                    - heading "30 days without any activity" [level=2] [ref=e567]
+                    - link "Rol - - employer_bridgenext" [ref=e570] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DxIO2AAN/view
+                  - group [ref=e571]:
+                    - button "Dismiss recommendation" [ref=e572] [cursor=pointer]:
+                      - img [ref=e574]
+                      - generic [ref=e577]: Dismiss recommendation
+              - listitem [ref=e578]:
+                - generic [ref=e580]:
+                  - generic [ref=e581]:
+                    - button "Expand Card" [ref=e582] [cursor=pointer]:
+                      - generic [ref=e584]:
+                        - img [ref=e586]
+                        - generic [ref=e589]: Expand Card
+                    - img "Opportunity" [ref=e592]
+                    - heading "30 days without any activity" [level=2] [ref=e593]
+                    - link "Rol - - employer_bridgenext" [ref=e596] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DxMD7AAN/view
+                  - group [ref=e597]:
+                    - button "Dismiss recommendation" [ref=e598] [cursor=pointer]:
+                      - img [ref=e600]
+                      - generic [ref=e603]: Dismiss recommendation
+              - listitem [ref=e604]:
+                - generic [ref=e606]:
+                  - generic [ref=e607]:
+                    - button "Expand Card" [ref=e608] [cursor=pointer]:
+                      - generic [ref=e610]:
+                        - img [ref=e612]
+                        - generic [ref=e615]: Expand Card
+                    - img "Opportunity" [ref=e618]
+                    - heading "30 days without any activity" [level=2] [ref=e619]
+                    - link "Rol - - employer_bridgenext" [ref=e622] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DxMTFAA3/view
+                  - group [ref=e623]:
+                    - button "Dismiss recommendation" [ref=e624] [cursor=pointer]:
+                      - img [ref=e626]
+                      - generic [ref=e629]: Dismiss recommendation
+              - listitem [ref=e630]:
+                - generic [ref=e632]:
+                  - generic [ref=e633]:
+                    - button "Expand Card" [ref=e634] [cursor=pointer]:
+                      - generic [ref=e636]:
+                        - img [ref=e638]
+                        - generic [ref=e641]: Expand Card
+                    - img "Opportunity" [ref=e644]
+                    - heading "30 days without any activity" [level=2] [ref=e645]
+                    - link "Rol - - employer_bridgenext" [ref=e648] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DxMbJAAV/view
+                  - group [ref=e649]:
+                    - button "Dismiss recommendation" [ref=e650] [cursor=pointer]:
+                      - img [ref=e652]
+                      - generic [ref=e655]: Dismiss recommendation
+              - listitem [ref=e656]:
+                - generic [ref=e658]:
+                  - generic [ref=e659]:
+                    - button "Expand Card" [ref=e660] [cursor=pointer]:
+                      - generic [ref=e662]:
+                        - img [ref=e664]
+                        - generic [ref=e667]: Expand Card
+                    - img "Opportunity" [ref=e670]
+                    - heading "30 days without any activity" [level=2] [ref=e671]
+                    - link "Rol - - TestEmployer_1774953184495" [ref=e674] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DxNNiAAN/view
+                  - group [ref=e675]:
+                    - button "Dismiss recommendation" [ref=e676] [cursor=pointer]:
+                      - img [ref=e678]
+                      - generic [ref=e681]: Dismiss recommendation
+              - listitem [ref=e682]:
+                - generic [ref=e684]:
+                  - generic [ref=e685]:
+                    - button "Expand Card" [ref=e686] [cursor=pointer]:
+                      - generic [ref=e688]:
+                        - img [ref=e690]
+                        - generic [ref=e693]: Expand Card
+                    - img "Opportunity" [ref=e696]
+                    - heading "30 days without any activity" [level=2] [ref=e697]
+                    - link "Rol - - TestEmployer_1774953792685" [ref=e700] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DxTBOAA3/view
+                  - group [ref=e701]:
+                    - button "Dismiss recommendation" [ref=e702] [cursor=pointer]:
+                      - img [ref=e704]
+                      - generic [ref=e707]: Dismiss recommendation
+              - listitem [ref=e708]:
+                - generic [ref=e710]:
+                  - generic [ref=e711]:
+                    - button "Expand Card" [ref=e712] [cursor=pointer]:
+                      - generic [ref=e714]:
+                        - img [ref=e716]
+                        - generic [ref=e719]: Expand Card
+                    - img "Opportunity" [ref=e722]
+                    - heading "30 days without any activity" [level=2] [ref=e723]
+                    - link "Rol - - employer_bridgenext" [ref=e726] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DxUiXAAV/view
+                  - group [ref=e727]:
+                    - button "Dismiss recommendation" [ref=e728] [cursor=pointer]:
+                      - img [ref=e730]
+                      - generic [ref=e733]: Dismiss recommendation
+              - listitem [ref=e734]:
+                - generic [ref=e736]:
+                  - generic [ref=e737]:
+                    - button "Expand Card" [ref=e738] [cursor=pointer]:
+                      - generic [ref=e740]:
+                        - img [ref=e742]
+                        - generic [ref=e745]: Expand Card
+                    - img "Opportunity" [ref=e748]
+                    - heading "30 days without any activity" [level=2] [ref=e749]
+                    - link "Rol - - TestEmployer_1774956494379" [ref=e752] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DxXJpAAN/view
+                  - group [ref=e753]:
+                    - button "Dismiss recommendation" [ref=e754] [cursor=pointer]:
+                      - img [ref=e756]
+                      - generic [ref=e759]: Dismiss recommendation
+              - listitem [ref=e760]:
+                - generic [ref=e762]:
+                  - generic [ref=e763]:
+                    - button "Expand Card" [ref=e764] [cursor=pointer]:
+                      - generic [ref=e766]:
+                        - img [ref=e768]
+                        - generic [ref=e771]: Expand Card
+                    - img "Opportunity" [ref=e774]
+                    - heading "30 days without any activity" [level=2] [ref=e775]
+                    - link "Rol - - employer_bridgenext" [ref=e778] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000DyzAqAAJ/view
+                  - group [ref=e779]:
+                    - button "Dismiss recommendation" [ref=e780] [cursor=pointer]:
+                      - img [ref=e782]
+                      - generic [ref=e785]: Dismiss recommendation
+              - listitem [ref=e786]:
+                - generic [ref=e788]:
+                  - generic [ref=e789]:
+                    - button "Expand Card" [ref=e790] [cursor=pointer]:
+                      - generic [ref=e792]:
+                        - img [ref=e794]
+                        - generic [ref=e797]: Expand Card
+                    - img "Opportunity" [ref=e800]
+                    - heading "30 days without any activity" [level=2] [ref=e801]
+                    - link "Rol - - employer_bridgenext" [ref=e804] [cursor=pointer]:
+                      - /url: /lightning/r/006dz00000Dz4IYAAZ/view
+                  - group [ref=e805]:
+                    - button "Dismiss recommendation" [ref=e806] [cursor=pointer]:
+                      - img [ref=e808]
+                      - generic [ref=e811]: Dismiss recommendation
+  - generic:
+    - status

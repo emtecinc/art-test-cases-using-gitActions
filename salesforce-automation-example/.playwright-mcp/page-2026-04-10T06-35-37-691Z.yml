@@ -1,0 +1,1048 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e27]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e28]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F001%2Fe
+                  - link "Help & Training" [ref=e29] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e31] [cursor=pointer]:
+                  - generic [ref=e32]: PFS
+      - navigation [ref=e35]:
+        - heading "Tab Navigation" [level=1] [ref=e36]
+        - navigation [ref=e37]:
+          - list [ref=e38]:
+            - listitem [ref=e39]:
+              - link "Home" [ref=e40] [cursor=pointer]:
+                - /url: /home/home.jsp
+            - listitem [ref=e41]:
+              - link "Tasks" [ref=e42] [cursor=pointer]:
+                - /url: /servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNMVF3Tmpvek5Ub3lNQzR3TXpaYSxYUGRuLXYybWtXVlo4WUVHODFuT2FJZG5ubWxjTWJ5cmw0elY2MmNZSDdZPSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e43]:
+              - link "Leads" [ref=e44] [cursor=pointer]:
+                - /url: /00Q/o
+            - listitem [ref=e45]:
+              - link "Campaigns" [ref=e46] [cursor=pointer]:
+                - /url: /701/o
+            - listitem [ref=e47]:
+              - link "Accounts" [ref=e48] [cursor=pointer]:
+                - /url: /001/o
+              - generic [ref=e49]: (Currently Selected)
+            - listitem [ref=e50]:
+              - link "Contacts" [ref=e51] [cursor=pointer]:
+                - /url: /003/o
+            - listitem [ref=e52]:
+              - link "Opportunities" [ref=e53] [cursor=pointer]:
+                - /url: /006/o
+            - listitem [ref=e54]:
+              - link "Reports" [ref=e55] [cursor=pointer]:
+                - /url: /00O/o
+            - listitem [ref=e56]:
+              - link "Dashboards" [ref=e57] [cursor=pointer]:
+                - /url: /01Z/o
+            - listitem [ref=e58]:
+              - link "Thresholds" [ref=e59] [cursor=pointer]:
+                - /url: /a1f/o
+            - listitem [ref=e60]:
+              - link "All Tabs" [ref=e61] [cursor=pointer]:
+                - /url: /home/showAllTabs.jsp
+                - img "All Tabs" [ref=e62]
+    - table [ref=e64]:
+      - rowgroup [ref=e65]:
+        - row [ref=e66]:
+          - cell "Click to Open Sidebar" [ref=e67]:
+            - link "Click to Open Sidebar" [ref=e68]:
+              - /url: javascript:void(0);
+              - generic [ref=e69]: Click to Open Sidebar
+          - cell [ref=e73]:
+            - img "Content Starts Here" [ref=e74]
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - img "Account" [ref=e78]
+                - heading "Account Edit" [level=1] [ref=e79]
+                - heading "Classic Accountt New" [level=2] [ref=e80]
+              - link "Help for this Page" [ref=e82] [cursor=pointer]:
+                - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accounts_manage.htm&section=Accounts&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+            - generic [ref=e84]:
+              - table [ref=e86]:
+                - rowgroup [ref=e87]:
+                  - row "Account Edit Save Save & New Cancel" [ref=e88]:
+                    - cell "Account Edit" [ref=e89]:
+                      - heading "Account Edit" [level=2] [ref=e90]
+                    - cell "Save Save & New Cancel" [ref=e91]:
+                      - button "Save" [ref=e92] [cursor=pointer]
+                      - button "Save & New" [ref=e93] [cursor=pointer]
+                      - button "Cancel" [ref=e94] [cursor=pointer]
+              - generic [ref=e95]:
+                - generic [active] [ref=e96]:
+                  - text: "Error: Invalid Data."
+                  - text: Review all error messages below to correct your data.
+                  - text: Account already exist
+                - generic [ref=e97]:
+                  - generic [ref=e99]:
+                    - generic [ref=e101]: "*"
+                    - text: = Required Information
+                  - heading "Account Information" [level=3] [ref=e102]
+                - table [ref=e104]:
+                  - rowgroup [ref=e105]:
+                    - row "* Account Name Classic Accountt New Account Record Type Individual" [ref=e106]:
+                      - cell "* Account Name" [ref=e107]:
+                        - generic [ref=e108]:
+                          - generic [ref=e109]: "*"
+                          - text: Account Name
+                      - cell "Classic Accountt New" [ref=e110]:
+                        - textbox "* Account Name" [ref=e113]: Classic Accountt New
+                      - cell "Account Record Type" [ref=e114]
+                      - cell "Individual" [ref=e115]
+                    - row "SSN JHFC Advisor JHFC Advisor Lookup (New Window)" [ref=e116]:
+                      - cell "SSN" [ref=e117]:
+                        - generic [ref=e118]: SSN
+                      - cell [ref=e119]:
+                        - textbox "SSN" [ref=e120]
+                      - cell "JHFC Advisor" [ref=e121]
+                      - cell "JHFC Advisor Lookup (New Window)" [ref=e122]:
+                        - generic [ref=e123]:
+                          - textbox "JHFC Advisor" [ref=e124]
+                          - link "JHFC Advisor Lookup (New Window)" [ref=e125] [cursor=pointer]:
+                            - /url: javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3DCF00NG000000EsRie%26lkfield%3D00NG000000EsRie%26lkent%3D001%26lktp%3D%27%20%2B%20getElementByIdCS%28%27CF00NG000000EsRie_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27CF00NG000000EsRie%27%29.value.substring%280%2C%2080%29%29%29
+                            - img "JHFC Advisor Lookup (New Window)" [ref=e126]
+                    - row "Last 4 SSN Digits Conversion Propensity Score 500" [ref=e127]:
+                      - cell "Last 4 SSN Digits" [ref=e128]
+                      - cell [ref=e129]:
+                        - textbox "Last 4 SSN Digits" [ref=e130]
+                      - cell "Conversion Propensity Score" [ref=e131]
+                      - cell "500" [ref=e132]:
+                        - textbox "Conversion Propensity Score" [ref=e133]: "500"
+                    - row "Birthdate [ 4/10/2026 ] Total Account Balance" [ref=e134]:
+                      - cell "Birthdate" [ref=e135]
+                      - cell "[ 4/10/2026 ]" [ref=e136]:
+                        - generic [ref=e137]:
+                          - textbox "Birthdate" [ref=e138]
+                          - generic [ref=e139]:
+                            - text: "["
+                            - link "4/10/2026" [ref=e140] [cursor=pointer]:
+                              - /url: javascript:DatePicker.insertDate('4/10/2026', '00NG000000Dwu3L', true);
+                            - text: "]"
+                      - cell "Total Account Balance" [ref=e141]
+                      - cell [ref=e142]:
+                        - textbox "Total Account Balance" [ref=e143]
+                    - row "NC IRA Account Number Balance Effective Date [ 4/10/2026 ]" [ref=e144]:
+                      - cell "NC IRA Account Number" [ref=e145]
+                      - cell [ref=e146]:
+                        - textbox "NC IRA Account Number" [ref=e147]
+                      - cell "Balance Effective Date" [ref=e148]
+                      - cell "[ 4/10/2026 ]" [ref=e149]:
+                        - generic [ref=e150]:
+                          - textbox "Balance Effective Date" [ref=e151]
+                          - generic [ref=e152]:
+                            - text: "["
+                            - link "4/10/2026" [ref=e153] [cursor=pointer]:
+                              - /url: javascript:DatePicker.insertDate('4/10/2026', '00NG000000FDIvE', true);
+                            - text: "]"
+                    - row "NC Roth IRA Account Number NC Client ID" [ref=e154]:
+                      - cell "NC Roth IRA Account Number" [ref=e155]
+                      - cell [ref=e156]:
+                        - textbox "NC Roth IRA Account Number" [ref=e157]
+                      - cell "NC Client ID" [ref=e158]:
+                        - generic [ref=e159]: NC Client ID
+                      - cell [ref=e160]:
+                        - textbox "NC Client ID" [ref=e161]
+                    - row "JH NFS IRA Account Number PRA" [ref=e162]:
+                      - cell "JH NFS IRA Account Number" [ref=e163]
+                      - cell [ref=e164]:
+                        - textbox "JH NFS IRA Account Number" [ref=e165]
+                      - cell "PRA" [ref=e166]
+                      - cell "PRA" [ref=e167]:
+                        - checkbox "PRA" [ref=e168]
+                    - row "JH NFS Roth IRA Account Number" [ref=e169]:
+                      - cell "JH NFS Roth IRA Account Number" [ref=e170]
+                      - cell [ref=e171]:
+                        - textbox "JH NFS Roth IRA Account Number" [ref=e172]
+                      - cell [ref=e173]
+                      - cell [ref=e174]
+                - generic [ref=e175]:
+                  - link "Copy Mailing Address to Residential/Overnight Address" [ref=e178] [cursor=pointer]:
+                    - /url: javascript:%20copyAddr%28%27acc17street%27%2C%27acc17city%27%2C%27acc17zip%27%2C%27acc17country%27%2C%27acc17state%27%2C%27acc18street%27%2C%27acc18city%27%2C%27acc18zip%27%2C%27acc18country%27%2C%27acc18state%27%2C%20true%2C%20true%2C%20true%29
+                  - heading "Address Information" [level=3] [ref=e179]
+                - table [ref=e181]:
+                  - rowgroup [ref=e182]:
+                    - row "Mailing Country United States Residential/Overnight Country United States" [ref=e183]:
+                      - cell "Mailing Country" [ref=e184]
+                      - cell "United States" [ref=e185]:
+                        - combobox "Mailing Country" [ref=e187]:
+                          - option "--None--"
+                          - option "Afghanistan"
+                          - option "Aland Islands"
+                          - option "Albania"
+                          - option "Algeria"
+                          - option "Andorra"
+                          - option "Angola"
+                          - option "Anguilla"
+                          - option "Antarctica"
+                          - option "Antigua and Barbuda"
+                          - option "Argentina"
+                          - option "Armenia"
+                          - option "Aruba"
+                          - option "Australia"
+                          - option "Austria"
+                          - option "Azerbaijan"
+                          - option "Bahamas"
+                          - option "Bahrain"
+                          - option "Bangladesh"
+                          - option "Barbados"
+                          - option "Belarus"
+                          - option "Belgium"
+                          - option "Belize"
+                          - option "Benin"
+                          - option "Bermuda"
+                          - option "Bhutan"
+                          - option "Bolivia, Plurinational State of"
+                          - option "Bonaire, Sint Eustatius and Saba"
+                          - option "Bosnia and Herzegovina"
+                          - option "Botswana"
+                          - option "Bouvet Island"
+                          - option "Brazil"
+                          - option "British Indian Ocean Territory"
+                          - option "Brunei Darussalam"
+                          - option "Bulgaria"
+                          - option "Burkina Faso"
+                          - option "Burundi"
+                          - option "Cambodia"
+                          - option "Cameroon"
+                          - option "Canada"
+                          - option "Cape Verde"
+                          - option "Cayman Islands"
+                          - option "Central African Republic"
+                          - option "Chad"
+                          - option "Chile"
+                          - option "China"
+                          - option "Chinese Taipei"
+                          - option "Christmas Island"
+                          - option "Cocos (Keeling) Islands"
+                          - option "Colombia"
+                          - option "Comoros"
+                          - option "Congo"
+                          - option "Congo, the Democratic Republic of the"
+                          - option "Cook Islands"
+                          - option "Costa Rica"
+                          - option "Cote d'Ivoire"
+                          - option "Croatia"
+                          - option "Cuba"
+                          - option "Curaçao"
+                          - option "Cyprus"
+                          - option "Czech Republic"
+                          - option "Denmark"
+                          - option "Djibouti"
+                          - option "Dominica"
+                          - option "Dominican Republic"
+                          - option "Ecuador"
+                          - option "Egypt"
+                          - option "El Salvador"
+                          - option "Equatorial Guinea"
+                          - option "Eritrea"
+                          - option "Estonia"
+                          - option "Ethiopia"
+                          - option "Falkland Islands (Malvinas)"
+                          - option "Faroe Islands"
+                          - option "Fiji"
+                          - option "Finland"
+                          - option "France"
+                          - option "French Guiana"
+                          - option "French Polynesia"
+                          - option "French Southern Territories"
+                          - option "Gabon"
+                          - option "Gambia"
+                          - option "Georgia"
+                          - option "Germany"
+                          - option "Ghana"
+                          - option "Gibraltar"
+                          - option "Greece"
+                          - option "Greenland"
+                          - option "Grenada"
+                          - option "Guadeloupe"
+                          - option "Guatemala"
+                          - option "Guernsey"
+                          - option "Guinea"
+                          - option "Guinea-Bissau"
+                          - option "Guyana"
+                          - option "Haiti"
+                          - option "Heard Island and McDonald Islands"
+                          - option "Holy See (Vatican City State)"
+                          - option "Honduras"
+                          - option "Hungary"
+                          - option "Iceland"
+                          - option "India"
+                          - option "Indonesia"
+                          - option "Iran, Islamic Republic of"
+                          - option "Iraq"
+                          - option "Ireland"
+                          - option "Isle of Man"
+                          - option "Israel"
+                          - option "Italy"
+                          - option "Jamaica"
+                          - option "Japan"
+                          - option "Jersey"
+                          - option "Jordan"
+                          - option "Kazakhstan"
+                          - option "Kenya"
+                          - option "Kiribati"
+                          - option "Korea, Democratic People's Republic of"
+                          - option "Korea, Republic of"
+                          - option "Kuwait"
+                          - option "Kyrgyzstan"
+                          - option "Lao People's Democratic Republic"
+                          - option "Latvia"
+                          - option "Lebanon"
+                          - option "Lesotho"
+                          - option "Liberia"
+                          - option "Libyan Arab Jamahiriya"
+                          - option "Liechtenstein"
+                          - option "Lithuania"
+                          - option "Luxembourg"
+                          - option "Macao"
+                          - option "Macedonia, the former Yugoslav Republic of"
+                          - option "Madagascar"
+                          - option "Malawi"
+                          - option "Malaysia"
+                          - option "Maldives"
+                          - option "Mali"
+                          - option "Malta"
+                          - option "Martinique"
+                          - option "Mauritania"
+                          - option "Mauritius"
+                          - option "Mayotte"
+                          - option "Mexico"
+                          - option "Moldova, Republic of"
+                          - option "Monaco"
+                          - option "Mongolia"
+                          - option "Montenegro"
+                          - option "Montserrat"
+                          - option "Morocco"
+                          - option "Mozambique"
+                          - option "Myanmar"
+                          - option "Namibia"
+                          - option "Nauru"
+                          - option "Nepal"
+                          - option "Netherlands"
+                          - option "New Caledonia"
+                          - option "New Zealand"
+                          - option "Nicaragua"
+                          - option "Niger"
+                          - option "Nigeria"
+                          - option "Niue"
+                          - option "Norfolk Island"
+                          - option "Norway"
+                          - option "Oman"
+                          - option "Pakistan"
+                          - option "Palestinian Territory, Occupied"
+                          - option "Panama"
+                          - option "Papua New Guinea"
+                          - option "Paraguay"
+                          - option "Peru"
+                          - option "Philippines"
+                          - option "Pitcairn"
+                          - option "Poland"
+                          - option "Portugal"
+                          - option "Puerto Rico"
+                          - option "Qatar"
+                          - option "Reunion"
+                          - option "Romania"
+                          - option "Russian Federation"
+                          - option "Rwanda"
+                          - option "Saint Barthélemy"
+                          - option "Saint Helena, Ascension and Tristan da Cunha"
+                          - option "Saint Kitts and Nevis"
+                          - option "Saint Lucia"
+                          - option "Saint Martin (French part)"
+                          - option "Saint Pierre and Miquelon"
+                          - option "Saint Vincent and the Grenadines"
+                          - option "Samoa"
+                          - option "San Marino"
+                          - option "Sao Tome and Principe"
+                          - option "Saudi Arabia"
+                          - option "Senegal"
+                          - option "Serbia"
+                          - option "Seychelles"
+                          - option "Sierra Leone"
+                          - option "Singapore"
+                          - option "Sint Maarten (Dutch part)"
+                          - option "Slovakia"
+                          - option "Slovenia"
+                          - option "Solomon Islands"
+                          - option "Somalia"
+                          - option "South Africa"
+                          - option "South Georgia and the South Sandwich Islands"
+                          - option "South Sudan"
+                          - option "Spain"
+                          - option "Sri Lanka"
+                          - option "Sudan"
+                          - option "Suriname"
+                          - option "Svalbard and Jan Mayen"
+                          - option "Swaziland"
+                          - option "Sweden"
+                          - option "Switzerland"
+                          - option "Syrian Arab Republic"
+                          - option "Tajikistan"
+                          - option "Tanzania, United Republic of"
+                          - option "Thailand"
+                          - option "Timor-Leste"
+                          - option "Togo"
+                          - option "Tokelau"
+                          - option "Tonga"
+                          - option "Trinidad and Tobago"
+                          - option "Tunisia"
+                          - option "Turkey"
+                          - option "Turkmenistan"
+                          - option "Turks and Caicos Islands"
+                          - option "Tuvalu"
+                          - option "Uganda"
+                          - option "Ukraine"
+                          - option "United Arab Emirates"
+                          - option "United Kingdom"
+                          - option "United States" [selected]
+                          - option "Uruguay"
+                          - option "Uzbekistan"
+                          - option "Vanuatu"
+                          - option "Venezuela, Bolivarian Republic of"
+                          - option "Viet Nam"
+                          - option "Virgin Islands, British"
+                          - option "Wallis and Futuna"
+                          - option "Western Sahara"
+                          - option "Yemen"
+                          - option "Zambia"
+                          - option "Zimbabwe"
+                      - cell "Residential/Overnight Country" [ref=e188]
+                      - cell "United States" [ref=e189]:
+                        - combobox "Residential/Overnight Country" [ref=e191]:
+                          - option "--None--"
+                          - option "Afghanistan"
+                          - option "Aland Islands"
+                          - option "Albania"
+                          - option "Algeria"
+                          - option "Andorra"
+                          - option "Angola"
+                          - option "Anguilla"
+                          - option "Antarctica"
+                          - option "Antigua and Barbuda"
+                          - option "Argentina"
+                          - option "Armenia"
+                          - option "Aruba"
+                          - option "Australia"
+                          - option "Austria"
+                          - option "Azerbaijan"
+                          - option "Bahamas"
+                          - option "Bahrain"
+                          - option "Bangladesh"
+                          - option "Barbados"
+                          - option "Belarus"
+                          - option "Belgium"
+                          - option "Belize"
+                          - option "Benin"
+                          - option "Bermuda"
+                          - option "Bhutan"
+                          - option "Bolivia, Plurinational State of"
+                          - option "Bonaire, Sint Eustatius and Saba"
+                          - option "Bosnia and Herzegovina"
+                          - option "Botswana"
+                          - option "Bouvet Island"
+                          - option "Brazil"
+                          - option "British Indian Ocean Territory"
+                          - option "Brunei Darussalam"
+                          - option "Bulgaria"
+                          - option "Burkina Faso"
+                          - option "Burundi"
+                          - option "Cambodia"
+                          - option "Cameroon"
+                          - option "Canada"
+                          - option "Cape Verde"
+                          - option "Cayman Islands"
+                          - option "Central African Republic"
+                          - option "Chad"
+                          - option "Chile"
+                          - option "China"
+                          - option "Chinese Taipei"
+                          - option "Christmas Island"
+                          - option "Cocos (Keeling) Islands"
+                          - option "Colombia"
+                          - option "Comoros"
+                          - option "Congo"
+                          - option "Congo, the Democratic Republic of the"
+                          - option "Cook Islands"
+                          - option "Costa Rica"
+                          - option "Cote d'Ivoire"
+                          - option "Croatia"
+                          - option "Cuba"
+                          - option "Curaçao"
+                          - option "Cyprus"
+                          - option "Czech Republic"
+                          - option "Denmark"
+                          - option "Djibouti"
+                          - option "Dominica"
+                          - option "Dominican Republic"
+                          - option "Ecuador"
+                          - option "Egypt"
+                          - option "El Salvador"
+                          - option "Equatorial Guinea"
+                          - option "Eritrea"
+                          - option "Estonia"
+                          - option "Ethiopia"
+                          - option "Falkland Islands (Malvinas)"
+                          - option "Faroe Islands"
+                          - option "Fiji"
+                          - option "Finland"
+                          - option "France"
+                          - option "French Guiana"
+                          - option "French Polynesia"
+                          - option "French Southern Territories"
+                          - option "Gabon"
+                          - option "Gambia"
+                          - option "Georgia"
+                          - option "Germany"
+                          - option "Ghana"
+                          - option "Gibraltar"
+                          - option "Greece"
+                          - option "Greenland"
+                          - option "Grenada"
+                          - option "Guadeloupe"
+                          - option "Guatemala"
+                          - option "Guernsey"
+                          - option "Guinea"
+                          - option "Guinea-Bissau"
+                          - option "Guyana"
+                          - option "Haiti"
+                          - option "Heard Island and McDonald Islands"
+                          - option "Holy See (Vatican City State)"
+                          - option "Honduras"
+                          - option "Hungary"
+                          - option "Iceland"
+                          - option "India"
+                          - option "Indonesia"
+                          - option "Iran, Islamic Republic of"
+                          - option "Iraq"
+                          - option "Ireland"
+                          - option "Isle of Man"
+                          - option "Israel"
+                          - option "Italy"
+                          - option "Jamaica"
+                          - option "Japan"
+                          - option "Jersey"
+                          - option "Jordan"
+                          - option "Kazakhstan"
+                          - option "Kenya"
+                          - option "Kiribati"
+                          - option "Korea, Democratic People's Republic of"
+                          - option "Korea, Republic of"
+                          - option "Kuwait"
+                          - option "Kyrgyzstan"
+                          - option "Lao People's Democratic Republic"
+                          - option "Latvia"
+                          - option "Lebanon"
+                          - option "Lesotho"
+                          - option "Liberia"
+                          - option "Libyan Arab Jamahiriya"
+                          - option "Liechtenstein"
+                          - option "Lithuania"
+                          - option "Luxembourg"
+                          - option "Macao"
+                          - option "Macedonia, the former Yugoslav Republic of"
+                          - option "Madagascar"
+                          - option "Malawi"
+                          - option "Malaysia"
+                          - option "Maldives"
+                          - option "Mali"
+                          - option "Malta"
+                          - option "Martinique"
+                          - option "Mauritania"
+                          - option "Mauritius"
+                          - option "Mayotte"
+                          - option "Mexico"
+                          - option "Moldova, Republic of"
+                          - option "Monaco"
+                          - option "Mongolia"
+                          - option "Montenegro"
+                          - option "Montserrat"
+                          - option "Morocco"
+                          - option "Mozambique"
+                          - option "Myanmar"
+                          - option "Namibia"
+                          - option "Nauru"
+                          - option "Nepal"
+                          - option "Netherlands"
+                          - option "New Caledonia"
+                          - option "New Zealand"
+                          - option "Nicaragua"
+                          - option "Niger"
+                          - option "Nigeria"
+                          - option "Niue"
+                          - option "Norfolk Island"
+                          - option "Norway"
+                          - option "Oman"
+                          - option "Pakistan"
+                          - option "Palestinian Territory, Occupied"
+                          - option "Panama"
+                          - option "Papua New Guinea"
+                          - option "Paraguay"
+                          - option "Peru"
+                          - option "Philippines"
+                          - option "Pitcairn"
+                          - option "Poland"
+                          - option "Portugal"
+                          - option "Puerto Rico"
+                          - option "Qatar"
+                          - option "Reunion"
+                          - option "Romania"
+                          - option "Russian Federation"
+                          - option "Rwanda"
+                          - option "Saint Barthélemy"
+                          - option "Saint Helena, Ascension and Tristan da Cunha"
+                          - option "Saint Kitts and Nevis"
+                          - option "Saint Lucia"
+                          - option "Saint Martin (French part)"
+                          - option "Saint Pierre and Miquelon"
+                          - option "Saint Vincent and the Grenadines"
+                          - option "Samoa"
+                          - option "San Marino"
+                          - option "Sao Tome and Principe"
+                          - option "Saudi Arabia"
+                          - option "Senegal"
+                          - option "Serbia"
+                          - option "Seychelles"
+                          - option "Sierra Leone"
+                          - option "Singapore"
+                          - option "Sint Maarten (Dutch part)"
+                          - option "Slovakia"
+                          - option "Slovenia"
+                          - option "Solomon Islands"
+                          - option "Somalia"
+                          - option "South Africa"
+                          - option "South Georgia and the South Sandwich Islands"
+                          - option "South Sudan"
+                          - option "Spain"
+                          - option "Sri Lanka"
+                          - option "Sudan"
+                          - option "Suriname"
+                          - option "Svalbard and Jan Mayen"
+                          - option "Swaziland"
+                          - option "Sweden"
+                          - option "Switzerland"
+                          - option "Syrian Arab Republic"
+                          - option "Tajikistan"
+                          - option "Tanzania, United Republic of"
+                          - option "Thailand"
+                          - option "Timor-Leste"
+                          - option "Togo"
+                          - option "Tokelau"
+                          - option "Tonga"
+                          - option "Trinidad and Tobago"
+                          - option "Tunisia"
+                          - option "Turkey"
+                          - option "Turkmenistan"
+                          - option "Turks and Caicos Islands"
+                          - option "Tuvalu"
+                          - option "Uganda"
+                          - option "Ukraine"
+                          - option "United Arab Emirates"
+                          - option "United Kingdom"
+                          - option "United States" [selected]
+                          - option "Uruguay"
+                          - option "Uzbekistan"
+                          - option "Vanuatu"
+                          - option "Venezuela, Bolivarian Republic of"
+                          - option "Viet Nam"
+                          - option "Virgin Islands, British"
+                          - option "Wallis and Futuna"
+                          - option "Western Sahara"
+                          - option "Yemen"
+                          - option "Zambia"
+                          - option "Zimbabwe"
+                    - row "Mailing Street Residential/Overnight Street" [ref=e192]:
+                      - cell "Mailing Street" [ref=e193]
+                      - cell [ref=e194]:
+                        - textbox "Mailing Street" [ref=e195]
+                      - cell "Residential/Overnight Street" [ref=e196]
+                      - cell [ref=e197]:
+                        - textbox "Residential/Overnight Street" [ref=e198]
+                    - row "Mailing City Residential/Overnight City" [ref=e199]:
+                      - cell "Mailing City" [ref=e200]
+                      - cell [ref=e201]:
+                        - textbox "Mailing City" [ref=e202]
+                      - cell "Residential/Overnight City" [ref=e203]
+                      - cell [ref=e204]:
+                        - textbox "Residential/Overnight City" [ref=e205]
+                    - row "Mailing State/Province --None-- Residential/Overnight State/Province --None--" [ref=e206]:
+                      - cell "Mailing State/Province" [ref=e207]
+                      - cell "--None--" [ref=e208]:
+                        - combobox "Mailing State/Province" [ref=e211]:
+                          - option "--None--" [selected]
+                          - option "Alabama"
+                          - option "Alaska"
+                          - option "American Samoa"
+                          - option "Arizona"
+                          - option "Arkansas"
+                          - option "Armed Forces Americas"
+                          - option "Armed Forces Europe"
+                          - option "Armed Forces Pacific"
+                          - option "California"
+                          - option "Colorado"
+                          - option "Connecticut"
+                          - option "Delaware"
+                          - option "District of Columbia"
+                          - option "Federated Micronesia"
+                          - option "Florida"
+                          - option "Georgia"
+                          - option "Guam"
+                          - option "Hawaii"
+                          - option "Idaho"
+                          - option "Illinois"
+                          - option "Indiana"
+                          - option "Iowa"
+                          - option "Kansas"
+                          - option "Kentucky"
+                          - option "Louisiana"
+                          - option "Maine"
+                          - option "Marshall Islands"
+                          - option "Maryland"
+                          - option "Massachusetts"
+                          - option "Michigan"
+                          - option "Minnesota"
+                          - option "Mississippi"
+                          - option "Missouri"
+                          - option "Montana"
+                          - option "Nebraska"
+                          - option "Nevada"
+                          - option "New Hampshire"
+                          - option "New Jersey"
+                          - option "New Mexico"
+                          - option "New York"
+                          - option "North Carolina"
+                          - option "North Dakota"
+                          - option "Northern Mariana Islands"
+                          - option "Ohio"
+                          - option "Oklahoma"
+                          - option "Oregon"
+                          - option "Palau"
+                          - option "Pennsylvania"
+                          - option "Puerto Rico"
+                          - option "Rhode Island"
+                          - option "South Carolina"
+                          - option "South Dakota"
+                          - option "Tennessee"
+                          - option "Texas"
+                          - option "United States Minor Outlying Islands"
+                          - option "Utah"
+                          - option "Vermont"
+                          - option "Virginia"
+                          - option "Virgin Islands"
+                          - option "Washington"
+                          - option "West Virginia"
+                          - option "Wisconsin"
+                          - option "Wyoming"
+                      - cell "Residential/Overnight State/Province" [ref=e213]
+                      - cell "--None--" [ref=e214]:
+                        - combobox "Residential/Overnight State/Province" [ref=e217]:
+                          - option "--None--" [selected]
+                          - option "Alabama"
+                          - option "Alaska"
+                          - option "American Samoa"
+                          - option "Arizona"
+                          - option "Arkansas"
+                          - option "Armed Forces Americas"
+                          - option "Armed Forces Europe"
+                          - option "Armed Forces Pacific"
+                          - option "California"
+                          - option "Colorado"
+                          - option "Connecticut"
+                          - option "Delaware"
+                          - option "District of Columbia"
+                          - option "Federated Micronesia"
+                          - option "Florida"
+                          - option "Georgia"
+                          - option "Guam"
+                          - option "Hawaii"
+                          - option "Idaho"
+                          - option "Illinois"
+                          - option "Indiana"
+                          - option "Iowa"
+                          - option "Kansas"
+                          - option "Kentucky"
+                          - option "Louisiana"
+                          - option "Maine"
+                          - option "Marshall Islands"
+                          - option "Maryland"
+                          - option "Massachusetts"
+                          - option "Michigan"
+                          - option "Minnesota"
+                          - option "Mississippi"
+                          - option "Missouri"
+                          - option "Montana"
+                          - option "Nebraska"
+                          - option "Nevada"
+                          - option "New Hampshire"
+                          - option "New Jersey"
+                          - option "New Mexico"
+                          - option "New York"
+                          - option "North Carolina"
+                          - option "North Dakota"
+                          - option "Northern Mariana Islands"
+                          - option "Ohio"
+                          - option "Oklahoma"
+                          - option "Oregon"
+                          - option "Palau"
+                          - option "Pennsylvania"
+                          - option "Puerto Rico"
+                          - option "Rhode Island"
+                          - option "South Carolina"
+                          - option "South Dakota"
+                          - option "Tennessee"
+                          - option "Texas"
+                          - option "United States Minor Outlying Islands"
+                          - option "Utah"
+                          - option "Vermont"
+                          - option "Virginia"
+                          - option "Virgin Islands"
+                          - option "Washington"
+                          - option "West Virginia"
+                          - option "Wisconsin"
+                          - option "Wyoming"
+                    - row "Mailing Zip/Postal Code Residential/Overnight Zip/Postal Code" [ref=e219]:
+                      - cell "Mailing Zip/Postal Code" [ref=e220]
+                      - cell [ref=e221]:
+                        - textbox "Mailing Zip/Postal Code" [ref=e222]
+                      - cell "Residential/Overnight Zip/Postal Code" [ref=e223]
+                      - cell [ref=e224]:
+                        - textbox "Residential/Overnight Zip/Postal Code" [ref=e225]
+                - heading "Contact Information" [level=3] [ref=e227]
+                - table [ref=e229]:
+                  - rowgroup [ref=e230]:
+                    - row "Phone Email" [ref=e231]:
+                      - cell "Phone" [ref=e232]
+                      - cell [ref=e233]:
+                        - textbox "Phone" [ref=e234]
+                      - cell "Email" [ref=e235]
+                      - cell [ref=e236]:
+                        - textbox "Email" [ref=e237]
+                    - row "Phone Extension Alternate Email" [ref=e238]:
+                      - cell "Phone Extension" [ref=e239]
+                      - cell [ref=e240]:
+                        - textbox "Phone Extension" [ref=e241]
+                      - cell "Alternate Email" [ref=e242]
+                      - cell [ref=e243]:
+                        - textbox "Alternate Email" [ref=e244]
+                    - row "Home Phone" [ref=e245]:
+                      - cell "Home Phone" [ref=e246]
+                      - cell [ref=e247]:
+                        - textbox "Home Phone" [ref=e248]
+                      - cell [ref=e249]
+                      - cell [ref=e250]
+                    - row "Mobile Phone" [ref=e251]:
+                      - cell "Mobile Phone" [ref=e252]
+                      - cell [ref=e253]:
+                        - textbox "Mobile Phone" [ref=e254]
+                      - cell [ref=e255]
+                      - cell [ref=e256]
+                    - row "Other Phone" [ref=e257]:
+                      - cell "Other Phone" [ref=e258]
+                      - cell [ref=e259]:
+                        - textbox "Other Phone" [ref=e260]
+                      - cell [ref=e261]
+                      - cell [ref=e262]
+                - heading "LexisNexis Contact Information" [level=3] [ref=e264]
+                - table [ref=e266]:
+                  - rowgroup [ref=e267]:
+                    - row "LexisNexis Phone 1 LexisNexis Email 1" [ref=e268]:
+                      - cell "LexisNexis Phone 1" [ref=e269]:
+                        - generic [ref=e270]: LexisNexis Phone 1
+                      - cell [ref=e271]:
+                        - textbox "LexisNexis Phone 1" [ref=e272]
+                      - cell "LexisNexis Email 1" [ref=e273]:
+                        - generic [ref=e274]: LexisNexis Email 1
+                      - cell [ref=e275]:
+                        - textbox "LexisNexis Email 1" [ref=e276]
+                    - row "LexisNexis Phone 2 LexisNexis Email 2" [ref=e277]:
+                      - cell "LexisNexis Phone 2" [ref=e278]:
+                        - generic [ref=e279]: LexisNexis Phone 2
+                      - cell [ref=e280]:
+                        - textbox "LexisNexis Phone 2" [ref=e281]
+                      - cell "LexisNexis Email 2" [ref=e282]:
+                        - generic [ref=e283]: LexisNexis Email 2
+                      - cell [ref=e284]:
+                        - textbox "LexisNexis Email 2" [ref=e285]
+                    - row "LexisNexis Phone 3" [ref=e286]:
+                      - cell "LexisNexis Phone 3" [ref=e287]:
+                        - generic [ref=e288]: LexisNexis Phone 3
+                      - cell [ref=e289]:
+                        - textbox "LexisNexis Phone 3" [ref=e290]
+                      - cell [ref=e291]
+                      - cell [ref=e292]
+                - heading "Outbound Call Campaign" [level=3] [ref=e294]
+                - table [ref=e296]:
+                  - rowgroup [ref=e297]:
+                    - row "Outbound Call List Name Date of Last Outbound Call [ 4/10/2026, 2:35 AM ]" [ref=e298]:
+                      - cell "Outbound Call List Name" [ref=e299]
+                      - cell [ref=e300]:
+                        - textbox "Outbound Call List Name" [ref=e301]
+                      - cell "Date of Last Outbound Call" [ref=e302]
+                      - cell "[ 4/10/2026, 2:35 AM ]" [ref=e303]:
+                        - generic [ref=e304]:
+                          - textbox "Date of Last Outbound Call" [ref=e305]
+                          - generic [ref=e306]:
+                            - text: "["
+                            - link "4/10/2026, 2:35 AM" [ref=e307] [cursor=pointer]:
+                              - /url: javascript:void(DatePicker.insertDate('4/10/2026, 2:35 AM', '00N4R00000JOH5r', true));
+                            - text: "]"
+                    - row "Outbound Call List Owner Outbound Call List Owner Lookup (New Window) Spoke to Participant" [ref=e308]:
+                      - cell "Outbound Call List Owner" [ref=e309]
+                      - cell "Outbound Call List Owner Lookup (New Window)" [ref=e310]:
+                        - generic [ref=e311]:
+                          - textbox "Outbound Call List Owner" [ref=e312]
+                          - link "Outbound Call List Owner Lookup (New Window)" [ref=e313] [cursor=pointer]:
+                            - /url: javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3DCF00N4R00000JOH5u%26lktp%3D%27%20%2B%20getElementByIdCS%28%27CF00N4R00000JOH5u_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27CF00N4R00000JOH5u%27%29.value.substring%280%2C%2080%29%29%29
+                            - img "Outbound Call List Owner Lookup (New Window)" [ref=e314]
+                      - cell "Spoke to Participant" [ref=e315]
+                      - cell "Spoke to Participant" [ref=e316]:
+                        - checkbox "Spoke to Participant" [ref=e317]
+                    - row "Number of Outbound Calls Number of Outbound Call Days" [ref=e318]:
+                      - cell "Number of Outbound Calls" [ref=e319]
+                      - cell [ref=e320]:
+                        - textbox "Number of Outbound Calls" [ref=e321]
+                      - cell "Number of Outbound Call Days" [ref=e322]
+                      - cell [ref=e323]:
+                        - textbox "Number of Outbound Call Days" [ref=e324]
+                    - row "Outbound Call Campaign Phone" [ref=e325]:
+                      - cell "Outbound Call Campaign Phone" [ref=e326]
+                      - cell [ref=e327]:
+                        - textbox "Outbound Call Campaign Phone" [ref=e328]
+                      - cell [ref=e329]
+                      - cell [ref=e330]
+                - heading "Description Information" [level=3] [ref=e332]
+                - table [ref=e334]:
+                  - rowgroup [ref=e335]:
+                    - row "Description" [ref=e336]:
+                      - cell "Description" [ref=e337]: Description
+                      - cell [ref=e339]:
+                        - textbox "Description" [ref=e340]
+                - heading "System Information" [level=3] [ref=e342]
+                - table [ref=e344]:
+                  - rowgroup [ref=e345]:
+                    - row "Account Owner Somya Sijaria CDL External Key" [ref=e346]:
+                      - cell "Account Owner" [ref=e347]
+                      - cell "Somya Sijaria" [ref=e348]
+                      - cell "CDL External Key" [ref=e349]
+                      - cell [ref=e350]:
+                        - textbox "CDL External Key" [ref=e351]
+                    - row "MDM UUID" [ref=e352]:
+                      - cell [ref=e353]
+                      - cell [ref=e354]
+                      - cell "MDM UUID" [ref=e355]
+                      - cell [ref=e356]:
+                        - textbox "MDM UUID" [ref=e357]
+                    - row "Migration ID" [ref=e358]:
+                      - cell [ref=e359]
+                      - cell [ref=e360]
+                      - cell "Migration ID" [ref=e361]
+                      - cell [ref=e362]:
+                        - textbox "Migration ID" [ref=e363]
+                    - row "Parent Account Parent Account Lookup (New Window)" [ref=e364]:
+                      - cell [ref=e365]
+                      - cell [ref=e366]
+                      - cell "Parent Account" [ref=e367]
+                      - cell "Parent Account Lookup (New Window)" [ref=e368]:
+                        - generic [ref=e369]:
+                          - textbox "Parent Account" [ref=e370]
+                          - link "Parent Account Lookup (New Window)" [ref=e371] [cursor=pointer]:
+                            - /url: javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3Dacc3%26lktp%3D%27%20%2B%20getElementByIdCS%28%27acc3_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27acc3%27%29.value.substring%280%2C%2080%29%29%29
+                            - img "Parent Account Lookup (New Window)" [ref=e372]
+                    - row "Enrollment Duplicate" [ref=e373]:
+                      - cell [ref=e374]
+                      - cell [ref=e375]
+                      - cell "Enrollment Duplicate" [ref=e376]
+                      - cell "Enrollment Duplicate" [ref=e377]:
+                        - checkbox "Enrollment Duplicate" [ref=e378]
+              - table [ref=e380]:
+                - rowgroup [ref=e381]:
+                  - row "Save Save & New Cancel" [ref=e382]:
+                    - cell [ref=e383]
+                    - cell "Save Save & New Cancel" [ref=e384]:
+                      - button "Save" [ref=e385] [cursor=pointer]
+                      - button "Save & New" [ref=e386] [cursor=pointer]
+                      - button "Cancel" [ref=e387] [cursor=pointer]
+    - generic [ref=e389]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e390] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e391] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e392] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e393] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e394] [cursor=pointer]:
+        - /url: /ltng/oneAppRedirect
+  - iframe [ref=e395]:
+    
+  - generic:
+    - button "Expand Quick Access Menu" [ref=e397]
+    - generic [ref=e398]:
+      - generic [ref=e399]:
+        - link "Go to Setup" [ref=e400] [cursor=pointer]:
+          - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F001%2Fe
+          - img "Go to Setup" [ref=e401]
+        - link "Help" [ref=e402] [cursor=pointer]:
+          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?section=Dev_Tools&target=dev_quick_access_menu.htm&loc=help&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+          - img "Help" [ref=e403]
+      - generic [ref=e404]:
+        - list [ref=e405]:
+          - listitem [ref=e406]:
+            - link "View Fields" [ref=e407] [cursor=pointer]:
+              - /url: /p/setup/layout/LayoutFieldList?type=Account&setupid=AccountFields
+          - listitem [ref=e408]:
+            - link "View Object" [ref=e409] [cursor=pointer]:
+              - /url: /ui/setup/Setup?setupid=Account
+          - listitem [ref=e410]:
+            - link "View Validation Rules" [ref=e411] [cursor=pointer]:
+              - /url: /_ui/common/config/entity/ValidationFormulaListUI/d?retURL=%2F001%2Fe&tableEnumOrId=Account&setupid=AccountValidations
+          - listitem [ref=e412]:
+            - link "View Approvals" [ref=e413] [cursor=pointer]:
+              - /url: /p/process/ProcessDefinitionSetup?TableEnumOrId=Account&setupid=ApprovalProcesses
+        - separator [ref=e414]
+        - list [ref=e415]:
+          - listitem [ref=e416]:
+            - link "Edit App" [ref=e417] [cursor=pointer]:
+              - /url: /02uG0000000GeGC/e?retURL=%2F001%2Fe&setupid=TabSet
+          - listitem [ref=e418]:
+            - link "Edit Layout" [ref=e419] [cursor=pointer]:
+              - /url: /layouteditor/layoutEditor.apexp?type=Account&lid=00hG000000hD80e&retURL=%2F001%2Fe&setupid=AccountLayouts
+          - listitem [ref=e420]:
+            - link "View Record Type" [ref=e421] [cursor=pointer]:
+              - /url: /setup/ui/recordtypefields.jsp?id=012G0000001BFsk&type=Account&setupid=AccountRecords
+        - separator [ref=e422]
+        - list [ref=e423]:
+          - listitem [ref=e424]:
+            - link "Import Data" [ref=e425] [cursor=pointer]:
+              - /url: /ui/setup/dataimporter/DataImporterAdminLandingPage
+      - link "Turn off menu" [ref=e427] [cursor=pointer]:
+        - /url: "#"
+  - alert [ref=e429]:
+    - text: "Error: Invalid Data."
+    - text: Review all error messages below to correct your data.
+    - text: Account already exist

@@ -1,0 +1,13 @@
+node_modules/
+src/
+tests/
+*.spec.ts
+*.test.ts
+.git/
+.gitignore
+.eslintrc.*
+tsconfig.json
+playwright.config.ts
+*.log
+.vscode/
+.DS_Store

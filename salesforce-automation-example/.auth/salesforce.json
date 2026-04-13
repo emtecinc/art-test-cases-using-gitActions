@@ -1,0 +1,135 @@
+{
+  "cookies": [
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "jhancock--devlm2.sandbox.my.salesforce.com",
+      "path": "/",
+      "expires": 1807623807.208572,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:1",
+      "domain": "jhancock--devlm2.sandbox.my.salesforce.com",
+      "path": "/",
+      "expires": 1807623807.208761,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "BrowserId",
+      "value": "wD6KiDc-EfGMSEMwA0TY4g",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1807623807.208792,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sfdc_lv2",
+      "value": "KxG83HxIQFtsP7PCDK1iO94PMChz/MOjvz7rccrgS3OXB4CJcCtPSl3p9p+XI5bKw=",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1807623807.208819,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "disco",
+      "value": "dz:00Ddz000003kYzR:005dz00000BSn13:2",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "autocomplete",
+      "value": "1",
+      "domain": ".salesforce.com",
+      "path": "/",
+      "expires": 1781271807.20891,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "00Ddz000003kYzR!AQEAQNVv3DiYJN7DQB9MI_P8xA3RPf4.7B23Mbi9EJSLCOuAMfN5fYW3pbsaCIcbSzIN54U7mJaigsCJr6Aek5Tft3o9IEH_",
+      "domain": "jhancock--devlm2.sandbox.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid_Client",
+      "value": "z00000BSn13z000003kYzR",
+      "domain": "jhancock--devlm2.sandbox.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "clientSrc",
+      "value": "152.56.182.20",
+      "domain": "jhancock--devlm2.sandbox.my.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "oid",
+      "value": "00Ddz000003kYzR",
+      "domain": "jhancock--devlm2.sandbox.my.salesforce.com",
+      "path": "/",
+      "expires": 1807623807.209177,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CookieConsentPolicy",
+      "value": "0:0",
+      "domain": "test.salesforce.com",
+      "path": "/",
+      "expires": 1807623808.568548,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LSKey-c$CookieConsentPolicy",
+      "value": "0:0",
+      "domain": "test.salesforce.com",
+      "path": "/",
+      "expires": 1807623808.568659,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session",
+      "value": "1776087809231",
+      "domain": "test.salesforce.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}

@@ -1,0 +1,651 @@
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e37]: Sandbox (DEVLM2)
+        - button "Show menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e48]
+          - generic [ref=e51]: Show menu
+      - generic [ref=e52]:
+        - button "Search" [ref=e58]:
+          - img [ref=e60]
+          - text: Search...
+        - navigation "Global Header" [ref=e63]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - group [ref=e67]:
+                - button "Add favorite" [ref=e839] [cursor=pointer]:
+                  - generic [ref=e70]:
+                    - img [ref=e74]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]:
+                    - img [ref=e83]
+                    - tooltip "Favorites list"
+            - listitem [ref=e86]:
+              - button "Global Actions" [ref=e831] [cursor=pointer]:
+                - generic [ref=e832]:
+                  - img [ref=e836]
+                  - tooltip "Global Actions"
+            - listitem [ref=e95]:
+              - button "Guidance Center" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e102]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e105]:
+              - button "Salesforce Help" [ref=e108] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - img [ref=e113]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e116]:
+              - button "Setup" [ref=e122] [cursor=pointer]:
+                - generic [ref=e123]:
+                  - img [ref=e127]
+                  - tooltip "Setup"
+            - listitem [ref=e130]:
+              - button "Notifications" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]:
+                  - img [ref=e139]
+                  - tooltip "Notifications"
+            - listitem [ref=e143]:
+              - button "View profile" [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - tooltip "View profile"
+    - generic [ref=e151]:
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - navigation "App" [ref=e157]:
+            - button "App Launcher" [ref=e159] [cursor=pointer]:
+              - generic [ref=e170]: App Launcher
+          - heading "PFS" [level=1] [ref=e171]:
+            - generic "PFS" [ref=e172]
+        - navigation "Global" [ref=e175]:
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Home" [ref=e178] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e179]: Home
+            - listitem [ref=e180]:
+              - link "Tasks" [ref=e181] [cursor=pointer]:
+                - /url: /lightning/n/Tasks
+                - generic [ref=e182]: Tasks
+            - listitem [ref=e183]:
+              - link "Leads" [ref=e184] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e185]: Leads
+              - button "Leads List" [ref=e189] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e196]: Leads List
+            - listitem [ref=e197]:
+              - link "Campaigns" [ref=e198] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e199]: Campaigns
+              - button "Campaigns List" [ref=e203] [cursor=pointer]:
+                - img [ref=e207]
+                - generic [ref=e210]: Campaigns List
+            - listitem [ref=e211] [cursor=pointer]:
+              - link "Accounts" [active] [ref=e212]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e213]: Accounts
+              - button "Accounts List" [ref=e217]:
+                - img [ref=e221]
+                - generic [ref=e224]: Accounts List
+            - listitem [ref=e225]:
+              - link "Contacts" [ref=e226] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e227]: Contacts
+              - button "Contacts List" [ref=e231] [cursor=pointer]:
+                - img [ref=e235]
+                - generic [ref=e238]: Contacts List
+            - listitem [ref=e239]:
+              - link "Opportunities" [ref=e240] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e241]: Opportunities
+              - button "Opportunities List" [ref=e245] [cursor=pointer]:
+                - img [ref=e249]
+                - generic [ref=e252]: Opportunities List
+            - listitem [ref=e253]:
+              - link "Reports" [ref=e254] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e255]: Reports
+              - button "Reports List" [ref=e259] [cursor=pointer]:
+                - img [ref=e263]
+                - generic [ref=e266]: Reports List
+            - listitem [ref=e267]:
+              - link "Dashboards" [ref=e268] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e269]: Dashboards
+              - button "Dashboards List" [ref=e273] [cursor=pointer]:
+                - img [ref=e277]
+                - generic [ref=e280]: Dashboards List
+            - listitem [ref=e281]:
+              - link "Thresholds" [ref=e282] [cursor=pointer]:
+                - /url: /lightning/o/Threshold__c/home
+                - generic [ref=e283]: Thresholds
+              - button "Thresholds List" [ref=e287] [cursor=pointer]:
+                - img [ref=e291]
+                - generic [ref=e294]: Thresholds List
+            - listitem [ref=e295]:
+              - button "Help" [ref=e299] [cursor=pointer]:
+                - img [ref=e301]
+                - generic [ref=e304]: Help
+      - generic [ref=e305]:
+        - main [ref=e840]:
+          - generic [ref=e850]:
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - generic [ref=e855]:
+                  - img [ref=e859]
+                  - generic [ref=e860]:
+                    - heading "Accounts" [level=1] [ref=e864]
+                    - generic [ref=e865]:
+                      - generic [ref=e867] [cursor=pointer]:
+                        - heading "Accounts Recently Viewed" [level=1] [ref=e868]:
+                          - generic [ref=e869]: Accounts
+                          - generic [ref=e870]: Recently Viewed
+                        - 'button "Select a List View: Accounts" [ref=e873]':
+                          - img [ref=e875]
+                          - generic [ref=e878]: "Select a List View: Accounts"
+                      - button "This list is pinned." [disabled] [ref=e882] [cursor=pointer]:
+                        - img [ref=e884]
+                        - generic [ref=e887]: This list is pinned.
+                - list [ref=e890]:
+                  - listitem [ref=e891]:
+                    - button "New" [ref=e892] [cursor=pointer]:
+                      - generic "New" [ref=e893]
+                  - listitem [ref=e894]:
+                    - button "Discover Companies" [ref=e895] [cursor=pointer]:
+                      - generic "Discover Companies" [ref=e896]
+                  - listitem [ref=e897]:
+                    - button "Import" [ref=e898] [cursor=pointer]:
+                      - generic "Import" [ref=e899]
+                  - listitem [ref=e900]:
+                    - button "Intelligence View" [ref=e901] [cursor=pointer]:
+                      - generic "Intelligence View" [ref=e902]
+                  - listitem [ref=e903]:
+                    - button "Assign Label" [ref=e904] [cursor=pointer]:
+                      - generic "Assign Label" [ref=e905]
+              - generic [ref=e906]:
+                - paragraph [ref=e908]:
+                  - generic [ref=e910]:
+                    - status "Recently Viewed" [ref=e911]: 11 items •
+                    - text: Updated a few seconds ago
+                - generic [ref=e917]:
+                  - generic [ref=e918]: Search this list...
+                  - generic [ref=e919]:
+                    - searchbox "Search this list..." [ref=e920]
+                    - generic:
+                      - img
+                - generic [ref=e921]:
+                  - button "List View Controls" [ref=e925] [cursor=pointer]:
+                    - img [ref=e927]
+                    - img [ref=e931]
+                    - generic [ref=e934]: List View Controls
+                  - button "Select list display" [ref=e937] [cursor=pointer]:
+                    - img [ref=e939]
+                    - img [ref=e943]
+                    - generic [ref=e946]: Select list display
+                  - generic [ref=e948]:
+                    - button "Refresh" [ref=e951] [cursor=pointer]:
+                      - img [ref=e953]
+                      - generic [ref=e956]: Refresh
+                    - button "Column sort" [ref=e959] [cursor=pointer]:
+                      - img [ref=e961]
+                      - generic [ref=e964]: Column sort
+                    - button "Inline Edit is disabled. To edit, filter by one record type." [ref=e967] [cursor=pointer]:
+                      - img [ref=e969]
+                      - generic [ref=e972]: Inline Edit is disabled. To edit, filter by one record type.
+                    - group [ref=e973]:
+                      - generic [ref=e975]:
+                        - generic:
+                          - generic:
+                            - button "Charts" [disabled]:
+                              - generic:
+                                - img
+                              - generic: Charts
+                        - generic:
+                          - generic:
+                            - button "Filters" [disabled]:
+                              - generic:
+                                - img
+                              - generic: Filters
+            - generic [ref=e982]:
+              - generic [ref=e983]: Navigation Mode
+              - grid [ref=e987]:
+                - rowgroup:
+                  - row "Row Number Choose a Row Select 11 items Account Name Account Record Type Business Unit JH GACode Type Account Type Code Last 4 SSN Digits Birthdate Phone JHFC Advisor Action":
+                    - columnheader "Row Number":
+                      - generic [ref=e990]:
+                        - generic "Row Number"
+                    - gridcell "Choose a Row Select 11 items":
+                      - generic [ref=e991]:
+                        - generic [ref=e992]: Choose a Row
+                        - generic [ref=e994]:
+                          - checkbox "Select 11 items" [ref=e995]
+                          - generic [ref=e998]: Select 11 items
+                    - columnheader "Account Name":
+                      - generic [ref=e1000]:
+                        - 'button "Sort by: Account Name" [ref=e1001] [cursor=pointer]':
+                          - generic [ref=e1002]: "Sort by:"
+                          - generic "Account Name" [ref=e1003]
+                        - generic [ref=e1004]: "Sorted: None"
+                        - button "Show Account Name column actions" [ref=e1006] [cursor=pointer]:
+                          - img [ref=e1008]
+                          - generic [ref=e1011]: Show Account Name column actions
+                        - slider "Account Name column width" [ref=e1012]: "314"
+                    - columnheader "Account Record Type":
+                      - generic [ref=e1016]:
+                        - 'button "Sort by: Account Record Type" [ref=e1017] [cursor=pointer]':
+                          - generic [ref=e1018]: "Sort by:"
+                          - generic "Account Record Type" [ref=e1019]
+                        - generic [ref=e1020]: "Sorted: None"
+                        - button "Show Account Record Type column actions" [ref=e1022] [cursor=pointer]:
+                          - img [ref=e1024]
+                          - generic [ref=e1027]: Show Account Record Type column actions
+                        - slider "Account Record Type column width" [ref=e1028]: "185"
+                    - columnheader "Business Unit":
+                      - generic [ref=e1032]:
+                        - 'button "Sort by: Business Unit" [ref=e1033] [cursor=pointer]':
+                          - generic [ref=e1034]: "Sort by:"
+                          - generic "Business Unit" [ref=e1035]
+                        - generic [ref=e1036]: "Sorted: None"
+                        - button "Show Business Unit column actions" [ref=e1038] [cursor=pointer]:
+                          - img [ref=e1040]
+                          - generic [ref=e1043]: Show Business Unit column actions
+                        - slider "Business Unit column width" [ref=e1044]: "179"
+                    - columnheader "JH GACode":
+                      - generic [ref=e1048]:
+                        - 'button "Sort by: JH GACode" [ref=e1049] [cursor=pointer]':
+                          - generic [ref=e1050]: "Sort by:"
+                          - generic "JH GACode" [ref=e1051]
+                        - generic [ref=e1052]: "Sorted: None"
+                        - button "Show JH GACode column actions" [ref=e1054] [cursor=pointer]:
+                          - img [ref=e1056]
+                          - generic [ref=e1059]: Show JH GACode column actions
+                        - slider "JH GACode column width" [ref=e1060]: "63"
+                    - columnheader "Type":
+                      - generic [ref=e1064]:
+                        - 'button "Sort by: Type" [ref=e1065] [cursor=pointer]':
+                          - generic [ref=e1066]: "Sort by:"
+                          - generic "Type" [ref=e1067]
+                        - generic [ref=e1068]: "Sorted: None"
+                        - button "Show Type column actions" [ref=e1070] [cursor=pointer]:
+                          - img [ref=e1072]
+                          - generic [ref=e1075]: Show Type column actions
+                        - slider "Type column width" [ref=e1076]: "63"
+                    - columnheader "Account Type Code":
+                      - generic [ref=e1080]:
+                        - 'button "Sort by: Account Type Code" [ref=e1081] [cursor=pointer]':
+                          - generic [ref=e1082]: "Sort by:"
+                          - generic "Account Type Code" [ref=e1083]
+                        - generic [ref=e1084]: "Sorted: None"
+                        - button "Show Account Type Code column actions" [ref=e1086] [cursor=pointer]:
+                          - img [ref=e1088]
+                          - generic [ref=e1091]: Show Account Type Code column actions
+                        - slider "Account Type Code column width" [ref=e1092]: "63"
+                    - columnheader "Last 4 SSN Digits":
+                      - generic [ref=e1096]:
+                        - 'button "Sort by: Last 4 SSN Digits" [ref=e1097] [cursor=pointer]':
+                          - generic [ref=e1098]: "Sort by:"
+                          - generic "Last 4 SSN Digits" [ref=e1099]
+                        - generic [ref=e1100]: "Sorted: None"
+                        - button "Show Last 4 SSN Digits column actions" [ref=e1102] [cursor=pointer]:
+                          - img [ref=e1104]
+                          - generic [ref=e1107]: Show Last 4 SSN Digits column actions
+                        - slider "Last 4 SSN Digits column width" [ref=e1108]: "63"
+                    - columnheader "Birthdate":
+                      - generic [ref=e1112]:
+                        - 'button "Sort by: Birthdate" [ref=e1113] [cursor=pointer]':
+                          - generic [ref=e1114]: "Sort by:"
+                          - generic "Birthdate" [ref=e1115]
+                        - generic [ref=e1116]: "Sorted: None"
+                        - button "Show Birthdate column actions" [ref=e1118] [cursor=pointer]:
+                          - img [ref=e1120]
+                          - generic [ref=e1123]: Show Birthdate column actions
+                        - slider "Birthdate column width" [ref=e1124]: "63"
+                    - columnheader "Phone":
+                      - generic [ref=e1128]:
+                        - 'button "Sort by: Phone" [ref=e1129] [cursor=pointer]':
+                          - generic [ref=e1130]: "Sort by:"
+                          - generic "Phone" [ref=e1131]
+                        - generic [ref=e1132]: "Sorted: None"
+                        - button "Show Phone column actions" [ref=e1134] [cursor=pointer]:
+                          - img [ref=e1136]
+                          - generic [ref=e1139]: Show Phone column actions
+                        - slider "Phone column width" [ref=e1140]: "63"
+                    - columnheader "JHFC Advisor":
+                      - generic [ref=e1144]:
+                        - 'button "Sort by: JHFC Advisor" [ref=e1145] [cursor=pointer]':
+                          - generic [ref=e1146]: "Sort by:"
+                          - generic "JHFC Advisor" [ref=e1147]
+                        - generic [ref=e1148]: "Sorted: None"
+                        - button "Show JHFC Advisor column actions" [ref=e1150] [cursor=pointer]:
+                          - img [ref=e1152]
+                          - generic [ref=e1155]: Show JHFC Advisor column actions
+                        - slider "JHFC Advisor column width" [ref=e1156]: "63"
+                    - columnheader "Action":
+                      - generic [ref=e1161]:
+                        - generic "Action"
+                - rowgroup [ref=e1162]:
+                  - row "Select Item 1 Choose a Row test new account Individual Annuities Show Actions" [ref=e1163]:
+                    - gridcell [ref=e1164]
+                    - gridcell "Select Item 1 Choose a Row" [ref=e1168]:
+                      - generic [ref=e1169]:
+                        - checkbox "Select Item 1 Choose a Row" [ref=e1170]
+                        - generic [ref=e1173]: Select Item 1
+                    - rowheader "test new account" [ref=e1174]:
+                      - link "test new account" [ref=e1181] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FvD85AAF/view
+                        - generic [ref=e1182]: test new account
+                    - gridcell "Individual" [ref=e1183]:
+                      - link "Individual" [ref=e1189] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FvD85AAF/view
+                        - generic [ref=e1190]: Individual
+                    - gridcell "Annuities" [ref=e1191]:
+                      - generic [ref=e1196]: Annuities
+                    - gridcell [ref=e1197]
+                    - gridcell [ref=e1198]
+                    - gridcell [ref=e1199]
+                    - gridcell [ref=e1200]
+                    - gridcell [ref=e1201]
+                    - gridcell [ref=e1202]
+                    - gridcell [ref=e1203]
+                    - gridcell "Show Actions" [ref=e1205]:
+                      - button "Show Actions" [ref=e1211] [cursor=pointer]:
+                        - img [ref=e1213]
+                        - generic [ref=e1216]: Show Actions
+                  - row "Select Item 2 Test Fund Account Individual Annuities Show Actions" [ref=e1217]:
+                    - gridcell [ref=e1218]
+                    - gridcell "Select Item 2" [ref=e1222]:
+                      - generic [ref=e1223]:
+                        - checkbox "Select Item 2" [ref=e1224]
+                        - generic [ref=e1227]: Select Item 2
+                    - rowheader "Test Fund Account" [ref=e1228]:
+                      - link "Test Fund Account" [ref=e1235] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FxdJSAAZ/view
+                        - generic [ref=e1236]: Test Fund Account
+                    - gridcell "Individual" [ref=e1237]:
+                      - link "Individual" [ref=e1243] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FxdJSAAZ/view
+                        - generic [ref=e1244]: Individual
+                    - gridcell "Annuities" [ref=e1245]:
+                      - generic [ref=e1250]: Annuities
+                    - gridcell [ref=e1251]
+                    - gridcell [ref=e1252]
+                    - gridcell [ref=e1253]
+                    - gridcell [ref=e1254]
+                    - gridcell [ref=e1255]
+                    - gridcell [ref=e1256]
+                    - gridcell [ref=e1257]
+                    - gridcell "Show Actions" [ref=e1259]:
+                      - button "Show Actions" [ref=e1265] [cursor=pointer]:
+                        - img [ref=e1267]
+                        - generic [ref=e1270]: Show Actions
+                  - row "Select Item 3 test account Employer PFS/RPS Show Actions" [ref=e1271]:
+                    - gridcell [ref=e1272]
+                    - gridcell "Select Item 3" [ref=e1276]:
+                      - generic [ref=e1277]:
+                        - checkbox "Select Item 3" [ref=e1278]
+                        - generic [ref=e1281]: Select Item 3
+                    - rowheader "test account" [ref=e1282]:
+                      - link "test account" [ref=e1289] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000Foz4WAAR/view
+                        - generic [ref=e1290]: test account
+                    - gridcell "Employer" [ref=e1291]:
+                      - link "Employer" [ref=e1297] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000Foz4WAAR/view
+                        - generic [ref=e1298]: Employer
+                    - gridcell "PFS/RPS" [ref=e1299]:
+                      - generic [ref=e1304]: PFS/RPS
+                    - gridcell [ref=e1305]
+                    - gridcell [ref=e1306]
+                    - gridcell [ref=e1307]
+                    - gridcell [ref=e1308]
+                    - gridcell [ref=e1309]
+                    - gridcell [ref=e1310]
+                    - gridcell [ref=e1311]
+                    - gridcell "Show Actions" [ref=e1313]:
+                      - button "Show Actions" [ref=e1319] [cursor=pointer]:
+                        - img [ref=e1321]
+                        - generic [ref=e1324]: Show Actions
+                  - row "Select Item 4 TestEmployer_1775124181119 Employer PFS/RPS Show Actions" [ref=e1325]:
+                    - gridcell [ref=e1326]
+                    - gridcell "Select Item 4" [ref=e1330]:
+                      - generic [ref=e1331]:
+                        - checkbox "Select Item 4" [ref=e1332]
+                        - generic [ref=e1335]: Select Item 4
+                    - rowheader "TestEmployer_1775124181119" [ref=e1336]:
+                      - link "TestEmployer_1775124181119" [ref=e1343] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FpT0vAAF/view
+                        - generic [ref=e1344]: TestEmployer_1775124181119
+                    - gridcell "Employer" [ref=e1345]:
+                      - link "Employer" [ref=e1351] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FpT0vAAF/view
+                        - generic [ref=e1352]: Employer
+                    - gridcell "PFS/RPS" [ref=e1353]:
+                      - generic [ref=e1358]: PFS/RPS
+                    - gridcell [ref=e1359]
+                    - gridcell [ref=e1360]
+                    - gridcell [ref=e1361]
+                    - gridcell [ref=e1362]
+                    - gridcell [ref=e1363]
+                    - gridcell [ref=e1364]
+                    - gridcell [ref=e1365]
+                    - gridcell "Show Actions" [ref=e1367]:
+                      - button "Show Actions" [ref=e1373] [cursor=pointer]:
+                        - img [ref=e1375]
+                        - generic [ref=e1378]: Show Actions
+                  - row "Select Item 5 TestEmployer_1775123097206 Employer PFS/RPS Show Actions" [ref=e1379]:
+                    - gridcell [ref=e1380]
+                    - gridcell "Select Item 5" [ref=e1384]:
+                      - generic [ref=e1385]:
+                        - checkbox "Select Item 5" [ref=e1386]
+                        - generic [ref=e1389]: Select Item 5
+                    - rowheader "TestEmployer_1775123097206" [ref=e1390]:
+                      - link "TestEmployer_1775123097206" [ref=e1397] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FpOKdAAN/view
+                        - generic [ref=e1398]: TestEmployer_1775123097206
+                    - gridcell "Employer" [ref=e1399]:
+                      - link "Employer" [ref=e1405] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FpOKdAAN/view
+                        - generic [ref=e1406]: Employer
+                    - gridcell "PFS/RPS" [ref=e1407]:
+                      - generic [ref=e1412]: PFS/RPS
+                    - gridcell [ref=e1413]
+                    - gridcell [ref=e1414]
+                    - gridcell [ref=e1415]
+                    - gridcell [ref=e1416]
+                    - gridcell [ref=e1417]
+                    - gridcell [ref=e1418]
+                    - gridcell [ref=e1419]
+                    - gridcell "Show Actions" [ref=e1421]:
+                      - button "Show Actions" [ref=e1427] [cursor=pointer]:
+                        - img [ref=e1429]
+                        - generic [ref=e1432]: Show Actions
+                  - row "Select Item 6 TestEmployer_1774956494379 Employer PFS/RPS 555-123-4567 Show Actions" [ref=e1433]:
+                    - gridcell [ref=e1434]
+                    - gridcell "Select Item 6" [ref=e1438]:
+                      - generic [ref=e1439]:
+                        - checkbox "Select Item 6" [ref=e1440]
+                        - generic [ref=e1443]: Select Item 6
+                    - rowheader "TestEmployer_1774956494379" [ref=e1444]:
+                      - link "TestEmployer_1774956494379" [ref=e1451] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlXcfAAF/view
+                        - generic [ref=e1452]: TestEmployer_1774956494379
+                    - gridcell "Employer" [ref=e1453]:
+                      - link "Employer" [ref=e1459] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlXcfAAF/view
+                        - generic [ref=e1460]: Employer
+                    - gridcell "PFS/RPS" [ref=e1461]:
+                      - generic [ref=e1466]: PFS/RPS
+                    - gridcell [ref=e1467]
+                    - gridcell [ref=e1468]
+                    - gridcell [ref=e1469]
+                    - gridcell [ref=e1470]
+                    - gridcell [ref=e1471]
+                    - gridcell "555-123-4567" [ref=e1472]:
+                      - link "555-123-4567" [ref=e1477] [cursor=pointer]:
+                        - /url: tel:555-123-4567
+                    - gridcell [ref=e1478]
+                    - gridcell "Show Actions" [ref=e1480]:
+                      - button "Show Actions" [ref=e1486] [cursor=pointer]:
+                        - img [ref=e1488]
+                        - generic [ref=e1491]: Show Actions
+                  - row "Select Item 7 TestEmployer_1774953792685 Employer PFS/RPS 555-123-4567 Show Actions" [ref=e1492]:
+                    - gridcell [ref=e1493]
+                    - gridcell "Select Item 7" [ref=e1497]:
+                      - generic [ref=e1498]:
+                        - checkbox "Select Item 7" [ref=e1499]
+                        - generic [ref=e1502]: Select Item 7
+                    - rowheader "TestEmployer_1774953792685" [ref=e1503]:
+                      - link "TestEmployer_1774953792685" [ref=e1510] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlOKyAAN/view
+                        - generic [ref=e1511]: TestEmployer_1774953792685
+                    - gridcell "Employer" [ref=e1512]:
+                      - link "Employer" [ref=e1518] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlOKyAAN/view
+                        - generic [ref=e1519]: Employer
+                    - gridcell "PFS/RPS" [ref=e1520]:
+                      - generic [ref=e1525]: PFS/RPS
+                    - gridcell [ref=e1526]
+                    - gridcell [ref=e1527]
+                    - gridcell [ref=e1528]
+                    - gridcell [ref=e1529]
+                    - gridcell [ref=e1530]
+                    - gridcell "555-123-4567" [ref=e1531]:
+                      - link "555-123-4567" [ref=e1536] [cursor=pointer]:
+                        - /url: tel:555-123-4567
+                    - gridcell [ref=e1537]
+                    - gridcell "Show Actions" [ref=e1539]:
+                      - button "Show Actions" [ref=e1545] [cursor=pointer]:
+                        - img [ref=e1547]
+                        - generic [ref=e1550]: Show Actions
+                  - row "Select Item 8 TestEmployer_1774953184495 Employer PFS/RPS 555-123-4567 Show Actions" [ref=e1551]:
+                    - gridcell [ref=e1552]
+                    - gridcell "Select Item 8" [ref=e1556]:
+                      - generic [ref=e1557]:
+                        - checkbox "Select Item 8" [ref=e1558]
+                        - generic [ref=e1561]: Select Item 8
+                    - rowheader "TestEmployer_1774953184495" [ref=e1562]:
+                      - link "TestEmployer_1774953184495" [ref=e1569] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlU6vAAF/view
+                        - generic [ref=e1570]: TestEmployer_1774953184495
+                    - gridcell "Employer" [ref=e1571]:
+                      - link "Employer" [ref=e1577] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlU6vAAF/view
+                        - generic [ref=e1578]: Employer
+                    - gridcell "PFS/RPS" [ref=e1579]:
+                      - generic [ref=e1584]: PFS/RPS
+                    - gridcell [ref=e1585]
+                    - gridcell [ref=e1586]
+                    - gridcell [ref=e1587]
+                    - gridcell [ref=e1588]
+                    - gridcell [ref=e1589]
+                    - gridcell "555-123-4567" [ref=e1590]:
+                      - link "555-123-4567" [ref=e1595] [cursor=pointer]:
+                        - /url: tel:555-123-4567
+                    - gridcell [ref=e1596]
+                    - gridcell "Show Actions" [ref=e1598]:
+                      - button "Show Actions" [ref=e1604] [cursor=pointer]:
+                        - img [ref=e1606]
+                        - generic [ref=e1609]: Show Actions
+                  - row "Select Item 9 TestEmployer_1774952750468 Employer PFS/RPS 555-123-4567 Show Actions" [ref=e1610]:
+                    - gridcell [ref=e1611]
+                    - gridcell "Select Item 9" [ref=e1615]:
+                      - generic [ref=e1616]:
+                        - checkbox "Select Item 9" [ref=e1617]
+                        - generic [ref=e1620]: Select Item 9
+                    - rowheader "TestEmployer_1774952750468" [ref=e1621]:
+                      - link "TestEmployer_1774952750468" [ref=e1628] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlHXtAAN/view
+                        - generic [ref=e1629]: TestEmployer_1774952750468
+                    - gridcell "Employer" [ref=e1630]:
+                      - link "Employer" [ref=e1636] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlHXtAAN/view
+                        - generic [ref=e1637]: Employer
+                    - gridcell "PFS/RPS" [ref=e1638]:
+                      - generic [ref=e1643]: PFS/RPS
+                    - gridcell [ref=e1644]
+                    - gridcell [ref=e1645]
+                    - gridcell [ref=e1646]
+                    - gridcell [ref=e1647]
+                    - gridcell [ref=e1648]
+                    - gridcell "555-123-4567" [ref=e1649]:
+                      - link "555-123-4567" [ref=e1654] [cursor=pointer]:
+                        - /url: tel:555-123-4567
+                    - gridcell [ref=e1655]
+                    - gridcell "Show Actions" [ref=e1657]:
+                      - button "Show Actions" [ref=e1663] [cursor=pointer]:
+                        - img [ref=e1665]
+                        - generic [ref=e1668]: Show Actions
+                  - row "Select Item 10 TestEmployer_1774951314598 Employer PFS/RPS 555-123-4567 Show Actions" [ref=e1669]:
+                    - gridcell [ref=e1670]
+                    - gridcell "Select Item 10" [ref=e1674]:
+                      - generic [ref=e1675]:
+                        - checkbox "Select Item 10" [ref=e1676]
+                        - generic [ref=e1679]: Select Item 10
+                    - rowheader "TestEmployer_1774951314598" [ref=e1680]:
+                      - link "TestEmployer_1774951314598" [ref=e1687] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlNIUAA3/view
+                        - generic [ref=e1688]: TestEmployer_1774951314598
+                    - gridcell "Employer" [ref=e1689]:
+                      - link "Employer" [ref=e1695] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlNIUAA3/view
+                        - generic [ref=e1696]: Employer
+                    - gridcell "PFS/RPS" [ref=e1697]:
+                      - generic [ref=e1702]: PFS/RPS
+                    - gridcell [ref=e1703]
+                    - gridcell [ref=e1704]
+                    - gridcell [ref=e1705]
+                    - gridcell [ref=e1706]
+                    - gridcell [ref=e1707]
+                    - gridcell "555-123-4567" [ref=e1708]:
+                      - link "555-123-4567" [ref=e1713] [cursor=pointer]:
+                        - /url: tel:555-123-4567
+                    - gridcell [ref=e1714]
+                    - gridcell "Show Actions" [ref=e1716]:
+                      - button "Show Actions" [ref=e1722] [cursor=pointer]:
+                        - img [ref=e1724]
+                        - generic [ref=e1727]: Show Actions
+                  - row "Select Item 11 TestEmployer_1774951248072 Employer PFS/RPS 555-123-4567 Show Actions" [ref=e1728]:
+                    - gridcell [ref=e1729]
+                    - gridcell "Select Item 11" [ref=e1733]:
+                      - generic [ref=e1734]:
+                        - checkbox "Select Item 11" [ref=e1735]
+                        - generic [ref=e1738]: Select Item 11
+                    - rowheader "TestEmployer_1774951248072" [ref=e1739]:
+                      - link "TestEmployer_1774951248072" [ref=e1746] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlEn1AAF/view
+                        - generic [ref=e1747]: TestEmployer_1774951248072
+                    - gridcell "Employer" [ref=e1748]:
+                      - link "Employer" [ref=e1754] [cursor=pointer]:
+                        - /url: /lightning/r/001dz00000FlEn1AAF/view
+                        - generic [ref=e1755]: Employer
+                    - gridcell "PFS/RPS" [ref=e1756]:
+                      - generic [ref=e1761]: PFS/RPS
+                    - gridcell [ref=e1762]
+                    - gridcell [ref=e1763]
+                    - gridcell [ref=e1764]
+                    - gridcell [ref=e1765]
+                    - gridcell [ref=e1766]
+                    - gridcell "555-123-4567" [ref=e1767]:
+                      - link "555-123-4567" [ref=e1772] [cursor=pointer]:
+                        - /url: tel:555-123-4567
+                    - gridcell [ref=e1773]
+                    - gridcell "Show Actions" [ref=e1775]:
+                      - button "Show Actions" [ref=e1781] [cursor=pointer]:
+                        - img [ref=e1783]
+                        - generic [ref=e1786]: Show Actions
+        - text: · · · · ·
+  - generic:
+    - status

@@ -1,0 +1,1 @@
+{"version":3,"file":"salesforce-login.interface.d.ts","sourceRoot":"","sources":["../../../src/utils/interfaces/salesforce-login.interface.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;GAUG;AAEH,OAAO,EAAE,OAAO,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAE3D,MAAM,WAAW,uBAAuB;IACtC;;;;;;;;;;;;;;;;;;OAkBG;IACH,KAAK,CAAC,OAAO,EAAE,OAAO,GAAG,OAAO,CAAC,cAAc,CAAC,CAAC;CAClD"}

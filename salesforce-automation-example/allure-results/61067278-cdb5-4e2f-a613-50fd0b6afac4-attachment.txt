@@ -1,0 +1,1 @@
+Heading "Rol - - TestEmployer_1774956494379" not visible in Lightning detail page — URL already verified. Likely an aloha/VF iframe rendering issue.

@@ -1,0 +1,2 @@
+[  154416ms] TypeError: Cannot read properties of null (reading 'lookupPick')
+    at HTMLAnchorElement.onclick (https://jhancock--devlm2.sandbox.my.salesforce.com/_ui/common/data/LookupResultsFrame?lktp=a0e&lkfm=editPage&lknm=CF00NG000000Dwu6z&lksrch=TestPlan_1775124181119:38:250)

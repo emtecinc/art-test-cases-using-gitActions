@@ -1,0 +1,789 @@
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e2127] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e2128] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button [ref=e2129] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Menu
+            - generic [ref=e29]:
+              - img [ref=e33]
+              - generic [ref=e37]: Sandbox (DEVLM2)
+          - button [ref=e2130] [cursor=pointer]:
+            - img [ref=e48]
+            - generic [ref=e51]: Show menu
+        - generic [ref=e52]:
+          - button [ref=e2131]:
+            - img [ref=e60]
+            - text: Search...
+          - navigation [ref=e2132]:
+            - list [ref=e65]:
+              - listitem [ref=e66]:
+                - group [ref=e67]:
+                  - button [ref=e2133] [cursor=pointer]:
+                    - img [ref=e74]
+                  - button [ref=e2134] [cursor=pointer]:
+                    - img [ref=e83]
+              - listitem [ref=e86]:
+                - button [ref=e2135] [cursor=pointer]:
+                  - img [ref=e813]
+              - listitem [ref=e816]:
+                - button [ref=e2136] [cursor=pointer]:
+                  - img [ref=e823]
+              - listitem [ref=e95]:
+                - button [ref=e2137] [cursor=pointer]:
+                  - img [ref=e103]
+              - listitem [ref=e106]:
+                - button [ref=e2138] [cursor=pointer]:
+                  - img [ref=e117]
+              - listitem [ref=e120]:
+                - button [ref=e2139] [cursor=pointer]:
+                  - img [ref=e129]
+              - listitem [ref=e133]:
+                - button [ref=e2140] [cursor=pointer]
+      - generic [ref=e136]:
+        - generic [ref=e139]:
+          - generic [ref=e141]:
+            - navigation [ref=e2141]:
+              - button [ref=e2142] [cursor=pointer]:
+                - generic [ref=e155]: App Launcher
+            - heading [level=1] [ref=e2143]:
+              - generic [ref=e2144]: PFS
+          - navigation [ref=e2145]:
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - link [ref=e2146] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e164]: Home
+              - listitem [ref=e165]:
+                - link [ref=e2147] [cursor=pointer]:
+                  - /url: /lightning/n/Tasks
+                  - generic [ref=e167]: Tasks
+              - listitem [ref=e168]:
+                - link [ref=e2148] [cursor=pointer]:
+                  - /url: /lightning/o/Lead/home
+                  - generic [ref=e170]: Leads
+                - button [ref=e2149] [cursor=pointer]:
+                  - img [ref=e178]
+                  - generic [ref=e181]: Leads List
+              - listitem [ref=e182]:
+                - link [ref=e2150] [cursor=pointer]:
+                  - /url: /lightning/o/Campaign/home
+                  - generic [ref=e184]: Campaigns
+                - button [ref=e2151] [cursor=pointer]:
+                  - img [ref=e192]
+                  - generic [ref=e195]: Campaigns List
+              - listitem [ref=e196]:
+                - link [ref=e2152] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e198]: Accounts
+                - button [ref=e2153] [cursor=pointer]:
+                  - img [ref=e206]
+                  - generic [ref=e209]: Accounts List
+              - listitem [ref=e210]:
+                - link [ref=e2154] [cursor=pointer]:
+                  - /url: /lightning/o/Contact/home
+                  - generic [ref=e212]: Contacts
+                - button [ref=e2155] [cursor=pointer]:
+                  - img [ref=e220]
+                  - generic [ref=e223]: Contacts List
+              - listitem [ref=e224] [cursor=pointer]:
+                - link [ref=e2156]:
+                  - /url: /lightning/o/Opportunity/home
+                  - generic [ref=e226]: Opportunities
+                - button [ref=e2157]:
+                  - img [ref=e234]
+                  - generic [ref=e237]: Opportunities List
+              - listitem [ref=e238]:
+                - link [ref=e2158] [cursor=pointer]:
+                  - /url: /lightning/o/Report/home
+                  - generic [ref=e240]: Reports
+                - button [ref=e2159] [cursor=pointer]:
+                  - img [ref=e248]
+                  - generic [ref=e251]: Reports List
+              - listitem [ref=e252]:
+                - link [ref=e2160] [cursor=pointer]:
+                  - /url: /lightning/o/Dashboard/home
+                  - generic [ref=e254]: Dashboards
+                - button [ref=e2161] [cursor=pointer]:
+                  - img [ref=e262]
+                  - generic [ref=e265]: Dashboards List
+              - listitem [ref=e266]:
+                - link [ref=e2162] [cursor=pointer]:
+                  - /url: /lightning/o/Threshold__c/home
+                  - generic [ref=e268]: Thresholds
+                - button [ref=e2163] [cursor=pointer]:
+                  - img [ref=e276]
+                  - generic [ref=e279]: Thresholds List
+              - listitem [ref=e280]:
+                - button [ref=e2164] [cursor=pointer]:
+                  - img [ref=e286]
+                  - generic [ref=e289]: Help
+        - generic [ref=e290]:
+          - main [ref=e841]:
+            - generic [ref=e851]:
+              - generic [ref=e875]:
+                - generic [ref=e876]:
+                  - generic [ref=e878]:
+                    - img [ref=e882]
+                    - generic [ref=e883]:
+                      - heading [level=1] [ref=e2165]: Opportunities
+                      - generic [ref=e888]:
+                        - generic [ref=e890] [cursor=pointer]:
+                          - heading [level=1] [ref=e2166]:
+                            - generic [ref=e892]: Opportunities
+                            - generic [ref=e893]: Recently Viewed
+                          - button [ref=e2167]:
+                            - img [ref=e898]
+                            - generic [ref=e901]: "Select a List View: Opportunities"
+                        - button [disabled] [ref=e2168] [cursor=pointer]:
+                          - img [ref=e907]
+                          - generic [ref=e910]: This list is pinned.
+                  - list [ref=e913]:
+                    - listitem [ref=e914]:
+                      - button [ref=e2169] [cursor=pointer]:
+                        - generic [ref=e2170]: New
+                    - listitem [ref=e917]:
+                      - button [ref=e2171] [cursor=pointer]:
+                        - generic [ref=e2172]: Assign Label
+                - generic [ref=e920]:
+                  - paragraph [ref=e922]:
+                    - generic [ref=e924]:
+                      - status [ref=e2173]: 35 items •
+                      - text: Updated a few seconds ago
+                  - generic [ref=e931]:
+                    - generic [ref=e932]: Search this list...
+                    - generic [ref=e933]:
+                      - searchbox [ref=e2174]
+                      - img
+                  - generic [ref=e935]:
+                    - button [ref=e2175] [cursor=pointer]:
+                      - img [ref=e941]
+                      - img [ref=e945]
+                      - generic [ref=e948]: List View Controls
+                    - button [ref=e2176] [cursor=pointer]:
+                      - img [ref=e953]
+                      - img [ref=e957]
+                      - generic [ref=e960]: Select list display
+                    - generic [ref=e962]:
+                      - button [ref=e2177] [cursor=pointer]:
+                        - img [ref=e967]
+                        - generic [ref=e970]: Refresh
+                      - button [ref=e2178] [cursor=pointer]:
+                        - img [ref=e975]
+                        - generic [ref=e978]: Column sort
+                      - button [ref=e2179] [cursor=pointer]:
+                        - img [ref=e983]
+                        - generic [ref=e986]: Inline Edit is disabled. To edit, filter by one record type.
+                      - group [ref=e987]:
+                        - generic [ref=e989]:
+                          - generic:
+                            - generic:
+                              - button [disabled]:
+                                - generic:
+                                  - img
+                                - generic: Charts
+                          - generic:
+                            - generic:
+                              - button [disabled]:
+                                - generic:
+                                  - img
+                                - generic: Filters
+              - generic [ref=e990]:
+                - generic [ref=e991]: Navigation Mode
+                - grid [ref=e995]:
+                  - generic [ref=e999]:
+                    - generic [ref=e1000]: Choose a Row
+                    - generic [ref=e1002]:
+                      - checkbox [ref=e2180]
+                      - generic [ref=e1006]: Select 35 items
+                  - generic [ref=e1008]:
+                    - button [ref=e2181] [cursor=pointer]:
+                      - generic [ref=e1010]: "Sort by:"
+                      - generic [ref=e2182]: Opportunity Name
+                    - generic [ref=e1012]: "Sorted: None"
+                    - button [ref=e2183] [cursor=pointer]:
+                      - img [ref=e1016]
+                      - generic [ref=e1019]: Show Opportunity Name column actions
+                    - slider [ref=e2184]: "355"
+                  - generic [ref=e1024]:
+                    - button [ref=e2185] [cursor=pointer]:
+                      - generic [ref=e1026]: "Sort by:"
+                      - generic [ref=e2186]: Account Name
+                    - generic [ref=e1028]: "Sorted: None"
+                    - button [ref=e2187] [cursor=pointer]:
+                      - img [ref=e1032]
+                      - generic [ref=e1035]: Show Account Name column actions
+                    - slider [ref=e2188]: "250"
+                  - generic [ref=e1040]:
+                    - button [ref=e2189] [cursor=pointer]:
+                      - generic [ref=e1042]: "Sort by:"
+                      - generic [ref=e2190]: Account Site
+                    - generic [ref=e1044]: "Sorted: None"
+                    - button [ref=e2191] [cursor=pointer]:
+                      - img [ref=e1048]
+                      - generic [ref=e1051]: Show Account Site column actions
+                    - slider [ref=e2192]: "60"
+                  - generic [ref=e1056]:
+                    - button [ref=e2193] [cursor=pointer]:
+                      - generic [ref=e1058]: "Sort by:"
+                      - generic [ref=e2194]: Stage
+                    - generic [ref=e1060]: "Sorted: None"
+                    - button [ref=e2195] [cursor=pointer]:
+                      - img [ref=e1064]
+                      - generic [ref=e1067]: Show Stage column actions
+                    - slider [ref=e2196]: "118"
+                  - generic [ref=e1072]:
+                    - button [ref=e2197] [cursor=pointer]:
+                      - generic [ref=e1074]: "Sort by:"
+                      - generic [ref=e2198]: Close Date
+                    - generic [ref=e1076]: "Sorted: None"
+                    - button [ref=e2199] [cursor=pointer]:
+                      - img [ref=e1080]
+                      - generic [ref=e1083]: Show Close Date column actions
+                    - slider [ref=e2200]: "215"
+                  - generic [ref=e1088]:
+                    - button [ref=e2201] [cursor=pointer]:
+                      - generic [ref=e1090]: "Sort by:"
+                      - generic [ref=e2202]: Opportunity Owner Alias
+                    - generic [ref=e1092]: "Sorted: None"
+                    - button [ref=e2203] [cursor=pointer]:
+                      - img [ref=e1096]
+                      - generic [ref=e1099]: Show Opportunity Owner Alias column actions
+                    - slider [ref=e2204]: "119"
+                  - rowgroup [ref=e1106]:
+                    - row [ref=e2205]:
+                      - gridcell [ref=e1108]
+                      - gridcell [ref=e2206]:
+                        - generic [ref=e1113]:
+                          - checkbox [ref=e2207]
+                          - generic [ref=e1117]: Select Item 1
+                      - rowheader [ref=e2208]:
+                        - link [ref=e2209] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E6Q1OAAV/view
+                          - generic [ref=e1126]: Rol - - test account
+                      - gridcell [ref=e2210]:
+                        - link [ref=e2211] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Foz4WAAR/view
+                          - generic [ref=e1134]: test account
+                      - gridcell [ref=e1135]
+                      - gridcell [ref=e2212]:
+                        - generic [ref=e1140]: New
+                      - gridcell [ref=e2213]:
+                        - generic [ref=e1146]: 4/21/2026
+                      - gridcell [ref=e2214]:
+                        - link [ref=e2215] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1154]: ssija
+                      - gridcell [ref=e2216]:
+                        - button [ref=e2217] [cursor=pointer]:
+                          - img [ref=e1163]
+                          - generic [ref=e1166]: Show Actions
+                    - row [ref=e2218]:
+                      - gridcell [ref=e1168]
+                      - gridcell [ref=e2219]:
+                        - generic [ref=e1173]:
+                          - checkbox [ref=e2220]
+                          - generic [ref=e1177]: Select Item 2
+                      - rowheader [ref=e2221]:
+                        - link [ref=e2222] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DxMTFAA3/view
+                          - generic [ref=e1186]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2223]:
+                        - link [ref=e2224] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1194]: employer_bridgenext
+                      - gridcell [ref=e1195]
+                      - gridcell [ref=e2225]:
+                        - generic [ref=e1200]: New
+                      - gridcell [ref=e2226]:
+                        - generic [ref=e1206]: 4/14/2026
+                      - gridcell [ref=e2227]:
+                        - link [ref=e2228] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1214]: ssija
+                      - gridcell [ref=e2229]:
+                        - button [ref=e2230] [cursor=pointer]:
+                          - img [ref=e1223]
+                          - generic [ref=e1226]: Show Actions
+                    - row [ref=e2231]:
+                      - gridcell [ref=e1228]
+                      - gridcell [ref=e2232]:
+                        - generic [ref=e1233]:
+                          - checkbox [ref=e2233]
+                          - generic [ref=e1237]: Select Item 3
+                      - rowheader [ref=e2234]:
+                        - link [ref=e2235] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E44mYAAR/view
+                          - generic [ref=e1246]: Rol - - test account
+                      - gridcell [ref=e2236]:
+                        - link [ref=e2237] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Foz4WAAR/view
+                          - generic [ref=e1254]: test account
+                      - gridcell [ref=e1255]
+                      - gridcell [ref=e2238]:
+                        - generic [ref=e1260]: New
+                      - gridcell [ref=e2239]:
+                        - generic [ref=e1266]: 4/20/2026
+                      - gridcell [ref=e2240]:
+                        - link [ref=e2241] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1274]: ssija
+                      - gridcell [ref=e2242]:
+                        - button [ref=e2243] [cursor=pointer]:
+                          - img [ref=e1283]
+                          - generic [ref=e1286]: Show Actions
+                    - row [ref=e2244]:
+                      - gridcell [ref=e1288]
+                      - gridcell [ref=e2245]:
+                        - generic [ref=e1293]:
+                          - checkbox [ref=e2246]
+                          - generic [ref=e1297]: Select Item 4
+                      - rowheader [ref=e2247]:
+                        - link [ref=e2248] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E0HnBAAV/view
+                          - generic [ref=e1306]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2249]:
+                        - link [ref=e2250] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1314]: employer_bridgenext
+                      - gridcell [ref=e1315]
+                      - gridcell [ref=e2251]:
+                        - generic [ref=e1320]: New
+                      - gridcell [ref=e2252]:
+                        - generic [ref=e1326]: 4/16/2026
+                      - gridcell [ref=e2253]:
+                        - link [ref=e2254] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1334]: ssija
+                      - gridcell [ref=e2255]:
+                        - button [ref=e2256] [cursor=pointer]:
+                          - img [ref=e1343]
+                          - generic [ref=e1346]: Show Actions
+                    - row [ref=e2257]:
+                      - gridcell [ref=e1348]
+                      - gridcell [ref=e2258]:
+                        - generic [ref=e1353]:
+                          - checkbox [ref=e2259]
+                          - generic [ref=e1357]: Select Item 5
+                      - rowheader [ref=e2260]:
+                        - link [ref=e2261] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E0AqXAAV/view
+                          - generic [ref=e1366]: Rol - - TestEmployer_1775124181119
+                      - gridcell [ref=e2262]:
+                        - link [ref=e2263] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000FpT0vAAF/view
+                          - generic [ref=e1374]: TestEmployer_1775124181119
+                      - gridcell [ref=e1375]
+                      - gridcell [ref=e2264]:
+                        - generic [ref=e1380]: New
+                      - gridcell [ref=e2265]:
+                        - generic [ref=e1386]: 4/16/2026
+                      - gridcell [ref=e2266]:
+                        - link [ref=e2267] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000Bcoa9AAB/view
+                          - generic [ref=e1394]: ppot
+                      - gridcell [ref=e2268]:
+                        - button [ref=e2269] [cursor=pointer]:
+                          - img [ref=e1403]
+                          - generic [ref=e1406]: Show Actions
+                    - row [ref=e2270]:
+                      - gridcell [ref=e1408]
+                      - gridcell [ref=e2271]:
+                        - generic [ref=e1413]:
+                          - checkbox [ref=e2272]
+                          - generic [ref=e1417]: Select Item 6
+                      - rowheader [ref=e2273]:
+                        - link [ref=e2274] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E09PpAAJ/view
+                          - generic [ref=e1426]: Rol - - TestEmployer_1775123097206
+                      - gridcell [ref=e2275]:
+                        - link [ref=e2276] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000FpOKdAAN/view
+                          - generic [ref=e1434]: TestEmployer_1775123097206
+                      - gridcell [ref=e1435]
+                      - gridcell [ref=e2277]:
+                        - generic [ref=e1440]: New
+                      - gridcell [ref=e2278]:
+                        - generic [ref=e1446]: 4/16/2026
+                      - gridcell [ref=e2279]:
+                        - link [ref=e2280] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1454]: ssija
+                      - gridcell [ref=e2281]:
+                        - button [ref=e2282] [cursor=pointer]:
+                          - img [ref=e1463]
+                          - generic [ref=e1466]: Show Actions
+                    - row [ref=e2283]:
+                      - gridcell [ref=e1468]
+                      - gridcell [ref=e2284]:
+                        - generic [ref=e1473]:
+                          - checkbox [ref=e2285]
+                          - generic [ref=e1477]: Select Item 7
+                      - rowheader [ref=e2286]:
+                        - link [ref=e2287] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000E02rNAAR/view
+                          - generic [ref=e1486]: Rol - - test account
+                      - gridcell [ref=e2288]:
+                        - link [ref=e2289] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Foz4WAAR/view
+                          - generic [ref=e1494]: test account
+                      - gridcell [ref=e1495]
+                      - gridcell [ref=e2290]:
+                        - generic [ref=e1500]: New
+                      - gridcell [ref=e2291]:
+                        - generic [ref=e1506]: 4/16/2026
+                      - gridcell [ref=e2292]:
+                        - link [ref=e2293] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1514]: ssija
+                      - gridcell [ref=e2294]:
+                        - button [ref=e2295] [cursor=pointer]:
+                          - img [ref=e1523]
+                          - generic [ref=e1526]: Show Actions
+                    - row [ref=e2296]:
+                      - gridcell [ref=e1528]
+                      - gridcell [ref=e2297]:
+                        - generic [ref=e1533]:
+                          - checkbox [ref=e2298]
+                          - generic [ref=e1537]: Select Item 8
+                      - rowheader [ref=e2299]:
+                        - link [ref=e2300] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DzzzxAAB/view
+                          - generic [ref=e1546]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2301]:
+                        - link [ref=e2302] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1554]: employer_bridgenext
+                      - gridcell [ref=e1555]
+                      - gridcell [ref=e2303]:
+                        - generic [ref=e1560]: New
+                      - gridcell [ref=e2304]:
+                        - generic [ref=e1566]: 4/16/2026
+                      - gridcell [ref=e2305]:
+                        - link [ref=e2306] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1574]: ssija
+                      - gridcell [ref=e2307]:
+                        - button [ref=e2308] [cursor=pointer]:
+                          - img [ref=e1583]
+                          - generic [ref=e1586]: Show Actions
+                    - row [ref=e2309]:
+                      - gridcell [ref=e1588]
+                      - gridcell [ref=e2310]:
+                        - generic [ref=e1593]:
+                          - checkbox [ref=e2311]
+                          - generic [ref=e1597]: Select Item 9
+                      - rowheader [ref=e2312]:
+                        - link [ref=e2313] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DzG6nAAF/view
+                          - generic [ref=e1606]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2314]:
+                        - link [ref=e2315] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1614]: employer_bridgenext
+                      - gridcell [ref=e1615]
+                      - gridcell [ref=e2316]:
+                        - generic [ref=e1620]: New
+                      - gridcell [ref=e2317]:
+                        - generic [ref=e1626]: 4/15/2026
+                      - gridcell [ref=e2318]:
+                        - link [ref=e2319] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1634]: ssija
+                      - gridcell [ref=e2320]:
+                        - button [ref=e2321] [cursor=pointer]:
+                          - img [ref=e1643]
+                          - generic [ref=e1646]: Show Actions
+                    - row [ref=e2322]:
+                      - gridcell [ref=e1648]
+                      - gridcell [ref=e2323]:
+                        - generic [ref=e1653]:
+                          - checkbox [ref=e2324]
+                          - generic [ref=e1657]: Select Item 10
+                      - rowheader [ref=e2325]:
+                        - link [ref=e2326] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DzFp3AAF/view
+                          - generic [ref=e1666]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2327]:
+                        - link [ref=e2328] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1674]: employer_bridgenext
+                      - gridcell [ref=e1675]
+                      - gridcell [ref=e2329]:
+                        - generic [ref=e1680]: New
+                      - gridcell [ref=e2330]:
+                        - generic [ref=e1686]: 4/15/2026
+                      - gridcell [ref=e2331]:
+                        - link [ref=e2332] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1694]: ssija
+                      - gridcell [ref=e2333]:
+                        - button [ref=e2334] [cursor=pointer]:
+                          - img [ref=e1703]
+                          - generic [ref=e1706]: Show Actions
+                    - row [ref=e2335]:
+                      - gridcell [ref=e1708]
+                      - gridcell [ref=e2336]:
+                        - generic [ref=e1713]:
+                          - checkbox [ref=e2337]
+                          - generic [ref=e1717]: Select Item 11
+                      - rowheader [ref=e2338]:
+                        - link [ref=e2339] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000Dz9dCAAR/view
+                          - generic [ref=e1726]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2340]:
+                        - link [ref=e2341] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1734]: employer_bridgenext
+                      - gridcell [ref=e1735]
+                      - gridcell [ref=e2342]:
+                        - generic [ref=e1740]: New
+                      - gridcell [ref=e2343]:
+                        - generic [ref=e1746]: 4/15/2026
+                      - gridcell [ref=e2344]:
+                        - link [ref=e2345] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1754]: ssija
+                      - gridcell [ref=e2346]:
+                        - button [ref=e2347] [cursor=pointer]:
+                          - img [ref=e1763]
+                          - generic [ref=e1766]: Show Actions
+                    - row [ref=e2348]:
+                      - gridcell [ref=e1768]
+                      - gridcell [ref=e2349]:
+                        - generic [ref=e1773]:
+                          - checkbox [ref=e2350]
+                          - generic [ref=e1777]: Select Item 12
+                      - rowheader [ref=e2351]:
+                        - link [ref=e2352] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DzE1lAAF/view
+                          - generic [ref=e1786]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2353]:
+                        - link [ref=e2354] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1794]: employer_bridgenext
+                      - gridcell [ref=e1795]
+                      - gridcell [ref=e2355]:
+                        - generic [ref=e1800]: New
+                      - gridcell [ref=e2356]:
+                        - generic [ref=e1806]: 4/15/2026
+                      - gridcell [ref=e2357]:
+                        - link [ref=e2358] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1814]: ssija
+                      - gridcell [ref=e2359]:
+                        - button [ref=e2360] [cursor=pointer]:
+                          - img [ref=e1823]
+                          - generic [ref=e1826]: Show Actions
+                    - row [ref=e2361]:
+                      - gridcell [ref=e1828]
+                      - gridcell [ref=e2362]:
+                        - generic [ref=e1833]:
+                          - checkbox [ref=e2363]
+                          - generic [ref=e1837]: Select Item 13
+                      - rowheader [ref=e2364]:
+                        - link [ref=e2365] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DzCSzAAN/view
+                          - generic [ref=e1846]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2366]:
+                        - link [ref=e2367] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1854]: employer_bridgenext
+                      - gridcell [ref=e1855]
+                      - gridcell [ref=e2368]:
+                        - generic [ref=e1860]: New
+                      - gridcell [ref=e2369]:
+                        - generic [ref=e1866]: 4/15/2026
+                      - gridcell [ref=e2370]:
+                        - link [ref=e2371] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1874]: ssija
+                      - gridcell [ref=e2372]:
+                        - button [ref=e2373] [cursor=pointer]:
+                          - img [ref=e1883]
+                          - generic [ref=e1886]: Show Actions
+                    - row [ref=e2374]:
+                      - gridcell [ref=e1888]
+                      - gridcell [ref=e2375]:
+                        - generic [ref=e1893]:
+                          - checkbox [ref=e2376]
+                          - generic [ref=e1897]: Select Item 14
+                      - rowheader [ref=e2377]:
+                        - link [ref=e2378] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DyzAqAAJ/view
+                          - generic [ref=e1906]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2379]:
+                        - link [ref=e2380] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1914]: employer_bridgenext
+                      - gridcell [ref=e1915]
+                      - gridcell [ref=e2381]:
+                        - generic [ref=e1920]: New
+                      - gridcell [ref=e2382]:
+                        - generic [ref=e1926]: 4/15/2026
+                      - gridcell [ref=e2383]:
+                        - link [ref=e2384] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1934]: ssija
+                      - gridcell [ref=e2385]:
+                        - button [ref=e2386] [cursor=pointer]:
+                          - img [ref=e1943]
+                          - generic [ref=e1946]: Show Actions
+                    - row [ref=e2387]:
+                      - gridcell [ref=e1948]
+                      - gridcell [ref=e2388]:
+                        - generic [ref=e1953]:
+                          - checkbox [ref=e2389]
+                          - generic [ref=e1957]: Select Item 15
+                      - rowheader [ref=e2390]:
+                        - link [ref=e2391] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DzCJJAA3/view
+                          - generic [ref=e1966]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2392]:
+                        - link [ref=e2393] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e1974]: employer_bridgenext
+                      - gridcell [ref=e1975]
+                      - gridcell [ref=e2394]:
+                        - generic [ref=e1980]: New
+                      - gridcell [ref=e2395]:
+                        - generic [ref=e1986]: 4/15/2026
+                      - gridcell [ref=e2396]:
+                        - link [ref=e2397] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e1994]: ssija
+                      - gridcell [ref=e2398]:
+                        - button [ref=e2399] [cursor=pointer]:
+                          - img [ref=e2003]
+                          - generic [ref=e2006]: Show Actions
+                    - row [ref=e2400]:
+                      - gridcell [ref=e2008]
+                      - gridcell [ref=e2401]:
+                        - generic [ref=e2013]:
+                          - checkbox [ref=e2402]
+                          - generic [ref=e2017]: Select Item 16
+                      - rowheader [ref=e2403]:
+                        - link [ref=e2404] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000Dz65rAAB/view
+                          - generic [ref=e2026]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2405]:
+                        - link [ref=e2406] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e2034]: employer_bridgenext
+                      - gridcell [ref=e2035]
+                      - gridcell [ref=e2407]:
+                        - generic [ref=e2040]: New
+                      - gridcell [ref=e2408]:
+                        - generic [ref=e2046]: 4/15/2026
+                      - gridcell [ref=e2409]:
+                        - link [ref=e2410] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e2054]: ssija
+                      - gridcell [ref=e2411]:
+                        - button [ref=e2412] [cursor=pointer]:
+                          - img [ref=e2063]
+                          - generic [ref=e2066]: Show Actions
+                    - row [ref=e2413]:
+                      - gridcell [ref=e2068]
+                      - gridcell [ref=e2414]:
+                        - generic [ref=e2073]:
+                          - checkbox [ref=e2415]
+                          - generic [ref=e2077]: Select Item 17
+                      - rowheader [ref=e2416]:
+                        - link [ref=e2417] [cursor=pointer]:
+                          - /url: /lightning/r/006dz00000DzByLAAV/view
+                          - generic [ref=e2086]: Rol - - employer_bridgenext
+                      - gridcell [ref=e2418]:
+                        - link [ref=e2419] [cursor=pointer]:
+                          - /url: /lightning/r/001dz00000Fe1UbAAJ/view
+                          - generic [ref=e2094]: employer_bridgenext
+                      - gridcell [ref=e2095]
+                      - gridcell [ref=e2420]:
+                        - generic [ref=e2100]: New
+                      - gridcell [ref=e2421]:
+                        - generic [ref=e2106]: 4/15/2026
+                      - gridcell [ref=e2422]:
+                        - link [ref=e2423] [cursor=pointer]:
+                          - /url: /lightning/r/005dz00000BSn13AAD/view
+                          - generic [ref=e2114]: ssija
+                      - gridcell [ref=e2424]:
+                        - button [ref=e2425] [cursor=pointer]:
+                          - img [ref=e2123]
+                          - generic [ref=e2126]: Show Actions
+          - text: · · · · ·
+    - dialog "New Opportunity" [ref=e2427]:
+      - generic [ref=e2428]:
+        - button "Cancel and close" [ref=e2429] [cursor=pointer]:
+          - img [ref=e2431]
+          - generic [ref=e2434]: Cancel and close
+        - generic [ref=e2435]:
+          - generic [ref=e2437]:
+            - generic [ref=e2439]:
+              - heading "New Opportunity" [level=2] [ref=e2440]
+              - group "Select a record type" [ref=e2443]:
+                - generic [ref=e2444]: Select a record type
+                - generic [ref=e2445]:
+                  - generic:
+                    - generic:
+                      - radio "Enrollment PFS Enrollment" [checked] [active] [ref=e2447]
+                      - generic [ref=e2449]:
+                        - text: Enrollment
+                        - generic [ref=e2450]: PFS Enrollment
+                  - generic:
+                    - generic:
+                      - radio "Consolidation PFS Consolidation" [ref=e2452]
+                      - generic [ref=e2454]:
+                        - text: Consolidation
+                        - generic [ref=e2455]: PFS Consolidation
+                  - generic:
+                    - generic:
+                      - radio "Deferral RPS Deferral" [ref=e2457]
+                      - generic [ref=e2459]:
+                        - text: Deferral
+                        - generic [ref=e2460]: RPS Deferral
+                  - generic:
+                    - generic:
+                      - radio "Financial Center PFS Financial Center" [ref=e2462]
+                      - generic [ref=e2464]:
+                        - text: Financial Center
+                        - generic [ref=e2465]: PFS Financial Center
+                  - generic:
+                    - generic:
+                      - radio "In Plan Advice Record Type for In Plan Advice Opportunity" [ref=e2467]
+                      - generic [ref=e2469]:
+                        - text: In Plan Advice
+                        - generic [ref=e2470]: Record Type for In Plan Advice Opportunity
+                  - generic:
+                    - generic:
+                      - radio "NextCapital Rollover NextCapital Rollover" [ref=e2472]
+                      - generic [ref=e2474]:
+                        - text: NextCapital Rollover
+                        - generic [ref=e2475]: NextCapital Rollover
+                  - generic:
+                    - generic:
+                      - radio "Rollover PFS Rollover" [ref=e2477]
+                      - generic [ref=e2479]:
+                        - text: Rollover
+                        - generic [ref=e2480]: PFS Rollover
+                  - generic:
+                    - generic:
+                      - radio "TRS Consolidation TRS Consolidation" [ref=e2482]
+                      - generic [ref=e2484]:
+                        - text: TRS Consolidation
+                        - generic [ref=e2485]: TRS Consolidation
+            - generic [ref=e2487]:
+              - button "Cancel" [ref=e2488] [cursor=pointer]:
+                - generic [ref=e2489]: Cancel
+              - button "Next" [ref=e2490] [cursor=pointer]:
+                - generic [ref=e2491]: Next
+          - status [ref=e2492]
+  - generic:
+    - status

@@ -1,0 +1,4 @@
+[    9034ms] [ERROR] Framing 'https://help.salesforce.com/' violates the following Content Security Policy directive: "frame-ancestors 'self'". The request has been blocked.
+ @ :0
+[    9046ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ chrome-error://chromewebdata/:0
+[    9522ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://help.salesforce.com/s/_/commcsp?disposition=enforce:0

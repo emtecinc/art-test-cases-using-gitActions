@@ -1,0 +1,577 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e7]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e10]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F006%2Fe
+                  - link "Help & Training" [ref=e27] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: PFS
+      - navigation [ref=e33]:
+        - heading "Tab Navigation" [level=1] [ref=e34]
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: /home/home.jsp
+            - listitem [ref=e39]:
+              - link "Tasks" [ref=e40] [cursor=pointer]:
+                - /url: /servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNbFF3Tnpvek16b3pNaTQzTmpKYSxuenZXTm96V3V0Q3cyZjluT0s1NHNhY2RHWXA2SVRoQTd3RG1fanlJZEJzPSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e41]:
+              - link "Leads" [ref=e42] [cursor=pointer]:
+                - /url: /00Q/o
+            - listitem [ref=e43]:
+              - link "Campaigns" [ref=e44] [cursor=pointer]:
+                - /url: /701/o
+            - listitem [ref=e45]:
+              - link "Accounts" [ref=e46] [cursor=pointer]:
+                - /url: /001/o
+            - listitem [ref=e47]:
+              - link "Contacts" [ref=e48] [cursor=pointer]:
+                - /url: /003/o
+            - listitem [ref=e49]:
+              - link "Opportunities" [ref=e50] [cursor=pointer]:
+                - /url: /006/o
+              - generic [ref=e51]: (Currently Selected)
+            - listitem [ref=e52]:
+              - link "Reports" [ref=e53] [cursor=pointer]:
+                - /url: /00O/o
+            - listitem [ref=e54]:
+              - link "Dashboards" [ref=e55] [cursor=pointer]:
+                - /url: /01Z/o
+            - listitem [ref=e56]:
+              - link "Thresholds" [ref=e57] [cursor=pointer]:
+                - /url: /a1f/o
+            - listitem [ref=e58]:
+              - link "All Tabs" [ref=e59] [cursor=pointer]:
+                - /url: /home/showAllTabs.jsp
+                - img "All Tabs" [ref=e60]
+    - table [ref=e62]:
+      - rowgroup [ref=e63]:
+        - row [ref=e64]:
+          - cell "Click to Open Sidebar" [ref=e65]:
+            - link "Click to Open Sidebar" [ref=e66]:
+              - /url: javascript:void(0);
+              - generic [ref=e67]: Click to Open Sidebar
+          - cell [ref=e71]:
+            - img "Content Starts Here" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - img "Opportunity" [ref=e76]
+                - heading "Opportunity Edit" [level=1] [ref=e77]
+                - heading "New Opportunity" [level=2] [ref=e78]
+              - link "Help for this Page" [ref=e80] [cursor=pointer]:
+                - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=opportunities.htm&section=Opportunities&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+            - generic [ref=e82]:
+              - table [ref=e84]:
+                - rowgroup [ref=e85]:
+                  - row "Opportunity Edit Save Save & New Cancel" [ref=e86]:
+                    - cell "Opportunity Edit" [ref=e87]:
+                      - heading "Opportunity Edit" [level=2] [ref=e88]
+                    - cell "Save Save & New Cancel" [ref=e89]:
+                      - button "Save" [ref=e90] [cursor=pointer]
+                      - button "Save & New" [ref=e91] [cursor=pointer]
+                      - button "Cancel" [ref=e92] [cursor=pointer]
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e96]:
+                    - generic [ref=e98]: "*"
+                    - text: = Required Information
+                  - heading "Opportunity Information" [level=3] [ref=e99]
+                - table [ref=e101]:
+                  - rowgroup [ref=e102]:
+                    - row "* Opportunity Name Opportunity Owner Somya Sijaria" [ref=e103]:
+                      - cell "* Opportunity Name" [ref=e104]:
+                        - generic [ref=e105]:
+                          - generic [ref=e106]: "*"
+                          - text: Opportunity Name
+                      - cell [ref=e107]:
+                        - textbox "* Opportunity Name" [active] [ref=e110]
+                      - cell "Opportunity Owner" [ref=e111]
+                      - cell "Somya Sijaria" [ref=e112]
+                    - row "* Account Name Account Name Lookup (New Window) Opportunity Record Type Enrollment" [ref=e113]:
+                      - cell "* Account Name" [ref=e114]:
+                        - generic [ref=e115]:
+                          - generic [ref=e116]: "*"
+                          - text: Account Name
+                      - cell "Account Name Lookup (New Window)" [ref=e117]:
+                        - generic [ref=e120]:
+                          - textbox "* Account Name" [ref=e121]
+                          - link "Account Name Lookup (New Window)" [ref=e122] [cursor=pointer]:
+                            - /url: javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3Dopp4%26lkfield%3DAccount%26lkent%3D006%26lktp%3D%27%20%2B%20getElementByIdCS%28%27opp4_lktp%27%29.value%2B%27%26dplp%3D%27%20%2B%20encodeURIComponent%28dpdLkUtil.serialize%28sfdcPage.getReferredDomIds%28%27opp4%27%29%2C%20%27opp4%27%29%29%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27opp4%27%29.value.substring%280%2C%2080%29%29%29
+                            - img "Account Name Lookup (New Window)" [ref=e123]
+                      - cell "Opportunity Record Type" [ref=e125]
+                      - cell "Enrollment" [ref=e126]
+                    - row "* Plan Click lookup icon... Plan Lookup (New Window) Priority --None--" [ref=e127]:
+                      - cell "* Plan" [ref=e128]:
+                        - generic [ref=e129]:
+                          - generic [ref=e130]: "*"
+                          - text: Plan
+                      - cell "Click lookup icon... Plan Lookup (New Window)" [ref=e131]:
+                        - generic [ref=e134]:
+                          - textbox [ref=e135]: Click lookup icon...
+                          - link "Plan Lookup (New Window)" [ref=e136] [cursor=pointer]:
+                            - /url: javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3DCF00NG000000Dwu6z%26lktp%3D%27%20%2B%20getElementByIdCS%28%27CF00NG000000Dwu6z_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27CF00NG000000Dwu6z%27%29.value.substring%280%2C%2080%29%29%29
+                            - img "Plan Lookup (New Window)" [ref=e137]
+                      - cell "Priority" [ref=e139]
+                      - cell "--None--" [ref=e140]:
+                        - combobox "Priority" [ref=e142]:
+                          - option "--None--" [selected]
+                          - option "High"
+                          - option "Medium"
+                          - option "Low"
+                    - row "Spanish Speaker Type --None--" [ref=e143]:
+                      - cell "Spanish Speaker" [ref=e144]
+                      - cell "Spanish Speaker" [ref=e145]:
+                        - checkbox "Spanish Speaker" [ref=e146]
+                      - cell "Type" [ref=e147]
+                      - cell "--None--" [ref=e148]:
+                        - combobox "Type" [ref=e150]:
+                          - option "--None--" [selected]
+                          - option "Outbound Call"
+                          - option "Inbound Call"
+                    - row "Enrollment Override --None-- Type Status --None--" [ref=e151]:
+                      - cell "Enrollment Override" [ref=e152]:
+                        - generic [ref=e153]: Enrollment Override
+                      - cell "--None--" [ref=e154]:
+                        - combobox "Enrollment Override" [ref=e156]:
+                          - option "--None--" [selected]
+                          - option "PPT Opt Out"
+                          - option "Consolidate"
+                          - option "Union"
+                          - option "Rehire"
+                      - cell "Type Status" [ref=e157]
+                      - cell "--None--" [ref=e158]:
+                        - combobox "Type Status" [disabled] [ref=e161]:
+                          - option "--None--" [selected]
+                    - row "* Stage --None--" [ref=e163]:
+                      - cell [ref=e164]
+                      - cell [ref=e165]
+                      - cell "* Stage" [ref=e166]:
+                        - generic [ref=e167]:
+                          - generic [ref=e168]: "*"
+                          - text: Stage
+                      - cell "--None--" [ref=e169]:
+                        - combobox "* Stage" [ref=e173]:
+                          - option "--None--" [selected]
+                          - option "New"
+                          - option "In Progress"
+                          - option "Closed Won"
+                          - option "Closed Lost"
+                          - option "Cancelled"
+                    - row "Forms Sent Date [ 4/9/2026, 3:33 AM ]" [ref=e174]:
+                      - cell [ref=e175]
+                      - cell [ref=e176]
+                      - cell "Forms Sent Date" [ref=e177]
+                      - cell "[ 4/9/2026, 3:33 AM ]" [ref=e178]:
+                        - generic [ref=e179]:
+                          - textbox "Forms Sent Date" [ref=e180]
+                          - generic [ref=e181]:
+                            - text: "["
+                            - link "4/9/2026, 3:33 AM" [ref=e182] [cursor=pointer]:
+                              - /url: javascript:void(DatePicker.insertDate('4/9/2026, 3:33 AM', '00NG000000FGy1B', true));
+                            - text: "]"
+                    - row "Forms Sent To --None--" [ref=e183]:
+                      - cell [ref=e184]
+                      - cell [ref=e185]
+                      - cell "Forms Sent To" [ref=e186]
+                      - cell "--None--" [ref=e187]:
+                        - combobox "Forms Sent To" [ref=e189]:
+                          - option "--None--" [selected]
+                          - option "Participant"
+                          - option "Advisor"
+                          - option "TPA"
+                          - option "Plan Sponsor"
+                          - option "RM"
+                          - option "RVP"
+                          - option "Releasing Carrier"
+                    - row "Forms Sent Via --None--" [ref=e190]:
+                      - cell [ref=e191]
+                      - cell [ref=e192]
+                      - cell "Forms Sent Via" [ref=e193]
+                      - cell "--None--" [ref=e194]:
+                        - combobox "Forms Sent Via" [ref=e196]:
+                          - option "--None--" [selected]
+                          - option "Email"
+                          - option "Fax"
+                          - option "FedEx"
+                          - option "Docusign"
+                          - option "Regular Mail"
+                    - row "Is ENROLLPHN Request Sent ?" [ref=e197]:
+                      - cell [ref=e198]
+                      - cell [ref=e199]
+                      - cell "Is ENROLLPHN Request Sent ?" [ref=e200]
+                      - cell "Is ENROLLPHN Request Sent ?" [ref=e201]:
+                        - checkbox "Is ENROLLPHN Request Sent ?" [ref=e202]
+                    - row "AWD Work Id" [ref=e203]:
+                      - cell [ref=e204]
+                      - cell [ref=e205]
+                      - cell "AWD Work Id" [ref=e206]
+                      - cell [ref=e207]:
+                        - textbox "AWD Work Id" [ref=e208]
+                    - row "AWD Link" [ref=e209]:
+                      - cell [ref=e210]
+                      - cell [ref=e211]
+                      - cell "AWD Link" [ref=e212]: AWD Link
+                      - cell [ref=e214]:
+                        - textbox "AWD Link" [ref=e215]
+                    - row "Survey Opt Out" [ref=e216]:
+                      - cell [ref=e217]
+                      - cell [ref=e218]
+                      - cell "Survey Opt Out" [ref=e219]
+                      - cell "Survey Opt Out" [ref=e220]:
+                        - checkbox "Survey Opt Out" [ref=e221]
+                - heading "Enrollment Progress" [level=3] [ref=e223]
+                - table [ref=e225]:
+                  - rowgroup [ref=e226]:
+                    - row "Probability (%) 0 * Close Date [ 4/9/2026 ]" [ref=e227]:
+                      - cell "Probability (%)" [ref=e228]
+                      - cell "0" [ref=e229]:
+                        - textbox "Probability (%)" [ref=e230]: "0"
+                      - cell "* Close Date" [ref=e231]:
+                        - generic [ref=e232]:
+                          - generic [ref=e233]: "*"
+                          - text: Close Date
+                      - cell "[ 4/9/2026 ]" [ref=e234]:
+                        - generic [ref=e237]:
+                          - textbox "* Close Date" [ref=e238]
+                          - generic [ref=e239]:
+                            - text: "["
+                            - link "4/9/2026" [ref=e240] [cursor=pointer]:
+                              - /url: javascript:DatePicker.insertDate('4/9/2026', 'opp9', true);
+                            - text: "]"
+                - heading "Enrollment Details" [level=3] [ref=e242]
+                - table [ref=e244]:
+                  - rowgroup [ref=e245]:
+                    - row "401(k) Basics Auto Annual Increase" [ref=e246]:
+                      - cell "401(k) Basics" [ref=e247]
+                      - cell "401(k) Basics" [ref=e248]:
+                        - checkbox "401(k) Basics" [ref=e249]
+                      - cell "Auto Annual Increase" [ref=e250]
+                      - cell "Auto Annual Increase" [ref=e251]:
+                        - checkbox "Auto Annual Increase" [ref=e252]
+                    - row "Retirement Goals Annual Increase %" [ref=e253]:
+                      - cell "Retirement Goals" [ref=e254]
+                      - cell "Retirement Goals" [ref=e255]:
+                        - checkbox "Retirement Goals" [ref=e256]
+                      - cell "Annual Increase %" [ref=e257]
+                      - cell [ref=e258]:
+                        - textbox "Annual Increase %" [ref=e259]
+                    - row "Goal Amount Retirement Action Plan" [ref=e260]:
+                      - cell "Goal Amount" [ref=e261]
+                      - cell [ref=e262]:
+                        - textbox "Goal Amount" [ref=e263]
+                      - cell "Retirement Action Plan" [ref=e264]
+                      - cell "Retirement Action Plan" [ref=e265]:
+                        - checkbox "Retirement Action Plan" [ref=e266]
+                    - row "Pre-Tax Deferral $ Risk Quiz --None--" [ref=e267]:
+                      - cell "Pre-Tax Deferral $" [ref=e268]
+                      - cell [ref=e269]:
+                        - textbox "Pre-Tax Deferral $" [ref=e270]
+                      - cell "Risk Quiz" [ref=e271]
+                      - cell "--None--" [ref=e272]:
+                        - combobox "Risk Quiz" [ref=e274]:
+                          - option "--None--" [selected]
+                          - option "Aggressive"
+                          - option "Growth"
+                          - option "Balanced"
+                          - option "Moderate"
+                          - option "Conservative"
+                    - row "Pre-Tax Deferral % Investment Election --None--" [ref=e275]:
+                      - cell "Pre-Tax Deferral %" [ref=e276]
+                      - cell [ref=e277]:
+                        - textbox "Pre-Tax Deferral %" [ref=e278]
+                      - cell "Investment Election" [ref=e279]:
+                        - generic [ref=e280]: Investment Election
+                      - cell "--None--" [ref=e281]:
+                        - combobox "Investment Election" [ref=e283]:
+                          - option "--None--" [selected]
+                          - option "Default Investment"
+                          - option "Target Date (Age Based)"
+                          - option "Risk Based"
+                          - option "Individual Fund Selections"
+                    - row "Roth Deferral Amount $" [ref=e284]:
+                      - cell "Roth Deferral Amount $" [ref=e285]
+                      - cell [ref=e286]:
+                        - textbox "Roth Deferral Amount $" [ref=e287]
+                      - cell [ref=e288]
+                      - cell [ref=e289]
+                    - row "Roth Deferral %" [ref=e290]:
+                      - cell "Roth Deferral %" [ref=e291]
+                      - cell [ref=e292]:
+                        - textbox "Roth Deferral %" [ref=e293]
+                      - cell [ref=e294]
+                      - cell [ref=e295]
+                - heading "Deferred Amount Calculations" [level=3] [ref=e297]
+                - table [ref=e299]:
+                  - rowgroup [ref=e300]:
+                    - row "Current Salary Deferral Amount $" [ref=e301]:
+                      - cell "Current Salary" [ref=e302]
+                      - cell [ref=e303]:
+                        - textbox "Current Salary" [ref=e304]
+                      - cell "Deferral Amount $" [ref=e305]
+                      - cell [ref=e306]:
+                        - textbox "Deferral Amount $" [ref=e307]
+                    - row "Pay Frequency Weekly Deferred Percent" [ref=e308]:
+                      - cell "Pay Frequency" [ref=e309]
+                      - cell "Weekly" [ref=e310]:
+                        - combobox "Pay Frequency" [ref=e312]:
+                          - option "--None--"
+                          - option "Weekly" [selected]
+                          - option "Bi-weekly"
+                          - option "Bi-monthly"
+                          - option "Monthly"
+                      - cell "Deferred Percent" [ref=e313]
+                      - cell [ref=e314]:
+                        - textbox "Deferred Percent" [ref=e315]
+                    - row "Number Of Weeks Worked Per Year" [ref=e316]:
+                      - cell "Number Of Weeks Worked Per Year" [ref=e317]
+                      - cell [ref=e318]:
+                        - textbox "Number Of Weeks Worked Per Year" [ref=e319]
+                      - cell [ref=e320]
+                      - cell [ref=e321]
+                    - row "Hourly Rate" [ref=e322]:
+                      - cell "Hourly Rate" [ref=e323]
+                      - cell [ref=e324]:
+                        - textbox "Hourly Rate" [ref=e325]
+                      - cell [ref=e326]
+                      - cell [ref=e327]
+                    - row "Number Of Hours Worked Per Week" [ref=e328]:
+                      - cell "Number Of Hours Worked Per Week" [ref=e329]
+                      - cell [ref=e330]:
+                        - textbox "Number Of Hours Worked Per Week" [ref=e331]
+                      - cell [ref=e332]
+                      - cell [ref=e333]
+                - heading "Max Out Calculator" [level=3] [ref=e335]
+                - table [ref=e337]:
+                  - rowgroup [ref=e338]:
+                    - row "Goal Contribution Amount Age" [ref=e339]:
+                      - cell "Goal Contribution Amount" [ref=e340]
+                      - cell [ref=e341]:
+                        - textbox "Goal Contribution Amount" [ref=e342]
+                      - cell "Age" [ref=e343]
+                      - cell [ref=e344]:
+                        - textbox "Age" [ref=e345]
+                    - row "Contributions Made This Tax Year Annual Salary Amount" [ref=e346]:
+                      - cell "Contributions Made This Tax Year" [ref=e347]
+                      - cell [ref=e348]:
+                        - textbox "Contributions Made This Tax Year" [ref=e349]
+                      - cell "Annual Salary Amount" [ref=e350]
+                      - cell [ref=e351]:
+                        - textbox "Annual Salary Amount" [ref=e352]
+                    - row "Number Of Remaining Pay Periods Pay Frequency Weekly" [ref=e353]:
+                      - cell "Number Of Remaining Pay Periods" [ref=e354]
+                      - cell [ref=e355]:
+                        - textbox "Number Of Remaining Pay Periods" [ref=e356]
+                      - cell "Pay Frequency" [ref=e357]
+                      - cell "Weekly" [ref=e358]:
+                        - combobox "Pay Frequency" [ref=e360]:
+                          - option "--None--"
+                          - option "Weekly" [selected]
+                          - option "Bi-weekly"
+                          - option "Bi-monthly"
+                          - option "Monthly"
+                - heading "Carrier Information" [level=3] [ref=e362]
+                - table [ref=e364]:
+                  - rowgroup [ref=e365]:
+                    - row "Carrier Carrier Lookup (New Window) Other Assets" [ref=e366]:
+                      - cell "Carrier" [ref=e367]
+                      - cell "Carrier Lookup (New Window)" [ref=e368]:
+                        - generic [ref=e369]:
+                          - textbox "Carrier" [ref=e370]
+                          - link "Carrier Lookup (New Window)" [ref=e371] [cursor=pointer]:
+                            - /url: javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3DCF00NG000000DwsUa%26lkfield%3D00NG000000DwsUa%26lkent%3D006%26lktp%3D%27%20%2B%20getElementByIdCS%28%27CF00NG000000DwsUa_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27CF00NG000000DwsUa%27%29.value.substring%280%2C%2080%29%29%29
+                            - img "Carrier Lookup (New Window)" [ref=e372]
+                      - cell "Other Assets" [ref=e373]
+                      - cell "Other Assets" [ref=e374]:
+                        - checkbox "Other Assets" [ref=e375]
+                    - row "Amount Segmented Case" [ref=e376]:
+                      - cell "Amount" [ref=e377]
+                      - cell [ref=e378]:
+                        - textbox "Amount" [ref=e379]
+                      - cell "Segmented Case" [ref=e380]
+                      - cell "Segmented Case" [ref=e381]:
+                        - checkbox "Segmented Case" [ref=e382]
+                    - row "Follow Up Opportunity Owner Follow Up Opportunity Owner Lookup (New Window) Segmentation Override" [ref=e383]:
+                      - cell "Follow Up Opportunity Owner" [ref=e384]
+                      - cell "Follow Up Opportunity Owner Lookup (New Window)" [ref=e385]:
+                        - generic [ref=e386]:
+                          - textbox "Follow Up Opportunity Owner" [ref=e387]
+                          - link "Follow Up Opportunity Owner Lookup (New Window)" [ref=e388] [cursor=pointer]:
+                            - /url: javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3DCF00NG000000ErDCo%26lktp%3D%27%20%2B%20getElementByIdCS%28%27CF00NG000000ErDCo_lktp%27%29.value%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27CF00NG000000ErDCo%27%29.value.substring%280%2C%2080%29%29%29
+                            - img "Follow Up Opportunity Owner Lookup (New Window)" [ref=e389]
+                      - cell "Segmentation Override" [ref=e390]:
+                        - generic [ref=e391]: Segmentation Override
+                      - cell "Segmentation Override" [ref=e392]:
+                        - checkbox "Segmentation Override" [ref=e393]
+                - heading "Additional Information" [level=3] [ref=e395]
+                - table [ref=e397]:
+                  - rowgroup [ref=e398]:
+                    - row "Primary Campaign Source Primary Campaign Source Lookup (New Window) Lead Source --None--" [ref=e399]:
+                      - cell "Primary Campaign Source" [ref=e400]
+                      - cell "Primary Campaign Source Lookup (New Window)" [ref=e401]:
+                        - generic [ref=e402]:
+                          - textbox "Primary Campaign Source" [ref=e403]
+                          - link "Primary Campaign Source Lookup (New Window)" [ref=e404] [cursor=pointer]:
+                            - /url: javascript:%20openLookup%28%27%2F_ui%2Fcommon%2Fdata%2FLookupPage%3Flkfm%3DeditPage%26lknm%3Dopp17%26lkfield%3DCampaign%26lkent%3D006%26lktp%3D%27%20%2B%20getElementByIdCS%28%27opp17_lktp%27%29.value%2B%27%26dplp%3D%27%20%2B%20encodeURIComponent%28dpdLkUtil.serialize%28sfdcPage.getReferredDomIds%28%27opp17%27%29%2C%20%27opp17%27%29%29%2C670%2C%271%27%2C%27%26lksrch%3D%27%20%2B%20escapeUTF%28getElementByIdCS%28%27opp17%27%29.value.substring%280%2C%2080%29%29%29
+                            - img "Primary Campaign Source Lookup (New Window)" [ref=e405]
+                      - cell "Lead Source" [ref=e407]
+                      - cell "--None--" [ref=e408]:
+                        - combobox "Lead Source" [ref=e410]:
+                          - option "--None--" [selected]
+                          - option "Employee Referral"
+                          - option "External Referral"
+                          - option "Other"
+                          - option "Purchased List"
+                          - option "Web"
+                - heading "Description Information" [level=3] [ref=e412]
+                - table [ref=e414]:
+                  - rowgroup [ref=e415]:
+                    - row "Description" [ref=e416]:
+                      - cell "Description" [ref=e417]: Description
+                      - cell [ref=e419]:
+                        - textbox "Description" [ref=e420]
+                - heading "QA Review" [level=3] [ref=e422]
+                - table [ref=e424]:
+                  - rowgroup [ref=e425]:
+                    - row "QA Opportunity --None--" [ref=e426]:
+                      - cell "QA Opportunity" [ref=e427]
+                      - cell "--None--" [ref=e428]:
+                        - combobox "QA Opportunity" [ref=e430]:
+                          - option "--None--" [selected]
+                          - option "Passed"
+                          - option "Failed/Recreated"
+                          - option "Failed/Cancelled"
+                    - row "QA Bic --None--" [ref=e431]:
+                      - cell "QA Bic" [ref=e432]
+                      - cell "--None--" [ref=e433]:
+                        - combobox "QA Bic" [ref=e435]:
+                          - option "--None--" [selected]
+                          - option "Passed"
+                          - option "Failed/Recreated"
+                          - option "Failed/Cancelled"
+                    - row "QA Call --None--" [ref=e436]:
+                      - cell "QA Call" [ref=e437]
+                      - cell "--None--" [ref=e438]:
+                        - combobox "QA Call" [ref=e440]:
+                          - option "--None--" [selected]
+                          - option "Passed"
+                          - option "Failed/Recreated"
+                          - option "Failed/Cancelled"
+                          - option "Coaching Opportunity"
+                    - row "Recorded Line --None--" [ref=e441]:
+                      - cell "Recorded Line" [ref=e442]
+                      - cell "--None--" [ref=e443]:
+                        - combobox "Recorded Line" [ref=e445]:
+                          - option "--None--" [selected]
+                          - option "Pass"
+                          - option "Fail"
+                    - row "Security Check --None--" [ref=e446]:
+                      - cell "Security Check" [ref=e447]
+                      - cell "--None--" [ref=e448]:
+                        - combobox "Security Check" [ref=e450]:
+                          - option "--None--" [selected]
+                          - option "Pass"
+                          - option "Transfer Call"
+                          - option "Fail"
+                - heading "System Information" [level=3] [ref=e452]
+                - table [ref=e454]:
+                  - rowgroup [ref=e455]:
+                    - row "CDL External Key" [ref=e456]:
+                      - cell [ref=e457]
+                      - cell [ref=e458]
+                      - cell "CDL External Key" [ref=e459]
+                      - cell [ref=e460]:
+                        - textbox "CDL External Key" [ref=e461]
+                    - row "Actual Close Date [ 4/9/2026, 3:33 AM ]" [ref=e462]:
+                      - cell [ref=e463]
+                      - cell [ref=e464]
+                      - cell "Actual Close Date" [ref=e465]
+                      - cell "[ 4/9/2026, 3:33 AM ]" [ref=e466]:
+                        - generic [ref=e467]:
+                          - textbox "Actual Close Date" [ref=e468]
+                          - generic [ref=e469]:
+                            - text: "["
+                            - link "4/9/2026, 3:33 AM" [ref=e470] [cursor=pointer]:
+                              - /url: javascript:void(DatePicker.insertDate('4/9/2026, 3:33 AM', '00NG000000DwsUF', true));
+                            - text: "]"
+              - table [ref=e472]:
+                - rowgroup [ref=e473]:
+                  - row "Save Save & New Cancel" [ref=e474]:
+                    - cell [ref=e475]
+                    - cell "Save Save & New Cancel" [ref=e476]:
+                      - button "Save" [ref=e477] [cursor=pointer]
+                      - button "Save & New" [ref=e478] [cursor=pointer]
+                      - button "Cancel" [ref=e479] [cursor=pointer]
+    - generic [ref=e481]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e482] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e483] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e484] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e485] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e486] [cursor=pointer]:
+        - /url: /ltng/oneAppRedirect
+  - iframe [ref=e487]:
+    
+  - generic:
+    - button "Expand Quick Access Menu" [ref=e489]
+    - generic [ref=e490]:
+      - generic [ref=e491]:
+        - link "Go to Setup" [ref=e492] [cursor=pointer]:
+          - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F006%2Fe
+          - img "Go to Setup" [ref=e493]
+        - link "Help" [ref=e494] [cursor=pointer]:
+          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?section=Dev_Tools&target=dev_quick_access_menu.htm&loc=help&language=en_US&release=260.12.1&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+          - img "Help" [ref=e495]
+      - generic [ref=e496]:
+        - list [ref=e497]:
+          - listitem [ref=e498]:
+            - link "View Fields" [ref=e499] [cursor=pointer]:
+              - /url: /p/setup/layout/LayoutFieldList?type=Opportunity&setupid=OpportunityFields
+          - listitem [ref=e500]:
+            - link "View Object" [ref=e501] [cursor=pointer]:
+              - /url: /ui/setup/Setup?setupid=Opportunity
+          - listitem [ref=e502]:
+            - link "View Validation Rules" [ref=e503] [cursor=pointer]:
+              - /url: /_ui/common/config/entity/ValidationFormulaListUI/d?retURL=%2F006%2Fe&tableEnumOrId=Opportunity&setupid=OpportunityValidations
+          - listitem [ref=e504]:
+            - link "View Approvals" [ref=e505] [cursor=pointer]:
+              - /url: /p/process/ProcessDefinitionSetup?TableEnumOrId=Opportunity&setupid=ApprovalProcesses
+        - separator [ref=e506]
+        - list [ref=e507]:
+          - listitem [ref=e508]:
+            - link "Edit App" [ref=e509] [cursor=pointer]:
+              - /url: /02uG0000000GeGC/e?retURL=%2F006%2Fe&setupid=TabSet
+          - listitem [ref=e510]:
+            - link "Edit Layout" [ref=e511] [cursor=pointer]:
+              - /url: /layouteditor/layoutEditor.apexp?type=Opportunity&lid=00hG000000SKEga&retURL=%2F006%2Fe&setupid=OpportunityLayouts
+          - listitem [ref=e512]:
+            - link "View Record Type" [ref=e513] [cursor=pointer]:
+              - /url: /setup/ui/recordtypefields.jsp?id=012G0000001BFrB&type=Opportunity&setupid=OpportunityRecords
+      - link "Turn off menu" [ref=e515] [cursor=pointer]:
+        - /url: "#"

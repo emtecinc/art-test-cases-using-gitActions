@@ -1,0 +1,520 @@
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e1807] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e1808] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button [ref=e1809] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Menu
+            - generic [ref=e29]:
+              - img [ref=e33]
+              - generic [ref=e37]: Sandbox (DEVLM2)
+          - button [ref=e1810] [cursor=pointer]:
+            - img [ref=e48]
+            - generic [ref=e51]: Show menu
+        - generic [ref=e52]:
+          - button [ref=e1811]:
+            - img [ref=e60]
+            - text: Search...
+          - navigation [ref=e1812]:
+            - list [ref=e65]:
+              - listitem [ref=e66]:
+                - group [ref=e67]:
+                  - button [ref=e1813] [cursor=pointer]:
+                    - img [ref=e74]
+                  - button [ref=e1814] [cursor=pointer]:
+                    - img [ref=e83]
+              - listitem [ref=e86]:
+                - button [ref=e1815] [cursor=pointer]:
+                  - img [ref=e836]
+              - listitem [ref=e95]:
+                - button [ref=e1816] [cursor=pointer]:
+                  - img [ref=e102]
+              - listitem [ref=e105]:
+                - button [ref=e1817] [cursor=pointer]:
+                  - img [ref=e113]
+              - listitem [ref=e116]:
+                - button [ref=e1818] [cursor=pointer]:
+                  - img [ref=e127]
+              - listitem [ref=e130]:
+                - button [ref=e1819] [cursor=pointer]:
+                  - img [ref=e139]
+              - listitem [ref=e143]:
+                - button [ref=e1820] [cursor=pointer]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - navigation [ref=e1821]:
+              - button [ref=e1822] [cursor=pointer]:
+                - generic [ref=e170]: App Launcher
+            - heading [level=1] [ref=e1823]:
+              - generic [ref=e1824]: PFS
+          - navigation [ref=e1825]:
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link [ref=e1826] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e179]: Home
+              - listitem [ref=e180]:
+                - link [ref=e1827] [cursor=pointer]:
+                  - /url: /lightning/n/Tasks
+                  - generic [ref=e182]: Tasks
+              - listitem [ref=e183]:
+                - link [ref=e1828] [cursor=pointer]:
+                  - /url: /lightning/o/Lead/home
+                  - generic [ref=e185]: Leads
+                - button [ref=e1829] [cursor=pointer]:
+                  - img [ref=e193]
+                  - generic [ref=e196]: Leads List
+              - listitem [ref=e197]:
+                - link [ref=e1830] [cursor=pointer]:
+                  - /url: /lightning/o/Campaign/home
+                  - generic [ref=e199]: Campaigns
+                - button [ref=e1831] [cursor=pointer]:
+                  - img [ref=e207]
+                  - generic [ref=e210]: Campaigns List
+              - listitem [ref=e211]:
+                - link [ref=e1832] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e213]: Accounts
+                - button [ref=e1833] [cursor=pointer]:
+                  - img [ref=e221]
+                  - generic [ref=e224]: Accounts List
+              - listitem [ref=e225]:
+                - link [ref=e1834] [cursor=pointer]:
+                  - /url: /lightning/o/Contact/home
+                  - generic [ref=e227]: Contacts
+                - button [ref=e1835] [cursor=pointer]:
+                  - img [ref=e235]
+                  - generic [ref=e238]: Contacts List
+              - listitem [ref=e239]:
+                - link [ref=e1836] [cursor=pointer]:
+                  - /url: /lightning/o/Opportunity/home
+                  - generic [ref=e241]: Opportunities
+                - button [ref=e1837] [cursor=pointer]:
+                  - img [ref=e249]
+                  - generic [ref=e252]: Opportunities List
+              - listitem [ref=e253]:
+                - link [ref=e1838] [cursor=pointer]:
+                  - /url: /lightning/o/Report/home
+                  - generic [ref=e255]: Reports
+                - button [ref=e1839] [cursor=pointer]:
+                  - img [ref=e263]
+                  - generic [ref=e266]: Reports List
+              - listitem [ref=e267]:
+                - link [ref=e1840] [cursor=pointer]:
+                  - /url: /lightning/o/Dashboard/home
+                  - generic [ref=e269]: Dashboards
+                - button [ref=e1841] [cursor=pointer]:
+                  - img [ref=e277]
+                  - generic [ref=e280]: Dashboards List
+              - listitem [ref=e281]:
+                - link [ref=e1842] [cursor=pointer]:
+                  - /url: /lightning/o/Threshold__c/home
+                  - generic [ref=e283]: Thresholds
+                - button [ref=e1843] [cursor=pointer]:
+                  - img [ref=e291]
+                  - generic [ref=e294]: Thresholds List
+              - listitem [ref=e295]:
+                - button [ref=e1844] [cursor=pointer]:
+                  - img [ref=e301]
+                  - generic [ref=e304]: Help
+        - main [ref=e306]:
+          - generic [ref=e310]:
+            - text: · · · · ·
+            - iframe [ref=e1806]:
+              
+    - generic [ref=e826]:
+      - dialog [ref=e2657]:
+        - generic [ref=e1847]:
+          - button [ref=e2658] [cursor=pointer]:
+            - img [ref=e1850]
+            - generic [ref=e1853]: Cancel and close
+          - generic [ref=e1854]:
+            - generic [ref=e1861]:
+              - heading [level=2] [ref=e2659]: "New Account: Individual"
+              - generic [ref=e1865]:
+                - generic [ref=e1866]: "* = Required Information"
+                - generic [ref=e1868]:
+                  - generic [ref=e1873]:
+                    - generic [ref=e1875]:
+                      - heading [level=3] [ref=e2660]:
+                        - generic [ref=e1877]: Account Information
+                      - list [ref=e1879]:
+                        - generic [ref=e1880]:
+                          - generic [ref=e1882]:
+                            - listitem [ref=e1884]:
+                              - button [ref=e2661] [cursor=pointer]:
+                                - img [ref=e2648]
+                              - generic [ref=e1890]:
+                                - generic [ref=e1891]: "*Account Name"
+                                - textbox [ref=e2662]: Test Fund Account
+                            - listitem [ref=e1895]:
+                              - generic [ref=e1896]:
+                                - generic [ref=e1897]: Account Record Type
+                                - generic [ref=e1903]: Individual
+                          - generic [ref=e1905]:
+                            - listitem [ref=e1907]:
+                              - generic [ref=e1913]:
+                                - generic [ref=e1914]: SSN
+                                - button [ref=e2663] [cursor=pointer]:
+                                  - img [ref=e1919]
+                                  - generic [ref=e1922]: SSN Help Info
+                                - textbox [ref=e2664]
+                            - listitem [ref=e1926]:
+                              - generic [ref=e1932]:
+                                - generic [ref=e1933]: JHFC Advisor
+                                - generic [ref=e1938]:
+                                  - combobox [ref=e2665]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                          - generic [ref=e1943]:
+                            - listitem [ref=e1945]:
+                              - generic [ref=e1951]:
+                                - generic [ref=e1952]: Last 4 SSN Digits
+                                - textbox [ref=e2666]
+                            - listitem [ref=e1956]:
+                              - button [ref=e2667] [cursor=pointer]:
+                                - img [ref=e2654]
+                              - generic [ref=e1961]:
+                                - generic [ref=e1962]: Conversion Propensity Score
+                                - spinbutton [ref=e2668]: "400"
+                          - generic [ref=e1966]:
+                            - listitem [ref=e1968]:
+                              - generic [ref=e1972]:
+                                - group [ref=e1973]:
+                                  - generic [ref=e1974]: Birthdate
+                                  - generic [ref=e1975]:
+                                    - textbox [ref=e2669]
+                                    - generic:
+                                      - button:
+                                        - generic:
+                                          - img
+                                        - generic: Select a date for Birthdate
+                                - generic [ref=e1977]: "Format: 12/31/2024"
+                            - listitem [ref=e1979]:
+                              - generic [ref=e1985]:
+                                - generic [ref=e1986]: Total Account Balance
+                                - spinbutton [ref=e2670]
+                          - generic [ref=e1990]:
+                            - listitem [ref=e1992]:
+                              - generic [ref=e1998]:
+                                - generic [ref=e1999]: NC IRA Account Number
+                                - textbox [ref=e2671]
+                            - listitem [ref=e2003]:
+                              - generic [ref=e2007]:
+                                - group [ref=e2008]:
+                                  - generic [ref=e2009]: Balance Effective Date
+                                  - generic [ref=e2010]:
+                                    - textbox [ref=e2672]
+                                    - generic:
+                                      - button:
+                                        - generic:
+                                          - img
+                                        - generic: Select a date for Balance Effective Date
+                                - generic [ref=e2012]: "Format: 12/31/2024"
+                          - generic [ref=e2014]:
+                            - listitem [ref=e2016]:
+                              - generic [ref=e2022]:
+                                - generic [ref=e2023]: NC Roth IRA Account Number
+                                - textbox [ref=e2673]
+                            - listitem [ref=e2027]:
+                              - generic [ref=e2033]:
+                                - generic [ref=e2034]: NC Client ID
+                                - button [ref=e2674] [cursor=pointer]:
+                                  - img [ref=e2039]
+                                  - generic [ref=e2042]: NC Client ID Help Info
+                                - textbox [ref=e2675]
+                          - generic [ref=e2046]:
+                            - listitem [ref=e2048]:
+                              - generic [ref=e2054]:
+                                - generic [ref=e2055]: JH NFS IRA Account Number
+                                - textbox [ref=e2676]
+                            - listitem [ref=e2059]:
+                              - generic [ref=e2064]:
+                                - generic [ref=e2065]: PRA
+                                - checkbox [ref=e2677]
+                          - listitem [ref=e2071]:
+                            - generic [ref=e2077]:
+                              - generic [ref=e2078]: JH NFS Roth IRA Account Number
+                              - textbox [ref=e2678]
+                    - generic [ref=e2083]:
+                      - heading [level=3] [ref=e2679]:
+                        - generic [ref=e2085]: Address Information
+                      - list [ref=e2087]:
+                        - generic [ref=e2090]:
+                          - listitem [ref=e2092]:
+                            - group [ref=e2680]:
+                              - generic [ref=e2098]: Mailing Address
+                              - generic [ref=e2100]:
+                                - generic [ref=e2104]:
+                                  - generic [ref=e2106]: Mailing Country
+                                  - generic [ref=e2110]:
+                                    - combobox [ref=e2681]: United States
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - generic [ref=e2115]:
+                                  - generic [ref=e2116]: Mailing Street
+                                  - textbox [ref=e2682]
+                                - generic [ref=e2119]:
+                                  - generic [ref=e2122]:
+                                    - generic [ref=e2123]: Mailing City
+                                    - textbox [ref=e2683]
+                                  - generic [ref=e2128]:
+                                    - generic [ref=e2130]: Mailing State/Province
+                                    - generic [ref=e2134]:
+                                      - combobox [ref=e2684]: "--None--"
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - img
+                                - generic [ref=e2141]:
+                                  - generic [ref=e2142]: Mailing Zip/Postal Code
+                                  - textbox [ref=e2685]
+                          - listitem [ref=e2146]:
+                            - group [ref=e2686]:
+                              - generic [ref=e2152]: Residential/Overnight Address
+                              - generic [ref=e2154]:
+                                - generic [ref=e2158]:
+                                  - generic [ref=e2160]: Residential/Overnight Country
+                                  - generic [ref=e2164]:
+                                    - combobox [ref=e2687]: United States
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - generic [ref=e2169]:
+                                  - generic [ref=e2170]: Residential/Overnight Street
+                                  - textbox [ref=e2688]
+                                - generic [ref=e2173]:
+                                  - generic [ref=e2176]:
+                                    - generic [ref=e2177]: Residential/Overnight City
+                                    - textbox [ref=e2689]
+                                  - generic [ref=e2182]:
+                                    - generic [ref=e2184]: Residential/Overnight State/Province
+                                    - generic [ref=e2188]:
+                                      - combobox [ref=e2690]: "--None--"
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - img
+                                - generic [ref=e2195]:
+                                  - generic [ref=e2196]: Residential/Overnight Zip/Postal Code
+                                  - textbox [ref=e2691]
+                    - generic [ref=e2200]:
+                      - heading [level=3] [ref=e2692]:
+                        - generic [ref=e2202]: Contact Information
+                      - list [ref=e2204]:
+                        - generic [ref=e2205]:
+                          - generic [ref=e2207]:
+                            - listitem [ref=e2209]:
+                              - generic [ref=e2214]:
+                                - generic [ref=e2215]: Phone
+                                - textbox [ref=e2693]
+                            - listitem [ref=e2219]:
+                              - generic [ref=e2224]:
+                                - generic [ref=e2225]: Email
+                                - textbox [ref=e2694]
+                          - generic [ref=e2229]:
+                            - listitem [ref=e2231]:
+                              - generic [ref=e2237]:
+                                - generic [ref=e2238]: Phone Extension
+                                - textbox [ref=e2695]
+                            - listitem [ref=e2242]:
+                              - generic [ref=e2247]:
+                                - generic [ref=e2248]: Alternate Email
+                                - textbox [ref=e2696]
+                          - listitem [ref=e2254]:
+                            - generic [ref=e2259]:
+                              - generic [ref=e2260]: Home Phone
+                              - textbox [ref=e2697]
+                          - listitem [ref=e2267]:
+                            - generic [ref=e2272]:
+                              - generic [ref=e2273]: Mobile Phone
+                              - textbox [ref=e2698]
+                          - listitem [ref=e2280]:
+                            - generic [ref=e2285]:
+                              - generic [ref=e2286]: Other Phone
+                              - textbox [ref=e2699]
+                    - generic [ref=e2291]:
+                      - heading [level=3] [ref=e2700]:
+                        - generic [ref=e2293]: LexisNexis Contact Information
+                      - list [ref=e2295]:
+                        - generic [ref=e2296]:
+                          - generic [ref=e2298]:
+                            - listitem [ref=e2300]:
+                              - generic [ref=e2305]:
+                                - generic [ref=e2306]: LexisNexis Phone 1
+                                - button [ref=e2701] [cursor=pointer]:
+                                  - img [ref=e2311]
+                                  - generic [ref=e2314]: LexisNexis Phone 1 Help Info
+                                - textbox [ref=e2702]
+                            - listitem [ref=e2318]:
+                              - generic [ref=e2323]:
+                                - generic [ref=e2324]: LexisNexis Email 1
+                                - button [ref=e2703] [cursor=pointer]:
+                                  - img [ref=e2329]
+                                  - generic [ref=e2332]: LexisNexis Email 1 Help Info
+                                - textbox [ref=e2704]
+                          - generic [ref=e2336]:
+                            - listitem [ref=e2338]:
+                              - generic [ref=e2343]:
+                                - generic [ref=e2344]: LexisNexis Phone 2
+                                - button [ref=e2705] [cursor=pointer]:
+                                  - img [ref=e2349]
+                                  - generic [ref=e2352]: LexisNexis Phone 2 Help Info
+                                - textbox [ref=e2706]
+                            - listitem [ref=e2356]:
+                              - generic [ref=e2361]:
+                                - generic [ref=e2362]: LexisNexis Email 2
+                                - button [ref=e2707] [cursor=pointer]:
+                                  - img [ref=e2367]
+                                  - generic [ref=e2370]: LexisNexis Email 2 Help Info
+                                - textbox [ref=e2708]
+                          - listitem [ref=e2376]:
+                            - generic [ref=e2381]:
+                              - generic [ref=e2382]: LexisNexis Phone 3
+                              - button [ref=e2709] [cursor=pointer]:
+                                - img [ref=e2387]
+                                - generic [ref=e2390]: LexisNexis Phone 3 Help Info
+                              - textbox [ref=e2710]
+                    - generic [ref=e2395]:
+                      - heading [level=3] [ref=e2711]:
+                        - generic [ref=e2397]: Outbound Call Campaign
+                      - list [ref=e2399]:
+                        - generic [ref=e2400]:
+                          - generic [ref=e2402]:
+                            - listitem [ref=e2404]:
+                              - generic [ref=e2410]:
+                                - generic [ref=e2411]: Outbound Call List Name
+                                - textbox [ref=e2712]
+                            - listitem [ref=e2415]:
+                              - group [ref=e2713]:
+                                - generic [ref=e2423]: Date of Last Outbound Call
+                                - generic [ref=e2426]:
+                                  - generic [ref=e2427]:
+                                    - group [ref=e2428]:
+                                      - generic [ref=e2429]: Date
+                                      - generic [ref=e2430]:
+                                        - textbox [ref=e2714]
+                                        - generic:
+                                          - button:
+                                            - generic:
+                                              - img
+                                            - generic: Select a date for Date
+                                    - generic [ref=e2432]: "Format: 12/31/2024"
+                                  - generic [ref=e2433]:
+                                    - generic [ref=e2434]: Time
+                                    - generic [ref=e2438]:
+                                      - combobox [ref=e2715]
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - img
+                          - generic [ref=e2443]:
+                            - listitem [ref=e2445]:
+                              - generic [ref=e2451]:
+                                - generic [ref=e2452]: Outbound Call List Owner
+                                - generic [ref=e2457]:
+                                  - combobox [ref=e2716]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - listitem [ref=e2462]:
+                              - generic [ref=e2467]:
+                                - generic [ref=e2468]: Spoke to Participant
+                                - checkbox [ref=e2717]
+                          - generic [ref=e2472]:
+                            - listitem [ref=e2474]:
+                              - generic [ref=e2479]:
+                                - generic [ref=e2480]: Number of Outbound Calls
+                                - spinbutton [ref=e2718]
+                            - listitem [ref=e2484]:
+                              - generic [ref=e2489]:
+                                - generic [ref=e2490]: Number of Outbound Call Days
+                                - spinbutton [ref=e2719]
+                          - listitem [ref=e2496]:
+                            - generic [ref=e2501]:
+                              - generic [ref=e2502]: Outbound Call Campaign Phone
+                              - textbox [ref=e2720]
+                    - generic [ref=e2507]:
+                      - heading [level=3] [ref=e2721]:
+                        - generic [ref=e2509]: Description Information
+                      - list [ref=e2511]:
+                        - listitem [ref=e2516]:
+                          - generic [ref=e2520]:
+                            - generic [ref=e2521]: Description
+                            - textbox [ref=e2722]
+                    - generic [ref=e2525]:
+                      - heading [level=3] [ref=e2723]:
+                        - generic [ref=e2527]: System Information
+                      - list [ref=e2529]:
+                        - generic [ref=e2530]:
+                          - generic [ref=e2532]:
+                            - listitem [ref=e2534]:
+                              - generic [ref=e2535]:
+                                - generic [ref=e2536]: Account Owner
+                                - generic [ref=e2548]: Somya Sijaria
+                            - listitem [ref=e2550]:
+                              - generic [ref=e2556]:
+                                - generic [ref=e2557]: CDL External Key
+                                - textbox [ref=e2724]
+                          - listitem [ref=e2564]:
+                            - generic [ref=e2570]:
+                              - generic [ref=e2571]: MDM UUID
+                              - textbox [ref=e2725]
+                          - listitem [ref=e2578]:
+                            - generic [ref=e2584]:
+                              - generic [ref=e2585]: Migration ID
+                              - textbox [ref=e2726]
+                          - listitem [ref=e2592]:
+                            - generic [ref=e2598]:
+                              - generic [ref=e2599]: Parent Account
+                              - generic [ref=e2604]:
+                                - combobox [ref=e2727]
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                          - listitem [ref=e2612]:
+                            - generic [ref=e2617]:
+                              - generic [ref=e2618]: Enrollment Duplicate
+                              - checkbox [ref=e2728]
+                  - generic [ref=e2623]:
+                    - button [ref=e2729] [cursor=pointer]:
+                      - generic [ref=e2731]:
+                        - img [ref=e2733]
+                        - generic [ref=e2736]: Error
+                    - generic [ref=e2625]:
+                      - button [ref=e2738] [cursor=pointer]: Cancel
+                      - button [ref=e2740] [cursor=pointer]: Save & New
+                      - button [ref=e2742] [cursor=pointer]: Save
+            - status [ref=e2644]
+      - dialog "We hit a snag." [ref=e2743]:
+        - generic [ref=e2744]:
+          - generic [ref=e2746]:
+            - button "Close error dialog" [ref=e2748] [cursor=pointer]:
+              - img [ref=e2750]
+              - generic [ref=e2753]: Close error dialog
+            - banner [ref=e2754]:
+              - generic [ref=e2755]:
+                - img [ref=e2760]
+                - heading "We hit a snag." [active] [level=2] [ref=e2764]
+          - generic [ref=e2768]:
+            - strong [ref=e2770]: Review the errors on this page.
+            - list [ref=e2771]:
+              - listitem [ref=e2772]: Account already exist
+  - generic:
+    - status

@@ -1,0 +1,3 @@
+- generic [ref=e1]:
+  - generic "Search" [active] [ref=e2]
+  - generic "Results" [ref=e3]

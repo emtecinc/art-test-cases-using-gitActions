@@ -1,0 +1,265 @@
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e3220] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e3221] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button [ref=e3222] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Menu
+            - generic [ref=e29]:
+              - img [ref=e33]
+              - generic [ref=e37]: Sandbox (DEVLM2)
+          - button [ref=e3223] [cursor=pointer]:
+            - img [ref=e48]
+            - generic [ref=e51]: Show menu
+        - generic [ref=e52]:
+          - button [ref=e3224]:
+            - img [ref=e60]
+            - text: Search...
+          - navigation [ref=e3225]:
+            - list [ref=e65]:
+              - listitem [ref=e66]:
+                - group [ref=e67]:
+                  - button [ref=e3226] [cursor=pointer]:
+                    - img [ref=e74]
+                  - button [ref=e3227] [cursor=pointer]:
+                    - img [ref=e83]
+              - listitem [ref=e86]:
+                - button [ref=e3228] [cursor=pointer]:
+                  - img [ref=e836]
+              - listitem [ref=e95]:
+                - button [ref=e3229] [cursor=pointer]:
+                  - img [ref=e102]
+              - listitem [ref=e105]:
+                - button [ref=e3230] [cursor=pointer]:
+                  - img [ref=e113]
+              - listitem [ref=e116]:
+                - button [ref=e3231] [cursor=pointer]:
+                  - img [ref=e127]
+              - listitem [ref=e130]:
+                - button [ref=e3232] [cursor=pointer]:
+                  - img [ref=e139]
+              - listitem [ref=e143]:
+                - button [ref=e3233] [cursor=pointer]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - navigation [ref=e3234]:
+              - button [ref=e3235] [cursor=pointer]:
+                - generic [ref=e170]: App Launcher
+            - heading [level=1] [ref=e3236]:
+              - generic [ref=e3237]: PFS
+          - navigation [ref=e3238]:
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link [ref=e3239] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e179]: Home
+              - listitem [ref=e180]:
+                - link [ref=e3240] [cursor=pointer]:
+                  - /url: /lightning/n/Tasks
+                  - generic [ref=e182]: Tasks
+              - listitem [ref=e183]:
+                - link [ref=e3241] [cursor=pointer]:
+                  - /url: /lightning/o/Lead/home
+                  - generic [ref=e185]: Leads
+                - button [ref=e3242] [cursor=pointer]:
+                  - img [ref=e193]
+                  - generic [ref=e196]: Leads List
+              - listitem [ref=e197]:
+                - link [ref=e3243] [cursor=pointer]:
+                  - /url: /lightning/o/Campaign/home
+                  - generic [ref=e199]: Campaigns
+                - button [ref=e3244] [cursor=pointer]:
+                  - img [ref=e207]
+                  - generic [ref=e210]: Campaigns List
+              - listitem [ref=e211] [cursor=pointer]:
+                - link [ref=e3245]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e213]: Accounts
+                - button [ref=e3246]:
+                  - img [ref=e221]
+                  - generic [ref=e224]: Accounts List
+              - listitem [ref=e225]:
+                - link [ref=e3247] [cursor=pointer]:
+                  - /url: /lightning/o/Contact/home
+                  - generic [ref=e227]: Contacts
+                - button [ref=e3248] [cursor=pointer]:
+                  - img [ref=e235]
+                  - generic [ref=e238]: Contacts List
+              - listitem [ref=e239]:
+                - link [ref=e3249] [cursor=pointer]:
+                  - /url: /lightning/o/Opportunity/home
+                  - generic [ref=e241]: Opportunities
+                - button [ref=e3250] [cursor=pointer]:
+                  - img [ref=e249]
+                  - generic [ref=e252]: Opportunities List
+              - listitem [ref=e253]:
+                - link [ref=e3251] [cursor=pointer]:
+                  - /url: /lightning/o/Report/home
+                  - generic [ref=e255]: Reports
+                - button [ref=e3252] [cursor=pointer]:
+                  - img [ref=e263]
+                  - generic [ref=e266]: Reports List
+              - listitem [ref=e267]:
+                - link [ref=e3253] [cursor=pointer]:
+                  - /url: /lightning/o/Dashboard/home
+                  - generic [ref=e269]: Dashboards
+                - button [ref=e3254] [cursor=pointer]:
+                  - img [ref=e277]
+                  - generic [ref=e280]: Dashboards List
+              - listitem [ref=e281]:
+                - link [ref=e3255] [cursor=pointer]:
+                  - /url: /lightning/o/Threshold__c/home
+                  - generic [ref=e283]: Thresholds
+                - button [ref=e3256] [cursor=pointer]:
+                  - img [ref=e291]
+                  - generic [ref=e294]: Thresholds List
+              - listitem [ref=e295]:
+                - button [ref=e3257] [cursor=pointer]:
+                  - img [ref=e301]
+                  - generic [ref=e304]: Help
+        - main [ref=e306]:
+          - generic [ref=e310]:
+            - text: · · · · ·
+            - generic [ref=e2867]:
+              - generic [ref=e2876]:
+                - generic [ref=e2877]:
+                  - generic [ref=e2878]:
+                    - heading [level=1] [ref=e3258]:
+                      - generic [ref=e2890]: Account
+                      - generic [ref=e2891]: Test Fund New Account
+                    - button [ref=e3259] [cursor=pointer]:
+                      - img [ref=e2904]
+                      - generic [ref=e2907]: View Account Hierarchy
+                  - generic [ref=e2911]:
+                    - button [ref=e3261] [cursor=pointer]: Delete
+                    - button [ref=e3263] [cursor=pointer]: View Relationship Map
+                    - button [ref=e3265] [cursor=pointer]: Edit Labels
+                    - button [ref=e3266] [cursor=pointer]:
+                      - img [ref=e2933]
+                      - generic [ref=e2936]: Show more actions
+                - generic [ref=e2937]:
+                  - paragraph [ref=e2940]: Type
+                  - paragraph [ref=e2943]: Phone
+                  - paragraph [ref=e2946]: Website
+                  - generic [ref=e2948]:
+                    - paragraph [ref=e2949]: Account Owner
+                    - paragraph [ref=e2950]:
+                      - generic [ref=e2953]:
+                        - generic [ref=e2960]:
+                          - link [ref=e3267] [cursor=pointer]:
+                            - /url: /lightning/r/User/005dz00000BSn13AAD/view
+                            - generic [ref=e2965]: Somya Sijaria
+                          - button [ref=e3268] [cursor=pointer]:
+                            - img [ref=e2969]
+                            - generic [ref=e2972]: Open Somya Sijaria Preview
+                        - button [ref=e3269] [cursor=pointer]:
+                          - img [ref=e2976]
+                          - generic [ref=e2979]: Change Owner
+                  - paragraph [ref=e2982]: Account Site
+                  - paragraph [ref=e2985]: Industry
+              - generic [ref=e2993]:
+                - heading [level=2] [ref=e3270]: Tabs
+                - generic [ref=e2996]:
+                  - heading [level=2] [ref=e3272]: Tabs
+                  - tablist [ref=e3273]:
+                    - tab [selected] [ref=e3274] [cursor=pointer]: Related
+                    - tab [ref=e3275] [cursor=pointer]: Details
+                    - tab [ref=e3276] [cursor=pointer]: Skience Safe
+                  - tabpanel [ref=e3277]:
+                    - generic [ref=e3006]:
+                      - article [ref=e3011]:
+                        - generic [ref=e3013]:
+                          - img [ref=e3018]
+                          - heading [level=2] [ref=e3278]:
+                            - generic [ref=e3279]: We found no potential duplicates of this Account.
+                        - generic [ref=e3025]: No duplicate rules are activated. Activate duplicate rules to identify potential duplicate records.
+                      - generic [ref=e3029]:
+                        - article [ref=e3280]:
+                          - generic [ref=e3040]:
+                            - generic [ref=e3042]:
+                              - img [ref=e3046]
+                              - heading [level=2] [ref=e3281]:
+                                - link [ref=e3282] [cursor=pointer]:
+                                  - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/Contacts/view
+                                  - generic [ref=e3283]: Contacts
+                                  - generic [ref=e3284]: (0)
+                            - button [ref=e3286] [cursor=pointer]: New
+                        - article [ref=e3287]:
+                          - generic [ref=e3071]:
+                            - generic [ref=e3073]:
+                              - img [ref=e3077]
+                              - heading [level=2] [ref=e3288]:
+                                - link [ref=e3289] [cursor=pointer]:
+                                  - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/Cases/view
+                                  - generic [ref=e3290]: Cases
+                                  - generic [ref=e3291]: (0)
+                            - button [ref=e3293] [cursor=pointer]: New
+                        - article [ref=e3294]:
+                          - generic [ref=e3100]:
+                            - heading [level=2] [ref=e3295]:
+                              - link [ref=e3296] [cursor=pointer]:
+                                - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/OpenActivities/view
+                                - generic [ref=e3297]: Open Activities
+                                - generic [ref=e3298]: (0)
+                            - list [ref=e3112]:
+                              - listitem [ref=e3113]:
+                                - button [ref=e3299] [cursor=pointer]:
+                                  - generic [ref=e3300]: New Task
+                        - article [ref=e3301]:
+                          - generic [ref=e3124]:
+                            - heading [level=2] [ref=e3302]:
+                              - link [ref=e3303] [cursor=pointer]:
+                                - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/ActivityHistories/view
+                                - generic [ref=e3304]: Activity History
+                                - generic [ref=e3305]: (0)
+                            - list [ref=e3136]:
+                              - listitem [ref=e3137]:
+                                - button [ref=e3306] [cursor=pointer]:
+                                  - generic [ref=e3307]: View All
+                              - listitem [ref=e3140]:
+                                - button [ref=e3308] [cursor=pointer]:
+                                  - generic [ref=e3309]: Log a Call
+                        - article [ref=e3310]:
+                          - generic [ref=e3153]:
+                            - generic [ref=e3155]:
+                              - img [ref=e3159]
+                              - heading [level=2] [ref=e3311]:
+                                - link [ref=e3312] [cursor=pointer]:
+                                  - /url: /lightning/r/Account/001dz00000Fy6I8AAJ/related/Plan_Customers__r/view
+                                  - generic [ref=e3313]: Plan Customers
+                                  - generic [ref=e3314]: (0)
+                            - button [ref=e3316] [cursor=pointer]: New
+                        - article [ref=e3179]:
+                          - generic [ref=e3180]:
+                            - img [ref=e3182]
+                            - heading [level=2] [ref=e3317]: NextCapital Events
+                        - article [ref=e3190]:
+                          - generic [ref=e3191]:
+                            - img [ref=e3193]
+                            - heading [level=2] [ref=e3318]: Opportunities
+                        - article [ref=e3201]:
+                          - generic [ref=e3202]:
+                            - img [ref=e3204]
+                            - heading [level=2] [ref=e3319]: Related Accounts
+                        - article [ref=e3212]:
+                          - generic [ref=e3213]:
+                            - img [ref=e3215]
+                            - heading [level=2] [ref=e3320]: Account History
+    - dialog [ref=e3322]:
+      - generic [ref=e3323]:
+        - button "Cancel and close" [active] [ref=e3324] [cursor=pointer]:
+          - generic [ref=e3325]:
+            - img
+          - generic [ref=e3326]: Cancel and close
+        - status [ref=e3383]
+  - generic:
+    - status

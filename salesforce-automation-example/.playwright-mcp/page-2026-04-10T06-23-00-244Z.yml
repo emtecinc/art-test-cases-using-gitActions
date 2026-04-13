@@ -1,0 +1,126 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e7]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e10]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2Fapex%2FsearchFirstAccount%3FretURL%3D%252F001%252Fo%26save_new%3D1%26sfdc.override%3D1
+                  - link "Help & Training" [ref=e27] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: PFS
+      - navigation [ref=e33]:
+        - heading "Tab Navigation" [level=1] [ref=e34]
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/home/home.jsp
+            - listitem [ref=e39]:
+              - link "Tasks" [ref=e40] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNMVF3TmpveE9Eb3hNaTR4T1RoYSwxZFMtRUhjMmZZZjhIT040MTItazFZN3lyMEFsT3dVTndXNV9hZzFmMDZjPSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e41]:
+              - link "Leads" [ref=e42] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/00Q/o
+            - listitem [ref=e43]:
+              - link "Campaigns" [ref=e44] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/701/o
+            - listitem [ref=e45]:
+              - link "Accounts" [ref=e46] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/001/o
+              - generic [ref=e47]: (Currently Selected)
+            - listitem [ref=e48]:
+              - link "Contacts" [ref=e49] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/003/o
+            - listitem [ref=e50]:
+              - link "Opportunities" [ref=e51] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/006/o
+            - listitem [ref=e52]:
+              - link "Reports" [ref=e53] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/00O/o
+            - listitem [ref=e54]:
+              - link "Dashboards" [ref=e55] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/01Z/o
+            - listitem [ref=e56]:
+              - link "Thresholds" [ref=e57] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/a1f/o
+            - listitem [ref=e58]:
+              - link "All Tabs" [ref=e59] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/home/showAllTabs.jsp
+                - img "All Tabs" [ref=e60]
+    - table [ref=e62]:
+      - rowgroup [ref=e63]:
+        - row [ref=e132]:
+          - cell "Click to Open Sidebar" [ref=e65]:
+            - link "Click to Open Sidebar" [ref=e66]:
+              - /url: javascript:void(0);
+              - generic [ref=e67]: Click to Open Sidebar
+          - cell [ref=e133]:
+            - img "Content Starts Here" [ref=e72]
+            - generic [ref=e75]:
+              - img "Account" [ref=e76]
+              - heading "Account Search First" [level=1] [ref=e77]
+              - heading "Search for Accounts" [level=2] [ref=e78]
+            - generic [ref=e79]: Enter search criteria to find already existing data records.
+            - generic [ref=e80]:
+              - table [ref=e83]:
+                - rowgroup [ref=e84]:
+                  - row [ref=e128]:
+                    - cell "Account data Search Reset" [ref=e129]:
+                      - table [ref=e87]:
+                        - rowgroup [ref=e88]:
+                          - row "Account data" [ref=e130]:
+                            - cell "Account" [ref=e90]
+                            - cell "data" [ref=e131]:
+                              - textbox "Account" [ref=e92]: data
+                          - row "Search Reset" [ref=e93]:
+                            - cell [ref=e94]
+                            - cell "Search Reset" [ref=e95]:
+                              - button "Search" [active] [ref=e96] [cursor=pointer]
+                              - button "Reset" [ref=e97] [cursor=pointer]
+                    - cell [ref=e98]:
+                      - table [ref=e99]:
+                        - rowgroup [ref=e100]:
+                          - row "* (asterisk) Use an asterisk to match one or more characters at the middle or end of your search term. Do not use the asterisk at the beginning of a search term, unless you are performing a Lookup Search. For example, a search for john* finds items that start with variations on the term john, such as, johnson or johnny. A search for mi* meyers finds items with mike meyers or michael meyers. Note that the asterisk wildcard takes on the type of the preceding character. For example, aa*a matches aaaa and aabcda, but not aa2a or aa.!//a." [ref=e101]:
+                            - cell "* (asterisk)" [ref=e102]:
+                              - strong [ref=e103]: "* (asterisk)"
+                            - cell "Use an asterisk to match one or more characters at the middle or end of your search term. Do not use the asterisk at the beginning of a search term, unless you are performing a Lookup Search. For example, a search for john* finds items that start with variations on the term john, such as, johnson or johnny. A search for mi* meyers finds items with mike meyers or michael meyers. Note that the asterisk wildcard takes on the type of the preceding character. For example, aa*a matches aaaa and aabcda, but not aa2a or aa.!//a." [ref=e104]
+                          - row "? (question mark) Use a question mark to match one character at the middle or end of your search term. For example, a search for jo?n finds items with the term john or joan. The question mark wildcard does not work at the beginning of a search term. Note that the question mark wildcard takes on the type of the preceding character. For example, pi? matches pin and pig, but not pi1 or pi!. Likewise, 12? matches 123 and 124, but not 12a or 12b." [ref=e105]:
+                            - cell "? (question mark)" [ref=e106]:
+                              - strong [ref=e107]: "? (question mark)"
+                            - cell "Use a question mark to match one character at the middle or end of your search term. For example, a search for jo?n finds items with the term john or joan. The question mark wildcard does not work at the beginning of a search term. Note that the question mark wildcard takes on the type of the preceding character. For example, pi? matches pin and pig, but not pi1 or pi!. Likewise, 12? matches 123 and 124, but not 12a or 12b." [ref=e108]
+              - generic [ref=e135]: Processing request ...
+            - heading "Accounts [0]" [level=2] [ref=e116]
+    - generic [ref=e118]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e119] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e120] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e121] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e122] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e123] [cursor=pointer]:
+        - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/ltng/oneAppRedirect
+  - iframe [ref=e124]:
+    

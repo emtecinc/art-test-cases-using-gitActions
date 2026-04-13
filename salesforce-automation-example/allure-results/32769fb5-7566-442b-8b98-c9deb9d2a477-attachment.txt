@@ -1,0 +1,27 @@
+Fund Account Selection iframe did not become visible
+❌ Exception deleting Opportunity 006dz00000EDo78AAD: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13185:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SFDataFactory.teardown (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/playwright-custom-core/src/utils/sf-data-factory.ts:192:34)
+    at /home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/tests/opportunity/create-cla-classic-opportunity-fund-account-selection.spec.ts:58:5
+    at /home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/testInfo.js:320:11
+    at TimeoutManager.withRunnable (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/timeoutManager.js:75:14)
+    at TestInfoImpl._runWithTimeout (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/testInfo.js:318:7)
+    at FixtureRunner.resolveParametersAndRunFunction (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/fixtureRunner.js:232:5)
+    at /home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/workerMain.js:482:11
+    at TestInfoImpl._runAsStep (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at WorkerMain._runEachHooksForSuites (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/workerMain.js:481:9)
+    at /home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/workerMain.js:343:11
+    at TestInfoImpl._runAsStep (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at WorkerMain._runTest (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/workerMain.js:334:5)
+    at WorkerMain.runTestGroup (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/worker/workerMain.js:203:9)
+    at process.<anonymous> (/home/vaibhav/Emtec-Setup/art-test-cases-using-gitActions/salesforce-automation-example/node_modules/playwright/lib/common/process.js:73:22) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted addresses: 155.226.157.42:443, 155.226.157.41:443, 155.226.157.40:443)
+      at onConnectTimeout (node:internal/deps/undici/undici:2331:28)
+      at node:internal/deps/undici/undici:2283:50
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2315:13)
+      at processImmediate (node:internal/timers:483:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}

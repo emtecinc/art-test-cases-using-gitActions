@@ -1,0 +1,162 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e7]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e10]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2Fsetup%2Fui%2Frecordtypeselect.jsp%3Facc2%3Ddata%26ent%3DAccount%26retURL%3D%252F001%252Fo%26save_new_url%3D%252F001%252Fe%253FretURL%253D%252F001%252Fo%26nooverride%3D1
+                  - link "Help & Training" [ref=e27] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: PFS
+      - navigation [ref=e33]:
+        - heading "Tab Navigation" [level=1] [ref=e34]
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: /home/home.jsp
+            - listitem [ref=e39]:
+              - link "Tasks" [ref=e40] [cursor=pointer]:
+                - /url: /servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNMVF3TmpveU5EbzFOQzR6T1RGYSxKM3E0dGlhOEhYdkVGTGplZkdBLXF6U09vVTlKRUZ0ZlptTlZoMmh6TDhrPSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e41]:
+              - link "Leads" [ref=e42] [cursor=pointer]:
+                - /url: /00Q/o
+            - listitem [ref=e43]:
+              - link "Campaigns" [ref=e44] [cursor=pointer]:
+                - /url: /701/o
+            - listitem [ref=e45]:
+              - link "Accounts" [ref=e46] [cursor=pointer]:
+                - /url: /001/o
+              - generic [ref=e47]: (Currently Selected)
+            - listitem [ref=e48]:
+              - link "Contacts" [ref=e49] [cursor=pointer]:
+                - /url: /003/o
+            - listitem [ref=e50]:
+              - link "Opportunities" [ref=e51] [cursor=pointer]:
+                - /url: /006/o
+            - listitem [ref=e52]:
+              - link "Reports" [ref=e53] [cursor=pointer]:
+                - /url: /00O/o
+            - listitem [ref=e54]:
+              - link "Dashboards" [ref=e55] [cursor=pointer]:
+                - /url: /01Z/o
+            - listitem [ref=e56]:
+              - link "Thresholds" [ref=e57] [cursor=pointer]:
+                - /url: /a1f/o
+            - listitem [ref=e58]:
+              - link "All Tabs" [ref=e59] [cursor=pointer]:
+                - /url: /home/showAllTabs.jsp
+                - img "All Tabs" [ref=e60]
+    - table [ref=e62]:
+      - rowgroup [ref=e63]:
+        - row [ref=e64]:
+          - cell "Click to Open Sidebar" [ref=e65]:
+            - link "Click to Open Sidebar" [ref=e66]:
+              - /url: javascript:void(0);
+              - generic [ref=e67]: Click to Open Sidebar
+          - cell [ref=e71]:
+            - img "Content Starts Here" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - img "Account" [ref=e76]
+                - heading "New Account" [level=1] [ref=e77]
+                - heading "Select Account Record Type" [level=2] [ref=e78]
+              - link "Help for this Page" [ref=e80] [cursor=pointer]:
+                - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=permissions_record_type_access.htm&section=Customizing&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+            - generic [ref=e81]: Select a record type for the new account. To skip this page in the future, change your record type settings on your personal setup page.
+            - generic [ref=e83]:
+              - table [ref=e85]:
+                - rowgroup [ref=e86]:
+                  - row "Select Account Record Type" [ref=e87]:
+                    - cell "Select Account Record Type" [ref=e88]:
+                      - heading "Select Account Record Type" [level=2] [ref=e89]
+              - table [ref=e92]:
+                - rowgroup [ref=e93]:
+                  - row "* Record Type of new record Individual" [ref=e94]:
+                    - cell "* Record Type of new record" [ref=e95]:
+                      - generic [ref=e96]:
+                        - generic [ref=e97]: "*"
+                        - text: Record Type of new record
+                    - cell "Individual" [ref=e98]:
+                      - combobox "* Record Type of new record" [ref=e101]:
+                        - option "Advisor"
+                        - option "Carrier"
+                        - option "Employer"
+                        - option "Entity"
+                        - option "Household"
+                        - option "Individual" [selected]
+                        - option "Par Group Account RT"
+                        - option "Service Provider"
+                  - row:
+                    - cell
+              - table [ref=e103]:
+                - rowgroup [ref=e104]:
+                  - row "Continue Cancel" [ref=e105]:
+                    - cell [ref=e106]
+                    - cell "Continue Cancel" [ref=e107]:
+                      - button "Continue" [ref=e108] [cursor=pointer]
+                      - button "Cancel" [ref=e109] [cursor=pointer]
+            - heading "Available Account Record Types" [level=3] [ref=e110]
+            - table [ref=e111]:
+              - rowgroup [ref=e112]:
+                - row "Record Type Name Description" [ref=e113]:
+                  - columnheader "Record Type Name" [ref=e114]
+                  - columnheader "Description" [ref=e115]
+                - row "Advisor An Advisor to a Broker Dealer, Advisor company, or independent Advisor" [ref=e116]:
+                  - rowheader "Advisor" [ref=e117]
+                  - cell "An Advisor to a Broker Dealer, Advisor company, or independent Advisor" [ref=e118]
+                - row "Carrier PFS/RPS - Account that carries the plan" [ref=e119]:
+                  - rowheader "Carrier" [ref=e120]
+                  - cell "PFS/RPS - Account that carries the plan" [ref=e121]
+                - row "Employer Employer offering 401k" [ref=e122]:
+                  - rowheader "Employer" [ref=e123]
+                  - cell "Employer offering 401k" [ref=e124]
+                - row "Entity" [ref=e125]:
+                  - rowheader "Entity" [ref=e126]
+                  - cell [ref=e127]
+                - row "Household" [ref=e128]:
+                  - rowheader "Household" [ref=e129]
+                  - cell [ref=e130]
+                - row "Individual PFS/RPS/Annuities - Individual account for contact who is subscribed to a JH product or service" [ref=e131]:
+                  - rowheader "Individual" [ref=e132]
+                  - cell "PFS/RPS/Annuities - Individual account for contact who is subscribed to a JH product or service" [ref=e133]
+                - row "Par Group Account RT A General Annuity Contract customer with the Par Group" [ref=e134]:
+                  - rowheader "Par Group Account RT" [ref=e135]
+                  - cell "A General Annuity Contract customer with the Par Group" [ref=e136]
+                - row "Service Provider PFS/RPS - Third Party Administrator (TPA), Broker Dealer (BD), Unaffiliated (Registered Investment Advisors (RIA), Insurance Agency (IA), Advisor not related to BD))" [ref=e137]:
+                  - rowheader "Service Provider" [ref=e138]
+                  - cell "PFS/RPS - Third Party Administrator (TPA), Broker Dealer (BD), Unaffiliated (Registered Investment Advisors (RIA), Insurance Agency (IA), Advisor not related to BD))" [ref=e139]
+    - generic [ref=e141]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e142] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e143] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e144] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e145] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e146] [cursor=pointer]:
+        - /url: /ltng/oneAppRedirect
+  - iframe [ref=e147]:
+    

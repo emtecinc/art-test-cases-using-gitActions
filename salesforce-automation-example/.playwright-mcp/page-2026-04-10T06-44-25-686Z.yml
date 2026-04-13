@@ -1,0 +1,414 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e7]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e10]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F001%2Fo
+                  - link "Help & Training" [ref=e27] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: PFS
+      - navigation [ref=e33]:
+        - heading "Tab Navigation" [level=1] [ref=e34]
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: /home/home.jsp
+            - listitem [ref=e39]:
+              - link "Tasks" [ref=e40] [cursor=pointer]:
+                - /url: /servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNMVF3TmpvME5Eb3hPUzQyTURsYSxuZHdKVHVZa2YxU2kxYU5YMTR2ZmIyWVk0SDF3RnRxcjZLdjV1TWUtLWQ4PSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e41]:
+              - link "Leads" [ref=e42] [cursor=pointer]:
+                - /url: /00Q/o
+            - listitem [ref=e43]:
+              - link "Campaigns" [ref=e44] [cursor=pointer]:
+                - /url: /701/o
+            - listitem [ref=e45]:
+              - link "Accounts" [ref=e46] [cursor=pointer]:
+                - /url: /001/o
+              - generic [ref=e47]: (Currently Selected)
+            - listitem [ref=e48]:
+              - link "Contacts" [ref=e49] [cursor=pointer]:
+                - /url: /003/o
+            - listitem [ref=e50]:
+              - link "Opportunities" [ref=e51] [cursor=pointer]:
+                - /url: /006/o
+            - listitem [ref=e52]:
+              - link "Reports" [ref=e53] [cursor=pointer]:
+                - /url: /00O/o
+            - listitem [ref=e54]:
+              - link "Dashboards" [ref=e55] [cursor=pointer]:
+                - /url: /01Z/o
+            - listitem [ref=e56]:
+              - link "Thresholds" [ref=e57] [cursor=pointer]:
+                - /url: /a1f/o
+            - listitem [ref=e58]:
+              - link "All Tabs" [ref=e59] [cursor=pointer]:
+                - /url: /home/showAllTabs.jsp
+                - img "All Tabs" [ref=e60]
+    - table [ref=e62]:
+      - rowgroup [ref=e63]:
+        - row [ref=e64]:
+          - cell "Click to Open Sidebar" [ref=e65]:
+            - link "Click to Open Sidebar" [ref=e66]:
+              - /url: javascript:void(0);
+              - generic [ref=e67]: Click to Open Sidebar
+          - cell [ref=e71]:
+            - img "Content Starts Here" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - img "Account" [ref=e76]
+                - heading "Accounts" [level=1] [ref=e77]
+                - heading "Home" [level=2] [ref=e78]
+              - generic [ref=e79]:
+                - link "Tell me more!" [ref=e80] [cursor=pointer]:
+                  - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accounts.htm&section=Accounts&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - text: "|"
+                - link "Help for this Page" [ref=e81] [cursor=pointer]:
+                  - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accounts.htm&section=Accounts&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - generic [ref=e87]: "*"
+                - text: "View:"
+              - generic [ref=e88]:
+                - combobox "* View:" [ref=e89]:
+                  - option "Advisor Accounts"
+                  - option "All Accounts" [selected]
+                  - option "Broker Dealers Accounts"
+                  - option "Carrier Accounts"
+                  - option "Employer Accounts"
+                  - option "Individual Accounts"
+                  - option "Individual Accounts Active"
+                  - option "JHFC CRIA accounts"
+                  - option "JHFC Prospect Accounts"
+                  - option "JHFC Unassigned accounts"
+                  - option "John Account First Last Name"
+                  - option "Migrated Accounts"
+                  - option "My Accounts"
+                  - option "Par Group Accounts"
+                  - option "PFS/RPS Last Activity > 30 Days"
+                  - option "Recently Viewed Accounts"
+                  - option "Service Provider Accounts"
+                  - option "Skience Household List"
+                  - option "Smart Office Accounts Unassigned"
+                  - option "TPA Accounts"
+                - button "Go!" [ref=e90] [cursor=pointer]
+              - generic [ref=e91]:
+                - link "Edit" [ref=e92] [cursor=pointer]:
+                  - /url: /ui/list/FilterEditPage?id=00BG0000007xivL&retURL=%2F001&cancelURL=%2F001%2Fo
+                - text: "|"
+                - link "Create New View" [ref=e93] [cursor=pointer]:
+                  - /url: /ui/list/FilterEditPage?ftype=a&retURL=%2F001&cancelURL=%2F001%2Fo
+            - generic [ref=e96]:
+              - table [ref=e99]:
+                - rowgroup [ref=e100]:
+                  - row "Recent Accounts New Recently Viewed" [ref=e101]:
+                    - cell "Recent Accounts" [ref=e102]:
+                      - heading "Recent Accounts" [level=3] [ref=e103]
+                    - cell "New" [ref=e104]:
+                      - button "New" [ref=e105] [cursor=pointer]
+                    - cell "Recently Viewed" [ref=e106]:
+                      - combobox "Display Selection" [ref=e107]:
+                        - option "Recently Created"
+                        - option "Recently Modified"
+                        - option "Recently Viewed" [selected]
+              - generic [ref=e108]:
+                - table [ref=e109]:
+                  - rowgroup [ref=e110]:
+                    - row "Account Name Type Status Phone Website Business Unit Account Record Type Account Owner Alias Last Modified By Alias" [ref=e111]:
+                      - columnheader "Account Name" [ref=e112]
+                      - columnheader "Type" [ref=e113]
+                      - columnheader "Status" [ref=e114]
+                      - columnheader "Phone" [ref=e115]
+                      - columnheader "Website" [ref=e116]
+                      - columnheader "Business Unit" [ref=e117]
+                      - columnheader "Account Record Type" [ref=e118]
+                      - columnheader "Account Owner Alias" [ref=e119]
+                      - columnheader "Last Modified By Alias" [ref=e120]
+                    - row "Classic Accountt New_1775802986867 Annuities Individual ssija ssija" [ref=e121]:
+                      - rowheader "Classic Accountt New_1775802986867" [ref=e122]:
+                        - link "Classic Accountt New_1775802986867" [ref=e123] [cursor=pointer]:
+                          - /url: /001dz00000G3h4J
+                      - cell [ref=e124]
+                      - cell [ref=e125]
+                      - cell [ref=e126]
+                      - cell [ref=e127]
+                      - cell "Annuities" [ref=e128]
+                      - cell "Individual" [ref=e129]
+                      - cell "ssija" [ref=e130]:
+                        - link "ssija" [ref=e131] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e132]:
+                        - link "ssija" [ref=e133] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "Classic Accountt New Annuities Individual ssija ssija" [ref=e134]:
+                      - rowheader "Classic Accountt New" [ref=e135]:
+                        - link "Classic Accountt New" [ref=e136] [cursor=pointer]:
+                          - /url: /001dz00000G2dk7
+                      - cell [ref=e137]
+                      - cell [ref=e138]
+                      - cell [ref=e139]
+                      - cell [ref=e140]
+                      - cell "Annuities" [ref=e141]
+                      - cell "Individual" [ref=e142]
+                      - cell "ssija" [ref=e143]:
+                        - link "ssija" [ref=e144] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e145]:
+                        - link "ssija" [ref=e146] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "TestEmployer_1774951248072 555-123-4567 PFS/RPS Employer ssija ssija" [ref=e147]:
+                      - rowheader "TestEmployer_1774951248072" [ref=e148]:
+                        - link "TestEmployer_1774951248072" [ref=e149] [cursor=pointer]:
+                          - /url: /001dz00000FlEn1
+                      - cell [ref=e150]
+                      - cell [ref=e151]
+                      - cell "555-123-4567" [ref=e152]
+                      - cell [ref=e153]
+                      - cell "PFS/RPS" [ref=e154]
+                      - cell "Employer" [ref=e155]
+                      - cell "ssija" [ref=e156]:
+                        - link "ssija" [ref=e157] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e158]:
+                        - link "ssija" [ref=e159] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "test new account Annuities Individual ssija ssija" [ref=e160]:
+                      - rowheader "test new account" [ref=e161]:
+                        - link "test new account" [ref=e162] [cursor=pointer]:
+                          - /url: /001dz00000FvD85
+                      - cell [ref=e163]
+                      - cell [ref=e164]
+                      - cell [ref=e165]
+                      - cell [ref=e166]
+                      - cell "Annuities" [ref=e167]
+                      - cell "Individual" [ref=e168]
+                      - cell "ssija" [ref=e169]:
+                        - link "ssija" [ref=e170] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e171]:
+                        - link "ssija" [ref=e172] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "Test Fund Account Annuities Individual ssija ssija" [ref=e173]:
+                      - rowheader "Test Fund Account" [ref=e174]:
+                        - link "Test Fund Account" [ref=e175] [cursor=pointer]:
+                          - /url: /001dz00000FxdJS
+                      - cell [ref=e176]
+                      - cell [ref=e177]
+                      - cell [ref=e178]
+                      - cell [ref=e179]
+                      - cell "Annuities" [ref=e180]
+                      - cell "Individual" [ref=e181]
+                      - cell "ssija" [ref=e182]:
+                        - link "ssija" [ref=e183] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e184]:
+                        - link "ssija" [ref=e185] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "test account PFS/RPS Employer ssija ssija" [ref=e186]:
+                      - rowheader "test account" [ref=e187]:
+                        - link "test account" [ref=e188] [cursor=pointer]:
+                          - /url: /001dz00000Foz4W
+                      - cell [ref=e189]
+                      - cell [ref=e190]
+                      - cell [ref=e191]
+                      - cell [ref=e192]
+                      - cell "PFS/RPS" [ref=e193]
+                      - cell "Employer" [ref=e194]
+                      - cell "ssija" [ref=e195]:
+                        - link "ssija" [ref=e196] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e197]:
+                        - link "ssija" [ref=e198] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "TestEmployer_1775124181119 PFS/RPS Employer ssija ssija" [ref=e199]:
+                      - rowheader "TestEmployer_1775124181119" [ref=e200]:
+                        - link "TestEmployer_1775124181119" [ref=e201] [cursor=pointer]:
+                          - /url: /001dz00000FpT0v
+                      - cell [ref=e202]
+                      - cell [ref=e203]
+                      - cell [ref=e204]
+                      - cell [ref=e205]
+                      - cell "PFS/RPS" [ref=e206]
+                      - cell "Employer" [ref=e207]
+                      - cell "ssija" [ref=e208]:
+                        - link "ssija" [ref=e209] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e210]:
+                        - link "ssija" [ref=e211] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "TestEmployer_1775123097206 PFS/RPS Employer ssija ssija" [ref=e212]:
+                      - rowheader "TestEmployer_1775123097206" [ref=e213]:
+                        - link "TestEmployer_1775123097206" [ref=e214] [cursor=pointer]:
+                          - /url: /001dz00000FpOKd
+                      - cell [ref=e215]
+                      - cell [ref=e216]
+                      - cell [ref=e217]
+                      - cell [ref=e218]
+                      - cell "PFS/RPS" [ref=e219]
+                      - cell "Employer" [ref=e220]
+                      - cell "ssija" [ref=e221]:
+                        - link "ssija" [ref=e222] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e223]:
+                        - link "ssija" [ref=e224] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "TestEmployer_1774956494379 555-123-4567 PFS/RPS Employer ssija ssija" [ref=e225]:
+                      - rowheader "TestEmployer_1774956494379" [ref=e226]:
+                        - link "TestEmployer_1774956494379" [ref=e227] [cursor=pointer]:
+                          - /url: /001dz00000FlXcf
+                      - cell [ref=e228]
+                      - cell [ref=e229]
+                      - cell "555-123-4567" [ref=e230]
+                      - cell [ref=e231]
+                      - cell "PFS/RPS" [ref=e232]
+                      - cell "Employer" [ref=e233]
+                      - cell "ssija" [ref=e234]:
+                        - link "ssija" [ref=e235] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e236]:
+                        - link "ssija" [ref=e237] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                    - row "TestEmployer_1774953792685 555-123-4567 PFS/RPS Employer ssija ssija" [ref=e238]:
+                      - rowheader "TestEmployer_1774953792685" [ref=e239]:
+                        - link "TestEmployer_1774953792685" [ref=e240] [cursor=pointer]:
+                          - /url: /001dz00000FlOKy
+                      - cell [ref=e241]
+                      - cell [ref=e242]
+                      - cell "555-123-4567" [ref=e243]
+                      - cell [ref=e244]
+                      - cell "PFS/RPS" [ref=e245]
+                      - cell "Employer" [ref=e246]
+                      - cell "ssija" [ref=e247]:
+                        - link "ssija" [ref=e248] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                      - cell "ssija" [ref=e249]:
+                        - link "ssija" [ref=e250] [cursor=pointer]:
+                          - /url: /005dz00000BSn13
+                - link "Show 25 items" [ref=e252] [cursor=pointer]:
+                  - /url: /setup/set_preference.jsp?retURL=%2F001%2Fo&preference.value=25&_CONFIRMATIONTOKEN=VmpFPSxNakF5Tmkwd05DMHhNMVF3TmpvME5Eb3hPUzQxT0RsYSxqYXdZX0Z1LWFkMlB0dTNOb2VlMHRsemd4VHR6UDQtNHVlUDR6OXF6RlUwPSxZVEprT1Rreg%3D%3D
+            - table [ref=e253]:
+              - rowgroup [ref=e254]:
+                - row "Reports Active Accounts Accounts with last activity > 30 days Account Owners Contact Role Report Account History Report Related Accounts Go to Reports » Tools Import Accounts & Contacts Mass Delete Accounts Transfer Accounts Merge Accounts Sales Methodologies" [ref=e255]:
+                  - cell "Reports Active Accounts Accounts with last activity > 30 days Account Owners Contact Role Report Account History Report Related Accounts Go to Reports »" [ref=e256]:
+                    - generic [ref=e258]:
+                      - heading "Reports" [level=3] [ref=e259]
+                      - list [ref=e261]:
+                        - listitem [ref=e262]:
+                          - link "Active Accounts" [ref=e263] [cursor=pointer]:
+                            - /url: /00O?rt=1&retURL=%2F001%2Fo&edit=yes&scope=user&sort=ACCOUNT.NAME&t=title1&colDt_c=DUE_DATE&colDt_s=4%2F3%2F2026&c=AO&c=AN&c=A1SA&c=TY&c=RT&c=IN&c=CD&details=yes
+                        - listitem [ref=e264]:
+                          - link "Accounts with last activity > 30 days" [ref=e265] [cursor=pointer]:
+                            - /url: /00O?rt=1&retURL=%2F001%2Fo&edit=yes&scope=user&sort=DUE_DATE&t=title2&colDt_c=DUE_DATE&colDt_e=3%2F10%2F2026&c=DD&c=AO&c=AN&c=A1SA&c=TY&c=RT&c=UD&details=yes
+                        - listitem [ref=e266]:
+                          - link "Account Owners" [ref=e267] [cursor=pointer]:
+                            - /url: /00O?rt=47&retURL=%2F001%2Fo&paramform=yes&sort=ACCOUNT_NAME&name_op=sw&t=title1&details=yes
+                        - listitem [ref=e268]:
+                          - link "Contact Role Report" [ref=e269] [cursor=pointer]:
+                            - /url: /00O?rt=69&retURL=%2F001%2Fo&edit=yes&scope=user&sort=ACCOUNT.NAME&t=titleContactRole&c=MA&c=PR&c=RN&c=FN&c=LN&c=DD&c=AO&c=AN&c=A1SA&c=TY&c=RT&c=UD&details=yes
+                        - listitem [ref=e270]:
+                          - link "Account History Report" [ref=e271] [cursor=pointer]:
+                            - /url: /00O?rt=111&retURL=%2F001%2Fo&sortdir=down&sort=CD&sdate=4%2F10%2F2026&edate=4%2F10%2F2026&break0=AN&c=AN&c=OW&c=CR&c=FD&c=OV&c=NV&c=CD&details=yes&format=t
+                        - listitem [ref=e272]:
+                          - link "Related Accounts" [ref=e273] [cursor=pointer]:
+                            - /url: /00O?rt=45&retURL=%2F001%2Fo&edit=yes&scope=user&sort=ACCOUNT.NAME&c=AO&c=AN&c=TY&c=P_AN&c=P_RO&details=yes
+                      - generic [ref=e275]:
+                        - link "Go to Reports" [ref=e276] [cursor=pointer]:
+                          - /url: /00O/o?entityType=00O
+                        - text: »
+                  - cell "Tools Import Accounts & Contacts Mass Delete Accounts Transfer Accounts Merge Accounts Sales Methodologies" [ref=e277]:
+                    - generic [ref=e279]:
+                      - heading "Tools" [level=3] [ref=e280]
+                      - list [ref=e282]:
+                        - listitem [ref=e283]:
+                          - link "Import Accounts & Contacts" [ref=e285] [cursor=pointer]:
+                            - /url: /dataImporter/dataImporter.app?objectSelection=Account
+                        - listitem [ref=e286]:
+                          - link "Mass Delete Accounts" [ref=e288] [cursor=pointer]:
+                            - /url: /setup/own/massdelete.jsp?ftype=a&retURL=%2F001%2Fo
+                        - listitem [ref=e289]:
+                          - link "Transfer Accounts" [ref=e291] [cursor=pointer]:
+                            - /url: /p/own/BulkTransfer?retURL=%2F001%2Fo&ent=Account
+                        - listitem [ref=e292]:
+                          - link "Merge Accounts" [ref=e294] [cursor=pointer]:
+                            - /url: /merge/accmergewizard.jsp?retURL=%2F001%2Fo
+                        - listitem [ref=e295]:
+                          - link "Sales Methodologies" [ref=e297] [cursor=pointer]:
+                            - /url: javascript:openPopupFocus%28%27http%3A%2F%2Fwww.salesforce.com%2Fappexchange%27%2C%20%27_blank%27%2C%20800%2C%20600%2C%20%27width%3D800%2Cheight%3D600%2Cresizable%3Dyes%2Ctoolbar%3Dyes%2Cstatus%3Dyes%2Cscrollbars%3Dyes%2Cmenubar%3Dyes%2Cdirectories%3Dyes%2Clocation%3Dno%2Cdependant%3Dno%27%2C%20false%2C%20true%29%3B
+    - generic [ref=e299]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e300] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e301] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e302] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e303] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e304] [cursor=pointer]:
+        - /url: /ltng/oneAppRedirect
+  - iframe [ref=e305]:
+    
+  - generic:
+    - button "Expand Quick Access Menu" [ref=e307]
+    - generic [ref=e308]:
+      - generic [ref=e309]:
+        - link "Go to Setup" [ref=e310] [cursor=pointer]:
+          - /url: /setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2F001%2Fo
+          - img "Go to Setup" [ref=e311]
+        - link "Help" [ref=e312] [cursor=pointer]:
+          - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?section=Dev_Tools&target=dev_quick_access_menu.htm&loc=help&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+          - img "Help" [ref=e313]
+      - generic [ref=e314]:
+        - list [ref=e315]:
+          - listitem [ref=e316]:
+            - link "View Fields" [ref=e317] [cursor=pointer]:
+              - /url: /p/setup/layout/LayoutFieldList?type=Account&setupid=AccountFields
+          - listitem [ref=e318]:
+            - link "View Object" [ref=e319] [cursor=pointer]:
+              - /url: /ui/setup/Setup?setupid=Account
+          - listitem [ref=e320]:
+            - link "View Record Types" [ref=e321] [cursor=pointer]:
+              - /url: /ui/setup/rectype/RecordTypes?type=Account&setupid=AccountRecords
+          - listitem [ref=e322]:
+            - link "View Validation Rules" [ref=e323] [cursor=pointer]:
+              - /url: /_ui/common/config/entity/ValidationFormulaListUI/d?retURL=%2F001%2Fo&tableEnumOrId=Account&setupid=AccountValidations
+          - listitem [ref=e324]:
+            - link "View Approvals" [ref=e325] [cursor=pointer]:
+              - /url: /p/process/ProcessDefinitionSetup?TableEnumOrId=Account&setupid=ApprovalProcesses
+        - separator [ref=e326]
+        - list [ref=e327]:
+          - listitem [ref=e328]:
+            - link "Edit App" [ref=e329] [cursor=pointer]:
+              - /url: /02uG0000000GeGC/e?retURL=%2F001%2Fo&setupid=TabSet
+          - listitem [ref=e330]:
+            - link "Edit Columns" [ref=e331] [cursor=pointer]:
+              - /url: /p/setup/layout/ListLayoutEdit?LayoutEntity=Account&retURL=%2F001%2Fo&LayoutType=KeyList&setupid=AccountSearchLayouts
+        - separator [ref=e332]
+        - list [ref=e333]:
+          - listitem [ref=e334]:
+            - link "Import Data" [ref=e335] [cursor=pointer]:
+              - /url: /ui/setup/dataimporter/DataImporterAdminLandingPage
+      - link "Turn off menu" [ref=e337] [cursor=pointer]:
+        - /url: "#"

@@ -1,0 +1,173 @@
+- generic [active]:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e1807] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e1808] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button [ref=e1809] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Menu
+            - generic [ref=e29]:
+              - img [ref=e33]
+              - generic [ref=e37]: Sandbox (DEVLM2)
+          - button [ref=e1810] [cursor=pointer]:
+            - img [ref=e48]
+            - generic [ref=e51]: Show menu
+        - generic [ref=e52]:
+          - button [ref=e1811]:
+            - img [ref=e60]
+            - text: Search...
+          - navigation [ref=e1812]:
+            - list [ref=e65]:
+              - listitem [ref=e66]:
+                - group [ref=e67]:
+                  - button [ref=e1813] [cursor=pointer]:
+                    - img [ref=e74]
+                  - button [ref=e1814] [cursor=pointer]:
+                    - img [ref=e83]
+              - listitem [ref=e86]:
+                - button [ref=e1815] [cursor=pointer]:
+                  - img [ref=e836]
+              - listitem [ref=e95]:
+                - button [ref=e1816] [cursor=pointer]:
+                  - img [ref=e102]
+              - listitem [ref=e105]:
+                - button [ref=e1817] [cursor=pointer]:
+                  - img [ref=e113]
+              - listitem [ref=e116]:
+                - button [ref=e1818] [cursor=pointer]:
+                  - img [ref=e127]
+              - listitem [ref=e130]:
+                - button [ref=e1819] [cursor=pointer]:
+                  - img [ref=e139]
+              - listitem [ref=e143]:
+                - button [ref=e1820] [cursor=pointer]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - navigation [ref=e1821]:
+              - button [ref=e1822] [cursor=pointer]:
+                - generic [ref=e170]: App Launcher
+            - heading [level=1] [ref=e1823]:
+              - generic [ref=e1824]: PFS
+          - navigation [ref=e1825]:
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link [ref=e1826] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e179]: Home
+              - listitem [ref=e180]:
+                - link [ref=e1827] [cursor=pointer]:
+                  - /url: /lightning/n/Tasks
+                  - generic [ref=e182]: Tasks
+              - listitem [ref=e183]:
+                - link [ref=e1828] [cursor=pointer]:
+                  - /url: /lightning/o/Lead/home
+                  - generic [ref=e185]: Leads
+                - button [ref=e1829] [cursor=pointer]:
+                  - img [ref=e193]
+                  - generic [ref=e196]: Leads List
+              - listitem [ref=e197]:
+                - link [ref=e1830] [cursor=pointer]:
+                  - /url: /lightning/o/Campaign/home
+                  - generic [ref=e199]: Campaigns
+                - button [ref=e1831] [cursor=pointer]:
+                  - img [ref=e207]
+                  - generic [ref=e210]: Campaigns List
+              - listitem [ref=e211]:
+                - link [ref=e1832] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e213]: Accounts
+                - button [ref=e1833] [cursor=pointer]:
+                  - img [ref=e221]
+                  - generic [ref=e224]: Accounts List
+              - listitem [ref=e225]:
+                - link [ref=e1834] [cursor=pointer]:
+                  - /url: /lightning/o/Contact/home
+                  - generic [ref=e227]: Contacts
+                - button [ref=e1835] [cursor=pointer]:
+                  - img [ref=e235]
+                  - generic [ref=e238]: Contacts List
+              - listitem [ref=e239]:
+                - link [ref=e1836] [cursor=pointer]:
+                  - /url: /lightning/o/Opportunity/home
+                  - generic [ref=e241]: Opportunities
+                - button [ref=e1837] [cursor=pointer]:
+                  - img [ref=e249]
+                  - generic [ref=e252]: Opportunities List
+              - listitem [ref=e253]:
+                - link [ref=e1838] [cursor=pointer]:
+                  - /url: /lightning/o/Report/home
+                  - generic [ref=e255]: Reports
+                - button [ref=e1839] [cursor=pointer]:
+                  - img [ref=e263]
+                  - generic [ref=e266]: Reports List
+              - listitem [ref=e267]:
+                - link [ref=e1840] [cursor=pointer]:
+                  - /url: /lightning/o/Dashboard/home
+                  - generic [ref=e269]: Dashboards
+                - button [ref=e1841] [cursor=pointer]:
+                  - img [ref=e277]
+                  - generic [ref=e280]: Dashboards List
+              - listitem [ref=e281]:
+                - link [ref=e1842] [cursor=pointer]:
+                  - /url: /lightning/o/Threshold__c/home
+                  - generic [ref=e283]: Thresholds
+                - button [ref=e1843] [cursor=pointer]:
+                  - img [ref=e291]
+                  - generic [ref=e294]: Thresholds List
+              - listitem [ref=e295]:
+                - button [ref=e1844] [cursor=pointer]:
+                  - img [ref=e301]
+                  - generic [ref=e304]: Help
+        - main [ref=e306]:
+          - generic [ref=e310]:
+            - text: · · · · ·
+            - iframe [ref=e1806]
+    - 'dialog "New Account: Individual" [ref=e2774]':
+      - generic [ref=e1847]:
+        - button "Cancel and close" [ref=e2775] [cursor=pointer]:
+          - img [ref=e1850]
+          - generic [ref=e1853]: Cancel and close
+        - generic [ref=e1854]:
+          - generic [ref=e1861]:
+            - 'heading "New Account: Individual" [level=2] [ref=e2776]'
+            - generic [ref=e1865]:
+              - generic [ref=e1866]: "* = Required Information"
+              - generic [ref=e2780]:
+                - generic "Cancel" [ref=e2781]:
+                  - generic [ref=e2784]:
+                    - generic:
+                      - button "Cancel" [disabled]
+                - generic "Save & New" [ref=e2785]:
+                  - generic [ref=e2788]:
+                    - generic:
+                      - button "Save & New" [disabled]
+                - generic "Save" [ref=e2789]:
+                  - generic [ref=e2792]:
+                    - generic:
+                      - button "Save" [disabled]
+          - status [ref=e2644]
+  - generic:
+    - generic [ref=e2794]:
+      - generic [ref=e2796]:
+        - img [ref=e2798]
+        - generic [ref=e2801]: Success notification.
+      - generic [ref=e2802]:
+        - generic [ref=e2805]:
+          - text: Account "
+          - link "Test Fund New Account" [ref=e2806] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e2807]: Test Fund New Account
+          - text: "\" was created."
+        - generic [ref=e2808]: Press Control + F6 to navigate to the next toast notification or focusable region.
+      - button "Close" [ref=e2810] [cursor=pointer]:
+        - img [ref=e2814]
+        - generic [ref=e2817]: Close
+    - status

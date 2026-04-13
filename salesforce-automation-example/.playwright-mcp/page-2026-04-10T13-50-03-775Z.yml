@@ -1,0 +1,167 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#skiplink"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - table [ref=e5]:
+        - rowgroup [ref=e6]:
+          - 'row "Salesforce.com Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e7]':
+            - cell "Salesforce.com" [ref=e8]:
+              - img "Salesforce.com" [ref=e9]
+            - 'cell "Sandbox: DEVLM2 Switch to Lightning Experience Somya Sijaria SetupHelp & Training PFS" [ref=e10]':
+              - generic [ref=e11]:
+                - generic [ref=e14]: "Sandbox: DEVLM2"
+                - generic [ref=e17]:
+                  - link "Switch to Lightning Experience" [ref=e18] [cursor=pointer]:
+                    - /url: javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);
+                    - img [ref=e19]
+                    - text: Switch to Lightning Experience
+                  - generic "User menu for Somya Sijaria" [ref=e23] [cursor=pointer]:
+                    - generic [ref=e24]: Somya Sijaria
+                  - link "Setup" [ref=e26] [cursor=pointer]:
+                    - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/setup/forcecomHomepage.apexp?setupid=ForceCom&retURL=%2Fapex%2FInvestmentFundAccountSelection%3FoppId%3D006dz00000EAfUr%26oppRecordTypeName%3DRollover
+                  - link "Help & Training" [ref=e27] [cursor=pointer]:
+                    - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?resource=https%3A%2F%2Fhelp.salesforce.com%2F&version=2&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+                - generic "App Menu" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: PFS
+      - navigation [ref=e33]:
+        - heading "Tab Navigation" [level=1] [ref=e34]
+        - navigation [ref=e35]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/home/home.jsp
+            - listitem [ref=e39]:
+              - link "Tasks" [ref=e40] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/servlet/servlet.Integration?lid=01rG0000000owZn&ic=1&linkToken=VmpFPSxNakF5Tmkwd05DMHhNMVF4TXpvME56b3pNUzQ0TURsYSxaVXVEQ0JPVXNXeGU3dkZ0d1B2OC1xbklGb3FKU01BbmxHWHNIbVpydlQwPSxZV1prTUdKaA%3D%3D
+            - listitem [ref=e41]:
+              - link "Leads" [ref=e42] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/00Q/o
+            - listitem [ref=e43]:
+              - link "Campaigns" [ref=e44] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/701/o
+            - listitem [ref=e45]:
+              - link "Accounts" [ref=e46] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/001/o
+            - listitem [ref=e47]:
+              - link "Contacts" [ref=e48] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/003/o
+            - listitem [ref=e49]:
+              - link "Opportunities" [ref=e50] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/006/o
+            - listitem [ref=e51]:
+              - link "Reports" [ref=e52] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/00O/o
+            - listitem [ref=e53]:
+              - link "Dashboards" [ref=e54] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/01Z/o
+            - listitem [ref=e55]:
+              - link "Thresholds" [ref=e56] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/a1f/o
+            - listitem [ref=e57]:
+              - link "All Tabs" [ref=e58] [cursor=pointer]:
+                - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/home/showAllTabs.jsp
+                - img "All Tabs" [ref=e59]
+    - table [ref=e61]:
+      - rowgroup [ref=e62]:
+        - row "Content Starts Here" [ref=e63]:
+          - cell "Content Starts Here" [ref=e64]:
+            - img "Content Starts Here" [ref=e65] [cursor=pointer]
+            - generic [ref=e80]:
+              - banner [ref=e81]:
+                - heading "Fund Account Selection" [level=2] [ref=e82]
+              - generic [ref=e83]:
+                - article [ref=e85]:
+                  - generic [ref=e87]:
+                    - img [ref=e92]
+                    - heading "Information" [level=2] [ref=e96]:
+                      - generic [ref=e97]: Information
+                  - generic [ref=e100]:
+                    - generic [ref=e102]:
+                      - generic [ref=e109]:
+                        - generic [ref=e110]: "*Fund Account"
+                        - generic [ref=e115]:
+                          - img [ref=e251]
+                          - combobox "Fund Account" [ref=e118]: Test JHI IRA Fund Account
+                          - button "Clear Fund Account Selection" [ref=e254] [cursor=pointer]:
+                            - img [ref=e256]
+                            - generic [ref=e259]: Clear Fund Account Selection
+                        - status
+                      - generic [ref=e121]:
+                        - generic [ref=e122]: Opportunity
+                        - link "Rol - - TestEmployer_1774952750468" [ref=e124] [cursor=pointer]:
+                          - /url: /006dz00000EAfUr
+                    - generic [ref=e126]:
+                      - generic [ref=e132]:
+                        - generic [ref=e133]: "*% of Investment"
+                        - spinbutton "% of Investment" [ref=e135]: 39%
+                      - generic [ref=e141]:
+                        - generic [ref=e142]: "*IRAType"
+                        - generic [ref=e146]:
+                          - combobox "IRAType" [active] [ref=e147] [cursor=pointer]:
+                            - generic [ref=e148]: Roth
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - status
+                    - generic [ref=e150]:
+                      - generic [ref=e154]:
+                        - generic [ref=e155]: "*Fund Account Selection Type"
+                        - generic [ref=e159]:
+                          - combobox "Fund Account Selection Type" [ref=e160] [cursor=pointer]:
+                            - generic [ref=e161]: Participant Selection
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - status
+                      - generic [ref=e166]:
+                        - generic [ref=e167]: Fund Account Number Exists
+                        - checkbox "Fund Account Number Exists" [ref=e169]
+                    - generic [ref=e171]:
+                      - generic [ref=e176]:
+                        - generic [ref=e177]: Traditional Participant Selection Total
+                        - textbox "Traditional Participant Selection Total" [disabled] [ref=e179]
+                      - generic [ref=e185]:
+                        - generic [ref=e186]: Fund Account Number
+                        - textbox "Fund Account Number" [disabled] [ref=e188]
+                    - generic [ref=e195]:
+                      - generic [ref=e196]: Roth Participant Selection Total
+                      - textbox "Roth Participant Selection Total" [disabled] [ref=e198]
+                    - generic [ref=e199]:
+                      - button "Save & Close" [ref=e201] [cursor=pointer]
+                      - button "Save & New" [ref=e203] [cursor=pointer]
+                      - button "Close" [ref=e205] [cursor=pointer]
+                - article [ref=e208]:
+                  - heading "Related Fund Account Selections" [level=2] [ref=e212]:
+                    - generic [ref=e213]: Related Fund Account Selections
+                  - table [ref=e217]:
+                    - rowgroup [ref=e218]:
+                      - row "Fund Account Opportunity Name % of Investment IRA Type Fund Account Selection Type" [ref=e219]:
+                        - columnheader "Fund Account" [ref=e220]
+                        - columnheader "Opportunity Name" [ref=e221]
+                        - columnheader "% of Investment" [ref=e222]
+                        - columnheader "IRA Type" [ref=e223]
+                        - columnheader "Fund Account Selection Type" [ref=e224]
+                    - rowgroup
+    - generic [ref=e67]:
+      - text: Copyright © 2000-2026 salesforce.com, inc. All rights reserved. |
+      - link "Privacy Statement" [ref=e68] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/privacy.jsp
+      - text: "|"
+      - link "Security Statement" [ref=e69] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/security.jsp
+      - text: "|"
+      - link "Terms of Use" [ref=e70] [cursor=pointer]:
+        - /url: http://www.salesforce.com/company/msa.jsp
+      - text: "|"
+      - link "508 Compliance" [ref=e71] [cursor=pointer]:
+        - /url: javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&target=accessibility_overview.htm&section=accessibility&language=en_US&release=260.12.2&instance=USA952S&showSplash=true%27, %27Help%27, 700, 600, %27width=700,height=600,resizable=yes,toolbar=yes,status=no,scrollbars=yes,menubar=yes,directories=no,location=no,dependant=no%27, false, false);
+      - text: "|"
+      - link "Go to Salesforce mobile app" [ref=e72] [cursor=pointer]:
+        - /url: https://jhancock--devlm2.sandbox.my.salesforce.com/ltng/oneAppRedirect
+  - iframe [ref=e73]:
+    
