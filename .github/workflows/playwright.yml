@@ -1,24 +1,39 @@
 name: Playwright Monorepo CI
 
 on:
-  push:
-    branches: [ main ]
+  # push:
+  #   branches: [ main ]
   pull_request:
   workflow_dispatch:
-
-
+    inputs:
+      TEST_EXEC_EXECUTION_KEY:
+        description: 'Execution Key'
+        required: false
+        default: ''
+      TEST_EXEC_INPUT_TYPE:
+        description: 'Input Type'
+        required: true
+        default: 'Key'
+        type: choice
+        options:
+          - Key
+          - Label
+      TEST_EXEC_INPUT_VALUE:
+        description: 'Input Value'
+        required: true
+        default: ''
 jobs:
   build-test:
     runs-on: ubuntu-latest
+	 env:
+      SECRETS_JSON: ${{ toJSON(secrets) }}
 
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+     steps:
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       # =========================
       # Build playwright-custom-core
@@ -55,36 +70,31 @@ jobs:
         working-directory: salesforce-automation-example
         run: npm install
 
-      # - name: Write Salesforce private key to file
-      #   working-directory: salesforce-automation-example
-      #   run: echo "${{ secrets.SF_PRIVATE_KEY }}" > server.key
-
       - name: Write Salesforce private key to file
         working-directory: salesforce-automation-example
         run: printf "%b" "${{ secrets.SF_PRIVATE_KEY_PATH }}" > server.key
       # =========================
       # Create .env from secrets
       # =========================
-      - name: Generate .env file from secrets
-        working-directory: salesforce-automation-example
-        run: |
-          cat <<EOF > .env
-          SF_LOGIN_URL_FRONTDOOR=${{ secrets.SF_LOGIN_URL_FRONTDOOR }}
-          SF_LOGIN_URL=${{ secrets.SF_LOGIN_URL }}
-          SF_CLIENT_ID=${{ secrets.SF_CLIENT_ID }}
-          SF_CLIENT_SECRET=${{ secrets.SF_CLIENT_SECRET }}
-          SF_USERNAME=${{ secrets.SF_USERNAME }}
-          SF_PASSWORD=${{ secrets.SF_PASSWORD }}
-          SF_PRIVATE_KEY_PATH=server.key
-          EOF
 
-      - name: Debug server.key
+      - name: Create .env file from template and inputs
         working-directory: salesforce-automation-example
         run: |
-          echo "File size:"
-          ls -lh server.key
-          echo "First 5 lines:"
-          head -5 server.key
+          echo "$SECRETS_JSON" > secrets.json
+          rm -f .env
+          while IFS='=' read -r var _; do
+            clean_var=$(echo "$var" | sed 's/\$//g' | xargs)
+            value=$(jq -r --arg v "$clean_var" '.[$v] // empty' secrets.json)
+            [ -n "$value" ] && echo "$clean_var=$value" >> .env
+          done < .env.template
+          echo "TEST_EXEC_INPUT_TYPE=$TEST_EXEC_INPUT_TYPE" >> .env
+          echo "TEST_EXEC_INPUT_VALUE=$TEST_EXEC_INPUT_VALUE" >> .env
+          echo "SF_PRIVATE_KEY_PATH=server.key" >> .env
+        env:
+          SECRETS_JSON: ${{ toJSON(secrets) }}
+          TEST_EXEC_INPUT_TYPE: ${{ github.event.inputs.TEST_EXEC_INPUT_TYPE || github.event.client_payload.TEST_EXEC_INPUT_TYPE }}
+          TEST_EXEC_INPUT_VALUE: ${{ github.event.inputs.TEST_EXEC_INPUT_VALUE || github.event.client_payload.TEST_EXEC_INPUT_VALUE }}
+
 
       # =========================
       # Run Playwright Test
