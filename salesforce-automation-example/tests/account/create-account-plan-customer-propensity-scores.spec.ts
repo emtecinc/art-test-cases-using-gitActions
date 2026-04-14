@@ -59,6 +59,10 @@ test.describe('Account with Plan Customer - Propensity Scores @smoke', () => {
   });
 
   test('should create account with plan customer and update propensity scores @smoke', async ({ page }) => {
+    test.info().annotations.push({
+      type: 'test_key',
+      description: 'ART5',
+    });
     const entityData: AccountPlanCustomerData = {
       accountName: TestDataGenerator.uniqueName(csvRow.accountNamePrefix),
       accountSearchTerm: csvRow.accountSearchTerm,

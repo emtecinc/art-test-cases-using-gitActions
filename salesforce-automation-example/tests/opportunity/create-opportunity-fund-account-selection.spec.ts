@@ -60,6 +60,10 @@ test.describe('Opportunity - Create with Fund Account Selection @smoke', () => {
 
   test('should create opportunity with fund account selection @smoke', async ({ page }, testInfo) => {
     // Prepare unique opportunity name from CSV prefix
+    test.info().annotations.push({
+      type: 'test_key',
+      description: 'ART3',
+    });
     const opportunityName = TestDataGenerator.uniqueName(csvRow.namePrefix);
 
     let opportunityRecordId = '';
