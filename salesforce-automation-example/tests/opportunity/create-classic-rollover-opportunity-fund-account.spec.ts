@@ -62,6 +62,10 @@ test.describe('Opportunity - Create Classic Rollover with Fund Account Selection
   test(
     'should create classic rollover opportunity with fund account selection @smoke',
     async ({ page }, testInfo) => {
+      test.info().annotations.push({
+      type: 'test_key',
+      description: 'ART2',
+    });
       // Prepare unique opportunity name from CSV prefix
       const opportunityName = TestDataGenerator.uniqueName(csvRow.namePrefix);
       // Classic Rollover record type uses a formula override for the Opportunity Name:
