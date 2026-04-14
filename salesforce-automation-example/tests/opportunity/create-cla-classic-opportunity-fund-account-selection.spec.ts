@@ -61,6 +61,10 @@ test.describe('Opportunity - Create CLA Classic with Fund Account Selection @smo
   test(
     'should create CLA Classic opportunity with fund account selection @smoke',
     async ({ page }, testInfo) => {
+      test.info().annotations.push({
+      type: 'test_key',
+      description: 'ART1',
+    });
       // Prepare unique opportunity name from CSV prefix
       const opportunityName = TestDataGenerator.uniqueName(csvRow.namePrefix);
       // CLA Classic record type uses a formula override for the Opportunity Name:
