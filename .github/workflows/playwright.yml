@@ -1,0 +1,99 @@
+name: Playwright Monorepo CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # =========================
+      # Build playwright-custom-core
+      # =========================
+      - name: Install core dependencies
+        working-directory: playwright-custom-core
+        run: npm install
+
+      - name: Build core package
+        working-directory: playwright-custom-core
+        run: npm run build
+
+      - name: Create npm package
+        working-directory: playwright-custom-core
+        run: npm pack
+
+      - name: Get package name
+        id: pkg
+        working-directory: playwright-custom-core
+        run: |
+          FILE=$(ls *.tgz)
+          echo "FILE=$FILE" >> $GITHUB_ENV
+
+      - name: Upload core package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-core-package
+          path: playwright-custom-core/${{ env.FILE }}
+
+      # =========================
+      # Setup salesforce-automation-example
+      # =========================
+      - name: Install automation dependencies
+        working-directory: salesforce-automation-example
+        run: npm install
+
+      # - name: Write Salesforce private key to file
+      #   working-directory: salesforce-automation-example
+      #   run: echo "${{ secrets.SF_PRIVATE_KEY }}" > server.key
+
+      - name: Write Salesforce private key to file
+        working-directory: salesforce-automation-example
+        run: printf "%b" "${{ secrets.SF_PRIVATE_KEY_PATH }}" > server.key
+      # =========================
+      # Create .env from secrets
+      # =========================
+      - name: Generate .env file from secrets
+        working-directory: salesforce-automation-example
+        run: |
+          cat <<EOF > .env
+          SF_LOGIN_URL_FRONTDOOR=${{ secrets.SF_LOGIN_URL_FRONTDOOR }}
+          SF_LOGIN_URL=${{ secrets.SF_LOGIN_URL }}
+          SF_CLIENT_ID=${{ secrets.SF_CLIENT_ID }}
+          SF_CLIENT_SECRET=${{ secrets.SF_CLIENT_SECRET }}
+          SF_USERNAME=${{ secrets.SF_USERNAME }}
+          SF_PASSWORD=${{ secrets.SF_PASSWORD }}
+          SF_PRIVATE_KEY_PATH=server.key
+          EOF
+
+      - name: Debug server.key
+        working-directory: salesforce-automation-example
+        run: |
+          echo "File size:"
+          ls -lh server.key
+          echo "First 5 lines:"
+          head -5 server.key
+
+      # =========================
+      # Run Playwright Test
+      # =========================
+      - name: Install Playwright Browsers
+        working-directory: salesforce-automation-example
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright Test
+        working-directory: salesforce-automation-example
+        run: |
+          npx ts-node Run.ts
