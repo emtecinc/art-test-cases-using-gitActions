@@ -22,14 +22,13 @@ on:
         description: 'Input Value'
         required: true
         default: ''
+
 jobs:
   build-test:
     runs-on: ubuntu-latest
-	 env:
+    env:
       SECRETS_JSON: ${{ toJSON(secrets) }}
-
-     steps:
-
+    steps:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
