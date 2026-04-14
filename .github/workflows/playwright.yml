@@ -1,8 +1,8 @@
 name: Playwright Monorepo CI
 
 on:
-  # push:
-  #   branches: [ main ]
+  push:
+    branches: [ main ]
   pull_request:
   workflow_dispatch:
     inputs:
@@ -29,6 +29,9 @@ jobs:
     env:
       SECRETS_JSON: ${{ toJSON(secrets) }}
     steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
