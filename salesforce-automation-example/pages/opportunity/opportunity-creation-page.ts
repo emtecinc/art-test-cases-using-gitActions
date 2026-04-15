@@ -150,6 +150,7 @@ export class OpportunityCreationPage extends BasePage {
         (p) => p.getByRole('dialog').locator('span.slds-form-element__label').filter({ hasText: new RegExp(`^${recordTypeName}$`) }),
       ]);
       await expect(radio.getLocator()).toBeVisible({ timeout: 15_000 });
+      await radio.getLocator().scrollIntoViewIfNeeded();
       await radio.getLocator().click({ force: true });
     } catch (error) {
       console.error(`Failed to select record type: ${recordTypeName}`);
