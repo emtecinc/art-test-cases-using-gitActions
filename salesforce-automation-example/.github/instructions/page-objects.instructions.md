@@ -86,8 +86,8 @@ export class SalesforcePage extends BasePage {
   // Open App Launcher → search → click matching item
   async navigateToAppViaAppLauncher(appName: string): Promise<void> { ... }
 
-  // Screenshot for important steps and failure
-  // ALWAYS call captureScreenshot(page: Page, testInfo: TestInfo, name: string) from playwright-custom-core's base-page, do NOT override/reimplement in BasePage
+  // Screenshot — inherited from BasePage (playwright-custom-core), do NOT reimplement
+  // captureScreenshot(page: Page, testInfo: TestInfo, name: string): Promise<void>
 }
 ```
 
@@ -101,9 +101,13 @@ SF-Basepage grows **incrementally**. Add methods only when a test needs them:
 2. Exists → Reuse via workflow
 3. Doesn't exist → Add to `sf-page.ts` (if generic) or object page (if object-specific)
 
-### Navigation via App Launcher
+### Navigation Priority (Strict Order)
 
-All object navigation uses App Launcher through `SalesforcePage` methods. Workflow calls `sfPage.navigateToAppViaAppLauncher('ObjectName')` — page objects do not handle top-level navigation.
+**App Launcher → Global Actions → Global Search → Direct URL**
+
+- All object navigation uses App Launcher through `SalesforcePage` methods
+- Workflow calls `sfPage.navigateToAppViaAppLauncher('ObjectName')` — page objects do not handle top-level navigation
+- Only if the object cannot be found via App Launcher, escalate to the next method in priority order
 
 ## Locator Rules
 
@@ -135,7 +139,7 @@ private get nameInput() {
 
 **Exception:** Overlays (toasts, modals, dropdowns) render globally — do NOT scope to `c-*`.
 
-### Locator Priority Order
+### Locator Priority (Strict Order)
 
 1. `getByRole` → 2. `getByLabel` → 3. `getByPlaceholder` → 4. `getByText` → 5. `data-testid`/`data-id` → 6. Minimal CSS
 
@@ -219,22 +223,27 @@ await dialog.getByRole('textbox', { name: 'Email', exact: true }).fill(email);
 
 ## Action Methods
 
-All action methods are `public async` with `try/catch`:
+All action methods are `public async` with `try/catch`. **Every catch block MUST call `captureScreenshot()` before rethrowing.**
 
 ```typescript
 async fillAccountName(name: string): Promise<void> {
   try {
     await this.accountNameInput.getLocator().fill(name);
   } catch (error) {
-    console.error('Failed to fill Account Name');
-    // Capture screenshot on failure using 
-      this.sfPage.captureScreenshot(this['page'], this['testInfo'], 'fill-account-name-failure.png');
-    throw error;
+    console.error(`Failed to fill Account Name: ${name}`);
+    await this.captureScreenshot(this['page'], this['testInfo'], 'fill-account-name-failure');
+    throw new Error(`fillAccountName failed: ${String(error)}`);
   }
 }
 ```
 
 ### Save/Create Methods Must Wait for Completion
+
+Save/create methods MUST:
+1. Click the save/create button
+2. Wait for spinner to clear
+
+Toast verification is a **separate page method** (`verifySuccessToast`) — called independently by the workflow. See `workflows.instructions.md`.
 
 ```typescript
 async clickSave(): Promise<void> {
@@ -242,10 +251,9 @@ async clickSave(): Promise<void> {
     await this.saveButton.getLocator().click();
     await this['page'].locator('.slds-spinner').waitFor({ state: 'hidden', timeout: 15000 }).catch(() => {});
   } catch (error) {
-    console.error('Failed to click Save');
-    // Capture screenshot on failure using 
-    this.sfPage.captureScreenshot(this['page'], this['testInfo'], 'click-save-failure.png');
-    throw error;
+    console.error('Failed to click Save button');
+    await this.captureScreenshot(this['page'], this['testInfo'], 'click-save-failure');
+    throw new Error(`clickSave failed: ${String(error)}`);
   }
 }
 ```
@@ -261,10 +269,8 @@ async verifyHeadingContains(expectedText: string): Promise<void> {
     await expect(heading).toBeVisible({ timeout: 15000 });
   } catch (error) {
     console.error(`Failed to verify heading: ${expectedText}`);
-    // Capture screenshot on failure using
-    this.sfPage.captureScreenshot(this['page'], this['testInfo'], 'verify-heading-failure.png');
-
-    throw error;
+    await this.captureScreenshot(this['page'], this['testInfo'], 'verify-heading-failure');
+    throw new Error(`verifyHeadingContains failed: ${String(error)}`);
   }
 }
 ```
@@ -299,10 +305,12 @@ async selectComboboxOption(comboboxName: string, optionText: string): Promise<vo
 
 ## Anti-Patterns
 
-- Never cache locators across page transitions — use getters
-- Never use `pressSequentially` — use `fill()`
-- Never use `waitForTimeout()` — see `salesforce-stability.instructions.md`
-- Never duplicate SF-Basepage actions in object pages
-- Never put object-specific logic in SF-Basepage
-
-```
+| ❌ Never | ✅ Instead |
+|---|---|
+| `resilientLocator.click()` directly | `resilientLocator.getLocator().click()` |
+| Cache locators across page transitions | Use getter properties (re-resolved on each access) |
+| `pressSequentially` | `fill()` |
+| `waitForTimeout()` | Web-first assertions — see `salesforce-stability.instructions.md` |
+| Duplicate SF-Basepage actions in object pages | Check and reuse `sf-page.ts` |
+| Object-specific logic in SF-Basepage | Add to object page — never SF-Basepage |
+| Throw from toast verification methods | Toast is transient — warn only, never throw |

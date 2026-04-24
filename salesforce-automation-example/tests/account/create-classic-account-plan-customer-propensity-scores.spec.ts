@@ -7,7 +7,7 @@ import {
   ClassicAccountPlanCustomerData,
 } from '../../workflows/account/create-classic-account-plan-customer-propensity-scores-workflow';
 
-test.describe('Classic Account with Plan Customer - Propensity Scores @smoke', () => {
+test.describe('Classic Account with Plan Customer - Propensity Scores', () => {
   let workflow: CreateClassicAccountPlanCustomerPropensityScoresWorkflow;
   let dataFactory: SFDataFactory;
   let csvRow: Record<string, string>;
@@ -55,11 +55,7 @@ test.describe('Classic Account with Plan Customer - Propensity Scores @smoke', (
     await dataFactory.teardown();
   });
 
-  test('should create classic account with plan customer and update propensity score @smoke', async ({ page }, testInfo) => {
-    test.info().annotations.push({
-      type: 'test_key',
-      description: 'ART6',
-    });
+  test('should create classic account with plan customer and update propensity score', { tag: ['@ART6', '@smoke'] }, async ({ page }) => {
     const entityData: ClassicAccountPlanCustomerData = {
       accountName: TestDataGenerator.uniqueName(csvRow.accountNamePrefix),
       accountSearchTerm: csvRow.accountSearchTerm,

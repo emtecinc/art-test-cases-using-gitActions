@@ -262,6 +262,35 @@ export class SFDataFactory {
     }
 
     /**
+     * Wait for the browser URL to resolve to a full Salesforce record detail page
+     * (`/lightning/r/<Object>/<RecordId>/view`), then extract and register for cleanup.
+     *
+     * After saving a record, Salesforce may not immediately redirect or may briefly
+     * show a transitional URL. This method polls via `page.waitForURL()` until the
+     * full record-page pattern is matched, then delegates to `registerRecordFromUrl()`.
+     *
+     * @param page - Playwright Page object
+     * @param name - Optional display name for logging
+     * @param timeout - Max wait time in ms (default: 30000)
+     * @returns Object with `objectApiName` and `recordId`
+     * @throws Error if URL does not resolve to a record page within the timeout
+     *
+     * @example
+     * ```ts
+     * const { objectApiName, recordId } = await dataFactory.waitAndRegisterRecordFromUrl(page, 'My Contact');
+     * ```
+     */
+    async waitAndRegisterRecordFromUrl(
+        page: { url: () => string; waitForURL: (url: RegExp, options?: { timeout?: number }) => Promise<void> },
+        name?: string,
+        timeout: number = 30_000,
+    ): Promise<{ objectApiName: string; recordId: string }> {
+        const recordUrlPattern = /\/lightning\/r\/[A-Za-z_][A-Za-z0-9_]*\/[a-zA-Z0-9]{15,18}\/view/;
+        await page.waitForURL(recordUrlPattern, { timeout });
+        return this.registerRecordFromUrl(page.url(), name);
+    }
+
+    /**
      * Create a record in Salesforce via REST API.
      * Automatically registers the created record for cleanup.
      *

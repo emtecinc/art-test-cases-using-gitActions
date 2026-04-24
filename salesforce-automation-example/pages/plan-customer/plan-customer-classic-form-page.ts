@@ -1,4 +1,4 @@
-import { Page, expect } from '@playwright/test';
+import { Page, expect, test } from '@playwright/test';
 import { BasePage, ResilientLocator } from 'playwright-custom-core';
 
 /**
@@ -40,7 +40,8 @@ export class PlanCustomerClassicFormPage extends BasePage {
       await locator.fill(name);
     } catch (error) {
       console.error('Failed to fill Plan Customer Name on Classic form');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'fill-plan-customer-name-failure');
+      throw new Error(`fillName failed: ${String(error)}`);
     }
   }
 
@@ -50,7 +51,8 @@ export class PlanCustomerClassicFormPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to click Save on Classic Plan Customer form');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-save-plan-customer-failure');
+      throw new Error(`clickSave failed: ${String(error)}`);
     }
   }
 
@@ -62,7 +64,8 @@ export class PlanCustomerClassicFormPage extends BasePage {
       await expect(heading).toBeVisible({ timeout: 15_000 });
     } catch (error) {
       console.error('Failed to verify Classic Plan Customer form is displayed');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-plan-customer-form-failure');
+      throw new Error(`verifyFormDisplayed failed: ${String(error)}`);
     }
   }
 }

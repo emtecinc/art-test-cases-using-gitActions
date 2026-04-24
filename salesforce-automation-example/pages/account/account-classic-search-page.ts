@@ -1,4 +1,4 @@
-import { Page, expect } from '@playwright/test';
+import { Page, expect, test } from '@playwright/test';
 import { BasePage, ResilientLocator } from 'playwright-custom-core';
 
 /**
@@ -60,7 +60,8 @@ export class AccountClassicSearchPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to search account on Classic search page');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'search-account-failure');
+      throw new Error(`searchAccount failed: ${String(error)}`);
     }
   }
 
@@ -72,7 +73,8 @@ export class AccountClassicSearchPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to click New in Classic search results');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-new-in-search-results-failure');
+      throw new Error(`clickNewInSearchResults failed: ${String(error)}`);
     }
   }
 
@@ -84,7 +86,8 @@ export class AccountClassicSearchPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to select record type and click Continue');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'select-record-type-continue-failure');
+      throw new Error(`selectRecordTypeAndContinue failed: ${String(error)}`);
     }
   }
 
@@ -96,7 +99,8 @@ export class AccountClassicSearchPage extends BasePage {
       await expect(heading).toBeVisible({ timeout: 15_000 });
     } catch (error) {
       console.error('Failed to verify search results displayed');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-search-results-failure');
+      throw new Error(`verifySearchResultsDisplayed failed: ${String(error)}`);
     }
   }
 
@@ -106,7 +110,8 @@ export class AccountClassicSearchPage extends BasePage {
       await expect(heading).toBeVisible({ timeout: 15_000 });
     } catch (error) {
       console.error('Failed to verify record type selection page');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-record-type-selection-failure');
+      throw new Error(`verifyRecordTypeSelectionDisplayed failed: ${String(error)}`);
     }
   }
 }

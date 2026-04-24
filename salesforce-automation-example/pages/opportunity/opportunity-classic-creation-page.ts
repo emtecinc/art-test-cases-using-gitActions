@@ -1,4 +1,4 @@
-import { Page, expect } from '@playwright/test';
+import { Page, expect, test } from '@playwright/test';
 import { BasePage, ResilientLocator } from 'playwright-custom-core';
 
 /**
@@ -76,6 +76,14 @@ export class OpportunityClassicCreationPage extends BasePage {
     ]);
   }
 
+  private get accountNameLookupLink() {
+    return new ResilientLocator(this['page'], [
+      (p) => p.locator('a[title="Account Name Lookup (New Window)"]'),
+      (p) => p.getByRole('link', { name: 'Account Name Lookup (New Window)' }),
+      (p) => p.locator('a[href*="lknm=opp4"]'),
+    ]);
+  }
+
   private get stageSelect() {
     return new ResilientLocator(this['page'], [
       (p) => p.locator('select[id="opp11"]'),
@@ -112,7 +120,8 @@ export class OpportunityClassicCreationPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to click New button on Classic Opportunities list page');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-new-classic-list-failure');
+      throw new Error(`clickNewOnClassicListPage failed: ${String(error)}`);
     }
   }
 
@@ -129,7 +138,8 @@ export class OpportunityClassicCreationPage extends BasePage {
       await expect(this.opportunityNameInput.getLocator()).toBeVisible({ timeout: 20_000 });
     } catch (error) {
       console.error(`Failed to select record type ${recordTypeId} and continue`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'select-record-type-continue-failure');
+      throw new Error(`selectRecordTypeAndContinue failed: ${String(error)}`);
     }
   }
 
@@ -142,7 +152,8 @@ export class OpportunityClassicCreationPage extends BasePage {
       await expect(this.opportunityNameInput.getLocator()).toBeVisible({ timeout: 20_000 });
     } catch (error) {
       console.error('Failed to navigate to Classic Opportunity create form');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'navigate-classic-create-form-failure');
+      throw new Error(`navigateToClassicCreateForm failed: ${String(error)}`);
     }
   }
 
@@ -151,7 +162,8 @@ export class OpportunityClassicCreationPage extends BasePage {
       await this.opportunityNameInput.getLocator().fill(name);
     } catch (error) {
       console.error(`Failed to fill Opportunity Name: ${name}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'fill-opportunity-name-failure');
+      throw new Error(`fillOpportunityName failed: ${String(error)}`);
     }
   }
 
@@ -163,7 +175,85 @@ export class OpportunityClassicCreationPage extends BasePage {
       await this.accountNameInput.getLocator().fill(accountName);
     } catch (error) {
       console.error(`Failed to fill Account Name: ${accountName}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'fill-account-name-failure');
+      throw new Error(`fillAccountName failed: ${String(error)}`);
+    }
+  }
+
+  /**
+   * Opens the Account Name popup lookup window, searches for the account,
+   * and selects the matching result. This properly sets BOTH the display name
+   * AND the hidden AccountId — required for Classic save validation to pass.
+   *
+   * Classic Opportunity Account Name validation requires the AccountId to be set.
+   * Simply filling the text input (`fillAccountName`) leaves AccountId unset,
+   * causing the "Opportunities can only be created for an Individual or Employer Account"
+   * error on save. This method resolves the account via the popup window lookup.
+   *
+   * @param searchTerm - Short search term for the popup search box (e.g. "test")
+   * @param accountName - The exact account name to click in results (e.g. "TestEmployer_...")
+   */
+  async fillAccountNameViaLookupPopup(searchTerm: string, accountName: string): Promise<void> {
+    try {
+      // Pre-fill the display textbox so it shows the account name before popup resolution
+      await this.accountNameInput.getLocator().fill(accountName);
+
+      // Retry popup open up to 2 times — Classic JS popups can occasionally fail to open
+      let popupPage: import('@playwright/test').Page | null = null;
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const popupPromise = this['page'].waitForEvent('popup', { timeout: 30_000 });
+          await this.accountNameLookupLink.getLocator().click();
+          popupPage = await popupPromise;
+          break;
+        } catch {
+          console.warn(`Account Name lookup popup did not open (attempt ${attempt + 1})`);
+          if (attempt === 1) throw new Error('Account Name lookup popup failed to open after 2 attempts');
+        }
+      }
+      if (!popupPage) throw new Error('Account Name lookup popup did not open');
+
+      // Popup is a frameset with searchFrame and resultsFrame (same structure as Plan lookup)
+      const searchFrame = popupPage.frameLocator('frame[name="searchFrame"]');
+
+      // Search for the account
+      const searchInput = searchFrame.locator('input[name="lksrch"]');
+      await expect(searchInput).toBeVisible({ timeout: 20_000 });
+      await searchInput.fill(searchTerm);
+      // Press Enter to submit, as an alternative to clicking the Go button
+      await searchInput.press('Enter');
+
+      // Use frameLocator for the results frame — it auto-waits for the frame to appear
+      // unlike the synchronous frame() method which returns null if not yet loaded
+      const resultsFrame = popupPage.frameLocator('frame[name="resultsFrame"]');
+
+      // Wait for any link to appear in results (confirms results loaded after search)
+      await expect(resultsFrame.locator('a').first()).toBeVisible({ timeout: 20_000 });
+
+      // Diagnostic: log all link texts to understand what results are displayed
+      const resultsFrameObj = popupPage.frame({ name: 'resultsFrame' });
+      if (resultsFrameObj) {
+        const allLinkTexts = await resultsFrameObj.evaluate(() =>
+          Array.from(document.querySelectorAll('a')).map((a) => a.textContent?.trim())
+        );
+        console.log('[DEBUG] Result links in resultsFrame:', JSON.stringify(allLinkTexts));
+      }
+
+      // Click the matching account in results — this calls lookupPick() on the parent form
+      // which sets both the display name (#opp4) and the hidden AccountId
+      const resultLink = resultsFrame.locator('a').filter({ hasText: accountName }).first();
+      await expect(resultLink).toBeVisible({ timeout: 15_000 });
+      await resultLink.click();
+
+      // Wait for popup to close (best-effort)
+      await Promise.race([
+        popupPage.waitForEvent('close', { timeout: 30_000 }),
+        new Promise<void>((resolve) => setTimeout(resolve, 2_000)),
+      ]);
+    } catch (error) {
+      console.error(`Failed to fill Account Name via lookup popup: ${accountName}`);
+      await this.captureScreenshot(this['page'], test.info(), 'fill-account-name-lookup-failure');
+      throw new Error(`fillAccountNameViaLookupPopup failed: ${String(error)}`);
     }
   }
 
@@ -231,7 +321,8 @@ export class OpportunityClassicCreationPage extends BasePage {
       }
     } catch (error) {
       console.error(`Failed to fill Plan lookup and select: ${planName}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'fill-plan-lookup-failure');
+      throw new Error(`fillPlanLookupAndSelect failed: ${String(error)}`);
     }
   }
 
@@ -240,7 +331,8 @@ export class OpportunityClassicCreationPage extends BasePage {
       await this.stageSelect.getLocator().selectOption(stage);
     } catch (error) {
       console.error(`Failed to select Stage: ${stage}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'select-stage-failure');
+      throw new Error(`selectStage failed: ${String(error)}`);
     }
   }
 
@@ -251,24 +343,43 @@ export class OpportunityClassicCreationPage extends BasePage {
       await input.press('Tab');
     } catch (error) {
       console.error(`Failed to fill Close Date: ${date}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'fill-close-date-failure');
+      throw new Error(`fillCloseDate failed: ${String(error)}`);
     }
   }
 
   /**
    * Clicks Save and waits for the redirect to the Opportunity detail page.
-   * After saving, Salesforce Classic either stays in Classic or redirects to
-   * the Lightning detail page depending on org settings. We wait for navigation
-   * to complete.
+   * Uses a race between successful URL navigation and Classic validation-error display.
+   * Classic validation errors keep the URL at /006/e; we detect and report them fast.
    */
   async clickSave(): Promise<void> {
     try {
       await this.saveButton.getLocator().click();
-      // Wait for navigation away from the edit form
-      await this['page'].waitForURL((url) => !url.href.includes('/006/e'), { timeout: 30_000 });
+
+      // Race: either the URL leaves /006/e (success) or a Classic error banner appears (failure).
+      // Timeout is 60 s to accommodate slow sandbox responses.
+      const navigatedAway = this['page']
+        .waitForURL((url) => !url.href.includes('/006/e'), { timeout: 60_000 });
+
+      const errorAppeared = this['page']
+        .locator('.errorMsg, .message.errorM3, .pbError')
+        .first()
+        .waitFor({ state: 'visible', timeout: 60_000 })
+        .then(async () => {
+          const errorText = await this['page']
+            .locator('.errorMsg, .message.errorM3, .pbError')
+            .first()
+            .textContent()
+            .catch(() => 'Unknown Classic validation error');
+          throw new Error(`Salesforce Classic validation error on Save: ${errorText?.trim()}`);
+        });
+
+      await Promise.race([navigatedAway, errorAppeared]);
     } catch (error) {
       console.error('Failed to click Save on Classic Opportunity form');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-save-classic-opportunity-failure');
+      throw new Error(`clickSave failed: ${String(error)}`);
     }
   }
 
@@ -279,7 +390,8 @@ export class OpportunityClassicCreationPage extends BasePage {
       await expect(this.opportunityNameInput.getLocator()).toBeVisible({ timeout: 20_000 });
     } catch (error) {
       console.error('Classic Opportunity creation form is not visible');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-form-loaded-failure');
+      throw new Error(`verifyFormLoaded failed: ${String(error)}`);
     }
   }
 }

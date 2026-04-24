@@ -1,4 +1,4 @@
-import { Page, expect } from '@playwright/test';
+import { Page, expect, test } from '@playwright/test';
 import { BasePage, ResilientLocator } from 'playwright-custom-core';
 
 /**
@@ -67,7 +67,8 @@ export class AccountClassicDetailPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to click Accounts nav link in Classic');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-accounts-nav-failure');
+      throw new Error(`clickAccountsNavLink failed: ${String(error)}`);
     }
   }
 
@@ -77,7 +78,8 @@ export class AccountClassicDetailPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to click New button on Classic Accounts list');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-new-account-failure');
+      throw new Error(`clickNewAccountButton failed: ${String(error)}`);
     }
   }
 
@@ -89,7 +91,8 @@ export class AccountClassicDetailPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error(`Failed to click account link: ${accountName}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-account-link-failure');
+      throw new Error(`clickAccountLink failed: ${String(error)}`);
     }
   }
 
@@ -103,7 +106,8 @@ export class AccountClassicDetailPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to click Edit button on Classic Account detail');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-edit-button-failure');
+      throw new Error(`clickEditButton failed: ${String(error)}`);
     }
   }
 
@@ -114,7 +118,8 @@ export class AccountClassicDetailPage extends BasePage {
       await link.click();
     } catch (error) {
       console.error('Failed to click Plan Customers related list link');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-plan-customers-link-failure');
+      throw new Error(`clickPlanCustomersRelatedListLink failed: ${String(error)}`);
     }
   }
 
@@ -126,7 +131,8 @@ export class AccountClassicDetailPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to click New Plan Customer button');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-new-plan-customer-failure');
+      throw new Error(`clickNewPlanCustomerButton failed: ${String(error)}`);
     }
   }
 
@@ -138,7 +144,8 @@ export class AccountClassicDetailPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error(`Failed to click Plan Customer link: ${name}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-plan-customer-link-failure');
+      throw new Error(`clickPlanCustomerLink failed: ${String(error)}`);
     }
   }
 
@@ -150,7 +157,8 @@ export class AccountClassicDetailPage extends BasePage {
       await expect(heading).toBeVisible({ timeout: 30_000 });
     } catch (error) {
       console.error(`Failed to verify account detail page for: ${accountName}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-account-detail-failure');
+      throw new Error(`verifyAccountDetailDisplayed failed: ${String(error)}`);
     }
   }
 
@@ -160,7 +168,8 @@ export class AccountClassicDetailPage extends BasePage {
       await expect(heading).toBeVisible({ timeout: 15_000 });
     } catch (error) {
       console.error('Failed to verify Accounts list page');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-accounts-list-failure');
+      throw new Error(`verifyAccountsListDisplayed failed: ${String(error)}`);
     }
   }
 
@@ -171,7 +180,8 @@ export class AccountClassicDetailPage extends BasePage {
       await expect(scoreCell).toContainText(expectedScore, { timeout: 15_000 });
     } catch (error) {
       console.error(`Failed to verify Conversion Propensity Score: ${expectedScore}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-propensity-score-failure');
+      throw new Error(`verifyConversionPropensityScore failed: ${String(error)}`);
     }
   }
 }

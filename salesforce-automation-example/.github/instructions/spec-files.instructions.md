@@ -19,7 +19,7 @@ import { CreateEntityWorkflow } from '../../workflows/<object>/create-entity-wor
 
 ## Zero Locators — Zero Assertions — High-Level Workflow Calls Only
 
-| ✅ Spec CAN | ❌ Spec MUST NOT |
+| ✅ Spec MUST ALWAYS | ❌ Spec MUST NEVER |
 |-------------|------------------|
 | Import `test` from `@playwright/test` | Import `expect` |
 | Call **high-level** workflow methods (`createEntity()`, `verifyEntityCreated()`) | Call granular workflow steps (`clickNewButton()`, `fillField()`, `clickSave()`) |
@@ -34,40 +34,44 @@ The **only place** specs may use `page.locator()` / `page.getByRole()` is inside
 1. **Duplicate detection dialog** — closes "Similar Records Exist" dialog
 2. **Toast auto-dismiss** — prevents toast overlays from blocking subsequent interactions
 
-These handlers are **boilerplate infrastructure**, not test logic. Copy them verbatim from the template below.
+These handlers are **boilerplate infrastructure**, not test logic. Copy verbatim from the template below.
 
 ## Verification Chain: Spec → Workflow → Page (CRITICAL)
 
 Assertions follow a strict delegation chain:
 
 ```
-Spec calls: workflow.verifySuccessToast(name)    ← high-level call
-  └─ Workflow: this.testStep('Verify toast', () => this.creationPage.verifyToastMessage(name))
-       └─ Page Object: await expect(toast).toContainText(name)    ← expect() lives HERE only
+Spec calls: workflow.verifyEntityCreated(data)    ← high-level call
+  └─ Workflow: this.testStep('Verify entity name', () => this.detailPage.verifyEntityName(data.name))
+       └─ Page Object: await expect(heading).toContainText(data.name)    ← expect() lives HERE only
 ```
 
 - **Spec:** calls workflow verification methods — never calls `expect()` directly
 - **Workflow:** delegates to page object verification methods via `this.testStep()` — never imports `expect`
 - **Page Object:** contains all `expect()` assertions — the ONLY layer that imports `expect`
 
-## Cleanup Registration — Dual Approach (CRITICAL)
+## Cleanup Registration — try/catch/finally Pattern (CRITICAL)
 
-Every record created during a test MUST be registered for cleanup. The approach depends on **how the record was created**:
+Every record created during a test MUST be registered for cleanup. Toast verification + cleanup MUST be wrapped in `try/catch/finally` to guarantee cleanup runs regardless of toast success.
+
+### Canonical Post-Creation Sequence in Specs
+
+```
+1. Call workflow create method           (handles save internally)
+2. try/catch/finally: toast + cleanup    (toast is best-effort, cleanup in finally)
+3. Call workflow verification methods     (assert the record was created correctly)
+```
 
 ### Decision Rule
 
-| Creation Type | UI Behavior After Save | Cleanup Approach |
-|---|---|---|
-| Primary record (form → Save) | Redirects to record detail page | **URL Extraction** — `dataFactory.registerRecordFromUrl(page.url(), name)` |
-| Inline/related record | Stays on current page (no redirect) | **Unique Value Lookup** — `dataFactory.getRecordIdByField(objectApiName, uniqueField, value)` |
+| After save... | Use |
+|---|---|
+| Page redirected to record detail URL | `dataFactory.registerRecordFromUrl(page.url(), name)` |
+| Page did NOT redirect (inline, modal, quick action, embedded) | `await dataFactory.getRecordIdByField(objectApiName, field, value)` |
 
-- Usage of approaches is present in `.github/utility/sf-data-factory.md`.
-
-### Why try/catch/finally?
-
-- Toast messages auto-dismiss quickly and verification may fail intermittently
-- Record cleanup MUST happen regardless of test pass/fail
-- Without this pattern, a failed toast assertion skips cleanup → orphaned records
+- See `utilities/sf-data-factory.md` for full API reference and usage patterns.
+- Never use both URL extraction and unique value lookup for the same record.
+- The workflow handles toast; the **spec** handles identity and cleanup.
 
 ## Complete Spec Template
 
@@ -79,7 +83,7 @@ import { CsvReader, TestDataGenerator, SFDataFactory } from 'playwright-custom-c
 // import { COMPONENT_OBJECT_MAP } from '../../data/component-object-mapping';
 import { CreateEntityWorkflow } from '../../workflows/<object>/create-entity-workflow';
 
-test.describe('Entity Creation - Scenario Name @smoke', () => {
+test.describe('Entity Creation - Scenario Name', () => {
   let workflow: CreateEntityWorkflow;
   let dataFactory: SFDataFactory;
   let csvRow: Record<string, string>;
@@ -102,7 +106,7 @@ test.describe('Entity Creation - Scenario Name @smoke', () => {
     // 3. Close all open tabs for a clean workspace
     await workflow.closeAllPrimaryTabs();
 
-    // Register duplicate detection handler (MANDATORY for record-creating tests)
+    // 4. Register duplicate detection handler (MANDATORY for record-creating tests)
     await page.addLocatorHandler(
       page.getByRole('dialog', { name: 'Similar Records Exist' }),
       async () => {
@@ -116,7 +120,7 @@ test.describe('Entity Creation - Scenario Name @smoke', () => {
       { noWaitAfter: true }
     );
 
-    // Register toast auto-dismiss handler (MANDATORY — never manually dismiss toasts)
+    // 5. Register toast auto-dismiss handler (MANDATORY — prevents overlay blocking)
     await page.addLocatorHandler(
       // Locates any toast message using locator strategy
       // Clicks the close button on any toast message to prevent overlay issues
@@ -128,18 +132,18 @@ test.describe('Entity Creation - Scenario Name @smoke', () => {
     await dataFactory.teardown();
   });
 
-  test('should create entity with required fields @smoke', async ({ page }) => {
+  test('should create entity with required fields', { tag: ['@JIRA-101', '@smoke'] }, async ({ page }) => {
     const entityData = {
       name: TestDataGenerator.uniqueName(csvRow.namePrefix),
       type: csvRow.type,
     };
 
-    // Act — single high-level workflow call handles all creation steps internally
+    // Act — workflow handles save internally (no toast inside create)
     await test.step('Create entity', async () => {
       await workflow.createEntity(entityData);
     });
 
-    // Verify toast + register cleanup
+    // Toast verification + cleanup — try/catch/finally guarantees cleanup runs
     await test.step('Verify toast and register cleanup', async () => {
       let toastError: unknown;
       try {
@@ -147,13 +151,16 @@ test.describe('Entity Creation - Scenario Name @smoke', () => {
       } catch (error) {
         toastError = error;
       } finally {
-        // URL extraction — save redirected to record page
+        // For redirect-based creation: extract from URL
         dataFactory.registerRecordFromUrl(page.url(), entityData.name);
+        // For non-redirect creation: use COMPONENT_OBJECT_MAP for lookup
+        // const { objectApiName, uniqueField } = COMPONENT_OBJECT_MAP['Entity'];
+        // await dataFactory.getRecordIdByField(objectApiName, uniqueField, entityData.fieldValue);
       }
       if (toastError) throw toastError;
     });
 
-    // Assert — single high-level workflow call handles all verifications internally
+    // Assert — workflow handles all verifications internally
     await test.step('Verify entity created', async () => {
       await workflow.verifyEntityCreated(entityData);
     });
@@ -181,33 +188,23 @@ const TEST_DATA = {
 ## SFDataFactory Cleanup Rules
 
 - **Every record created during a test MUST be registered for cleanup** — no orphaned records
-- **try/catch/finally** for toast verification + cleanup registration
-- **Redirected record → `registerRecordFromUrl(page.url(), name)`** — extract recordId from URL
-- **Inline record → `getRecordIdByField(objectApiName, uniqueField, value)`** — query by unique field
-- **NEVER skip cleanup registration** — even if toast verification fails, the `finally` block ensures cleanup runs
-- **Inline record (no redirect) → `getRecordIdByField(objectApiName, uniqueField, value)`** — query by unique value
+- **try/catch/finally** for toast verification + cleanup registration — cleanup in `finally` block
+- **Redirected record** → `registerRecordFromUrl(page.url(), name)` — extract recordId from URL
+- **Non-redirect record (inline, modal, quick action, embedded)** → `await getRecordIdByField(objectApiName, uniqueField, value)` — query by unique value
 - **Never use both approaches for the same record**
 - `teardown()` in `afterEach` — never inside the test body
-- **Parent-child cleanup**: register child records FIRST, then parent (teardown deletes in order)
+- **Parent-child cleanup**: register child records FIRST, then parent (teardown deletes in registration order)
 - **Multi-record tests**: register each created record using the correct approach per record
-
-```typescript
-// Redirected record — extract from URL after save
-dataFactory.registerRecordFromUrl(page.url(), entityData.name);
-
-// Inline record (no redirect) — query by unique value
-await dataFactory.getRecordIdByField(childObjectApiName, childUniqueField, childValue);
-```
 
 ## addLocatorHandler Rules
 
 | Rule | Requirement |
 |------|-------------|
-| Registration | `page.addLocatorHandler()` in `beforeEach` |
+| Registration | `page.addLocatorHandler()` in `beforeEach` — MANDATORY for record-creating tests |
 | `noWaitAfter` | Always pass `{ noWaitAfter: true }` |
-| Close ALL dialogs | Iterate `closeButtons.count()` with `.catch(() => {})` |
+| Duplicate dialog | Iterate `closeButtons.count()` with `.catch(() => {})` |
+| Toast overlay | Auto-dismiss to prevent blocking subsequent interactions |
 | No visibility assertion | Never assert `dialog.not.toBeVisible()` after dismissing |
-| No `pressSequentially` | Use `fill()` instead |
 
 ## Timeout Rules
 
@@ -217,13 +214,15 @@ await dataFactory.getRecordIdByField(childObjectApiName, childUniqueField, child
 | Large form (> 10 fields / comboboxes) | `120_000` |
 | Multiple record creation / inline dialogs | `300_000` |
 
-## Test Organization
+## Test Organization and Tagging
 
 - `test.describe()` to group related tests
 - Test names start with `should` + business description
-- Tag with `@smoke` or `@regression`
+- Tags MUST be declared ONLY as an array inside the `test()` function — NEVER in `test.describe()` or at any other level
+- The tag array MUST begin with the Jira issue key as the first item (e.g., `@JIRA-101`), followed by test type tags (e.g., `@smoke`, `@regression`)
+- If no Jira issue key is provided: retrieve the prefix from `TEST_EXEC_PROJECT_KEY` env var to generate a dummy tag — include a reminder comment in code to replace it
 - Each test is independently runnable
 
-## Helper-utility calling
+## Helper Utility Calling
 
-- Helper utilities mentioned in `.github/instructions/helper-utilities.instructions.md` are to be called and used in spec files, as per instructions or on-demand.
+Helper utilities from `instructions/helper-utilities.instructions.md` MUST be called and used within `spec` and `workflow` files, as instructed or as required by the task.

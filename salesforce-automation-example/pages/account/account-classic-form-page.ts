@@ -1,4 +1,4 @@
-import { Page, expect } from '@playwright/test';
+import { Page, expect, test } from '@playwright/test';
 import { BasePage, ResilientLocator } from 'playwright-custom-core';
 
 /**
@@ -49,7 +49,8 @@ export class AccountClassicFormPage extends BasePage {
       await locator.fill(name);
     } catch (error) {
       console.error('Failed to fill Account Name on Classic form');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'fill-account-name-failure');
+      throw new Error(`fillAccountName failed: ${String(error)}`);
     }
   }
 
@@ -60,7 +61,8 @@ export class AccountClassicFormPage extends BasePage {
       await locator.fill(score);
     } catch (error) {
       console.error('Failed to fill Conversion Propensity Score on Classic form');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'fill-propensity-score-failure');
+      throw new Error(`fillConversionPropensityScore failed: ${String(error)}`);
     }
   }
 
@@ -72,7 +74,8 @@ export class AccountClassicFormPage extends BasePage {
       await locator.fill(score);
     } catch (error) {
       console.error('Failed to clear and fill Conversion Propensity Score');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'clear-fill-propensity-score-failure');
+      throw new Error(`clearAndFillConversionPropensityScore failed: ${String(error)}`);
     }
   }
 
@@ -82,7 +85,8 @@ export class AccountClassicFormPage extends BasePage {
       await this['page'].waitForLoadState('domcontentloaded');
     } catch (error) {
       console.error('Failed to click Save on Classic account form');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'click-save-failure');
+      throw new Error(`clickSave failed: ${String(error)}`);
     }
   }
 
@@ -94,7 +98,8 @@ export class AccountClassicFormPage extends BasePage {
       await expect(heading).toBeVisible({ timeout: 15_000 });
     } catch (error) {
       console.error('Failed to verify Classic account form is displayed');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-form-displayed-failure');
+      throw new Error(`verifyFormDisplayed failed: ${String(error)}`);
     }
   }
 
@@ -104,7 +109,8 @@ export class AccountClassicFormPage extends BasePage {
       await expect(errorAlert).toBeVisible({ timeout: 10_000 });
     } catch (error) {
       console.error('Failed to verify validation error');
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-validation-error-failure');
+      throw new Error(`verifyValidationError failed: ${String(error)}`);
     }
   }
 }

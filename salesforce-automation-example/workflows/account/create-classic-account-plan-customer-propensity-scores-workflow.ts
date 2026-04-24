@@ -36,7 +36,7 @@ export class CreateClassicAccountPlanCustomerPropensityScoresWorkflow extends Ba
     this.planCustomerDetailPage = new PlanCustomerClassicDetailPage(page, url);
   }
 
-  protected async testStep(description: string, action: () => Promise<void>): Promise<void> {
+  protected override async testStep(description: string, action: () => Promise<void>): Promise<void> {
     await test.step(`${this.workflowName}: ${description}`, async () => {
       await action();
     });
@@ -47,6 +47,7 @@ export class CreateClassicAccountPlanCustomerPropensityScoresWorkflow extends Ba
   async navigateToClassicHome(): Promise<void> {
     await this.testStep('Navigate to Salesforce Classic home', async () => {
       await this.sfPage.navigateToClassicHome();
+      await this.sfPage.captureScreenshot(this['page'], test.info(), 'navigate-to-classic-home.png');
     });
   }
 
@@ -104,6 +105,7 @@ export class CreateClassicAccountPlanCustomerPropensityScoresWorkflow extends Ba
 
     await this.testStep('Click Save on Account creation form', async () => {
       await this.formPage.clickSave();
+      await this.sfPage.captureScreenshot(this['page'], test.info(), 'account-creation-saved.png');
     });
   }
 
@@ -113,6 +115,7 @@ export class CreateClassicAccountPlanCustomerPropensityScoresWorkflow extends Ba
   async verifyAccountDetailDisplayed(accountName: string): Promise<void> {
     await this.testStep('Verify account detail page displayed', async () => {
       await this.detailPage.verifyAccountDetailDisplayed(accountName);
+      await this.sfPage.captureScreenshot(this['page'], test.info(), 'verify-account-detail.png');
     });
   }
 
@@ -139,6 +142,7 @@ export class CreateClassicAccountPlanCustomerPropensityScoresWorkflow extends Ba
 
     await this.testStep('Click Save on Plan Customer form', async () => {
       await this.planCustomerFormPage.clickSave();
+      await this.sfPage.captureScreenshot(this['page'], test.info(), 'plan-customer-saved.png');
     });
   }
 
@@ -148,6 +152,7 @@ export class CreateClassicAccountPlanCustomerPropensityScoresWorkflow extends Ba
   async verifyPlanCustomerDetailDisplayed(planCustomerName: string): Promise<void> {
     await this.testStep('Verify Plan Customer detail page displayed', async () => {
       await this.planCustomerDetailPage.verifyPlanCustomerDetailDisplayed(planCustomerName);
+      await this.sfPage.captureScreenshot(this['page'], test.info(), 'verify-plan-customer-detail.png');
     });
   }
 
@@ -187,6 +192,7 @@ export class CreateClassicAccountPlanCustomerPropensityScoresWorkflow extends Ba
 
     await this.testStep('Click Save on Account edit form', async () => {
       await this.formPage.clickSave();
+      await this.sfPage.captureScreenshot(this['page'], test.info(), 'account-edit-saved.png');
     });
   }
 

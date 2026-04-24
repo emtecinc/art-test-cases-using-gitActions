@@ -3,11 +3,11 @@ import path from 'path';
 import { glob } from 'glob';
 
 /**
- * Scan all `.spec.ts` files under the given test directory and build
- * a map of `testKey → relative file path`.
- *
- * Matches annotations like: `type: 'test_key', description: 'ART-12'`
- */
+* Scan all `.spec.ts` files under the given test directory and build
+* a map of `testKey → relative file path`.
+*
+* Matches tags like: `{ tag: '@ART-12' }` or `{ tag: ['@ART-12'] }`
+*/
 export async function scanTestKeyToFileMap(
   testDir: string = path.resolve(process.cwd(), 'tests'),
 ): Promise<Map<string, string>> {
@@ -22,12 +22,12 @@ export async function scanTestKeyToFileMap(
   for (const filePath of specFiles) {
     const content = fs.readFileSync(filePath, 'utf-8');
 
-    const regex =
-      /type:\s*['"]test_key['"]\s*,\s*description:\s*['"]([^'"]+)['"]/g;
+    const regex = /tag:\s*['"]@\s*([^'"]+)['"]|tag:\s*\[\s*['"]@\s*([^'"]+)['"]/g;
     let match: RegExpExecArray | null;
 
     while ((match = regex.exec(content)) !== null) {
-      keyToFile.set(match[1], path.relative(projectRoot, filePath));
+      const key = (match[1] || match[2]).trim();
+      keyToFile.set(key, path.relative(projectRoot, filePath));
     }
   }
 
@@ -35,9 +35,9 @@ export async function scanTestKeyToFileMap(
 }
 
 /**
- * Given an array of Jira test keys, return the spec file paths that
- * contain those keys.
- */
+* Given an array of Jira test keys, return the spec file paths that
+* contain those keys.
+*/
 export async function findSpecFiles(
   testKeys: string[],
   testDir?: string,
@@ -65,3 +65,4 @@ export async function findSpecFiles(
 
   return [...matchedFiles];
 }
+ 

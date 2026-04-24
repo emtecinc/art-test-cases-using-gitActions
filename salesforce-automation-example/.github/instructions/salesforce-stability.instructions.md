@@ -1,10 +1,10 @@
 ---
-applyTo: "tests/**/*.ts"
+applyTo: "tests/**/*.ts, pages/**/*.ts, workflows/**/*.ts"
 ---
 
 # Salesforce Lightning UI — Stability & Synchronization Rules
 
-These rules apply to ALL TypeScript files under `tests/` and address real Salesforce production failures.
+ENFORCE these rules STRICTLY across all TypeScript files under `tests/`, `pages/`, and `workflows/` to address real Salesforce production failures.
 
 ---
 
@@ -24,6 +24,14 @@ These rules apply to ALL TypeScript files under `tests/` and address real Salesf
 - URL changes may precede content rendering — combine URL checks with element visibility
 - After navigation/save, wait for spinner: `await page.locator('.slds-spinner').waitFor({ state: 'hidden', timeout: 15000 }).catch(() => {})`
 - A record page is "ready" when header title + action buttons (Edit, Delete) are visible
+
+## Toast Handling
+
+Toast messages are transient — they auto-dismiss after a few seconds. Toast verification is best-effort:
+- `verifySuccessToast()` in page objects wraps assertion in `try/catch` (warn only, never throw)
+- Spec calls `workflow.verifySuccessToast()` in `try/catch/finally` with cleanup in `finally`
+- Toast overlay blocking is handled by `addLocatorHandler` in spec `beforeEach`
+- See `page-objects.instructions.md` and `spec-files.instructions.md` for patterns
 
 ## Shadow DOM
 
@@ -46,13 +54,13 @@ These rules apply to ALL TypeScript files under `tests/` and address real Salesf
 - `scrollIntoViewIfNeeded()` before clicking off-screen elements
 - Ensure spinners are gone before interacting
 - Use `.click({ force: true })` only as documented last resort
-- **Duplicate detection + toast overlay** handlers MUST be registered via `addLocatorHandler` in spec `beforeEach` — see `spec-files.instructions.md` for exact patterns
+- **Duplicate detection + toast overlay** handlers MUST be registered via `addLocatorHandler` in spec `beforeEach` — see `spec-files.instructions.md`
 
 ## Combobox Interactions
 
-Wrap in 3-attempt retry loop — dropdowns close unexpectedly when overlay dialogs appear. See `page-objects.instructions.md` for the full pattern.
+Combobox selection uses a 3-attempt retry pattern with text/label-based selection (never index). The authoritative rules and code pattern are in `page-objects.instructions.md` — follow them exactly.
 
-**Always select by visible text/label — never by index.** This applies to comboboxes, picklists, radio buttons, and any multi-option component on both parent and child/related forms.
+**Always select by visible text/label — never by index.** Applies to comboboxes, picklists, radio buttons, and any multi-option component on both parent and child/related forms.
 
 ## URL Assertions
 
@@ -90,13 +98,12 @@ page.getByRole('row', { name: /Account Name/ });  // ✅ Never use nth-child
 | Click intercepted | Toast/spinner covering target | `addLocatorHandler` in spec `beforeEach` (MANDATORY) + spinner wait |
 | Timeout on combobox | Dropdown closed by overlay | 3-attempt retry loop |
 | Partial text in input | `pressSequentially` + focus theft | Use `fill()` |
+| Toast not found / toast timeout | Toast auto-dismissed before assertion | `try/catch/finally` in spec, best-effort verification (see `spec-files.instructions.md`) |
 
 ## Enterprise Execution
 
 - Support `DEV`, `QA`, `UAT` via `process.env.BASE_URL`
-- Tags: `@smoke`, `@regression`, `@sanity`
+- Tags MUST follow the EXACT format defined in `spec-files.instructions.md` — Jira key first, then test type tags, declared only inside `test()` as an array
 - Max 1 retry for infrastructure blips
 - Never commit credentials — use env vars
 - Config: `screenshot: 'only-on-failure'`, `video: 'retain-on-failure'`, `trace: 'retain-on-failure'`
-
-```

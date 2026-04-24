@@ -111,9 +111,13 @@ export class CreateAccountPlanCustomerPropensityScoresWorkflow extends BaseWorkf
 
   /**
    * Create a Plan Customer from the Account detail related list.
-   *   Click New in Plan Customers related list → Fill Name → Save
+   *   Navigate to Related tab → Click New in Plan Customers related list → Fill Name → Save
    */
   async createPlanCustomerFromAccountDetail(data: AccountPlanCustomerData): Promise<void> {
+    await this.testStep('Click Related tab to access Plan Customers related list', async () => {
+      await this.detailPage.clickRelatedTab();
+    });
+
     await this.testStep('Click New on Plan Customers related list', async () => {
       await this.detailPage.clickNewPlanCustomer();
     });

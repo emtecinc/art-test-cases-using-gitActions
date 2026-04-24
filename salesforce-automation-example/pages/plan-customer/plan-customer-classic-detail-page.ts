@@ -1,4 +1,4 @@
-import { Page, expect } from '@playwright/test';
+import { Page, expect, test } from '@playwright/test';
 import { BasePage, ResilientLocator } from 'playwright-custom-core';
 
 /**
@@ -21,7 +21,8 @@ export class PlanCustomerClassicDetailPage extends BasePage {
       await expect(heading).toBeVisible({ timeout: 30_000 });
     } catch (error) {
       console.error(`Failed to verify Plan Customer detail page for: ${planCustomerName}`);
-      throw error;
+      await this.captureScreenshot(this['page'], test.info(), 'verify-plan-customer-detail-failure');
+      throw new Error(`verifyPlanCustomerDetailDisplayed failed: ${String(error)}`);
     }
   }
 }

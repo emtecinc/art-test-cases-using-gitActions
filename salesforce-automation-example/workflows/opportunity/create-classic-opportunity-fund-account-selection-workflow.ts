@@ -5,12 +5,12 @@ import { OpportunityClassicCreationPage } from '../../pages/opportunity/opportun
 import { OpportunityClassicDetailPage } from '../../pages/opportunity/opportunity-classic-detail-page';
 import { FundAccountSelectionClassicPage } from '../../pages/opportunity/fund-account-selection-classic-page';
 
-export interface ClassicRolloverOpportunityFundAccountData {
+export interface ClassicOpportunityFundAccountSelectionData {
   /** Prefix to generate a unique Opportunity Name via TestDataGenerator.uniqueName() */
   namePrefix: string;
   /** Salesforce account name to link to the Opportunity */
   accountName: string;
-  /** Short search term to type in Account Name popup search box (e.g. "TestEmployer") */
+  /** Short search term to type in Account Name popup search box (e.g. "test") */
   accountSearchTerm: string;
   /** Plan name to lookup and select via popup window */
   planName: string;
@@ -18,8 +18,6 @@ export interface ClassicRolloverOpportunityFundAccountData {
   stage: string;
   /** Close Date in MM/DD/YYYY format */
   closeDate: string;
-  /** Record type label (e.g. "Rollover") */
-  recordTypeName: string;
   /** Record type Salesforce ID (e.g. "012G0000001BFrD") */
   recordTypeId: string;
   /** Text to type in Fund Account search combobox */
@@ -32,8 +30,8 @@ export interface ClassicRolloverOpportunityFundAccountData {
   iraType: string;
 }
 
-export class CreateClassicRolloverOpportunityFundAccountWorkflow extends BaseWorkflow {
-  readonly workflowName = 'CreateClassicRolloverOpportunityFundAccountWorkflow';
+export class CreateClassicOpportunityFundAccountSelectionWorkflow extends BaseWorkflow {
+  readonly workflowName = 'CreateClassicOpportunityFundAccountSelectionWorkflow';
 
   private sfPage: SalesforcePage;
   private classicCreationPage: OpportunityClassicCreationPage;
@@ -50,7 +48,7 @@ export class CreateClassicRolloverOpportunityFundAccountWorkflow extends BaseWor
     this.fundAccountSelectionPage = new FundAccountSelectionClassicPage(page, url);
   }
 
-  protected async testStep(description: string, action: () => Promise<void>): Promise<void> {
+  protected override async testStep(description: string, action: () => Promise<void>): Promise<void> {
     await test.step(`${this.workflowName}: ${description}`, async () => {
       await action();
     });
@@ -61,42 +59,31 @@ export class CreateClassicRolloverOpportunityFundAccountWorkflow extends BaseWor
   async navigateToClassicHome(): Promise<void> {
     await this.testStep('Navigate to Salesforce Classic home', async () => {
       await this.sfPage.navigateToClassicHome();
-    });
-  }
-
-  async navigateToBaseUrl(): Promise<void> {
-    await this.testStep('Navigate to Salesforce home', async () => {
-      await this.sfPage.navigateToBaseUrl();
-    });
-  }
-
-  async closeAllPrimaryTabs(): Promise<void> {
-    await this.testStep('Close all primary tabs', async () => {
-      await this.sfPage.closeAllPrimaryTabs();
+      await this.sfPage.captureScreenshot(this.page, test.info(), 'navigate-to-classic-home.png');
     });
   }
 
   // ── Business Methods ──────────────────────────────────────────────────────
 
   /**
-   * Creates a Rollover Opportunity via Classic UI.
+   * Creates a Classic Opportunity via the Salesforce Classic UI.
    *
-   * Navigates through: Opportunities tab → New → Record Type selection → Classic form.
+   * Flow: Classic nav Opportunities tab → New button → Record Type selection →
+   *       Continue → Fill Classic form (Name, Account, Plan lookup, Stage, Close Date) → Save
    */
-  async createClassicRolloverOpportunity(data: ClassicRolloverOpportunityFundAccountData): Promise<void> {
-    await this.testStep('Navigate to Opportunities via Classic tab', async () => {
+  async createClassicOpportunity(data: ClassicOpportunityFundAccountSelectionData): Promise<void> {
+    await this.testStep('Navigate to Opportunities via Classic navigation tab', async () => {
       await this.sfPage.clickClassicNavigationTab('Opportunities');
+      await this.sfPage.captureScreenshot(this.page, test.info(), 'navigate-to-opportunities-classic.png');
     });
 
     await this.testStep('Click New button on Opportunities list page', async () => {
       await this.classicCreationPage.clickNewOnClassicListPage();
     });
 
-    await this.testStep(`Select record type "${data.recordTypeName}" and click Continue`, async () => {
+    await this.testStep(`Select record type "${data.recordTypeId}" and click Continue`, async () => {
       await this.classicCreationPage.selectRecordTypeAndContinue(data.recordTypeId);
-      if (this.testInfo) {
-        await this.sfPage.captureScreenshot(this.page, this.testInfo, 'classic-rollover-opportunity-form');
-      }
+      await this.sfPage.captureScreenshot(this.page, test.info(), 'classic-opportunity-form.png');
     });
 
     await this.testStep('Fill Opportunity Name', async () => {
@@ -121,37 +108,41 @@ export class CreateClassicRolloverOpportunityFundAccountWorkflow extends BaseWor
 
     await this.testStep('Click Save', async () => {
       if (this.testInfo) {
-        await this.sfPage.captureScreenshot(this.page, this.testInfo, 'before-save-classic-rollover-opportunity');
+        await this.sfPage.captureScreenshot(this.page, this.testInfo, 'before-save-classic-opportunity.png');
       }
       await this.classicCreationPage.clickSave();
+      await this.sfPage.captureScreenshot(this.page, test.info(), 'classic-opportunity-saved.png');
     });
   }
 
   /**
    * Verifies the Classic Opportunity detail page is displayed after saving.
+   * Classic detail page title contains the opportunity name.
    */
   async verifyOpportunityDetailPageDisplayed(opportunityName: string): Promise<void> {
     await this.testStep('Verify Classic Opportunity detail page is displayed', async () => {
       await this.classicDetailPage.verifyDetailPageDisplayed(opportunityName);
-      if (this.testInfo) {
-        await this.sfPage.captureScreenshot(this.page, this.testInfo, 'classic-rollover-opportunity-detail-page');
-      }
+      await this.sfPage.captureScreenshot(this.page, test.info(), 'classic-opportunity-detail-page.png');
     });
   }
 
   /**
    * Extracts the Opportunity record ID from the current Classic detail page URL.
+   * Classic detail URLs follow the pattern: /{recordId}
    */
   extractOpportunityRecordId(): string {
     return this.classicDetailPage.extractRecordIdFromUrl();
   }
 
   /**
-   * Creates a Fund Account Selection via the standalone Classic VF page.
-   * The Classic Opportunity detail page must already be displayed.
+   * Creates a Fund Account Selection from the Classic Opportunity detail page.
+   *
+   * Flow: Click Fund Account Selections related list link →
+   *       Click New Fund Account Selection button →
+   *       Fill standalone VF form (Fund Account, % of Investment, IRAType) → Save & Close
    */
-  async createFundAccountSelection(data: ClassicRolloverOpportunityFundAccountData): Promise<void> {
-    await this.testStep('Click Fund Account Selections link on detail page', async () => {
+  async createFundAccountSelection(data: ClassicOpportunityFundAccountSelectionData): Promise<void> {
+    await this.testStep('Click Fund Account Selections related list link', async () => {
       await this.classicDetailPage.clickFundAccountSelectionsLink();
     });
 
@@ -161,9 +152,7 @@ export class CreateClassicRolloverOpportunityFundAccountWorkflow extends BaseWor
 
     await this.testStep('Wait for Fund Account Selection form to load', async () => {
       await this.fundAccountSelectionPage.waitForFormVisible();
-      if (this.testInfo) {
-        await this.sfPage.captureScreenshot(this.page, this.testInfo, 'classic-fund-account-selection-form');
-      }
+      await this.sfPage.captureScreenshot(this.page, test.info(), 'fund-account-selection-form.png');
     });
 
     await this.testStep('Fill Fund Account and select option', async () => {
@@ -183,24 +172,21 @@ export class CreateClassicRolloverOpportunityFundAccountWorkflow extends BaseWor
 
     await this.testStep('Click Save & Close', async () => {
       if (this.testInfo) {
-        await this.sfPage.captureScreenshot(this.page, this.testInfo, 'before-save-classic-fund-account-selection');
+        await this.sfPage.captureScreenshot(this.page, this.testInfo, 'before-save-fund-account-selection.png');
       }
       await this.fundAccountSelectionPage.clickSaveAndClose();
+      await this.sfPage.captureScreenshot(this.page, test.info(), 'fund-account-selection-saved.png');
     });
   }
 
   /**
-   * Navigates to the Lightning detail page for a given Opportunity record ID.
-   * Used for verifying the record after Classic creation.
+   * Verifies the Classic Opportunity detail page is displayed after Fund Account Selection save.
+   * After Save & Close, the VF page redirects back to the Classic Opportunity detail page.
    */
-  async navigateToLightningDetailPage(recordId: string): Promise<void> {
-    await this.testStep('Navigate to Lightning detail page', async () => {
-      const baseUrl = (process.env.BASE_URL || '').replace(/\/$/, '');
-      await this.page.goto(
-        `${baseUrl}/lightning/r/Opportunity/${recordId}/view`,
-        { timeout: 60_000, waitUntil: 'domcontentloaded' }
-      );
-      await this.page.locator('.slds-spinner').waitFor({ state: 'hidden', timeout: 20_000 }).catch(() => {});
+  async verifyReturnToOpportunityDetailPage(opportunityName: string): Promise<void> {
+    await this.testStep('Verify return to Classic Opportunity detail page after Fund Account Selection save', async () => {
+      await this.classicDetailPage.verifyDetailPageDisplayed(opportunityName);
+      await this.sfPage.captureScreenshot(this.page, test.info(), 'return-to-classic-opportunity-detail.png');
     });
   }
 }

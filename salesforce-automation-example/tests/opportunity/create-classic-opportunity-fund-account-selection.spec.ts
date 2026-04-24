@@ -3,12 +3,12 @@ import * as path from 'path';
 import { CsvReader, TestDataGenerator, SFDataFactory } from 'playwright-custom-core';
 import { COMPONENT_OBJECT_MAP } from '../../data/component-object-mapping';
 import {
-  CreateClassicRolloverOpportunityFundAccountWorkflow,
-  ClassicRolloverOpportunityFundAccountData,
-} from '../../workflows/opportunity/create-classic-rollover-opportunity-fund-account-workflow';
+  CreateClassicOpportunityFundAccountSelectionWorkflow,
+  ClassicOpportunityFundAccountSelectionData,
+} from '../../workflows/opportunity/create-classic-opportunity-fund-account-selection-workflow';
 
-test.describe('Opportunity - Create Classic Rollover with Fund Account Selection @smoke', () => {
-  let workflow: CreateClassicRolloverOpportunityFundAccountWorkflow;
+test.describe('Opportunity - Create Classic Opportunity with Fund Account Selection', () => {
+  let workflow: CreateClassicOpportunityFundAccountSelectionWorkflow;
   let dataFactory: SFDataFactory;
   let csvRow: Record<string, string>;
 
@@ -16,14 +16,14 @@ test.describe('Opportunity - Create Classic Rollover with Fund Account Selection
     test.setTimeout(300_000);
 
     const baseUrl = (process.env.BASE_URL || '').replace(/\/$/, '');
-    workflow = new CreateClassicRolloverOpportunityFundAccountWorkflow(page, baseUrl);
+    workflow = new CreateClassicOpportunityFundAccountSelectionWorkflow(page, baseUrl);
     dataFactory = new SFDataFactory();
     await dataFactory.authenticate();
 
     // 1. Load test data from CSV
     const csvPath = path.resolve(
       __dirname,
-      '../../test-data/opportunity/opportunity-classic-rollover-fund-account.csv'
+      '../../test-data/opportunity/opportunity-classic-fund-account-selection.csv'
     );
     csvRow = CsvReader.readRow<Record<string, string>>(csvPath, 0)!;
 
@@ -45,7 +45,7 @@ test.describe('Opportunity - Create Classic Rollover with Fund Account Selection
       { noWaitAfter: true }
     );
 
-    // Register toast auto-dismiss handler (Lightning toasts after page switches)
+    // Register toast auto-dismiss handler (MANDATORY — prevents overlay blocking)
     await page.addLocatorHandler(
       page.locator('div.forceToastMessage'),
       async () => {
@@ -59,28 +59,24 @@ test.describe('Opportunity - Create Classic Rollover with Fund Account Selection
     await dataFactory.teardown();
   });
 
+  // TODO: Replace the placeholder Jira tag below with the actual Jira issue key
+  // once assigned. Retrieve the prefix from the TEST_EXEC_PROJECT_KEY env var
+  // (e.g. process.env.TEST_EXEC_PROJECT_KEY + '-TC1').
   test(
-    'should create classic rollover opportunity with fund account selection @smoke',
+    'should create classic opportunity with fund account selection',
+    { tag: ['@ART5', '@smoke'] },
     async ({ page }, testInfo) => {
-      test.info().annotations.push({
-      type: 'test_key',
-      description: 'ART2',
-    });
       // Prepare unique opportunity name from CSV prefix
       const opportunityName = TestDataGenerator.uniqueName(csvRow.namePrefix);
-      // Classic Rollover record type uses a formula override for the Opportunity Name:
-      // "Rol - - {accountName}" — the entered prefix is ignored by the formula.
-      const formulaOpportunityName = `Rol - - ${csvRow.accountName}`;
       let opportunityRecordId = '';
 
-      const opportunityData: ClassicRolloverOpportunityFundAccountData = {
+      const opportunityData: ClassicOpportunityFundAccountSelectionData = {
         namePrefix: opportunityName,
         accountName: csvRow.accountName,
         accountSearchTerm: csvRow.accountSearchTerm,
         planName: csvRow.planName,
         stage: csvRow.stage,
         closeDate: csvRow.closeDate,
-        recordTypeName: csvRow.recordTypeName,
         recordTypeId: csvRow.recordTypeId,
         fundAccountSearchText: csvRow.fundAccountSearchText,
         fundAccount: csvRow.fundAccount,
@@ -90,47 +86,41 @@ test.describe('Opportunity - Create Classic Rollover with Fund Account Selection
 
       workflow.testInfo = testInfo;
 
-      // ── Act: Create Classic Rollover Opportunity ──────────────────────────
-      await test.step('Create Classic Rollover Opportunity', async () => {
-        await workflow.createClassicRolloverOpportunity(opportunityData);
+      // ── Steps 1–12: Create Classic Opportunity ────────────────────────────
+      // Navigate Classic home → Opportunities tab → New → Record type → Continue →
+      // Fill form (Name, Account, Plan, Stage, Close Date) → Save
+      await test.step('Create Classic Opportunity', async () => {
+        await workflow.createClassicOpportunity(opportunityData);
       });
 
-      // ── Verify + Register Opportunity cleanup ──────────────────────────────
+      // ── Step 12: Verify detail page + extract record ID ───────────────────
       await test.step('Verify Opportunity detail page and extract record ID', async () => {
         let verifyError: unknown;
         try {
-          await workflow.verifyOpportunityDetailPageDisplayed(formulaOpportunityName);
+          await workflow.verifyOpportunityDetailPageDisplayed(opportunityName);
         } catch (error) {
           verifyError = error;
-          if (testInfo) {
-            await page.screenshot({ fullPage: true }).then(screenshot =>
-              testInfo.attach('verify-opportunity-detail-failure', { body: screenshot, contentType: 'image/png' })
-            ).catch(() => {});
-          }
         } finally {
-          // Extract record ID from the Classic detail page URL
+          // Extract record ID from the Classic detail page URL (/{recordId})
           opportunityRecordId = workflow.extractOpportunityRecordId();
         }
         if (verifyError) throw verifyError;
       });
 
-      // ── Act: Create Fund Account Selection ────────────────────────────────
+      // ── Steps 13–18: Create Fund Account Selection ─────────────────────────
+      // Click Fund Account Selections related list link → Click New Fund Account Selection
+      // → Fill VF form (Fund Account, % of Investment, IRAType) → Save & Close
       await test.step('Create Fund Account Selection', async () => {
         await workflow.createFundAccountSelection(opportunityData);
       });
 
-      // ── Verify return to detail page + Register cleanup ───────────────────
-      await test.step('Verify return to detail page and register cleanup', async () => {
+      // ── Verify return to Opportunity detail + register cleanup ─────────────
+      await test.step('Verify return to Opportunity detail page and register cleanup', async () => {
         let cleanupError: unknown;
         try {
-          await workflow.verifyOpportunityDetailPageDisplayed(formulaOpportunityName);
+          await workflow.verifyReturnToOpportunityDetailPage(opportunityName);
         } catch (error) {
           cleanupError = error;
-          if (testInfo) {
-            await page.screenshot({ fullPage: true }).then(screenshot =>
-              testInfo.attach('verify-return-to-detail-failure', { body: screenshot, contentType: 'image/png' })
-            ).catch(() => {});
-          }
         } finally {
           // Register Fund Account Selection for cleanup FIRST (child before parent)
           if (opportunityRecordId) {
@@ -146,17 +136,21 @@ test.describe('Opportunity - Create Classic Rollover with Fund Account Selection
           }
           // Register Opportunity for cleanup SECOND (parent after child)
           if (opportunityRecordId) {
-            dataFactory.registerForCleanup('Opportunity', opportunityRecordId, formulaOpportunityName);
+            dataFactory.registerForCleanup(
+              COMPONENT_OBJECT_MAP['Opportunity'].objectApiName,
+              opportunityRecordId,
+              opportunityName
+            );
           } else {
-            // Fallback: try SOQL query if URL extraction failed
+            // Fallback: SOQL lookup if URL extraction failed
             try {
               await dataFactory.getRecordIdByField(
                 COMPONENT_OBJECT_MAP['Opportunity'].objectApiName,
                 COMPONENT_OBJECT_MAP['Opportunity'].uniqueField,
-                formulaOpportunityName
+                opportunityName
               );
             } catch {
-              console.warn('Could not extract Opportunity record ID from URL or SOQL');
+              console.warn('Could not extract Opportunity record ID for cleanup');
             }
           }
         }
